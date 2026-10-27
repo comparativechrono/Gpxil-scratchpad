@@ -5,7 +5,7 @@ Each is small enough to try here first, in `packages/` or `experiments/`.
 
 ## Done for the studio
 
-- **gpxil2pxil** (`packages/gpxil2pxil`): pictures of genes, transcripts and
+- **gpxil2pxil** ([its repository](https://github.com/comparativechrono/gpxil2pxil)): pictures of genes, transcripts and
   proteins, from the reference or either haplotype, with the annotation from
   the Gpxil browser or a GTF. It says how a person's protein differs (P72R).
 - **gpxiltools 0.3.0**: files on web servers (range requests, with a HEAD

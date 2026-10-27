@@ -4,8 +4,9 @@
 from a gpxil file, bringing in the annotation they need, both for the
 reference and for each of a person's two haplotypes?
 
-**Answer: yes.** The package is in [`packages/gpxil2pxil`](../../packages/gpxil2pxil),
-ready to become a repository of its own and go on PyPI.
+**Answer: yes.** The package is [gpxil2pxil](https://github.com/comparativechrono/gpxil2pxil),
+which began here in `packages/gpxil2pxil` and now has a repository of its own
+and releases on PyPI.
 
 ## What it does
 

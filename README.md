@@ -16,23 +16,24 @@ done with it.
 | | Question | Finding |
 |---|---|---|
 | [01-browser-python](experiments/01-browser-python/) | Can gpxiltools run in the browser on files of hundreds of megabytes? | Yes. Files mounted lazily are read a strip at a time: the 809 MB whole-genome file opens and gives up a megabase of sequence after reading 0.5 MB, in 72 MB of memory. |
-| [02-gpxil2pxil](experiments/02-gpxil2pxil/) | Can gene, transcript and protein pictures be made from a gpxil genome, for each of a person's haplotypes? | Yes: [`packages/gpxil2pxil`](packages/gpxil2pxil/). HG002 turns out homozygous for TP53's Arg72, one pixel different from the reference. |
+| [02-gpxil2pxil](experiments/02-gpxil2pxil/) | Can gene, transcript and protein pictures be made from a gpxil genome, for each of a person's haplotypes? | Yes: [gpxil2pxil](https://github.com/comparativechrono/gpxil2pxil). HG002 turns out homozygous for TP53's Arg72, one pixel different from the reference. |
 
 ## Packages
 
 New tools are written in [`packages/`](packages/), each ready to become a
-repository of its own and a PyPI package:
+repository of its own and a PyPI package. When one is ready, it moves to its
+repository, with its history:
 
 | Package | What it does | Status |
 |---|---|---|
-| [gpxil2pxil](packages/gpxil2pxil/) | gene, transcript and protein pxil files from a gpxil genome (reference or haplotypes), with annotation from the Gpxil browser or a GTF | ready for its own repository; needs gpxiltools 0.3; in GpxilStudio |
+| [gpxil2pxil](https://github.com/comparativechrono/gpxil2pxil) | gene, transcript and protein pxil files from a gpxil genome (reference or haplotypes), with annotation from the Gpxil browser or a GTF | moved to [its own repository](https://github.com/comparativechrono/gpxil2pxil), released on PyPI from 0.1.0; in GpxilStudio |
 
 ## Ideas
 
 [`ideas/tools-for-gpxil.md`](ideas/tools-for-gpxil.md): the tools that building
 GpxilStudio showed are missing, in the order they would help most – working
 copies (`gpxil subset`), `gpxil stats`, `gpxil compare`, genes in the Viewer,
-overviews, one JavaScript reader, and pxil in the page.
+overviews, one JavaScript reader, and proteins side by side.
 
 ## Related
 
