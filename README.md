@@ -25,7 +25,14 @@ repository of its own and a PyPI package:
 
 | Package | What it does | Status |
 |---|---|---|
-| [gpxil2pxil](packages/gpxil2pxil/) | gene, transcript and protein pxil files from a gpxil genome (reference or haplotypes), with annotation from the Gpxil browser or a GTF | ready for its own repository; needs gpxiltools 0.3 |
+| [gpxil2pxil](packages/gpxil2pxil/) | gene, transcript and protein pxil files from a gpxil genome (reference or haplotypes), with annotation from the Gpxil browser or a GTF | ready for its own repository; needs gpxiltools 0.3; in GpxilStudio |
+
+## Ideas
+
+[`ideas/tools-for-gpxil.md`](ideas/tools-for-gpxil.md): the tools that building
+GpxilStudio showed are missing, in the order they would help most – working
+copies (`gpxil subset`), `gpxil stats`, `gpxil compare`, genes in the Viewer,
+overviews, one JavaScript reader, and pxil in the page.
 
 ## Related
 
@@ -33,6 +40,7 @@ repository of its own and a PyPI package:
 - [Gpxil-tools](https://github.com/comparativechrono/Gpxil-tools): gpxiltools, the Python toolkit
 - [pxil](https://github.com/comparativechrono/pxil): single sequences as pictures
 - [Gpxil browser](https://comparativechrono.github.io/Gpxil-browser/): the GRCh38 reference as pixels
+- [GpxilStudio](https://comparativechrono.github.io/GpxilStudio/): the workbench, with the tools in the browser
 
 ## Licence
 
