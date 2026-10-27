@@ -14,6 +14,10 @@ Each is small enough to try here first, in `packages/` or `experiments/`.
 - **pxil**: a `pxil` command, with `-o`.
 - **The studio's lazy files**: files of 8 MB or more are read a piece at a
   time, never copied into Python (experiment 01).
+- **pxil in the page**: the studio's Files tab decodes a pxil file's palette
+  indices itself and shows it large, with its sequence and metadata, naming
+  the residue under the pointer; pxil's FASTA names a person's sequences
+  apart (`ENSP00000269305_HG002-hap1`).
 
 ## 1. Working copies: `gpxil subset`
 
@@ -67,12 +71,11 @@ The studio's `gpxil-read.js` and the Gpxil browser's reader do the same thing.
 One small library (`gpxil-js`), tested against gpxiltools' files as pxil.py is,
 would serve both, and anyone else's web page.
 
-## 7. pxil in the page
+## 7. Proteins side by side
 
-The Files tab shows a pxil file as an ordinary picture. Decoding its palette
-indices in the page would show it large, with its sequence and metadata beside
-it, and a reference protein and a person's side by side, the differences
-marked.
+The studio shows one pxil picture at a time. A reference protein and a
+person's, side by side and aligned, with the differences marked, would make
+gpxil2pxil's notes (P72R) visible at a glance.
 
 ## Later
 
