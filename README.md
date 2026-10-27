@@ -16,6 +16,16 @@ done with it.
 | | Question | Finding |
 |---|---|---|
 | [01-browser-python](experiments/01-browser-python/) | Can gpxiltools run in the browser on files of hundreds of megabytes? | Yes. Files mounted lazily are read a strip at a time: the 809 MB whole-genome file opens and gives up a megabase of sequence after reading 0.5 MB, in 72 MB of memory. |
+| [02-gpxil2pxil](experiments/02-gpxil2pxil/) | Can gene, transcript and protein pictures be made from a gpxil genome, for each of a person's haplotypes? | Yes: [`packages/gpxil2pxil`](packages/gpxil2pxil/). HG002 turns out homozygous for TP53's Arg72, one pixel different from the reference. |
+
+## Packages
+
+New tools are written in [`packages/`](packages/), each ready to become a
+repository of its own and a PyPI package:
+
+| Package | What it does | Status |
+|---|---|---|
+| [gpxil2pxil](packages/gpxil2pxil/) | gene, transcript and protein pxil files from a gpxil genome (reference or haplotypes), with annotation from the Gpxil browser or a GTF | ready for its own repository; needs gpxiltools 0.3 |
 
 ## Related
 
