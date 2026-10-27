@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>gpxil in the browser's Python</title>
+<style>
+  body { font: 15px/1.5 system-ui, sans-serif; margin: 24px; background: #fff; color: #111; }
+  pre { background: #f3f3f7; padding: 8px; white-space: pre-wrap; }
+</style>
+</head>
+<body>
+<h1>gpxil in the browser's Python</h1>
+<p>Driven by <code>run.py</code>. Choose files here to mount them by hand.</p>
+<input id="files" type="file" multiple>
+<pre id="log"></pre>
+<script>
+  const worker = new Worker("worker.js");
+  let next = 0;
+  const waiting = new Map();
+  worker.onmessage = (e) => {
+    const { id, ok, result, error } = e.data;
+    const w = waiting.get(id);
+    waiting.delete(id);
+    ok ? w.resolve(result) : w.reject(new Error(error));
+  };
+  window.call = (cmd, args) =>
+    new Promise((resolve, reject) => {
+      const id = ++next;
+      waiting.set(id, { resolve, reject });
+      worker.postMessage({ id, cmd, args });
+    });
+  window.chosen = (name) => [...document.querySelector("#files").files].find((f) => f.name === name);
+
+  // the browser's own storage: a File put into IndexedDB comes back as a Blob that stays on disk
+  window.keepAndReturn = (file) =>
+    new Promise((resolve, reject) => {
+      const open = indexedDB.open("scratch", 1);
+      open.onupgradeneeded = () => open.result.createObjectStore("files");
+      open.onerror = () => reject(open.error);
+      open.onsuccess = () => {
+        const db = open.result;
+        const put = db.transaction("files", "readwrite").objectStore("files").put(file, file.name);
+        put.onerror = () => reject(put.error);
+        put.onsuccess = () => {
+          const get = db.transaction("files").objectStore("files").get(file.name);
+          get.onsuccess = () => resolve(get.result);
+          get.onerror = () => reject(get.error);
+        };
+      };
+    });
+
+  // memory of the whole page, its workers included (needs cross-origin isolation; serve.py sends the headers)
+  window.pageMemory = async () => {
+    try {
+      return (await performance.measureUserAgentSpecificMemory()).bytes;
+    } catch {
+      return null; // not isolated, or the browser does not offer it
+    }
+  };
+</script>
+</body>
+</html>

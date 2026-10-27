@@ -1,0 +1,922 @@
+[
+ {
+  "step": "boot",
+  "ms": 5184.394999999553,
+  "wasm": 75366400,
+  "versions": "gpxiltools 0.2.0, tifffile 2026.10.15, numpy 2.2.5"
+ },
+ {
+  "file": "chr21.gpxil.tif",
+  "how": "blob",
+  "step": "open",
+  "ms": 8.479999999515712,
+  "wasm": 75366400,
+  "out": {
+   "contigs": 1,
+   "first": "chr21",
+   "length": 46709983,
+   "planes": [
+    "ref"
+   ]
+  },
+  "diskReads": 3,
+  "diskBytes": 8709,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 350,
+  "wall_s": 0.02
+ },
+ {
+  "file": "chr21.gpxil.tif",
+  "how": "blob",
+  "step": "10 kb",
+  "ms": 11.639999999664724,
+  "wasm": 75366400,
+  "out": {
+   "bases": 10000,
+   "gc": 0.386
+  },
+  "diskReads": 5,
+  "diskBytes": 86533,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 350,
+  "wall_s": 0.02
+ },
+ {
+  "file": "chr21.gpxil.tif",
+  "how": "blob",
+  "step": "1 Mb",
+  "ms": 20.044999999925494,
+  "wasm": 75366400,
+  "out": {
+   "bases": 1000000
+  },
+  "diskReads": 13,
+  "diskBytes": 397829,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 351,
+  "wall_s": 0.03
+ },
+ {
+  "file": "chr21.gpxil.tif",
+  "how": "blob",
+  "step": "late",
+  "ms": 6.310000000521541,
+  "wasm": 75366400,
+  "out": {
+   "chr21": 1000
+  },
+  "diskReads": 5,
+  "diskBytes": 86533,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 351,
+  "wall_s": 0.01
+ },
+ {
+  "file": "chr21.gpxil.tif",
+  "how": "blob",
+  "step": "info",
+  "ms": 132.95999999996275,
+  "wasm": 75366400,
+  "out": {
+   "rc": 0,
+   "lines": 5,
+   "head": [
+    "/mnt/blob/chr21.gpxil.tif: gpxil 0.1, written by gpxiltools 0.2.0, 2026-10-27T09:03:16+00:00",
+    "reference: GRCh38 (Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz)",
+    "layout: raster, width 8192; palette classic"
+   ]
+  },
+  "diskReads": 3,
+  "diskBytes": 8709,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 351,
+  "wall_s": 0.14
+ },
+ {
+  "file": "chr21.gpxil.tif",
+  "how": "blob",
+  "step": "render",
+  "ms": 411.78000000026077,
+  "wasm": 75366400,
+  "out": {
+   "rc": 0,
+   "png": 61061
+  },
+  "diskReads": 8,
+  "diskBytes": 95242,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 351,
+  "wall_s": 0.42
+ },
+ {
+  "file": "chr21.gpxil.tif",
+  "how": "blob",
+  "step": "validate",
+  "ms": 1423.7450000001118,
+  "wasm": 130285568,
+  "out": {
+   "rc": 0,
+   "tail": [
+    "/mnt/blob/chr21.gpxil.tif: valid (1 contigs checked, 0 errors, 0 warnings)"
+   ]
+  },
+  "diskReads": 328,
+  "diskBytes": 11272638,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 414,
+  "wall_s": 1.43
+ },
+ {
+  "file": "chr21.gpxil.tif",
+  "how": "copy",
+  "step": "open",
+  "ms": 3.9799999995157123,
+  "wasm": 75366400,
+  "out": {
+   "contigs": 1,
+   "first": "chr21",
+   "length": 46709983,
+   "planes": [
+    "ref"
+   ]
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 371,
+  "wall_s": 0.01
+ },
+ {
+  "file": "chr21.gpxil.tif",
+  "how": "copy",
+  "step": "10 kb",
+  "ms": 7.189999999478459,
+  "wasm": 75366400,
+  "out": {
+   "bases": 10000,
+   "gc": 0.386
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 371,
+  "wall_s": 0.01
+ },
+ {
+  "file": "chr21.gpxil.tif",
+  "how": "web",
+  "step": "open",
+  "ms": 29.945000000298023,
+  "wasm": 75366400,
+  "out": {
+   "contigs": 1,
+   "first": "chr21",
+   "length": 46709983,
+   "planes": [
+    "ref"
+   ]
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 3,
+  "webBytes": 1813689,
+  "renderer_mb": 354,
+  "wall_s": 0.04
+ },
+ {
+  "file": "chr21.gpxil.tif",
+  "how": "web",
+  "step": "10 kb",
+  "ms": 19.169999999925494,
+  "wasm": 75366400,
+  "out": {
+   "bases": 10000,
+   "gc": 0.386
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 1,
+  "webBytes": 1048576,
+  "renderer_mb": 358,
+  "wall_s": 0.02
+ },
+ {
+  "file": "chr21.gpxil.tif",
+  "how": "web",
+  "step": "1 Mb",
+  "ms": 28.21499999985099,
+  "wasm": 75366400,
+  "out": {
+   "bases": 1000000
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 2,
+  "webBytes": 2097152,
+  "renderer_mb": 361,
+  "wall_s": 0.04
+ },
+ {
+  "file": "chr21.gpxil.tif",
+  "how": "web",
+  "step": "late",
+  "ms": 5.745000000111759,
+  "wasm": 75366400,
+  "out": {
+   "chr21": 1000
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 361,
+  "wall_s": 0.02
+ },
+ {
+  "file": "HG002_chr21.gpxil.tif",
+  "how": "blob",
+  "step": "open",
+  "ms": 8.770000000484288,
+  "wasm": 75366400,
+  "out": {
+   "contigs": 1,
+   "first": "chr21",
+   "length": 46709983,
+   "planes": [
+    "ref",
+    "gt",
+    "flags"
+   ]
+  },
+  "diskReads": 3,
+  "diskBytes": 9349,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 349,
+  "wall_s": 0.02
+ },
+ {
+  "file": "HG002_chr21.gpxil.tif",
+  "how": "blob",
+  "step": "10 kb",
+  "ms": 11.544999999925494,
+  "wasm": 75366400,
+  "out": {
+   "bases": 10000,
+   "gc": 0.386
+  },
+  "diskReads": 5,
+  "diskBytes": 87173,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 350,
+  "wall_s": 0.02
+ },
+ {
+  "file": "HG002_chr21.gpxil.tif",
+  "how": "blob",
+  "step": "1 Mb",
+  "ms": 18.510000000707805,
+  "wasm": 75366400,
+  "out": {
+   "bases": 1000000
+  },
+  "diskReads": 13,
+  "diskBytes": 398469,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 350,
+  "wall_s": 0.02
+ },
+ {
+  "file": "HG002_chr21.gpxil.tif",
+  "how": "blob",
+  "step": "late",
+  "ms": 6.285000000149012,
+  "wasm": 75366400,
+  "out": {
+   "chr21": 1000
+  },
+  "diskReads": 5,
+  "diskBytes": 87173,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 350,
+  "wall_s": 0.01
+ },
+ {
+  "file": "HG002_chr21.gpxil.tif",
+  "how": "blob",
+  "step": "info",
+  "ms": 134.97000000067055,
+  "wasm": 75366400,
+  "out": {
+   "rc": 0,
+   "lines": 6,
+   "head": [
+    "/mnt/blob/HG002_chr21.gpxil.tif: gpxil 0.1, written by gpxiltools 0.2.0, 2026-10-27T02:07:46+00:00",
+    "reference: GRCh38 (chr21.fa.gz)",
+    "sample: HG002 from HG002_chr21.vcf, callable regions HG002.benchmark.bed"
+   ]
+  },
+  "diskReads": 3,
+  "diskBytes": 9349,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 350,
+  "wall_s": 0.15
+ },
+ {
+  "file": "HG002_chr21.gpxil.tif",
+  "how": "blob",
+  "step": "render",
+  "ms": 448.97000000067055,
+  "wasm": 75366400,
+  "out": {
+   "rc": 0,
+   "png": 61611
+  },
+  "diskReads": 14,
+  "diskBytes": 121098,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 351,
+  "wall_s": 0.46
+ },
+ {
+  "file": "HG002_chr21.gpxil.tif",
+  "how": "blob",
+  "step": "fasta h1",
+  "ms": 74.1699999999255,
+  "wasm": 75366400,
+  "out": {
+   "rc": 0,
+   "bytes": 101820
+  },
+  "diskReads": 14,
+  "diskBytes": 223498,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 352,
+  "wall_s": 0.08
+ },
+ {
+  "file": "HG002_chr21.gpxil.tif",
+  "how": "blob",
+  "step": "validate",
+  "ms": 4030.445000000298,
+  "wasm": 270336000,
+  "out": {
+   "rc": 0,
+   "tail": [
+    "/mnt/blob/HG002_chr21.gpxil.tif: valid (1 contigs checked, 0 errors, 0 warnings)"
+   ]
+  },
+  "diskReads": 472,
+  "diskBytes": 11979240,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 506,
+  "wall_s": 4.04
+ },
+ {
+  "file": "HG002_chr21.gpxil.tif",
+  "how": "copy",
+  "step": "open",
+  "ms": 4.625,
+  "wasm": 75366400,
+  "out": {
+   "contigs": 1,
+   "first": "chr21",
+   "length": 46709983,
+   "planes": [
+    "ref",
+    "gt",
+    "flags"
+   ]
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 373,
+  "wall_s": 0.01
+ },
+ {
+  "file": "HG002_chr21.gpxil.tif",
+  "how": "copy",
+  "step": "10 kb",
+  "ms": 6.90500000026077,
+  "wasm": 75366400,
+  "out": {
+   "bases": 10000,
+   "gc": 0.386
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 373,
+  "wall_s": 0.01
+ },
+ {
+  "file": "HG002_chr21.gpxil.tif",
+  "how": "web",
+  "step": "open",
+  "ms": 25.140000000596046,
+  "wasm": 75366400,
+  "out": {
+   "contigs": 1,
+   "first": "chr21",
+   "length": 46709983,
+   "planes": [
+    "ref",
+    "gt",
+    "flags"
+   ]
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 3,
+  "webBytes": 1424461,
+  "renderer_mb": 353,
+  "wall_s": 0.03
+ },
+ {
+  "file": "HG002_chr21.gpxil.tif",
+  "how": "web",
+  "step": "10 kb",
+  "ms": 17.68999999947846,
+  "wasm": 75366400,
+  "out": {
+   "bases": 10000,
+   "gc": 0.386
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 1,
+  "webBytes": 1048576,
+  "renderer_mb": 357,
+  "wall_s": 0.02
+ },
+ {
+  "file": "HG002_chr21.gpxil.tif",
+  "how": "web",
+  "step": "1 Mb",
+  "ms": 28.380000000819564,
+  "wasm": 75366400,
+  "out": {
+   "bases": 1000000
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 2,
+  "webBytes": 2097152,
+  "renderer_mb": 359,
+  "wall_s": 0.03
+ },
+ {
+  "file": "HG002_chr21.gpxil.tif",
+  "how": "web",
+  "step": "late",
+  "ms": 4.785000000149012,
+  "wasm": 75366400,
+  "out": {
+   "chr21": 1000
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 359,
+  "wall_s": 0.01
+ },
+ {
+  "file": "chr1.gpxil.tif",
+  "how": "blob",
+  "step": "open",
+  "ms": 7.944999999366701,
+  "wasm": 75366400,
+  "out": {
+   "contigs": 1,
+   "first": "chr1",
+   "length": 248956422,
+   "planes": [
+    "ref"
+   ]
+  },
+  "diskReads": 4,
+  "diskBytes": 12804,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 350,
+  "wall_s": 0.02
+ },
+ {
+  "file": "chr1.gpxil.tif",
+  "how": "blob",
+  "step": "10 kb",
+  "ms": 11.174999999813735,
+  "wasm": 75366400,
+  "out": {
+   "bases": 10000,
+   "gc": 0.392
+  },
+  "diskReads": 6,
+  "diskBytes": 29188,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 350,
+  "wall_s": 0.02
+ },
+ {
+  "file": "chr1.gpxil.tif",
+  "how": "blob",
+  "step": "1 Mb",
+  "ms": 21.395000000484288,
+  "wasm": 75366400,
+  "out": {
+   "bases": 1000000
+  },
+  "diskReads": 14,
+  "diskBytes": 406020,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 350,
+  "wall_s": 0.03
+ },
+ {
+  "file": "chr1.gpxil.tif",
+  "how": "blob",
+  "step": "late",
+  "ms": 7.605000000447035,
+  "wasm": 75366400,
+  "out": {
+   "chr1": 1000
+  },
+  "diskReads": 6,
+  "diskBytes": 29188,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 350,
+  "wall_s": 0.01
+ },
+ {
+  "file": "chr1.gpxil.tif",
+  "how": "blob",
+  "step": "info",
+  "ms": 141.86500000022352,
+  "wasm": 75366400,
+  "out": {
+   "rc": 0,
+   "lines": 5,
+   "head": [
+    "/mnt/blob/chr1.gpxil.tif: gpxil 0.1, written by gpxiltools 0.2.0, 2026-10-27T08:59:47+00:00",
+    "reference: GRCh38 (Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz)",
+    "layout: raster, width 8192; palette classic"
+   ]
+  },
+  "diskReads": 4,
+  "diskBytes": 12804,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 351,
+  "wall_s": 0.15
+ },
+ {
+  "file": "chr1.gpxil.tif",
+  "how": "blob",
+  "step": "render",
+  "ms": 295.97499999962747,
+  "wasm": 75366400,
+  "out": {
+   "rc": 0,
+   "png": 10929
+  },
+  "diskReads": 12,
+  "diskBytes": 54280,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 351,
+  "wall_s": 0.3
+ },
+ {
+  "file": "chr1.gpxil.tif",
+  "how": "blob",
+  "step": "validate",
+  "ms": 4744.69000000041,
+  "wasm": 130285568,
+  "out": {
+   "rc": 0,
+   "tail": [
+    "/mnt/blob/chr1.gpxil.tif: valid (1 contigs checked, 0 errors, 0 warnings)"
+   ]
+  },
+  "diskReads": 1775,
+  "diskBytes": 66802115,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 428,
+  "wall_s": 4.75
+ },
+ {
+  "file": "chr1.gpxil.tif",
+  "how": "copy",
+  "step": "open",
+  "ms": 4.660000000149012,
+  "wasm": 75366400,
+  "out": {
+   "contigs": 1,
+   "first": "chr1",
+   "length": 248956422,
+   "planes": [
+    "ref"
+   ]
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 477,
+  "wall_s": 0.01
+ },
+ {
+  "file": "chr1.gpxil.tif",
+  "how": "copy",
+  "step": "10 kb",
+  "ms": 7.069999999366701,
+  "wasm": 75366400,
+  "out": {
+   "bases": 10000,
+   "gc": 0.392
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 477,
+  "wall_s": 0.01
+ },
+ {
+  "file": "chr1.gpxil.tif",
+  "how": "web",
+  "step": "open",
+  "ms": 27.565000000409782,
+  "wasm": 75366400,
+  "out": {
+   "contigs": 1,
+   "first": "chr1",
+   "length": 248956422,
+   "planes": [
+    "ref"
+   ]
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 3,
+  "webBytes": 1731760,
+  "renderer_mb": 352,
+  "wall_s": 0.03
+ },
+ {
+  "file": "chr1.gpxil.tif",
+  "how": "web",
+  "step": "10 kb",
+  "ms": 13.864999999292195,
+  "wasm": 75366400,
+  "out": {
+   "bases": 10000,
+   "gc": 0.392
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 1,
+  "webBytes": 1048576,
+  "renderer_mb": 355,
+  "wall_s": 0.02
+ },
+ {
+  "file": "chr1.gpxil.tif",
+  "how": "web",
+  "step": "1 Mb",
+  "ms": 29.955000000074506,
+  "wasm": 75366400,
+  "out": {
+   "bases": 1000000
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 2,
+  "webBytes": 2097152,
+  "renderer_mb": 359,
+  "wall_s": 0.03
+ },
+ {
+  "file": "chr1.gpxil.tif",
+  "how": "web",
+  "step": "late",
+  "ms": 3.2799999993294477,
+  "wasm": 75366400,
+  "out": {
+   "chr1": 1000
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 359,
+  "wall_s": 0.01
+ },
+ {
+  "file": "GRCh38.gpxil.tif",
+  "how": "blob",
+  "step": "open",
+  "ms": 12.400000000372529,
+  "wasm": 75366400,
+  "out": {
+   "contigs": 194,
+   "first": "chr1",
+   "length": 248956422,
+   "planes": [
+    "ref"
+   ]
+  },
+  "diskReads": 5,
+  "diskBytes": 48298,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 349,
+  "wall_s": 0.02
+ },
+ {
+  "file": "GRCh38.gpxil.tif",
+  "how": "blob",
+  "step": "10 kb",
+  "ms": 16.34499999973923,
+  "wasm": 75366400,
+  "out": {
+   "bases": 10000,
+   "gc": 0.392
+  },
+  "diskReads": 7,
+  "diskBytes": 64682,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 350,
+  "wall_s": 0.02
+ },
+ {
+  "file": "GRCh38.gpxil.tif",
+  "how": "blob",
+  "step": "1 Mb",
+  "ms": 19,
+  "wasm": 75366400,
+  "out": {
+   "bases": 1000000
+  },
+  "diskReads": 15,
+  "diskBytes": 441514,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 350,
+  "wall_s": 0.03
+ },
+ {
+  "file": "GRCh38.gpxil.tif",
+  "how": "blob",
+  "step": "late",
+  "ms": 62.72499999962747,
+  "wasm": 75366400,
+  "out": {
+   "chr17": 1000,
+   "chrY": 1000,
+   "KI270394.1": 485
+  },
+  "diskReads": 158,
+  "diskBytes": 744618,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 351,
+  "wall_s": 0.07
+ },
+ {
+  "file": "GRCh38.gpxil.tif",
+  "how": "blob",
+  "step": "info",
+  "ms": 129.34500000067055,
+  "wasm": 75366400,
+  "out": {
+   "rc": 0,
+   "lines": 198,
+   "head": [
+    "/mnt/blob/GRCh38.gpxil.tif: gpxil 0.1, written by gpxiltools 0.1.0, 2026-10-27T16:17:51+00:00",
+    "reference: GRCh38 (grch38.fa.gz)",
+    "layout: raster, width 8192; palette classic"
+   ]
+  },
+  "diskReads": 5,
+  "diskBytes": 48298,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 352,
+  "wall_s": 0.14
+ },
+ {
+  "file": "GRCh38.gpxil.tif",
+  "how": "blob",
+  "step": "render",
+  "ms": 272.070000000298,
+  "wasm": 75366400,
+  "out": {
+   "rc": 0,
+   "png": 10929
+  },
+  "diskReads": 14,
+  "diskBytes": 125268,
+  "webRequests": 0,
+  "webBytes": 0,
+  "renderer_mb": 352,
+  "wall_s": 0.28
+ },
+ {
+  "file": "GRCh38.gpxil.tif",
+  "how": "web",
+  "step": "open",
+  "ms": 29.74500000011176,
+  "wasm": 75366400,
+  "out": {
+   "contigs": 194,
+   "first": "chr1",
+   "length": 248956422,
+   "planes": [
+    "ref"
+   ]
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 3,
+  "webBytes": 1288542,
+  "renderer_mb": 354,
+  "wall_s": 0.04
+ },
+ {
+  "file": "GRCh38.gpxil.tif",
+  "how": "web",
+  "step": "10 kb",
+  "ms": 17.74500000011176,
+  "wasm": 75366400,
+  "out": {
+   "bases": 10000,
+   "gc": 0.392
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 1,
+  "webBytes": 1048576,
+  "renderer_mb": 355,
+  "wall_s": 0.02
+ },
+ {
+  "file": "GRCh38.gpxil.tif",
+  "how": "web",
+  "step": "1 Mb",
+  "ms": 28.540000000037253,
+  "wasm": 75366400,
+  "out": {
+   "bases": 1000000
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 2,
+  "webBytes": 2097152,
+  "renderer_mb": 360,
+  "wall_s": 0.03
+ },
+ {
+  "file": "GRCh38.gpxil.tif",
+  "how": "web",
+  "step": "late",
+  "ms": 257.57500000018626,
+  "wasm": 75366400,
+  "out": {
+   "chr17": 1000,
+   "chrY": 1000,
+   "KI270394.1": 485
+  },
+  "diskReads": 0,
+  "diskBytes": 0,
+  "webRequests": 27,
+  "webBytes": 28311552,
+  "renderer_mb": 420,
+  "wall_s": 0.26
+ }
+]
