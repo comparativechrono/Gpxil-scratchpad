@@ -28,10 +28,13 @@ a child be checked against both parents the same way?
    substitution) and an insertion at a base that the other haplotype deletes
    are separate pieces, as an unphased VCF allows.
 
-And one thing for the specification (below): spec 0.1 puts overlapping
-unphased heterozygous calls on the same haplotype, so two deletions the VCF
-means to be on different haplotypes become one. It happened once in each of
-the GIAB comparisons.
+And one thing for the specification: spec 0.1 put overlapping unphased
+heterozygous calls on the same haplotype, so two deletions the VCF means to
+be on different haplotypes became one. It happened once in each of the GIAB
+comparisons. **Version 0.2 of the specification fixes it** (gpxiltools 0.6,
+[below](#version-02-of-the-specification)): with the files encoded again,
+every stretch and every Mendelian error agrees with the check made from the
+VCF records.
 
 ## What `gpxil compare` does
 
@@ -187,21 +190,84 @@ ends).
 The parents' benchmarks are unphased, so no crossovers can be seen in them;
 the tests check crossovers with made-up phased parents.
 
-## For the specification (0.2)
+## Version 0.2 of the specification
 
 Unphased heterozygous calls that overlap can't be on one haplotype, yet spec
-0.1 (sections 6.4 and 6.5) applies each as written, ALT to haplotype 2, so
-their alleles meet there: two overlapping deletions become one. Spec 0.1
-already swaps the alleles of an unphased call with a `*` allele so that the
-`*` lands on the haplotype with the deletion; a like rule could put an
-unphased heterozygous call whose ALT would meet another call's asserted state
-on haplotype 1 instead, where that is free.
+0.1 (sections 6.4 and 6.5) applied each as written, ALT to haplotype 2, so
+their alleles met there: two overlapping deletions became one. Spec 0.1
+already swapped the alleles of an unphased call with a `*` allele so that the
+`*` lands on the haplotype with the deletion. Version 0.2 (section 6.5) does
+the like for the rest: in an unphased genotype of two different alleles, an
+allele that doesn't *fit* the haplotype the written order gives it goes to
+the other one, if both alleles fit that way round. Calls that overlap are
+alternatives at one place, so an ALT allele doesn't fit a haplotype where an
+earlier call's ALT allele *occupies* one of its bases: the bases an allele
+changes, once trimmed, and the anchor of an insertion or deletion. (A first
+draft said an allele doesn't fit where it would write REF or a variant over
+another call's variant. A review showed that it let split multi-allelic
+records run together where their states agree, as a deletion inside a longer
+one from the same anchor, and depended on their order; it moves the same
+records here.)
+
+**What it moves.** Chromosome 17 of the three v4.2.1 benchmarks encoded again
+with gpxiltools 0.6.0 ([`results-0.2/reassigned.txt`](results-0.2/reassigned.txt),
+by [`reassigned.py`](reassigned.py)): 26 of 320,884 records go to haplotype 1
+(HG002 10, HG003 9, HG004 7; v5.0q, phased, none). All are one kind: a record
+whose first base a heterozygous deletion just before it removes. 6 are
+deletions, as at 72,809,199 above, which 0.1 joined to the first; 20 are
+insertions, which 0.1 put after a deleted base. For example:
+
+```
+33,868,193 GTA>G 0/1         deletes 33,868,194-33,868,195
+33,868,195 ATGTGTG>A 0/1     its A at 33,868,195 is deleted on haplotype 2
+  0.1: haplotype 2 deletes 33,868,194-33,868,201, one deletion of eight bases
+  0.2: haplotype 2 deletes 33,868,194-33,868,195, haplotype 1 33,868,196-33,868,201
+```
+
+**Every chromosome.** On the 22 autosomes of the same three benchmarks
+([`results-0.2/moves.tsv`](results-0.2/moves.tsv), by [`moves.py`](moves.py)),
+the rule moves 687 of 12,079,785 records (HG002 256, HG003 205, HG004
+226), all of the same kind: on the haplotype the written order gives it, the
+first base the allele occupies is one an earlier call deletes. 528 are
+insertions, which 0.1 put after a deleted base, and 159 deletions, which 0.1
+joined to the deletion before them.
+The draft's form of the rule moves exactly these, with the same planes and
+sidecars. A form in which an allele occupies its record's whole REF, tried on
+chromosomes 1-3 of HG002 and HG003, missed 4 records, each after a
+multi-allelic record whose alleles are padded to its longest REF:
+
+```
+237,542,058 CTTTA>CTA,C 1/2    CTA deletes 237,542,059-060, C 237,542,059-062
+237,542,062 ATTTATT>A 0/1      its A at 237,542,062: deleted by C, kept by CTA
+```
+
+CTA occupies 237,542,058-060 only, so the second record goes with it.
+
+**The comparisons again** ([`results-0.2/`](results-0.2)), with the same
+checks from the VCF records:
+
+| | spec 0.1 | spec 0.2 |
+|---|---|---|
+| HG002 v4.2.1 against v5.0q: stretches that differ | 85 | 84 |
+| … that the record check agrees with | 84 | 84 (82 the same, written differently; 2 different) |
+| variant bases the same | 113,156 of 113,164 | 113,160 of 113,164 |
+| HG002 with his parents: Mendelian errors | 23 sites (24 bases) | 22 sites (23 bases) |
+| … found by the record check too | 22 | 22 (and it finds no other) |
+| … written differently, consistent as sequences | 1 stretch | 3 stretches |
+
+The stretch at 72,809,199 is now the same in both benchmarks, written
+differently, and the artefact at 77,145,099 is gone: HG002's two deletions
+there are on different haplotypes, and the mother's insertion after the
+first one's base no longer follows a deleted base. What is left are the 22
+candidate new mutations, which the record check finds too.
 
 ## Running it
 
 ```sh
 python3 repeats.py                       # 1 s; results/repeats.md
-python3 giab.py DATA GPXIL_DIR           # 1 min; results/
+python3 giab.py DATA GPXIL_DIR [OUT]     # 1 min; results/, or OUT
+python3 reassigned.py OLD.gpxil.tif NEW.gpxil.tif VCF.gz > reassigned.txt
+python3 moves.py VCF.gz BED REFERENCE_DIR > moves.tsv   # 5 min a genome
 ```
 
 `giab.py` needs pysam, the GIAB files in `DATA` (`giab/`, `giab5/`,
@@ -214,6 +280,9 @@ gpxil encode chr17.gpxil.tif -v HG003_GRCh38_1_22_v4.2.1_benchmark.vcf.gz \
 gpxil encode chr17.gpxil.tif -v HG002_GRCh38_v5.0q_smvar.vcf.gz \
     --callable HG002_GRCh38_v5.0q_smvar.benchmark.bed --contigs chr17 --no-ref -o HG002_chr17_v5.0q.noref.gpxil.tif
 ```
+
+`results/` is from files encoded by gpxiltools 0.3 and 0.4 (spec 0.1),
+`results-0.2/` from the same commands with gpxiltools 0.6.0.
 
 The GIAB files are from
 [GIAB's releases](https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/AshkenazimTrio/):

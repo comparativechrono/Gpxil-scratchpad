@@ -1,0 +1,212 @@
+{
+ "mode": "pair",
+ "a": {
+  "file": "HG002_chr17.gpxil.tif",
+  "sample": "HG002"
+ },
+ "b": {
+  "file": "HG002_chr17_v5.0q.noref.gpxil.tif",
+  "sample": "HG002"
+ },
+ "reference": "GRCh38",
+ "gap": 50,
+ "all_calls": false,
+ "regions": [
+  {
+   "contig": "chr17",
+   "start": 1,
+   "end": 83257441,
+   "bases": 83257441,
+   "called": {
+    "both": 69701707,
+    "a_only": 2601502,
+    "b_only": 3712114,
+    "neither": 7242118
+   },
+   "variant_bases": {
+    "either": 113164,
+    "same": 112747,
+    "written_differently": 413,
+    "only_a": 4,
+    "only_b": 0,
+    "other_genotype": 0,
+    "agreement": 0.999965
+   },
+   "stretches": {
+    "written_differently": 82,
+    "different": 2,
+    "not_checked": 0
+   },
+   "events": {
+    "substitutions": {
+     "a": {
+      "total": 89648,
+      "found": 81934,
+      "missing": 4,
+      "other_genotype": 0,
+      "not_compared": 7710
+     },
+     "b": {
+      "total": 120574,
+      "found": 82042,
+      "missing": 0,
+      "other_genotype": 0,
+      "not_compared": 38532
+     },
+     "precision": 0.999951,
+     "recall": 1.0,
+     "f1": 0.999975
+    },
+    "indels": {
+     "a": {
+      "total": 18702,
+      "found": 15696,
+      "missing": 0,
+      "other_genotype": 0,
+      "not_compared": 3006
+     },
+     "b": {
+      "total": 34439,
+      "found": 15611,
+      "missing": 0,
+      "other_genotype": 0,
+      "not_compared": 18828
+     },
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "complex": {
+     "a": {
+      "total": 0,
+      "found": 0,
+      "missing": 0,
+      "other_genotype": 0,
+      "not_compared": 0
+     },
+     "b": {
+      "total": 0,
+      "found": 0,
+      "missing": 0,
+      "other_genotype": 0,
+      "not_compared": 0
+     },
+     "precision": null,
+     "recall": null,
+     "f1": null
+    }
+   },
+   "examples": [
+    {
+     "position": 21290549,
+     "end": 21290567,
+     "a": "C/T",
+     "b": "C/C"
+    },
+    {
+     "position": 21290701,
+     "end": 21290712,
+     "a": "A/G",
+     "b": "A/A"
+    }
+   ]
+  }
+ ],
+ "total": {
+  "regions": 1,
+  "bases": 83257441,
+  "called": {
+   "both": 69701707,
+   "a_only": 2601502,
+   "b_only": 3712114,
+   "neither": 7242118
+  },
+  "variant_bases": {
+   "either": 113164,
+   "same": 112747,
+   "written_differently": 413,
+   "only_a": 4,
+   "only_b": 0,
+   "other_genotype": 0,
+   "agreement": 0.999965
+  },
+  "stretches": {
+   "written_differently": 82,
+   "different": 2,
+   "not_checked": 0
+  },
+  "events": {
+   "substitutions": {
+    "a": {
+     "total": 89648,
+     "found": 81934,
+     "missing": 4,
+     "other_genotype": 0,
+     "not_compared": 7710
+    },
+    "b": {
+     "total": 120574,
+     "found": 82042,
+     "missing": 0,
+     "other_genotype": 0,
+     "not_compared": 38532
+    },
+    "precision": 0.999951,
+    "recall": 1.0,
+    "f1": 0.999975
+   },
+   "indels": {
+    "a": {
+     "total": 18702,
+     "found": 15696,
+     "missing": 0,
+     "other_genotype": 0,
+     "not_compared": 3006
+    },
+    "b": {
+     "total": 34439,
+     "found": 15611,
+     "missing": 0,
+     "other_genotype": 0,
+     "not_compared": 18828
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "complex": {
+    "a": {
+     "total": 0,
+     "found": 0,
+     "missing": 0,
+     "other_genotype": 0,
+     "not_compared": 0
+    },
+    "b": {
+     "total": 0,
+     "found": 0,
+     "missing": 0,
+     "other_genotype": 0,
+     "not_compared": 0
+    },
+    "precision": null,
+    "recall": null,
+    "f1": null
+   }
+  },
+  "examples": [
+   {
+    "position": 21290549,
+    "end": 21290567,
+    "a": "C/T",
+    "b": "C/C"
+   },
+   {
+    "position": 21290701,
+    "end": 21290712,
+    "a": "A/G",
+    "b": "A/A"
+   }
+  ]
+ }
+}
