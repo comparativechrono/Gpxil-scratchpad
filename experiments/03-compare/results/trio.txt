@@ -1,0 +1,17 @@
+child HG002_chr17.gpxil.tif (HG002), father HG003_chr17.gpxil.tif (HG003), mother HG004_chr17.gpxil.tif (HG004) · GRCh38
+
+chr17:1-83,257,441 · 83,257,441 bases
+  called              in all three 70,180,589 (84.29 %)
+  child's variants    106,558 bases
+                      from the father 28,419 · from the mother 27,061 · from both 40,337
+                      from either, can't be told 10,716
+  Mendelian errors    23 sites (24 bases), 23 of them candidate new mutations
+                      at 3,343,271: child C/A, father C/C, mother C/C (new)
+                      at 4,047,934: child C/T, father C/C, mother C/C (new)
+                      at 9,059,577: child C/T, father C/C, mother C/C (new)
+                      at 20,897,959: child G/T, father G/G, mother G/G (new)
+                      at 21,127,778: child G/A, father G/G, mother G/G (new)
+                      ... (20 in the JSON)
+  written differently 1 stretch (1 base) consistent as sequences, not base by base
+  father's haplotypes not phased, so which one the child received isn't known
+  mother's haplotypes not phased, so which one the child received isn't known

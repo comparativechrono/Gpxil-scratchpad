@@ -18,38 +18,28 @@ Each is small enough to try here first, in `packages/` or `experiments/`.
   indices itself and shows it large, with its sequence and metadata, naming
   the residue under the pointer; pxil's FASTA names a person's sequences
   apart (`ENSP00000269305_HG002-hap1`).
+- **gpxiltools 0.4.0**: `gpxil subset` (working copies of some contigs and
+  planes, the strips copied as stored) and `gpxil stats` (what a file holds,
+  counted; in the studio's Tools tab and under the Viewer's key).
+- **gpxiltools 0.5.0**: `gpxil compare`, two genomes base by base, or a child
+  with both parents (experiment 03).
 
-## 1. Working copies: `gpxil subset`
+## 1-3. Done: `gpxil subset`, `gpxil stats`, `gpxil compare`
 
-Copy some contigs, and some planes, of a file into a new one, without
-encoding again: chromosome 17 out of a whole genome, or a file without its
-`gq`, `dp` and `ps` planes. Each contig is self-contained (its pages and its
-entry in the metadata), so this is a copy of pages, fast and lossless, and
-valid under the specification as it is.
+In gpxiltools 0.4 and 0.5, and the studio. What they showed the specification
+needs, for version 0.2:
 
-A *region* as a working copy (TP53 and 100 kb either side) needs the
-specification to say what a contig that is a window of a reference sequence is:
-for example `"window": {"of": "chr17", "start": 7561778}` in the contig's
-entry, the digests being those of the window's sequence. Worth proposing for
-version 0.2 of the specification: it would let the studio keep small files of
-the regions people work on, and let the Viewer save what it shows as gpxil.
-
-## 2. `gpxil stats`
-
-What a file holds, counted from its planes, contig by contig and for a region:
-bases called and not called, heterozygous and homozygous substitutions,
-deletions and insertions, transitions over transversions, the phased fraction,
-and the distributions of GQ and DP. Strip by strip, so a genome needs little
-memory. JSON for programs, a table for people; the Tools tab and the Viewer (for
-the region in view) would show it.
-
-## 3. `gpxil compare`
-
-Two gpxil files on the same reference, compared base by base: where their
-genotypes agree, differ, or one has no call, with a picture of the differences
-(a plane of codes, drawn like the variants mode). Because the planes are aligned
-to the reference, this is an array comparison, without VCF normalisation. It is
-what benchmarking a call set against HG002 needs, and a striking picture.
+- **A region as a working copy** (TP53 and 100 kb either side): a contig that
+  is a window of a reference sequence, for example
+  `"window": {"of": "chr17", "start": 7561778}` in the contig's entry, the
+  digests being those of the window's sequence. It would let the studio keep
+  small files of the regions people work on, and let the Viewer save what it
+  shows as gpxil.
+- **Overlapping unphased calls** (experiment 03): two heterozygous calls that
+  overlap can't be on one haplotype, but spec 0.1 applies both as written, to
+  haplotype 2, and joins them. Like the rule that moves an unphased `*`
+  allele to the haplotype with the deletion, the second could go to
+  haplotype 1 where that is free.
 
 ## 4. Genes in the Viewer
 
@@ -68,8 +58,9 @@ Viewer could then open any chromosome whole, at once, and zoom in.
 ## 6. One JavaScript reader
 
 The studio's `gpxil-read.js` and the Gpxil browser's reader do the same thing.
-One small library (`gpxil-js`), tested against gpxiltools' files as pxil.py is,
-would serve both, and anyone else's web page.
+One reader, shared by the two (not published on npm), tested against
+gpxiltools' files as pxil.py is, to come with the work on version 0.2 of the
+specification.
 
 ## 7. Proteins side by side
 

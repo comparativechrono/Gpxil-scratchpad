@@ -17,6 +17,7 @@ done with it.
 |---|---|---|
 | [01-browser-python](experiments/01-browser-python/) | Can gpxiltools run in the browser on files of hundreds of megabytes? | Yes. Files mounted lazily are read a strip at a time: the 809 MB whole-genome file opens and gives up a megabase of sequence after reading 0.5 MB, in 72 MB of memory. |
 | [02-gpxil2pxil](experiments/02-gpxil2pxil/) | Can gene, transcript and protein pictures be made from a gpxil genome, for each of a person's haplotypes? | Yes: [gpxil2pxil](https://github.com/comparativechrono/gpxil2pxil). HG002 turns out homozygous for TP53's Arg72, one pixel different from the reference. |
+| [03-compare](experiments/03-compare/) | Can genomes be compared base by base, two call sets or a child with both parents, and still see an indel written at another place in a repeat? | Yes: `gpxil compare` in gpxiltools 0.5. All 806 indels moved along repeats are found, and no controls; HG002's v4.2.1 and v5.0q agree on > 99.99 % of variant bases, and HG002 with HG003 and HG004 shows 22 candidate new mutations on chromosome 17 inside all three benchmarks' regions, and one artefact of the specification. |
 
 ## Packages
 
@@ -31,9 +32,10 @@ repository, with its history:
 ## Ideas
 
 [`ideas/tools-for-gpxil.md`](ideas/tools-for-gpxil.md): the tools that building
-GpxilStudio showed are missing, in the order they would help most – working
-copies (`gpxil subset`), `gpxil stats`, `gpxil compare`, genes in the Viewer,
-overviews, one JavaScript reader, and proteins side by side.
+GpxilStudio showed are missing, in the order they would help most. Working
+copies (`gpxil subset`), `gpxil stats` and `gpxil compare` are done; next are
+genes in the Viewer, overviews, one JavaScript reader, and proteins side by
+side, with what the specification's version 0.2 needs.
 
 ## Related
 

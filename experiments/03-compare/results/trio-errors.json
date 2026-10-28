@@ -1,0 +1,399 @@
+[
+ {
+  "contig": "chr17",
+  "position": 3343271,
+  "end": 3343271,
+  "child": "C/A",
+  "father": "C/C",
+  "mother": "C/C",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "3343271 C>A 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 4047934,
+  "end": 4047934,
+  "child": "C/T",
+  "father": "C/C",
+  "mother": "C/C",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "4047934 C>T 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 9059577,
+  "end": 9059577,
+  "child": "C/T",
+  "father": "C/C",
+  "mother": "C/C",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "9059577 C>T 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 20897959,
+  "end": 20897959,
+  "child": "G/T",
+  "father": "G/G",
+  "mother": "G/G",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "20897959 G>T 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 21127778,
+  "end": 21127778,
+  "child": "G/A",
+  "father": "G/G",
+  "mother": "G/G",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "21127778 G>A 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 27600617,
+  "end": 27600617,
+  "child": "G/A",
+  "father": "G/G",
+  "mother": "G/G",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "27600617 G>A 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 33097309,
+  "end": 33097309,
+  "child": "C/G",
+  "father": "C/C",
+  "mother": "C/C",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "33097309 C>G 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 34519774,
+  "end": 34519774,
+  "child": "G/A",
+  "father": "G/G",
+  "mother": "G/G",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "34519774 G>A 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 38934982,
+  "end": 38934982,
+  "child": "A/G",
+  "father": "A/A",
+  "mother": "A/A",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "38934982 A>G 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 40261681,
+  "end": 40261681,
+  "child": "G/T",
+  "father": "G/G",
+  "mother": "G/G",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "40261681 G>T 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 47889113,
+  "end": 47889113,
+  "child": "G/A",
+  "father": "G/G",
+  "mother": "G/G",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "47889113 G>A 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 51715370,
+  "end": 51715370,
+  "child": "T/A",
+  "father": "T/T",
+  "mother": "T/T",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "51715370 T>A 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 52532237,
+  "end": 52532237,
+  "child": "C/T",
+  "father": "C/C",
+  "mother": "C/C",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "52532237 C>T 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 52662442,
+  "end": 52662442,
+  "child": "T/C",
+  "father": "T/T",
+  "mother": "T/T",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "52662442 T>C 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 55561525,
+  "end": 55561525,
+  "child": "G/A",
+  "father": "G/G",
+  "mother": "G/G",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "55561525 G>A 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 56530420,
+  "end": 56530420,
+  "child": "C/T",
+  "father": "C/C",
+  "mother": "C/C",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "56530420 C>T 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 58332214,
+  "end": 58332215,
+  "child": "C/G",
+  "father": "C/C",
+  "mother": "C/C",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "58332214 C>G 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 58332289,
+  "end": 58332289,
+  "child": "T/G",
+  "father": "T/T",
+  "mother": "T/T",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "58332289 T>G 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 58332296,
+  "end": 58332296,
+  "child": "T/A",
+  "father": "T/T",
+  "mother": "T/T",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "58332296 T>A 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 62079714,
+  "end": 62079714,
+  "child": "A/-",
+  "father": "A/A",
+  "mother": "A/A",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "62079713 GA>G 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 77145099,
+  "end": 77145099,
+  "child": "A/-",
+  "father": "A/A",
+  "mother": "A/-+TGTG",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "77145079 GTGTGTGTGTGTGTGTATGTA>G 0/1",
+   "77145099 ATGTGTG>A 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [
+   "77145099 ATGTGTG>A 0/1"
+  ],
+  "mother_bed": true,
+  "mother_vcf": [
+   "77145079 GTGTGTGTGTGTGTGTATGTA>G 0/1",
+   "77145099 A>ATGTG 0/1"
+  ]
+ },
+ {
+  "contig": "chr17",
+  "position": 79246722,
+  "end": 79246722,
+  "child": "C/T",
+  "father": "C/C",
+  "mother": "C/C",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "79246722 C>T 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ },
+ {
+  "contig": "chr17",
+  "position": 82912306,
+  "end": 82912306,
+  "child": "C/T",
+  "father": "C/C",
+  "mother": "C/C",
+  "new": true,
+  "child_bed": true,
+  "child_vcf": [
+   "82912306 C>T 0/1"
+  ],
+  "father_bed": true,
+  "father_vcf": [],
+  "mother_bed": true,
+  "mother_vcf": []
+ }
+]
