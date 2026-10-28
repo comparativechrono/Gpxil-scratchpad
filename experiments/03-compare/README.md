@@ -71,8 +71,10 @@ from the father; purple, from both; olive, from either; grey, not called in
 all three. In TP53, HG002 has no Mendelian error.*
 
 Both read the files a megabase at a time, cut where no file has a variant
-nearby, so a whole chromosome takes little memory: chromosome 17 took 4 s for
-two genomes and 6 s for a trio.
+nearby, so a whole chromosome takes little memory: chromosome 17 took 2.0 s for
+two genomes and 2.1 s for a trio ([`results/giab.json`](results/giab.json)),
+and about 10 s each in the browser, in GpxilStudio. Only the bases where a
+file has something other than the reference's base are looked at one by one.
 
 ## Indels in repeats (`repeats.py`)
 

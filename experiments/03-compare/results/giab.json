@@ -1,6 +1,6 @@
 {
  "pair": {
-  "seconds": 4.1,
+  "seconds": 2.0,
   "stretches": 85,
   "agreement": {
    "gpxil same, vcf same": 82,
@@ -9,7 +9,7 @@
   }
  },
  "trio": {
-  "seconds": 6.5,
+  "seconds": 2.1,
   "gpxil_errors": 23,
   "gpxil_new": 23,
   "errors_inside_all_beds": 23,
