@@ -1,0 +1,354 @@
+{
+ "mode": "trio",
+ "child": {
+  "file": "HG002_chr17.gpxil.tif",
+  "sample": "HG002"
+ },
+ "father": {
+  "file": "HG003_chr17.gpxil.tif",
+  "sample": "HG003"
+ },
+ "mother": {
+  "file": "HG004_chr17.gpxil.tif",
+  "sample": "HG004"
+ },
+ "reference": "GRCh38",
+ "gap": 50,
+ "all_calls": false,
+ "regions": [
+  {
+   "contig": "chr17",
+   "start": 1,
+   "end": 83257441,
+   "bases": 83257441,
+   "all_called": 70180589,
+   "child_variant_bases": 106558,
+   "from_father": 28419,
+   "from_mother": 27061,
+   "from_both": 40337,
+   "origin_unknown": 10716,
+   "mendelian_errors": {
+    "bases": 24,
+    "sites": 23,
+    "new_mutation_bases": 24,
+    "new_mutation_sites": 23,
+    "examples": [
+     {
+      "position": 3343271,
+      "child": "C/A",
+      "father": "C/C",
+      "mother": "C/C",
+      "new": true
+     },
+     {
+      "position": 4047934,
+      "child": "C/T",
+      "father": "C/C",
+      "mother": "C/C",
+      "new": true
+     },
+     {
+      "position": 9059577,
+      "child": "C/T",
+      "father": "C/C",
+      "mother": "C/C",
+      "new": true
+     },
+     {
+      "position": 20897959,
+      "child": "G/T",
+      "father": "G/G",
+      "mother": "G/G",
+      "new": true
+     },
+     {
+      "position": 21127778,
+      "child": "G/A",
+      "father": "G/G",
+      "mother": "G/G",
+      "new": true
+     },
+     {
+      "position": 27600617,
+      "child": "G/A",
+      "father": "G/G",
+      "mother": "G/G",
+      "new": true
+     },
+     {
+      "position": 33097309,
+      "child": "C/G",
+      "father": "C/C",
+      "mother": "C/C",
+      "new": true
+     },
+     {
+      "position": 34519774,
+      "child": "G/A",
+      "father": "G/G",
+      "mother": "G/G",
+      "new": true
+     },
+     {
+      "position": 38934982,
+      "child": "A/G",
+      "father": "A/A",
+      "mother": "A/A",
+      "new": true
+     },
+     {
+      "position": 40261681,
+      "child": "G/T",
+      "father": "G/G",
+      "mother": "G/G",
+      "new": true
+     },
+     {
+      "position": 47889113,
+      "child": "G/A",
+      "father": "G/G",
+      "mother": "G/G",
+      "new": true
+     },
+     {
+      "position": 51715370,
+      "child": "T/A",
+      "father": "T/T",
+      "mother": "T/T",
+      "new": true
+     },
+     {
+      "position": 52532237,
+      "child": "C/T",
+      "father": "C/C",
+      "mother": "C/C",
+      "new": true
+     },
+     {
+      "position": 52662442,
+      "child": "T/C",
+      "father": "T/T",
+      "mother": "T/T",
+      "new": true
+     },
+     {
+      "position": 55561525,
+      "child": "G/A",
+      "father": "G/G",
+      "mother": "G/G",
+      "new": true
+     },
+     {
+      "position": 56530420,
+      "child": "C/T",
+      "father": "C/C",
+      "mother": "C/C",
+      "new": true
+     },
+     {
+      "position": 58332214,
+      "child": "C/G",
+      "father": "C/C",
+      "mother": "C/C",
+      "new": true
+     },
+     {
+      "position": 58332289,
+      "child": "T/G",
+      "father": "T/T",
+      "mother": "T/T",
+      "new": true
+     },
+     {
+      "position": 58332296,
+      "child": "T/A",
+      "father": "T/T",
+      "mother": "T/T",
+      "new": true
+     },
+     {
+      "position": 62079714,
+      "child": "A/-",
+      "father": "A/A",
+      "mother": "A/A",
+      "new": true
+     }
+    ]
+   },
+   "written_differently": {
+    "stretches": 1,
+    "bases": 1
+   },
+   "haplotypes": {
+    "father": null,
+    "mother": null
+   }
+  }
+ ],
+ "total": {
+  "regions": 1,
+  "bases": 83257441,
+  "all_called": 70180589,
+  "child_variant_bases": 106558,
+  "from_father": 28419,
+  "from_mother": 27061,
+  "from_both": 40337,
+  "origin_unknown": 10716,
+  "mendelian_errors": {
+   "bases": 24,
+   "sites": 23,
+   "new_mutation_bases": 24,
+   "new_mutation_sites": 23,
+   "examples": [
+    {
+     "position": 3343271,
+     "child": "C/A",
+     "father": "C/C",
+     "mother": "C/C",
+     "new": true
+    },
+    {
+     "position": 4047934,
+     "child": "C/T",
+     "father": "C/C",
+     "mother": "C/C",
+     "new": true
+    },
+    {
+     "position": 9059577,
+     "child": "C/T",
+     "father": "C/C",
+     "mother": "C/C",
+     "new": true
+    },
+    {
+     "position": 20897959,
+     "child": "G/T",
+     "father": "G/G",
+     "mother": "G/G",
+     "new": true
+    },
+    {
+     "position": 21127778,
+     "child": "G/A",
+     "father": "G/G",
+     "mother": "G/G",
+     "new": true
+    },
+    {
+     "position": 27600617,
+     "child": "G/A",
+     "father": "G/G",
+     "mother": "G/G",
+     "new": true
+    },
+    {
+     "position": 33097309,
+     "child": "C/G",
+     "father": "C/C",
+     "mother": "C/C",
+     "new": true
+    },
+    {
+     "position": 34519774,
+     "child": "G/A",
+     "father": "G/G",
+     "mother": "G/G",
+     "new": true
+    },
+    {
+     "position": 38934982,
+     "child": "A/G",
+     "father": "A/A",
+     "mother": "A/A",
+     "new": true
+    },
+    {
+     "position": 40261681,
+     "child": "G/T",
+     "father": "G/G",
+     "mother": "G/G",
+     "new": true
+    },
+    {
+     "position": 47889113,
+     "child": "G/A",
+     "father": "G/G",
+     "mother": "G/G",
+     "new": true
+    },
+    {
+     "position": 51715370,
+     "child": "T/A",
+     "father": "T/T",
+     "mother": "T/T",
+     "new": true
+    },
+    {
+     "position": 52532237,
+     "child": "C/T",
+     "father": "C/C",
+     "mother": "C/C",
+     "new": true
+    },
+    {
+     "position": 52662442,
+     "child": "T/C",
+     "father": "T/T",
+     "mother": "T/T",
+     "new": true
+    },
+    {
+     "position": 55561525,
+     "child": "G/A",
+     "father": "G/G",
+     "mother": "G/G",
+     "new": true
+    },
+    {
+     "position": 56530420,
+     "child": "C/T",
+     "father": "C/C",
+     "mother": "C/C",
+     "new": true
+    },
+    {
+     "position": 58332214,
+     "child": "C/G",
+     "father": "C/C",
+     "mother": "C/C",
+     "new": true
+    },
+    {
+     "position": 58332289,
+     "child": "T/G",
+     "father": "T/T",
+     "mother": "T/T",
+     "new": true
+    },
+    {
+     "position": 58332296,
+     "child": "T/A",
+     "father": "T/T",
+     "mother": "T/T",
+     "new": true
+    },
+    {
+     "position": 62079714,
+     "child": "A/-",
+     "father": "A/A",
+     "mother": "A/A",
+     "new": true
+    }
+   ]
+  },
+  "written_differently": {
+   "stretches": 1,
+   "bases": 1
+  },
+  "haplotypes": {
+   "father": null,
+   "mother": null
+  }
+ }
+}

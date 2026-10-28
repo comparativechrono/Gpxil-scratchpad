@@ -1,0 +1,49 @@
+{
+ "pair": {
+  "seconds": 4.1,
+  "stretches": 85,
+  "agreement": {
+   "gpxil same, vcf same": 82,
+   "gpxil different, vcf different": 2,
+   "gpxil different, vcf same": 1
+  }
+ },
+ "trio": {
+  "seconds": 6.5,
+  "gpxil_errors": 23,
+  "gpxil_new": 23,
+  "errors_inside_all_beds": 23,
+  "records": {
+   "consistent": 129035,
+   "not one record each (overlapping or written differently)": 1541,
+   "inconsistent": 23
+  },
+  "record_errors": 23,
+  "both_ways": 22,
+  "only_gpxil": [
+   {
+    "contig": "chr17",
+    "position": 77145099,
+    "child": "A/-",
+    "father": "A/A",
+    "mother": "A/-+TGTG",
+    "new": true,
+    "child_bed": true,
+    "child_vcf": [
+     "77145079 GTGTGTGTGTGTGTGTATGTA>G 0/1",
+     "77145099 ATGTGTG>A 0/1"
+    ],
+    "father_bed": true,
+    "father_vcf": [
+     "77145099 ATGTGTG>A 0/1"
+    ],
+    "mother_bed": true,
+    "mother_vcf": [
+     "77145079 GTGTGTGTGTGTGTGTATGTA>G 0/1",
+     "77145099 A>ATGTG 0/1"
+    ]
+   }
+  ],
+  "only_records": []
+ }
+}
