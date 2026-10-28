@@ -1,6 +1,6 @@
 {
  "pair": {
-  "seconds": 2.0,
+  "seconds": 2.4,
   "stretches": 85,
   "agreement": {
    "gpxil same, vcf same": 82,
@@ -24,6 +24,7 @@
    {
     "contig": "chr17",
     "position": 77145099,
+    "end": 77145099,
     "child": "A/-",
     "father": "A/A",
     "mother": "A/-+TGTG",

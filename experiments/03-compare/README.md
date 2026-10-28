@@ -71,7 +71,7 @@ from the father; purple, from both; olive, from either; grey, not called in
 all three. In TP53, HG002 has no Mendelian error.*
 
 Both read the files a megabase at a time, cut where no file has a variant
-nearby, so a whole chromosome takes little memory: chromosome 17 took 2.0 s for
+nearby, so a whole chromosome takes little memory: chromosome 17 took 2.4 s for
 two genomes and 2.1 s for a trio ([`results/giab.json`](results/giab.json)),
 and about 10 s each in the browser, in GpxilStudio. Only the bases where a
 file has something other than the reference's base are looked at one by one.
@@ -168,10 +168,11 @@ chr17:1-83,257,441 · 83,257,441 bases
 
 All 23 errors lie inside all three BED files, and in each the child carries
 an allele neither parent has: 21 substitutions (11 of them C>T or G>A, as new
-mutations mostly are; one pair of neighbouring bases, and three within 82
-bases at 58,332,214-58,332,296), one deleted base, and one artefact of the
-specification, at 77,145,099: HG002 has two overlapping deletions, unphased,
-that spec 0.1 joins on one haplotype, as above, where the VCF has one on each.
+mutations mostly are; three sites within 82 bases at 58,332,214-58,332,296,
+the first of them two neighbouring bases), one deleted base, and one
+artefact of the specification, at 77,145,099: HG002 has two overlapping
+deletions, unphased, that spec 0.1 joins on one haplotype, as above, where
+the VCF has one on each.
 
 **Checked from the VCF records.** Record by record, where all three are called
 with confidence, a child's record is checked against the parents' records at
@@ -179,7 +180,9 @@ the same position (REF/REF without one): 129,035 consistent, 23 inconsistent,
 and 1,541 that couldn't be checked that way because records overlap or are
 written differently. The 23 are the same sites as gpxil compare's, but for
 77,145,099 (overlapping, so not checked that way) and the second base of the
-neighbouring pair, which is one site to `gpxil compare`.
+neighbouring pair, 58,332,215, which is one site with the first to
+`gpxil compare` (each error in its JSON gives where its site begins and
+ends).
 
 The parents' benchmarks are unphased, so no crossovers can be seen in them;
 the tests check crossovers with made-up phased parents.

@@ -35,6 +35,7 @@
     "examples": [
      {
       "position": 3343271,
+      "end": 3343271,
       "child": "C/A",
       "father": "C/C",
       "mother": "C/C",
@@ -42,6 +43,7 @@
      },
      {
       "position": 4047934,
+      "end": 4047934,
       "child": "C/T",
       "father": "C/C",
       "mother": "C/C",
@@ -49,6 +51,7 @@
      },
      {
       "position": 9059577,
+      "end": 9059577,
       "child": "C/T",
       "father": "C/C",
       "mother": "C/C",
@@ -56,6 +59,7 @@
      },
      {
       "position": 20897959,
+      "end": 20897959,
       "child": "G/T",
       "father": "G/G",
       "mother": "G/G",
@@ -63,6 +67,7 @@
      },
      {
       "position": 21127778,
+      "end": 21127778,
       "child": "G/A",
       "father": "G/G",
       "mother": "G/G",
@@ -70,6 +75,7 @@
      },
      {
       "position": 27600617,
+      "end": 27600617,
       "child": "G/A",
       "father": "G/G",
       "mother": "G/G",
@@ -77,6 +83,7 @@
      },
      {
       "position": 33097309,
+      "end": 33097309,
       "child": "C/G",
       "father": "C/C",
       "mother": "C/C",
@@ -84,6 +91,7 @@
      },
      {
       "position": 34519774,
+      "end": 34519774,
       "child": "G/A",
       "father": "G/G",
       "mother": "G/G",
@@ -91,6 +99,7 @@
      },
      {
       "position": 38934982,
+      "end": 38934982,
       "child": "A/G",
       "father": "A/A",
       "mother": "A/A",
@@ -98,6 +107,7 @@
      },
      {
       "position": 40261681,
+      "end": 40261681,
       "child": "G/T",
       "father": "G/G",
       "mother": "G/G",
@@ -105,6 +115,7 @@
      },
      {
       "position": 47889113,
+      "end": 47889113,
       "child": "G/A",
       "father": "G/G",
       "mother": "G/G",
@@ -112,6 +123,7 @@
      },
      {
       "position": 51715370,
+      "end": 51715370,
       "child": "T/A",
       "father": "T/T",
       "mother": "T/T",
@@ -119,6 +131,7 @@
      },
      {
       "position": 52532237,
+      "end": 52532237,
       "child": "C/T",
       "father": "C/C",
       "mother": "C/C",
@@ -126,6 +139,7 @@
      },
      {
       "position": 52662442,
+      "end": 52662442,
       "child": "T/C",
       "father": "T/T",
       "mother": "T/T",
@@ -133,6 +147,7 @@
      },
      {
       "position": 55561525,
+      "end": 55561525,
       "child": "G/A",
       "father": "G/G",
       "mother": "G/G",
@@ -140,6 +155,7 @@
      },
      {
       "position": 56530420,
+      "end": 56530420,
       "child": "C/T",
       "father": "C/C",
       "mother": "C/C",
@@ -147,6 +163,7 @@
      },
      {
       "position": 58332214,
+      "end": 58332215,
       "child": "C/G",
       "father": "C/C",
       "mother": "C/C",
@@ -154,6 +171,7 @@
      },
      {
       "position": 58332289,
+      "end": 58332289,
       "child": "T/G",
       "father": "T/T",
       "mother": "T/T",
@@ -161,6 +179,7 @@
      },
      {
       "position": 58332296,
+      "end": 58332296,
       "child": "T/A",
       "father": "T/T",
       "mother": "T/T",
@@ -168,6 +187,7 @@
      },
      {
       "position": 62079714,
+      "end": 62079714,
       "child": "A/-",
       "father": "A/A",
       "mother": "A/A",
@@ -202,6 +222,7 @@
    "examples": [
     {
      "position": 3343271,
+     "end": 3343271,
      "child": "C/A",
      "father": "C/C",
      "mother": "C/C",
@@ -209,6 +230,7 @@
     },
     {
      "position": 4047934,
+     "end": 4047934,
      "child": "C/T",
      "father": "C/C",
      "mother": "C/C",
@@ -216,6 +238,7 @@
     },
     {
      "position": 9059577,
+     "end": 9059577,
      "child": "C/T",
      "father": "C/C",
      "mother": "C/C",
@@ -223,6 +246,7 @@
     },
     {
      "position": 20897959,
+     "end": 20897959,
      "child": "G/T",
      "father": "G/G",
      "mother": "G/G",
@@ -230,6 +254,7 @@
     },
     {
      "position": 21127778,
+     "end": 21127778,
      "child": "G/A",
      "father": "G/G",
      "mother": "G/G",
@@ -237,6 +262,7 @@
     },
     {
      "position": 27600617,
+     "end": 27600617,
      "child": "G/A",
      "father": "G/G",
      "mother": "G/G",
@@ -244,6 +270,7 @@
     },
     {
      "position": 33097309,
+     "end": 33097309,
      "child": "C/G",
      "father": "C/C",
      "mother": "C/C",
@@ -251,6 +278,7 @@
     },
     {
      "position": 34519774,
+     "end": 34519774,
      "child": "G/A",
      "father": "G/G",
      "mother": "G/G",
@@ -258,6 +286,7 @@
     },
     {
      "position": 38934982,
+     "end": 38934982,
      "child": "A/G",
      "father": "A/A",
      "mother": "A/A",
@@ -265,6 +294,7 @@
     },
     {
      "position": 40261681,
+     "end": 40261681,
      "child": "G/T",
      "father": "G/G",
      "mother": "G/G",
@@ -272,6 +302,7 @@
     },
     {
      "position": 47889113,
+     "end": 47889113,
      "child": "G/A",
      "father": "G/G",
      "mother": "G/G",
@@ -279,6 +310,7 @@
     },
     {
      "position": 51715370,
+     "end": 51715370,
      "child": "T/A",
      "father": "T/T",
      "mother": "T/T",
@@ -286,6 +318,7 @@
     },
     {
      "position": 52532237,
+     "end": 52532237,
      "child": "C/T",
      "father": "C/C",
      "mother": "C/C",
@@ -293,6 +326,7 @@
     },
     {
      "position": 52662442,
+     "end": 52662442,
      "child": "T/C",
      "father": "T/T",
      "mother": "T/T",
@@ -300,6 +334,7 @@
     },
     {
      "position": 55561525,
+     "end": 55561525,
      "child": "G/A",
      "father": "G/G",
      "mother": "G/G",
@@ -307,6 +342,7 @@
     },
     {
      "position": 56530420,
+     "end": 56530420,
      "child": "C/T",
      "father": "C/C",
      "mother": "C/C",
@@ -314,6 +350,7 @@
     },
     {
      "position": 58332214,
+     "end": 58332215,
      "child": "C/G",
      "father": "C/C",
      "mother": "C/C",
@@ -321,6 +358,7 @@
     },
     {
      "position": 58332289,
+     "end": 58332289,
      "child": "T/G",
      "father": "T/T",
      "mother": "T/T",
@@ -328,6 +366,7 @@
     },
     {
      "position": 58332296,
+     "end": 58332296,
      "child": "T/A",
      "father": "T/T",
      "mother": "T/T",
@@ -335,6 +374,7 @@
     },
     {
      "position": 62079714,
+     "end": 62079714,
      "child": "A/-",
      "father": "A/A",
      "mother": "A/A",
