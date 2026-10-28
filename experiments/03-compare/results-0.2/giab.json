@@ -1,0 +1,25 @@
+{
+ "pair": {
+  "seconds": 2.6,
+  "stretches": 84,
+  "agreement": {
+   "gpxil same, vcf same": 82,
+   "gpxil different, vcf different": 2
+  }
+ },
+ "trio": {
+  "seconds": 2.3,
+  "gpxil_errors": 22,
+  "gpxil_new": 22,
+  "errors_inside_all_beds": 22,
+  "records": {
+   "consistent": 129035,
+   "not one record each (overlapping or written differently)": 1541,
+   "inconsistent": 23
+  },
+  "record_errors": 23,
+  "both_ways": 22,
+  "only_gpxil": [],
+  "only_records": []
+ }
+}

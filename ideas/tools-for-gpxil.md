@@ -23,11 +23,15 @@ Each is small enough to try here first, in `packages/` or `experiments/`.
   counted; in the studio's Tools tab and under the Viewer's key).
 - **gpxiltools 0.5.0**: `gpxil compare`, two genomes base by base, or a child
   with both parents (experiment 03).
+- **gpxil 0.2 and gpxiltools 0.6.0**: unphased calls that overlap go one to
+  each haplotype (experiment 03); and one JavaScript reader,
+  [`js/gpxil-read.js`](https://github.com/comparativechrono/Gpxil-tools/tree/main/js),
+  which the Gpxil browser and GpxilStudio share.
 
 ## 1-3. Done: `gpxil subset`, `gpxil stats`, `gpxil compare`
 
 In gpxiltools 0.4 and 0.5, and the studio. What they showed the specification
-needs, for version 0.2:
+needs:
 
 - **A region as a working copy** (TP53 and 100 kb either side): a contig that
   is a window of a reference sequence, for example
@@ -35,11 +39,10 @@ needs, for version 0.2:
   digests being those of the window's sequence. It would let the studio keep
   small files of the regions people work on, and let the Viewer save what it
   shows as gpxil.
-- **Overlapping unphased calls** (experiment 03): two heterozygous calls that
-  overlap can't be on one haplotype, but spec 0.1 applies both as written, to
-  haplotype 2, and joins them. Like the rule that moves an unphased `*`
-  allele to the haplotype with the deletion, the second could go to
-  haplotype 1 where that is free.
+- **Overlapping unphased calls** (experiment 03): done in version 0.2. Two
+  heterozygous calls that overlap can't be on one haplotype, but spec 0.1
+  applied both as written, to haplotype 2, and joined them; 0.2 puts each
+  allele on a haplotype it fits.
 
 ## 4. Genes in the Viewer
 
@@ -55,12 +58,12 @@ colour class in bins (`gpxiltools.render.class_counts` does it), written into
 the file as the specification's planned *overview pyramids*, or beside it. The
 Viewer could then open any chromosome whole, at once, and zoom in.
 
-## 6. One JavaScript reader
+## 6. Done: one JavaScript reader
 
-The studio's `gpxil-read.js` and the Gpxil browser's reader do the same thing.
-One reader, shared by the two (not published on npm), tested against
-gpxiltools' files as pxil.py is, to come with the work on version 0.2 of the
-specification.
+The studio's `gpxil-read.js` and the Gpxil browser's reader did the same
+thing. Now one reader, `js/gpxil-read.js` in gpxiltools, tested there
+against the files gpxiltools writes; each site keeps a copy at a recorded
+commit (not published on npm).
 
 ## 7. Proteins side by side
 

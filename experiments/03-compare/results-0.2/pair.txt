@@ -1,0 +1,17 @@
+A HG002_chr17.gpxil.tif (HG002), B HG002_chr17_v5.0q.noref.gpxil.tif (HG002) · GRCh38
+
+chr17:1-83,257,441 · 83,257,441 bases
+  called          in both 69,701,707 (83.72 %) · in A only 2,601,502 · in B only 3,712,114 · in neither 7,242,118
+  variant bases   113,164 called in both with a variant in either
+                  the same 113,160 (> 99.99 %), of them written differently 413
+                  only in A 4 · only in B 0 · another genotype 0
+                  at 21,290,549-21,290,567: A C/T, B C/C
+                  at 21,290,701-21,290,712: A A/G, B A/A
+  substitutions   A 89,648: found in B 81,934 · not in B 4 · another genotype 0
+                  B 120,574: found in A 82,042 · not in A 0 · another genotype 0
+                  precision > 99.99 % · recall 100.00 % · F1 > 99.99 % (B as the truth)
+                  not compared, where the other file didn't call: A 7,710 · B 38,532
+  indels          A 18,702: found in B 15,696 · not in B 0 · another genotype 0
+                  B 34,439: found in A 15,611 · not in A 0 · another genotype 0
+                  precision 100.00 % · recall 100.00 % · F1 100.00 % (B as the truth)
+                  not compared, where the other file didn't call: A 3,006 · B 18,828
