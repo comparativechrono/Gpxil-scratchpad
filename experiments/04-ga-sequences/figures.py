@@ -37,7 +37,7 @@ def main() -> None:
     gn = load("gnomad.json")
     if gn:
         u = gn["unit_copy"]
-        for g, label in (("singleton", "singletons"), ("rare", "AF < 0.1 %"), ("uncommon", "AF 0.1-1 %"), ("common", "AF ≥ 1 %")):
+        for g, label in (("singleton", "singletons"), ("rare", "AC ≥ 2, AF < 0.1 %"), ("uncommon", "AF 0.1-1 %"), ("common", "AF ≥ 1 %")):
             x = u[g]
             rows.append((f"gnomAD, {label} ({x['ti']:,})", u["expected_share"], None, x["share"], x["ti"]))
     fig, ax = plt.subplots(figsize=(8.2, 0.42 * len(rows) + 1.5), dpi=150)

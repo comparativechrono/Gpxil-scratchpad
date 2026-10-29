@@ -5,7 +5,7 @@
 - else the repeat class it overlaps most (a simple repeat, low complexity, an L1, an SVA ...), or none.
 
 The share of Alu tails among GA-sequences that start with a poly(A) of each length (stack.py's poly_a, as in his
-image). Then, for Alu elements of each subfamily and of each divergence from their consensus (milliDiv, per thousand:
+image), and Alu elements a megabase of each autosome beside its GA-sequences a megabase (census.py's). Then, for Alu elements of each subfamily and of each divergence from their consensus (milliDiv, per thousand:
 an age), the share that end in a pure GA-sequence, and what such tails are made of (A, and G, and their longest run of
 A), and images: the tails sorted by the Alu's divergence, youngest at the top, and 150 of each of three ages.
 
@@ -17,6 +17,7 @@ python -I from a directory other than the download's.
 """
 
 import gzip
+import json
 import os
 import sys
 
@@ -164,8 +165,20 @@ def main(ref_dir: str, rmsk_path: str) -> None:
         sel = [x for x in rows if lo <= x["poly_a"] < hi]
         t = sum(x["origin"] == "Alu tail" for x in sel)
         by_poly_a[label] = {"ga_sequences": len(sel), "alu_tails": t, "share": round(t / max(len(sel), 1), 4)}
+    # Alu elements a megabase (of A/C/G/T bases) of each autosome, beside its pure GA/TC-sequences a megabase
+    from scipy.stats import spearmanr
+
+    with open(os.path.join(ga.RESULTS, "census.json")) as fh:
+        census = json.load(fh)
+    acgt = {c["chrom"]: c["acgt"] for c in census["chromosomes"]}
+    ga_per_mb = census["summary"]["per_mb"]
+    alu_per_mb = {ch: round(1e6 * int((rm[ch]["fam"] == alu_fam).sum()) / acgt[ch], 1) for ch in ga.AUTOSOMES}
+    rho = spearmanr([alu_per_mb[ch] for ch in ga.AUTOSOMES], [ga_per_mb[ch] for ch in ga.AUTOSOMES])
+    density = {"alu_per_mb": alu_per_mb, "ga_per_mb": {ch: ga_per_mb[ch] for ch in ga.AUTOSOMES},
+               "spearman_rho": round(float(rho.statistic), 3), "p": float(rho.pvalue)}
     out = {"ga_sequences": len(rows), "origins": dict(sorted(origins.items(), key=lambda kv: -kv[1])),
-           "alu_tails_by_poly_a": by_poly_a, "alu_tails_by_class": by_class, "alu_tails_by_divergence": by_div}
+           "alu_tails_by_poly_a": by_poly_a, "alu_tails_by_class": by_class, "alu_tails_by_divergence": by_div,
+           "density_by_autosome": density}
     ga.write_json("alu.json", out)
     with gzip.open(os.path.join(ga.RESULTS, "ga-sequences.origin.tsv.gz"), "wt") as fh:
         cols = ["chrom", "start", "end", "kind", "length", "a_fraction", "longest_a", "poly_a", "origin", "alu", "alu_class", "alu_div",
@@ -175,6 +188,7 @@ def main(ref_dir: str, rmsk_path: str) -> None:
             fh.write("\t".join(str(x.get(c, "")) for c in cols) + "\n")
     print(out["origins"])
     print("Alu tails by poly(A):", by_poly_a)
+    print("Alu elements and GA-sequences a megabase, by autosome:", density)
     for cl, v in by_class.items():
         print(cl, v)
     for v in by_div:

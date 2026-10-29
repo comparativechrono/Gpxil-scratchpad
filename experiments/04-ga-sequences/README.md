@@ -24,30 +24,33 @@ said of where they come from and how they change?
    strand: as many, as Chargaff's second rule expects). Half are 73 bases or
    less; the longest is 1,303 ("up to 1300", he wrote); 0.3 % are runs of one
    base. chr1 has 1,766 (his count, on an older assembly: 1,667).
-2. **Most are the tails of Alu elements, or repeats that began as such.**
-   37 % start where an Alu element ends, on the same strand; a third are
-   simple repeats, a fifth low-complexity sequence. Of those that start with a
-   poly(A) of 15 or more, 71 % are Alu tails: not all, as he said, but most.
-   **And they get older as Alu elements age.** The older the Alu (the more it
-   has diverged from its consensus), the more often its tail is a pure
-   GA-sequence (from 4 per 1,000 Alu elements diverged less than 2 %, to 24
-   per 1,000 of those diverged 20 to 26 %), and the less of the tail is A: the
-   youngest tails are 91 % A, in runs of 49; the oldest, 55 to 60 %, in runs of
-   5. Poly(A) tails turn into GA-repeats with time, as
+2. **Many began as the poly(A) tails of Alu elements.** 37 % start where an
+   Alu element ends, on the same strand; a third are simple repeats, a fifth
+   low-complexity sequence. Of those that start with a poly(A) of 15 or more,
+   the ones whose upstream flanks he saw line up, 71 % are Alu tails. **And
+   they get older as Alu elements age.** The older the Alu (the more it has
+   diverged from its consensus), the more often its tail is a pure GA-sequence
+   (from 4 per 1,000 Alu elements diverged less than 2 %, to 24 per 1,000 of
+   those diverged 20 to 26 %), and the less of the tail is A: the youngest
+   tails are 91 % A, in runs of 49; the oldest, 55 to 59 %, in runs of 5.
+   Poly(A) tails turn into GA-repeats with time, as
    [figures/alu_tails_three_ages.png](figures/alu_tails_three_ages.png) shows.
 3. **They don't have many times fewer point mutations.** He counted the
    substitutions that would break a GA-sequence: the transversions, A or G to
-   C or T. New mutations, the singletons among gnomAD's 76,215 genomes, occur
-   in GA-sequences at the rate their trinucleotide contexts predict (1.00
-   times; transversions 0.96 times), and HG002's isolated substitutions at 0.9
-   to 1.1 times (in GIAB's v4.2.1 and v5.0q benchmarks). With no CpG in them,
-   the most mutable pairs, a GA-sequence has fewer substitutions per base than
-   the genome on average, and that is all. Commoner variants lean towards
-   transitions, which keep a GA-sequence pure: HG002's isolated transitions run
-   at 1.1 to 1.6 times what their contexts predict, its transversions at about
-   half (0.44 to 0.58 times). What GA-sequences have is **19 to 24 times as
-   many insertions and deletions** as the rest of HG002's genome (in gnomAD,
-   28 times as many indel alleles a base), as microsatellites do.
+   C or T. The newest variants, the singletons among gnomAD's 76,215 genomes, occur
+   in GA-sequences at about the rate their trinucleotide contexts predict
+   (1.00 times, transversions 0.96 times; about 1.2 times per genome called,
+   as gnomAD calls 80 % of its genomes there against 99 % elsewhere), and
+   HG002's isolated substitutions at 0.9 to 1.1 times (in GIAB's v4.2.1 and
+   v5.0q benchmarks). With no CpG in them, the most mutable pairs, their
+   contexts predict fewer substitutions per base than the genome's average,
+   and they have about what their contexts predict. Commoner variants lean
+   towards transitions, which keep a GA-sequence pure: HG002's isolated
+   transitions run at 1.1 to 1.6 times what their contexts predict, its
+   transversions at about half (0.44 to 0.58 times). What GA-sequences have is
+   **19 to 24 times as many insertions and deletions** as HG002's genome at
+   large (in gnomAD, 28 times as many indel alleles a base), as
+   microsatellites do.
 4. **Their substitutions copy their neighbours, the more so the commoner they
    are.** Inside them, substitutions are transitions (A↔G) far more than
    elsewhere: 80 % (v4.2.1) and 88 % (v5.0q) of HG002's, against 68 % and 67 %
@@ -56,28 +59,29 @@ said of where they come from and how they change?
    more often than chance: 80 % of HG002's (v4.2.1), where 59 % of the bases
    would (p = 4 × 10⁻⁵³); 79 % of isolated ones. Weighting each base by the
    rate of transitions in its 7-base context changes the expectation to 60 %;
-   taking the 6-base words of another GA-sequence of the same length instead
-   removes the excess (50 %, against 49 %): it is the sequence's own units
-   that are copied. v5.0q, which holds twice as many GA-sequence bases, gives
-   82 % of 2,169 isolated transitions. In gnomAD, the commoner a transition,
-   the more often it copies a unit: 63 % of singletons, 71 % of variants rarer
-   than 0.1 %, 79 % of those to 1 % and 84 % of commoner ones, where 59 % of
-   the bases would (p < 10⁻¹⁹⁷ each); at the sites called in 90 % of its
-   genomes or more, 64 % to 77 %.
+   taking the 6-base words of another GA-sequence of nearly the same length
+   instead removes the excess (50 %, against 49 %). v5.0q, which holds twice
+   as many GA-sequence bases, gives 82 % of 2,169 isolated transitions, and
+   61 % with another GA-sequence's words, against 51 %: it is mostly the
+   sequence's own units that are copied. In gnomAD, the commoner a transition,
+   the more often it copies a unit: 63 % of singletons, 71 % of other variants
+   rarer than 0.1 %, 79 % of those to 1 % and 84 % of commoner ones, where
+   59 % of the bases would (p < 10⁻¹⁹⁷ each); at the sites called in 90 % of
+   its genomes or more, 64 % to 77 %.
 
 **What it means.** Pure GA-sequences look like microsatellites that start as
 the poly(A) tails of Alu elements and change by copying their own units, the
-way repeats change by slippage and gene conversion, rather than like
-protected signposts. New point mutations reach them at the usual rate; the
-substitutions that become common are mostly transitions that copy a
-neighbouring unit, whether because such a change recurs, templated by its
-neighbour, or because it is favoured. Albrecht-Buehler himself, the same
-year, measured point mutations as the differences between consecutive
-periods of repeats, and proposed "auto-mutagenic mechanisms" involving "the
+way repeats change by slippage and gene conversion, rather than like protected
+signposts. New point mutations seem to reach them at about the usual rate; the
+substitutions that become common are mostly transitions, and most of those
+copy a neighbouring unit, whether because such a change recurs, templated by
+its neighbour, or because it is favoured. Albrecht-Buehler himself, the same
+year, measured point mutations as the differences between consecutive periods
+of repeats, and proposed "auto-mutagenic mechanisms" involving "the
 inter-conversions of nucleotides"
-([BioEssays 2009](https://doi.org/10.1002/bies.080081)). In his
-GA-sequences, people's variants show such changes, and that each takes its
-pattern from a neighbouring unit.
+([BioEssays 2009](https://doi.org/10.1002/bies.080081)). In his GA-sequences,
+people's variants show such changes, and that their transitions take their
+pattern from a neighbouring unit far more often than chance would have it.
 
 ## How it was done
 
@@ -85,7 +89,8 @@ The genomes were read from gpxil files: GRCh38 from the
 [Gpxil browser](https://comparativechrono.github.io/Gpxil-browser/)'s
 per-chromosome files, and HG002's two GIAB benchmarks (v4.2.1, and the
 assembly-based v5.0q), encoded with gpxiltools 0.7 one autosome at a time,
-without the reference plane (29 MB for v4.2.1's 22 files). Each base's
+without the reference plane (30 MB for v4.2.1's 22 files, 38 MB for
+v5.0q's). Each base's
 planes are arrays aligned to the reference, so a question about every pure
 GA-sequence is a few lines of NumPy over its offsets. The repeats are
 UCSC's RepeatMasker table for hg38; gnomAD's variants were read from its
@@ -123,7 +128,8 @@ TC-sequence is read on its purine strand, reverse-complemented.
 
 4.2 Mb in all: among the autosomes, from 12 a megabase on chr13 to 31 on
 chr19 (17 on chrX, 34 on chrY's sequenced bases). The densest chromosomes are
-the richest in Alu elements.
+the richest in Alu elements: Spearman's ρ = 0.80 over the autosomes (chr19,
+992 Alu elements a megabase; chr13, 296).
 
 ### Where they come from
 
@@ -160,7 +166,8 @@ their strand (44 to 55 %). RepeatMasker says more of them are Alu tails:
 
 By divergence from the consensus, in steps of 2 %: 4.2, 5.5, 5.6, 6.0, 9.2,
 12.7, 16.1, 17.6, 19.2, 20.8, 23.6, 24.4 and 24.6 tails per 1,000 Alu elements
-from 0 to 26 %, while the tails' A falls from 91 % to 55 %:
+from 0 to 26 %, while the tails' A falls from 91 % to 55 % (the steps with
+1,000 Alu elements or more; the 1,247 older ones have 34 tails):
 
 ![Alu tails by the Alu's age](figures/alu_clock.png)
 
@@ -203,20 +210,21 @@ drawn held an N). Expected counts come from the windows' rate of each
 substitution in each trinucleotide context, in the same allele-frequency
 class.
 
-| | singletons | AF < 0.1 % | AF 0.1 to 1 % | AF ≥ 1 % |
+| | singletons | AC ≥ 2, AF < 0.1 % | AF 0.1 to 1 % | AF ≥ 1 % |
 |---|---|---|---|---|
 | substitutions inside | 340,811 | 341,711 | 59,580 | 59,706 |
 | … against their contexts | 1.00 × | 1.43 × | 4.31 × | 4.83 × |
-| … transitions, transversions | 1.04 ×, 0.96 × | 1.74 ×, 1.03 × | 6.00 ×, 2.08 × | 6.78 ×, 2.06 × |
+| … transitions, transversions | 1.03 ×, 0.96 × | 1.74 ×, 1.03 × | 6.00 ×, 2.08 × | 6.78 ×, 2.06 × |
 | transitions inside (windows) | 56 % (59 %) | 69 % (66 %) | 79 % (67 %) | 82 % (66 %) |
 | indel alleles a base, inside against the windows | 22 × | 30 × | 54 × | 35 × |
 | genomes called at the substitutions, inside (windows) | 80 % (99 %) | 77 % (99 %) | 54 % (98 %) | 48 % (97 %) |
 
 All together: 801,808 substitutions, 1.32 times what their contexts
 predict, and 2,716,730 indel alleles, 702 a kilobase against 25 in the
-windows. New mutations, the singletons, come at the rate their contexts
-predict, transitions and transversions alike (a little more per genome, as
-fewer genomes are called inside). The commoner classes hold four to five
+windows. The newest variants, the singletons, come at the rate their contexts
+predict, transitions and transversions alike; about 1.2 times that per
+genome called, if singletons go with the number of genomes called (80 %
+inside, 99 % in the windows). The commoner classes hold four to five
 times as many substitutions as their contexts predict, most of them
 transitions, at sites that gnomAD calls in only half its genomes: as in
 v5.0q, haplotypes whose units differ, and calls that are hard to make from
@@ -261,15 +269,17 @@ surest:
 | gnomAD v4.1 | transitions | copying a 6-base unit | at sites called in 90 % of genomes: transitions | copying |
 |---|---|---|---|---|
 | singletons | 181,686 | 63 % | 107,369 | 64 % |
-| AF < 0.1 % | 225,883 | 71 % | 105,756 | 69 % |
+| AC ≥ 2, AF < 0.1 % | 225,883 | 71 % | 105,756 | 69 % |
 | AF 0.1 to 1 % | 46,122 | 79 % | 8,244 | 75 % |
 | AF ≥ 1 % | 48,236 | 84 % | 6,286 | 77 % |
-| expected from the bases | | 59 % | | 59 % |
+| expected from the bases | | 59 % | | |
 
-At the best-called sites the rise is gentler, so part of it may come from
-calls that are hard to make; but every class copies more than chance, and
-HG002's isolated transitions in v5.0q, at 82 %, sit with gnomAD's commoner
-ones.
+The expectation is over all the GA-sequences' bases; it can't be had for
+the well-called sites alone, as gnomAD gives the number of genomes called
+only where there is a variant. At the best-called sites the rise is gentler,
+so part of it may come from calls that are hard to make; but every class
+copies more than chance would, and HG002's isolated transitions in v5.0q, at
+82 %, sit with gnomAD's commoner ones.
 
 ## Caveats
 
@@ -289,7 +299,8 @@ ones.
   find repeats hard. De novo mutations, in deep pedigrees, would say how often
   they arise.
 - "Alu tail" means an Alu's 3' end within 30 bases of the GA-sequence's
-  start; a degenerate tail further away is counted as a simple repeat.
+  start; a degenerate tail further away is counted under the repeat class
+  that covers at least half of the GA-sequence, or as none.
 
 ## Reproducing
 

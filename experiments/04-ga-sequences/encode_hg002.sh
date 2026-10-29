@@ -6,7 +6,7 @@
 #
 # DATA holds giab/ (v4.2.1: HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz and _noinconsistent.bed) and giab5/ (v5.0q:
 # HG002_GRCh38_v5.0q_smvar.vcf.gz and .benchmark.bed), from GIAB's releases; writes OUT/v4.2.1/ and OUT/v5.0q/.
-# About 30 s a chromosome; 29 MB for v4.2.1's 22 files.
+# About 30 s a chromosome; 30 MB for v4.2.1's 22 files, 38 MB for v5.0q's.
 set -u
 DATA=$1 REF=$2 OUT=$3
 encode() {  # name vcf bed
