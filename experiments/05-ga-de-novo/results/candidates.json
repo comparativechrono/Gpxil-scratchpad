@@ -1,0 +1,134 @@
+{
+ "vcf": "CEPH1463.GRCh38.deepvariant.glnexus.oa.vcf.gz",
+ "records": 10429393,
+ "candidates": 3185,
+ "filters": {
+  "min_gq": 20,
+  "min_dp": 10,
+  "min_child_allele_fraction": 0.25,
+  "parent_alt_reads": 0,
+  "max_dp_factor": 2.5
+ },
+ "median_depths": {
+  "200080": 33.0,
+  "200082": 37.0,
+  "200084": 46.0,
+  "200085": 41.0,
+  "200086": 33.0,
+  "200087": 33.0,
+  "200100": 42.0,
+  "200101": 44.0,
+  "200102": 44.0,
+  "200104": 36.0,
+  "200106": 33.0,
+  "NA12877": 86.0,
+  "NA12878": 87.0,
+  "NA12885": 72.0,
+  "NA12881": 34.0,
+  "NA12879": 31.0,
+  "NA12886": 28.0,
+  "NA12882": 42.0,
+  "NA12892": 50.0,
+  "NA12891": 40.0,
+  "NA12890": 40.0,
+  "NA12889": 60.0
+ },
+ "by_child": {
+  "NA12886": {
+   "SNV": 91,
+   "MNV": 0,
+   "insertion": 84,
+   "deletion": 27
+  },
+  "NA12881": {
+   "SNV": 91,
+   "MNV": 0,
+   "insertion": 64,
+   "deletion": 27
+  },
+  "NA12879": {
+   "SNV": 80,
+   "MNV": 1,
+   "insertion": 118,
+   "deletion": 36
+  },
+  "200082": {
+   "SNV": 74,
+   "MNV": 2,
+   "insertion": 72,
+   "deletion": 24
+  },
+  "200085": {
+   "SNV": 86,
+   "MNV": 0,
+   "insertion": 67,
+   "deletion": 22
+  },
+  "200086": {
+   "SNV": 67,
+   "MNV": 1,
+   "insertion": 75,
+   "deletion": 17
+  },
+  "200087": {
+   "SNV": 85,
+   "MNV": 0,
+   "insertion": 62,
+   "deletion": 23
+  },
+  "NA12885": {
+   "SNV": 90,
+   "MNV": 0,
+   "insertion": 186,
+   "deletion": 23
+  },
+  "NA12878": {
+   "SNV": 93,
+   "MNV": 2,
+   "insertion": 182,
+   "deletion": 31
+  },
+  "200102": {
+   "SNV": 67,
+   "MNV": 0,
+   "insertion": 46,
+   "deletion": 14
+  },
+  "200101": {
+   "SNV": 74,
+   "MNV": 0,
+   "insertion": 51,
+   "deletion": 13
+  },
+  "200104": {
+   "SNV": 77,
+   "MNV": 0,
+   "insertion": 50,
+   "deletion": 19
+  },
+  "NA12877": {
+   "SNV": 79,
+   "MNV": 3,
+   "insertion": 247,
+   "deletion": 44
+  },
+  "200106": {
+   "SNV": 111,
+   "MNV": 0,
+   "insertion": 59,
+   "deletion": 19
+  },
+  "200084": {
+   "SNV": 60,
+   "MNV": 0,
+   "insertion": 69,
+   "deletion": 22
+  },
+  "NA12882": {
+   "SNV": 65,
+   "MNV": 0,
+   "insertion": 76,
+   "deletion": 17
+  }
+ }
+}

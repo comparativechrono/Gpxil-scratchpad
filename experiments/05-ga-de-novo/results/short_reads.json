@@ -1,0 +1,37 @@
+{
+ "genome_bases": 2756331041,
+ "inside_bases": 3869600,
+ "flank_bases": 27467561,
+ "sets": {
+  "second_gen": {
+   "autosomal": 4542,
+   "lifted": 4533,
+   "inside": 0,
+   "inside_kinds": {},
+   "expected_inside": 6.4,
+   "flanks": 45,
+   "expected_flanks": 45.2
+  },
+  "third_gen": {
+   "autosomal": 24183,
+   "lifted": 24101,
+   "inside": 5,
+   "inside_kinds": {
+    "indel": 3,
+    "C>A": 1,
+    "C>T": 1
+   },
+   "expected_inside": 33.8,
+   "flanks": 252,
+   "expected_flanks": 240.2
+  }
+ },
+ "total": {
+  "autosomal": 28725,
+  "lifted": 28634,
+  "inside": 5,
+  "flanks": 297,
+  "expected_inside": 40.2,
+  "expected_flanks": 285.3
+ }
+}
