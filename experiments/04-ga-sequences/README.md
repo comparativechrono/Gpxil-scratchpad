@@ -73,7 +73,7 @@ said of where they come from and how they change?
    6-base window fixed. Against the same substitution where it would not
    copy, gnomAD's singletons in GA-sequences copy hardly more often (rate
    ratio 1.02; 1.01 to 1.03). The excess grows among commoner alleles, from
-   1.25 to 1.97 times. New mutations in repeats hardly copy beyond their
+   1.24 to 1.97 times. New mutations in repeats hardly copy beyond their
    context either: those that do are mostly alleles gnomAD already has. The
    copying belongs mostly to alleles seen more than once.
 

@@ -58,7 +58,7 @@ the Platinum TRs catalogue, and then to gnomAD's singletons.
    | gnomAD singletons (minor alleles) | Count | Rate ratio (95 %) |
    |---|---|---|
    | pure GA-sequences | 204,518 | 1.02 (1.01 to 1.03) |
-   | 20,000 other tandem repeats (purity 0.6 or more) | 54,853 | 1.25 (1.22 to 1.30) |
+   | 20,000 other tandem repeats (purity 0.6 or more) | 54,853 | 1.26 (1.22 to 1.29) |
 
    - **The ratio rises with the allele's frequency** in both sets, to 1.97 and 2.39 for
      alleles of 1 % or more ([figures/copying.png](figures/copying.png)).
@@ -72,7 +72,7 @@ seen more than once:
 New mutations at large copy little. Where gnomAD has not seen the allele,
 the families' new substitutions show no excess (0.85; 0.55 to 1.31), an
 interval that cannot rule out the small excess of gnomAD's singletons
-(1.02 to 1.25 times what their context predicts).
+(1.02 to 1.26 times what their context predicts).
 
 The substitutions that do copy are about three times as likely as the others
 to be alleles gnomAD already has (82 % against 27 %). For the most reliable
@@ -199,8 +199,8 @@ unit):
 
 | Allele count | GA-sequences: alleles | rate ratio (95 %) | 20,000 other repeats: alleles | rate ratio (95 %) |
 |---|---|---|---|---|
-| one genome | 204,518 | 1.02 (1.01 to 1.03) | 54,853 | 1.25 (1.22 to 1.30) |
-| more, under 0.1 % | 176,821 | 1.25 (1.23 to 1.26) | 47,589 | 1.58 (1.53 to 1.63) |
+| one genome | 204,518 | 1.02 (1.01 to 1.03) | 54,853 | 1.26 (1.22 to 1.29) |
+| more, under 0.1 % | 176,821 | 1.24 (1.23 to 1.26) | 47,589 | 1.58 (1.53 to 1.63) |
 | 0.1 to 1 % | 19,124 | 1.67 (1.60 to 1.74) | 3,760 | 2.31 (2.08 to 2.56) |
 | 1 % or more | 13,561 | 1.97 (1.86 to 2.07) | 2,714 | 2.39 (2.11 to 2.70) |
 
