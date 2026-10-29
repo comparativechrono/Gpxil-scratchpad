@@ -1,0 +1,34 @@
+107 events in GA-sequences, 150 controls [20s]
+NA12892: 121 windows [288s]
+NA12886: 195 windows [298s]
+NA12889: 125 windows [321s]
+NA12879: 222 windows [381s]
+NA12891: 121 windows [519s]
+NA12890: 125 windows [532s]
+NA12882: 160 windows [648s]
+NA12881: 160 windows [816s]
+NA12885: 160 windows [841s]
+NA12878: 218 windows [882s]
+200080: 62 windows [916s]
+200084: 81 windows [1013s]
+200087: 81 windows [1029s]
+200086: 81 windows [1053s]
+200106: 52 windows [1140s]
+200082: 81 windows [1186s]
+200085: 81 windows [1195s]
+200101: 52 windows [1237s]
+200100: 35 windows [1263s]
+200104: 52 windows [1278s]
+NA12877: 222 windows [1288s]
+200102: 52 windows [1311s]
+('GA', 'confirmed') 34
+('GA', 'confirmed, other allele unclear') 10
+('GA', 'in a parent') 36
+('GA', 'low in a parent') 35
+('GA', 'too few reads') 1
+('GA', 'two new alleles') 1
+('control', 'confirmed') 56
+('control', 'confirmed, other allele unclear') 1
+('control', 'in a parent') 82
+('control', 'low in a parent') 16
+('control', 'too few reads') 7
