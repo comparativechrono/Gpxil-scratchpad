@@ -19,13 +19,13 @@ they mutate faster than the others?
    D18S51 (AluJb, 29 bases away), D19S433 (AluJr4, 1), Penta D (AluJb, 3),
    D3S1358 (AluJr, 0) and Penta E (AluSx1, 28). This is the rule experiment 04
    used for Alu tails. Two more lie within 100 bases of one: D17S1301
-   (AluSx1, 46) and SE33 (AluSq2, 70). RepeatMasker's (CTTT)n at SE33 runs
+   (AluSx1, 46) and SE33 (AluSq2, 70). RepeatMasker's (TCTT)n at SE33 runs
    up to the AluSq2's 3′ end; its run of whole units starts 70 bases in.
-3. **The GA-sequence markers do not mutate faster.** In Liu et al. 2021
+3. **There is no sign that the GA-sequence markers mutate faster.** In Liu et al. 2021
    (28,313 paternity cases, 19 loci), the five GA-sequence markers among
    the 19 average 2.5 mutations per 1,000 transmissions and the other 14
    average 2.1 (Mann-Whitney p = 0.89). FGA is the most mutable of the 19,
-   but D2S1338 and Penta D are among the least. Measured on the reference,
+   but Penta D is third from the bottom. Measured on the reference,
    neither the longest uninterrupted run of units (Spearman ρ = 0.20,
    p = 0.41) nor the array's length (ρ = 0.18, p = 0.47) ranks the 19 rates.
 
@@ -33,9 +33,10 @@ they mutate faster than the others?
 the markers are pure GA-sequences, and five come from Alu tails, as
 Arcot et al. (1995) found for microsatellites generally. The markers were
 chosen for their many alleles, which long, pure repeats have. So it fits
-experiment 06 that GA-sequence markers mutate no faster than the other
-markers. Among repeats picked for being polymorphic, being a GA-sequence
-adds nothing. One reference allele does not predict a marker's
+experiment 06 that the GA-sequence markers show no sign of mutating faster
+than the others, though five markers against fourteen can only show a large
+difference. Among repeats picked for being polymorphic, being a GA-sequence
+adds nothing that can be seen here. One reference allele does not predict a marker's
 mutation rate. Penta E's reference allele has 5 units, for example,
 while lusSTR lists its alleles from 5 to 25.
 
@@ -59,7 +60,7 @@ while lusSTR lists its alleles from 5 to 25.
   strand. The search reads the reference plane of the Gpxil browser's
   GRCh38 gpxil files and hashes every 24-base word. A marker whose window lands on another
   chromosome than its name's is left unplaced. Only D9S1122 was left
-  unplaced: its test allele's one unique window fell on chromosome 16.
+  unplaced: the first window of its test allele found once fell on chromosome 16.
 - **The repeat.** In the placed span, plus 20 bases each side, the repeat is the
   longest array of whole units of the marker's motif. Any rotation of the motif counts, on one strand, with
   gaps of up to a unit. The longest uninterrupted run of units (LUS) is

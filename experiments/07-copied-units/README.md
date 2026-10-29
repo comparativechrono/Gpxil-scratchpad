@@ -19,15 +19,15 @@ the Platinum TRs catalogue, and then to gnomAD's singletons.
    that the repeat already holds elsewhere. The rates of their trinucleotide
    contexts predict 95.7 (1.65 times; z = 7.9), and their 5-base contexts
    98.2.
-   - **With the context held fixed, the effect is larger.** Take the same 6-base
+   - **With the context held fixed, the effect holds.** Take the same 6-base
      window and new base, in loci of the same purity, length and unit size.
      The substitution is 2.4 times as frequent where it would copy as where it
      would not (rate ratio 2.42, 95 % interval 1.92 to 3.06). This holds with
      finer strata of locus (2.46) and without low-complexity regions (2.53). It
      holds outside clusters of new mutations, at allele balances of 0.45 or
      more, and in both of Sasani et al.'s generations.
-   - **Where it is absent.** There is none in loci of fewer than three units (1.09; 0.65
-     to 1.82).
+   - **Where it does not show.** No excess shows in loci of fewer than three
+     units (1.09; 0.65 to 1.82).
    - **Interruptions are put right.** New substitutions move toward the repeat's
      consensus unit 1.70 times as often as expected, and 4.5 to 6.7 times in
      the purest loci.
@@ -41,8 +41,8 @@ the Platinum TRs catalogue, and then to gnomAD's singletons.
    | random sample outside repeats | 919 of 3,000 | 31 % |
 
    57 of the 129 are at sites that fail gnomAD's filters. The 449 whose
-   alleles gnomAD lacks copy no more than chance: 29 where their contexts
-   predict 38.8 (0.75 times). At a fixed context the rate ratio is 0.85 (0.55
+   alleles gnomAD lacks show no excess: 29 copy where their contexts predict
+   38.8 (0.75 times). At a fixed context the rate ratio is 0.85 (0.55
    to 1.31), against 4.69 (3.45 to 6.36) for the 288 already there.
    - **The most reliable calls look the same.** These are Sasani et al.'s
      second generation (all 103 of the CEPH 1463 family's are among the
@@ -51,39 +51,40 @@ the Platinum TRs catalogue, and then to gnomAD's singletons.
      The non-copying ones are in gnomAD at 19 of 76 and 8 of 27. The
      copying alleles are mostly rare there (allele counts of 1 to 96, with
      two at 2.5 and 3.8 %).
-3. **gnomAD's singletons hardly copy.** A singleton, an allele seen in one
+3. **gnomAD's singletons copy little.** A singleton, an allele seen in one
    genome, is the nearest a population comes to a new mutation. At a fixed
-   context:
+   context, far below the 2.4 of the families' new substitutions:
 
-   | gnomAD singletons | Count | Rate ratio (95 %) |
+   | gnomAD singletons (minor alleles) | Count | Rate ratio (95 %) |
    |---|---|---|
-   | pure GA-sequences | 204,534 | 1.02 (1.01 to 1.03) |
-   | 20,000 other tandem repeats (purity 0.6 or more) | 54,854 | 1.25 (1.22 to 1.30) |
+   | pure GA-sequences | 204,518 | 1.02 (1.01 to 1.03) |
+   | 20,000 other tandem repeats (purity 0.6 or more) | 54,853 | 1.25 (1.22 to 1.30) |
 
    - **The ratio rises with the allele's frequency** in both sets, to 1.97 and 2.39 for
      alleles of 1 % or more ([figures/copying.png](figures/copying.png)).
 
-**What it means.** The copying is a property of particular alleles, those
-that are seen more than once. It is not a property of new mutations at
-large. Two kinds of allele carry it:
+**What it means.** The strong copying belongs to particular alleles, those
+seen more than once:
 
 - alleles that recur or rise in frequency;
 - alleles called at sites where calling goes wrong.
 
-New substitutions at places where gnomAD has not seen the allele copy no
-more than their context predicts. gnomAD's singletons copy little or not at all.
+New mutations at large copy little. Where gnomAD has not seen the allele,
+the families' new substitutions show no excess (0.85; 0.55 to 1.31), an
+interval that cannot rule out the small excess of gnomAD's singletons
+(1.02 to 1.25 times what their context predicts).
 
-The substitutions that do copy are four times as likely as the others to
-be alleles already segregating. For the most reliable calls, rare alleles
-already in gnomAD point to sites that mutate the same way again and again.
-For the rest they could equally be inherited variants that a parent's
-genotype missed, or errors; these data cannot tell which.
+The substitutions that do copy are about three times as likely as the others
+to be alleles gnomAD already has (82 % against 27 %). For the most reliable
+calls, rare alleles already in gnomAD point to sites that mutate the same way
+again and again. For the rest they could equally be inherited variants that
+a parent's genotype missed, or errors; these data cannot tell which.
 
-So experiment 04's pattern stands as a pattern of population variants. It
-is not evidence that repeats mutate by copying their own units. What it
-does say is that a test against context alone, which the de novo data first
-seemed to pass at z = 7.9, needs these controls before it can be read as
-mechanism.
+So experiment 04's pattern is mostly a pattern of alleles that have recurred
+or spread. If repeats do mutate by copying their own units, it happens at a
+few sites that do so again and again, not across their new substitutions at
+large. A test against context alone, which the de novo data first seemed to
+pass at z = 7.9, needs these controls before it can be read as mechanism.
 
 ![Copying, at a fixed context: the families' new substitutions, by whether gnomAD already has the allele, and gnomAD's minor alleles by frequency](figures/copying.png)
 
@@ -105,9 +106,10 @@ mechanism.
   sets, so the 45 substitutions both call are counted once, as Sasani et al.'s.
 - **A copy.** A substitution at base j copies when bases j − 2 to j + 3,
   after the change, occur elsewhere in the locus. The **period** of a locus
-  is gpxiltools' period finder's, from 12 bases up to its first motif's
-  length (up to 100). Its **consensus** is the commonest base at each place
-  in the period, for loci of three units or more.
+  is gpxiltools' period finder's, searched up to 12 bases, or up to the
+  locus's first motif's length when that is longer (at most 100). Its
+  **consensus** is the commonest base at each place in the period, for loci
+  of three units or more.
 - **Within the locus.** Under the null, a new substitution falls on each
   base of its locus, and becomes each other base, at the rate of its
   context. The rates come from Sasani et al.'s 26,727 germline
@@ -117,8 +119,10 @@ mechanism.
   against the sum of the expected shares, and a normal approximation to the
   Poisson-binomial gives z.
 - **Controls of other loci.** Five loci are drawn for each mutated locus,
-  with the same purity bin (0.6, 0.8, 0.9) and length within 20 %:
-  - another repeat of the same unit size (any motif);
+  with the same purity bin (0.6, 0.8, 0.9) and length within 20 % (50 % when
+  none is that close):
+  - another repeat of the same unit size (1 to 6 bases, or 7 and more; any
+    motif);
   - a locus of the same first motif, up to rotation and strand, read on the
     same strand.
 - **At a fixed context.** Every place of a mutation's 6-base window in every
@@ -131,8 +135,10 @@ mechanism.
 - **gnomAD.** gnomAD v4.1 genomes' sites VCFs are read over the web, a place at a
   time.
   - **De novo sites.** Every record at the place, whatever its FILTER.
-  - **For population.py.** PASS records, biallelic positions only, minor
-    alleles (AF under 0.5).
+  - **For population.py.** PASS records, biallelic positions only. The tests
+    by allele count take the minor alleles (AF under 0.5); the within-locus
+    tests of singletons take them all, 16 and 1 more, at sites called in one
+    genome.
   - **Background spectrum.** The singletons of experiment 04's 10,000 random
     100-base windows.
 
@@ -209,7 +215,8 @@ times as often.
   622 of the 737. They had no further generation to confirm them. In the
   CEPH 1463 family, the Platinum Pedigree's calls hold all 103 of their
   second-generation substitutions, but only 452 of the 672 of the third
-  generation. In the catalogue's loci they hold 8 of 14 that copy and 37 of
+  generation. Of the family's substitutions of both generations in the
+  catalogue's loci, at all purities, they hold 8 of 14 that copy and 37 of
   51 that do not.
 - **"Already in gnomAD" can mean three things.** The site may mutate the same
   way again and again, the variant may be inherited and missed in a parent,
@@ -219,7 +226,8 @@ times as often.
   sets of repeats differ: GA-sequences are pure purine runs, so only
   transitions can copy in them.
 - **The definitions are fixed choices.** Copies are 6-base words. The period
-  is capped at 100 bases, and the consensus is a majority at each place.
+  is capped at 100 bases, and the consensus is the commonest base at each
+  place.
 - **Each stratum stands alone.** The fixed-context test compares a window in
   different loci of one kind. It assumes that nothing but copying separates
   a stratum's copying places from its other places.
@@ -250,4 +258,4 @@ python3 figures.py
 The scripts that read gnomAD over the web leave its index files in the
 current folder, so run them from a folder of their own. They also read
 experiments 04 and 05's code. Python 3.12 or later, with gpxiltools 0.8,
-NumPy, pandas, SciPy, pysam, pyliftover and openpyxl.
+NumPy, pandas, SciPy, pysam, pyliftover, openpyxl and Matplotlib.

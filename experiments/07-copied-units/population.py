@@ -211,11 +211,11 @@ def mantel_haenszel(sel: list[dict], opp: dict) -> dict:
         rr_d += oo0 * n1 / n
         gr += n1 * n0 * o / n ** 2
     out = {"mutations": sum(sum(v) for v in obs.values()), "strata": len(obs), "copies": int(o1), "expected": round(e1, 1),
-           "ratio": round(o1 / e1, 3) if e1 else None, "z": round((o1 - e1) / math.sqrt(var), 1) if var else None}
+           "ratio": round(o1 / e1, 4) if e1 else None, "z": round((o1 - e1) / math.sqrt(var), 1) if var else None}
     if rr_n and rr_d:
         rr = rr_n / rr_d
         se = math.sqrt(gr / (rr_n * rr_d))
-        out.update({"rate_ratio": round(rr, 3), "ci": [round(rr * math.exp(-1.96 * se), 3), round(rr * math.exp(1.96 * se), 3)]})
+        out.update({"rate_ratio": round(rr, 4), "ci": [round(rr * math.exp(-1.96 * se), 4), round(rr * math.exp(1.96 * se), 4)]})
     return out
 
 
