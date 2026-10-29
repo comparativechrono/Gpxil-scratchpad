@@ -1,0 +1,198 @@
+{
+ "ga_sequences": 42162,
+ "origins": {
+  "Alu tail": 15698,
+  "Simple_repeat": 14024,
+  "Low_complexity": 7847,
+  "SINE (Alu)": 1552,
+  "none": 1518,
+  "LINE (L1)": 1012,
+  "LTR": 238,
+  "Retroposon (SVA)": 130,
+  "LINE (L2)": 87,
+  "DNA": 47,
+  "SINE (MIR)": 5,
+  "LINE (CR1)": 4
+ },
+ "alu_tails_by_poly_a": {
+  "<5": {
+   "ga_sequences": 12566,
+   "alu_tails": 1788,
+   "share": 0.1423
+  },
+  "5-14": {
+   "ga_sequences": 21208,
+   "alu_tails": 7978,
+   "share": 0.3762
+  },
+  ">=15": {
+   "ga_sequences": 8388,
+   "alu_tails": 5932,
+   "share": 0.7072
+  }
+ },
+ "alu_tails_by_class": {
+  "AluY": {
+   "alus": 132313,
+   "with_ga_tail": 778,
+   "per_1000": 5.88,
+   "tail_a_fraction": 0.732,
+   "tail_length": 69.0,
+   "tail_longest_a": 12.0
+  },
+  "AluS": {
+   "alus": 644677,
+   "with_ga_tail": 8975,
+   "per_1000": 13.922,
+   "tail_a_fraction": 0.664,
+   "tail_length": 78.0,
+   "tail_longest_a": 7.0
+  },
+  "AluJ": {
+   "alus": 294622,
+   "with_ga_tail": 5203,
+   "per_1000": 17.66,
+   "tail_a_fraction": 0.613,
+   "tail_length": 80.0,
+   "tail_longest_a": 5.0
+  },
+  "other Alu": {
+   "alus": 51680,
+   "with_ga_tail": 742,
+   "per_1000": 14.358,
+   "tail_a_fraction": 0.616,
+   "tail_length": 80.0,
+   "tail_longest_a": 6.0
+  }
+ },
+ "alu_tails_by_divergence": [
+  {
+   "milliDiv": "0-19",
+   "alus": 7821,
+   "with_ga_tail": 33,
+   "per_1000": 4.219,
+   "tail_a_fraction": 0.909,
+   "tail_longest_a": 49.0
+  },
+  {
+   "milliDiv": "20-39",
+   "alus": 6686,
+   "with_ga_tail": 37,
+   "per_1000": 5.534,
+   "tail_a_fraction": 0.793,
+   "tail_longest_a": 21.0
+  },
+  {
+   "milliDiv": "40-59",
+   "alus": 33948,
+   "with_ga_tail": 189,
+   "per_1000": 5.567,
+   "tail_a_fraction": 0.744,
+   "tail_longest_a": 15.0
+  },
+  {
+   "milliDiv": "60-79",
+   "alus": 90575,
+   "with_ga_tail": 540,
+   "per_1000": 5.962,
+   "tail_a_fraction": 0.709,
+   "tail_longest_a": 12.0
+  },
+  {
+   "milliDiv": "80-99",
+   "alus": 186981,
+   "with_ga_tail": 1721,
+   "per_1000": 9.204,
+   "tail_a_fraction": 0.7,
+   "tail_longest_a": 11.0
+  },
+  {
+   "milliDiv": "100-119",
+   "alus": 246688,
+   "with_ga_tail": 3123,
+   "per_1000": 12.66,
+   "tail_a_fraction": 0.676,
+   "tail_longest_a": 7.0
+  },
+  {
+   "milliDiv": "120-139",
+   "alus": 188170,
+   "with_ga_tail": 3027,
+   "per_1000": 16.087,
+   "tail_a_fraction": 0.65,
+   "tail_longest_a": 6.0
+  },
+  {
+   "milliDiv": "140-159",
+   "alus": 142937,
+   "with_ga_tail": 2517,
+   "per_1000": 17.609,
+   "tail_a_fraction": 0.634,
+   "tail_longest_a": 6.0
+  },
+  {
+   "milliDiv": "160-179",
+   "alus": 115543,
+   "with_ga_tail": 2224,
+   "per_1000": 19.248,
+   "tail_a_fraction": 0.609,
+   "tail_longest_a": 5.0
+  },
+  {
+   "milliDiv": "180-199",
+   "alus": 64258,
+   "with_ga_tail": 1336,
+   "per_1000": 20.791,
+   "tail_a_fraction": 0.602,
+   "tail_longest_a": 5.0
+  },
+  {
+   "milliDiv": "200-219",
+   "alus": 26146,
+   "with_ga_tail": 617,
+   "per_1000": 23.598,
+   "tail_a_fraction": 0.592,
+   "tail_longest_a": 5.0
+  },
+  {
+   "milliDiv": "220-239",
+   "alus": 9157,
+   "with_ga_tail": 223,
+   "per_1000": 24.353,
+   "tail_a_fraction": 0.573,
+   "tail_longest_a": 5.0
+  },
+  {
+   "milliDiv": "240-259",
+   "alus": 3135,
+   "with_ga_tail": 77,
+   "per_1000": 24.561,
+   "tail_a_fraction": 0.551,
+   "tail_longest_a": 5.0
+  },
+  {
+   "milliDiv": "260-279",
+   "alus": 865,
+   "with_ga_tail": 26,
+   "per_1000": 30.058,
+   "tail_a_fraction": 0.598,
+   "tail_longest_a": 4.5
+  },
+  {
+   "milliDiv": "280-299",
+   "alus": 267,
+   "with_ga_tail": 6,
+   "per_1000": 22.472,
+   "tail_a_fraction": 0.58,
+   "tail_longest_a": 3.5
+  },
+  {
+   "milliDiv": ">=300",
+   "alus": 115,
+   "with_ga_tail": 2,
+   "per_1000": 17.391,
+   "tail_a_fraction": 0.649,
+   "tail_longest_a": 5.0
+  }
+ ]
+}

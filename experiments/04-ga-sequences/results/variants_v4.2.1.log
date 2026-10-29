@@ -1,0 +1,45 @@
+chr1: GA/TC bases called 131,120 of 330,942 [73s]
+chr2: GA/TC bases called 128,810 of 312,780 [129s]
+chr3: GA/TC bases called 100,870 of 244,000 [184s]
+chr4: GA/TC bases called 97,470 of 233,125 [220s]
+chr5: GA/TC bases called 88,390 of 209,263 [255s]
+chr6: GA/TC bases called 86,955 of 219,616 [287s]
+chr7: GA/TC bases called 95,057 of 259,782 [317s]
+chr8: GA/TC bases called 82,742 of 207,272 [345s]
+chr9: GA/TC bases called 65,401 of 152,771 [371s]
+chr10: GA/TC bases called 77,847 of 203,231 [398s]
+chr11: GA/TC bases called 67,214 of 166,434 [423s]
+chr12: GA/TC bases called 80,796 of 199,049 [450s]
+chr13: GA/TC bases called 43,713 of 105,467 [471s]
+chr14: GA/TC bases called 48,862 of 118,852 [491s]
+chr15: GA/TC bases called 43,015 of 104,798 [510s]
+chr16: GA/TC bases called 60,977 of 165,896 [528s]
+chr17: GA/TC bases called 54,051 of 140,621 [544s]
+chr18: GA/TC bases called 39,630 of 92,219 [560s]
+chr19: GA/TC bases called 62,496 of 160,559 [573s]
+chr20: GA/TC bases called 47,618 of 114,203 [585s]
+chr21: GA/TC bases called 20,005 of 64,555 [594s]
+chr22: GA/TC bases called 25,195 of 64,165 [604s]
+
+v4.2.1
+inside  called     1,548,234 of     3,869,600 bp (40.0 %); indels 6,306 = 4.073/kb
+   AT         882,056 bp  SNV       778 = 0.882/kb  (isolated 517; het 517, hom 261; transitions 83 %)
+   GC         664,686 bp  SNV       804 = 1.210/kb  (isolated 569; het 551, hom 253; transitions 76 %)
+   CpG          1,492 bp  SNV        17 = 11.394/kb  (isolated 14; het 13, hom 4; transitions 94 %)
+flank   called    23,921,015 of    27,466,701 bp (87.1 %); indels 5,766 = 0.241/kb
+   AT      13,572,672 bp  SNV    15,610 = 1.150/kb  (isolated 13,380; het 9,038, hom 6,572; transitions 69 %)
+   GC       9,819,195 bp  SNV    11,796 = 1.201/kb  (isolated 10,125; het 7,541, hom 4,255; transitions 59 %)
+   CpG        529,148 bp  SNV     5,507 = 10.407/kb  (isolated 4,781; het 3,595, hom 1,912; transitions 82 %)
+all     called 2,542,242,843 of 2,756,331,041 bp (92.2 %); indels 536,591 = 0.211/kb
+   AT   1,501,555,335 bp  SNV 1,623,451 = 1.081/kb  (isolated 1,408,676; het 955,630, hom 667,821; transitions 69 %)
+   GC     991,276,106 bp  SNV 1,223,070 = 1.234/kb  (isolated 1,063,179; het 771,082, hom 451,988; transitions 60 %)
+   CpG     49,411,402 bp  SNV   519,853 = 10.521/kb  (isolated 456,445; het 336,375, hom 183,478; transitions 82 %)
+indels inside / all: 19.30 (95 % CI 18.82-19.78)
+snv inside: observed 1,599, expected from contexts 1,415.7 (ratio 1.129, p = 1.9e-06)
+   A>C 84/143.4 (0.586); A>G 647/425.1 (1.522); A>T 47/107.8 (0.436); G>A 628/436.0 (1.44); G>C 100/163.7 (0.611); G>T 93/139.8 (0.665)
+snv flank: observed 32,913, expected from contexts 32,150.1 (ratio 1.024, p = 2.3e-05)
+   A>C 2667/2483.6 (1.074); A>G 10813/10056.2 (1.075); A>T 2130/2082.9 (1.023); G>A 11445/11781.5 (0.971); G>C 3079/2911.1 (1.058); G>T 2779/2834.8 (0.98)
+iso inside: observed 1,100, expected from contexts 1,228.7 (ratio 0.895, p = 0.0002)
+   A>C 55/122.5 (0.449); A>G 422/371.2 (1.137); A>T 40/90.5 (0.442); G>A 432/381.6 (1.132); G>C 82/142.6 (0.575); G>T 69/120.4 (0.573)
+iso flank: observed 28,286, expected from contexts 27,963.7 (ratio 1.012, p = 0.055)
+   A>C 2251/2130.9 (1.056); A>G 9328/8789.3 (1.061); A>T 1801/1762.0 (1.022); G>A 9868/10316.9 (0.956); G>C 2651/2523.6 (1.051); G>T 2387/2441.0 (0.978)

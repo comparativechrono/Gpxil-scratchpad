@@ -1,0 +1,70 @@
+2,000 of 52,162 [211s]
+4,000 of 52,162 [387s]
+6,000 of 52,162 [474s]
+8,000 of 52,162 [598s]
+10,000 of 52,162 [757s]
+12,000 of 52,162 [870s]
+14,000 of 52,162 [1025s]
+16,000 of 52,162 [1145s]
+18,000 of 52,162 [1306s]
+20,000 of 52,162 [1473s]
+22,000 of 52,162 [1607s]
+24,000 of 52,162 [1729s]
+26,000 of 52,162 [1863s]
+28,000 of 52,162 [2016s]
+30,000 of 52,162 [2088s]
+32,000 of 52,162 [2251s]
+34,000 of 52,162 [2387s]
+36,000 of 52,162 [2499s]
+38,000 of 52,162 [2663s]
+40,000 of 52,162 [2754s]
+42,000 of 52,162 [2922s]
+44,000 of 52,162 [3042s]
+46,000 of 52,162 [3195s]
+48,000 of 52,162 [3319s]
+50,000 of 52,162 [3415s]
+52,000 of 52,162 [3502s]
+inside: 3,869,600 bp; SNVs 801,808 (207/kb), transitions 65 %; indels 2,716,730 (702.1/kb)
+background: 961,100 bp; SNVs 188,560 (196/kb), transitions 63 %; indels 24,013 (25.0/kb)
+expected inside: {'observed': 801808, 'expected': 605743.9, 'ratio': 1.324, 'types': {'A>C': {'observed': 72029, 'expected': 63843.7, 'ratio': 1.128}, 'A>G': {'observed': 276242, 'expected': 137412.2, 'ratio': 2.01}, 'A>T': {'observed': 48276, 'expected': 43467.5, 'ratio': 1.111}, 'G>A': {'observed': 248397, 'expected': 199233.0, 'ratio': 1.247}, 'G>C': {'observed': 80420, 'expected': 90615.4, 'ratio': 0.887}, 'G>T': {'observed': 76444, 'expected': 71172.2, 'ratio': 1.074}}}
+singleton {'inside': {'snv': 340811, 'ti': 191999, 'indel': 912456, 'snv_per_kb': 88.07, 'transitions': 0.5634, 'indel_per_kb': 235.8, 'mean_an_snv': 122545}, 'background': {'snv': 98033, 'ti': 57791, 'indel': 10458, 'snv_per_kb': 102.0, 'transitions': 0.5895, 'indel_per_kb': 10.88, 'mean_an_snv': 151037}, 'expected_inside': {'all': {'observed': 340811, 'expected': 340744.1, 'ratio': 1.0}, 'transitions': {'observed': 191999, 'expected': 185594.2, 'ratio': 1.035}, 'transversions': {'observed': 148812, 'expected': 155149.9, 'ratio': 0.959}, 'types': {'A>C': {'observed': 38093, 'expected': 36890.0, 'ratio': 1.033}, 'A>G': {'observed': 96819, 'expected': 77976.3, 'ratio': 1.242}, 'A>T': {'observed': 26476, 'expected': 25539.6, 'ratio': 1.037}, 'G>A': {'observed': 95180, 'expected': 107617.9, 'ratio': 0.884}, 'G>C': {'observed': 42557, 'expected': 51834.6, 'ratio': 0.821}, 'G>T': {'observed': 41686, 'expected': 40885.8, 'ratio': 1.02}}}, 'indels_inside_vs_background': 21.67}
+rare {'inside': {'snv': 341711, 'ti': 236202, 'indel': 1300879, 'snv_per_kb': 88.31, 'transitions': 0.6912, 'indel_per_kb': 336.18, 'mean_an_snv': 117935}, 'background': {'snv': 81391, 'ti': 54086, 'indel': 10733, 'snv_per_kb': 84.69, 'transitions': 0.6645, 'indel_per_kb': 11.17, 'mean_an_snv': 150686}, 'expected_inside': {'all': {'observed': 341711, 'expected': 238818.8, 'ratio': 1.431}, 'transitions': {'observed': 236202, 'expected': 135916.2, 'ratio': 1.738}, 'transversions': {'observed': 105509, 'expected': 102902.6, 'ratio': 1.025}, 'types': {'A>C': {'observed': 26665, 'expected': 24066.1, 'ratio': 1.108}, 'A>G': {'observed': 125678, 'expected': 53197.5, 'ratio': 2.362}, 'A>T': {'observed': 17662, 'expected': 15964.6, 'ratio': 1.106}, 'G>A': {'observed': 110524, 'expected': 82718.7, 'ratio': 1.336}, 'G>C': {'observed': 31996, 'expected': 35176.9, 'ratio': 0.91}, 'G>T': {'observed': 29186, 'expected': 27695.0, 'ratio': 1.054}}}, 'indels_inside_vs_background': 30.1}
+uncommon {'inside': {'snv': 59580, 'ti': 47231, 'indel': 298575, 'snv_per_kb': 15.4, 'transitions': 0.7927, 'indel_per_kb': 77.16, 'mean_an_snv': 82756}, 'background': {'snv': 4905, 'ti': 3272, 'indel': 1376, 'snv_per_kb': 5.1, 'transitions': 0.6671, 'indel_per_kb': 1.43, 'mean_an_snv': 148620}, 'expected_inside': {'all': {'observed': 59580, 'expected': 13821.3, 'ratio': 4.311}, 'transitions': {'observed': 47231, 'expected': 7872.0, 'ratio': 6.0}, 'transversions': {'observed': 12349, 'expected': 5949.3, 'ratio': 2.076}, 'types': {'A>C': {'observed': 3873, 'expected': 1584.6, 'ratio': 2.444}, 'A>G': {'observed': 27526, 'expected': 2950.8, 'ratio': 9.328}, 'A>T': {'observed': 2182, 'expected': 982.2, 'ratio': 2.222}, 'G>A': {'observed': 19705, 'expected': 4921.2, 'ratio': 4.004}, 'G>C': {'observed': 3299, 'expected': 1944.5, 'ratio': 1.697}, 'G>T': {'observed': 2995, 'expected': 1438.0, 'ratio': 2.083}}}, 'indels_inside_vs_background': 53.96}
+common {'inside': {'snv': 59706, 'ti': 49207, 'indel': 204820, 'snv_per_kb': 15.43, 'transitions': 0.8242, 'indel_per_kb': 52.93, 'mean_an_snv': 73124}, 'background': {'snv': 4231, 'ti': 2809, 'indel': 1446, 'snv_per_kb': 4.4, 'transitions': 0.6639, 'indel_per_kb': 1.5, 'mean_an_snv': 148367}, 'expected_inside': {'all': {'observed': 59706, 'expected': 12359.7, 'ratio': 4.831}, 'transitions': {'observed': 49207, 'expected': 7262.8, 'ratio': 6.775}, 'transversions': {'observed': 10499, 'expected': 5096.9, 'ratio': 2.06}, 'types': {'A>C': {'observed': 3398, 'expected': 1303.0, 'ratio': 2.608}, 'A>G': {'observed': 26219, 'expected': 3287.6, 'ratio': 7.975}, 'A>T': {'observed': 1956, 'expected': 981.1, 'ratio': 1.994}, 'G>A': {'observed': 22988, 'expected': 3975.2, 'ratio': 5.783}, 'G>C': {'observed': 2568, 'expected': 1659.4, 'ratio': 1.548}, 'G>T': {'observed': 2577, 'expected': 1153.4, 'ratio': 2.234}}}, 'indels_inside_vs_background': 35.29}
+unit copy: {'sites': 3658790, 'sites_copy': 2163631, 'singleton': {'ti': 181686, 'ti_copy': 113702, 'tv': 139792, 'share': 0.6258, 'p': 4.4150539285760755e-198, 'transitions': 0.5652}, 'rare': {'ti': 225883, 'ti_copy': 160355, 'tv': 98707, 'share': 0.7099, 'p': 0.0, 'transitions': 0.6959}, 'uncommon': {'ti': 46122, 'ti_copy': 36572, 'tv': 11611, 'share': 0.7929, 'p': 0.0, 'transitions': 0.7989}, 'common': {'ti': 48236, 'ti_copy': 40602, 'tv': 9648, 'share': 0.8417, 'p': 0.0, 'transitions': 0.8333}, 'all': {'ti': 501927, 'ti_copy': 351231, 'tv': 259758, 'share': 0.6998, 'p': 0.0, 'transitions': 0.659}, 'expected_share': 0.5914}
+
+# read again from the records kept (GNOMAD_RECORDS), with the test at well-called sites added: results/gnomad.json
+2,000 of 52,162 [2s]
+4,000 of 52,162 [4s]
+6,000 of 52,162 [6s]
+8,000 of 52,162 [8s]
+10,000 of 52,162 [10s]
+12,000 of 52,162 [12s]
+14,000 of 52,162 [14s]
+16,000 of 52,162 [16s]
+18,000 of 52,162 [18s]
+20,000 of 52,162 [19s]
+22,000 of 52,162 [21s]
+24,000 of 52,162 [23s]
+26,000 of 52,162 [25s]
+28,000 of 52,162 [26s]
+30,000 of 52,162 [28s]
+32,000 of 52,162 [30s]
+34,000 of 52,162 [32s]
+36,000 of 52,162 [34s]
+38,000 of 52,162 [36s]
+40,000 of 52,162 [38s]
+42,000 of 52,162 [40s]
+44,000 of 52,162 [42s]
+46,000 of 52,162 [44s]
+48,000 of 52,162 [45s]
+50,000 of 52,162 [47s]
+52,000 of 52,162 [49s]
+inside: 3,869,600 bp; SNVs 801,808 (207/kb), transitions 65 %; indels 2,716,730 (702.1/kb)
+background: 961,100 bp; SNVs 188,560 (196/kb), transitions 63 %; indels 24,013 (25.0/kb)
+expected inside: {'observed': 801808, 'expected': 605743.9, 'ratio': 1.324, 'types': {'A>C': {'observed': 72029, 'expected': 63843.7, 'ratio': 1.128}, 'A>G': {'observed': 276242, 'expected': 137412.2, 'ratio': 2.01}, 'A>T': {'observed': 48276, 'expected': 43467.5, 'ratio': 1.111}, 'G>A': {'observed': 248397, 'expected': 199233.0, 'ratio': 1.247}, 'G>C': {'observed': 80420, 'expected': 90615.4, 'ratio': 0.887}, 'G>T': {'observed': 76444, 'expected': 71172.2, 'ratio': 1.074}}}
+singleton {'inside': {'snv': 340811, 'ti': 191999, 'indel': 912456, 'snv_per_kb': 88.07, 'transitions': 0.5634, 'indel_per_kb': 235.8, 'mean_an_snv': 122545}, 'background': {'snv': 98033, 'ti': 57791, 'indel': 10458, 'snv_per_kb': 102.0, 'transitions': 0.5895, 'indel_per_kb': 10.88, 'mean_an_snv': 151037}, 'expected_inside': {'all': {'observed': 340811, 'expected': 340744.1, 'ratio': 1.0}, 'transitions': {'observed': 191999, 'expected': 185594.2, 'ratio': 1.035}, 'transversions': {'observed': 148812, 'expected': 155149.9, 'ratio': 0.959}, 'types': {'A>C': {'observed': 38093, 'expected': 36890.0, 'ratio': 1.033}, 'A>G': {'observed': 96819, 'expected': 77976.3, 'ratio': 1.242}, 'A>T': {'observed': 26476, 'expected': 25539.6, 'ratio': 1.037}, 'G>A': {'observed': 95180, 'expected': 107617.9, 'ratio': 0.884}, 'G>C': {'observed': 42557, 'expected': 51834.6, 'ratio': 0.821}, 'G>T': {'observed': 41686, 'expected': 40885.8, 'ratio': 1.02}}}, 'indels_inside_vs_background': 21.67}
+rare {'inside': {'snv': 341711, 'ti': 236202, 'indel': 1300879, 'snv_per_kb': 88.31, 'transitions': 0.6912, 'indel_per_kb': 336.18, 'mean_an_snv': 117935}, 'background': {'snv': 81391, 'ti': 54086, 'indel': 10733, 'snv_per_kb': 84.69, 'transitions': 0.6645, 'indel_per_kb': 11.17, 'mean_an_snv': 150686}, 'expected_inside': {'all': {'observed': 341711, 'expected': 238818.8, 'ratio': 1.431}, 'transitions': {'observed': 236202, 'expected': 135916.2, 'ratio': 1.738}, 'transversions': {'observed': 105509, 'expected': 102902.6, 'ratio': 1.025}, 'types': {'A>C': {'observed': 26665, 'expected': 24066.1, 'ratio': 1.108}, 'A>G': {'observed': 125678, 'expected': 53197.5, 'ratio': 2.362}, 'A>T': {'observed': 17662, 'expected': 15964.6, 'ratio': 1.106}, 'G>A': {'observed': 110524, 'expected': 82718.7, 'ratio': 1.336}, 'G>C': {'observed': 31996, 'expected': 35176.9, 'ratio': 0.91}, 'G>T': {'observed': 29186, 'expected': 27695.0, 'ratio': 1.054}}}, 'indels_inside_vs_background': 30.1}
+uncommon {'inside': {'snv': 59580, 'ti': 47231, 'indel': 298575, 'snv_per_kb': 15.4, 'transitions': 0.7927, 'indel_per_kb': 77.16, 'mean_an_snv': 82756}, 'background': {'snv': 4905, 'ti': 3272, 'indel': 1376, 'snv_per_kb': 5.1, 'transitions': 0.6671, 'indel_per_kb': 1.43, 'mean_an_snv': 148620}, 'expected_inside': {'all': {'observed': 59580, 'expected': 13821.3, 'ratio': 4.311}, 'transitions': {'observed': 47231, 'expected': 7872.0, 'ratio': 6.0}, 'transversions': {'observed': 12349, 'expected': 5949.3, 'ratio': 2.076}, 'types': {'A>C': {'observed': 3873, 'expected': 1584.6, 'ratio': 2.444}, 'A>G': {'observed': 27526, 'expected': 2950.8, 'ratio': 9.328}, 'A>T': {'observed': 2182, 'expected': 982.2, 'ratio': 2.222}, 'G>A': {'observed': 19705, 'expected': 4921.2, 'ratio': 4.004}, 'G>C': {'observed': 3299, 'expected': 1944.5, 'ratio': 1.697}, 'G>T': {'observed': 2995, 'expected': 1438.0, 'ratio': 2.083}}}, 'indels_inside_vs_background': 53.96}
+common {'inside': {'snv': 59706, 'ti': 49207, 'indel': 204820, 'snv_per_kb': 15.43, 'transitions': 0.8242, 'indel_per_kb': 52.93, 'mean_an_snv': 73124}, 'background': {'snv': 4231, 'ti': 2809, 'indel': 1446, 'snv_per_kb': 4.4, 'transitions': 0.6639, 'indel_per_kb': 1.5, 'mean_an_snv': 148367}, 'expected_inside': {'all': {'observed': 59706, 'expected': 12359.7, 'ratio': 4.831}, 'transitions': {'observed': 49207, 'expected': 7262.8, 'ratio': 6.775}, 'transversions': {'observed': 10499, 'expected': 5096.9, 'ratio': 2.06}, 'types': {'A>C': {'observed': 3398, 'expected': 1303.0, 'ratio': 2.608}, 'A>G': {'observed': 26219, 'expected': 3287.6, 'ratio': 7.975}, 'A>T': {'observed': 1956, 'expected': 981.1, 'ratio': 1.994}, 'G>A': {'observed': 22988, 'expected': 3975.2, 'ratio': 5.783}, 'G>C': {'observed': 2568, 'expected': 1659.4, 'ratio': 1.548}, 'G>T': {'observed': 2577, 'expected': 1153.4, 'ratio': 2.234}}}, 'indels_inside_vs_background': 35.29}
+unit copy: {'sites': 3658790, 'sites_copy': 2163631, 'singleton': {'ti': 181686, 'ti_copy': 113702, 'tv': 139792, 'share': 0.6258, 'p': 4.4150539285760755e-198, 'transitions': 0.5652}, 'rare': {'ti': 225883, 'ti_copy': 160355, 'tv': 98707, 'share': 0.7099, 'p': 0.0, 'transitions': 0.6959}, 'uncommon': {'ti': 46122, 'ti_copy': 36572, 'tv': 11611, 'share': 0.7929, 'p': 0.0, 'transitions': 0.7989}, 'common': {'ti': 48236, 'ti_copy': 40602, 'tv': 9648, 'share': 0.8417, 'p': 0.0, 'transitions': 0.8333}, 'all': {'ti': 501927, 'ti_copy': 351231, 'tv': 259758, 'share': 0.6998, 'p': 0.0, 'transitions': 0.659}, 'well_called': {'singleton': {'ti': 107369, 'ti_copy': 68373, 'tv': 73407, 'share': 0.6368, 'p': 3.311729173335999e-204, 'transitions': 0.5939}, 'rare': {'ti': 105756, 'ti_copy': 73426, 'tv': 50152, 'share': 0.6943, 'p': 0.0, 'transitions': 0.6783}, 'uncommon': {'ti': 8244, 'ti_copy': 6150, 'tv': 3173, 'share': 0.746, 'p': 3.5929221566122644e-190, 'transitions': 0.7221}, 'common': {'ti': 6286, 'ti_copy': 4862, 'tv': 2166, 'share': 0.7735, 'p': 3.8404071560663726e-204, 'transitions': 0.7437}, 'all': {'ti': 227655, 'ti_copy': 152811, 'tv': 128898, 'share': 0.6712, 'p': 0.0, 'transitions': 0.6385}}, 'expected_share': 0.5914}

@@ -1,0 +1,647 @@
+{
+ "summary": {
+  "total": {
+   "GA": 22726,
+   "TC": 22955,
+   "GA_common": 324372,
+   "TC_common": 326455
+  },
+  "bases": 4203759,
+  "length_quantiles": {
+   "50": 73.0,
+   "90": 156.0,
+   "99": 283.0
+  },
+  "longest": 1303,
+  "homopolymers": 137,
+  "acgt_bases": 2937639113,
+  "per_mb": {
+   "chr1": 15.68,
+   "chr2": 14.1,
+   "chr3": 13.65,
+   "chr4": 13.19,
+   "chr5": 12.21,
+   "chr6": 13.98,
+   "chr7": 17.59,
+   "chr8": 15.47,
+   "chr9": 14.08,
+   "chr10": 16.58,
+   "chr11": 13.55,
+   "chr12": 16.01,
+   "chr13": 11.9,
+   "chr14": 14.55,
+   "chr15": 13.59,
+   "chr16": 22.43,
+   "chr17": 18.83,
+   "chr18": 12.42,
+   "chr19": 30.56,
+   "chr20": 19.39,
+   "chr21": 17.24,
+   "chr22": 17.85,
+   "chrX": 17.0,
+   "chrY": 33.54
+  }
+ },
+ "chromosomes": [
+  {
+   "chrom": "chr1",
+   "length": 248956422,
+   "acgt": 230481012,
+   "GA": {
+    "n": 1766,
+    "bases": 162385,
+    "max": 352,
+    "homopolymers": 5
+   },
+   "GA_common": {
+    "n": 26982,
+    "bases": 842068
+   },
+   "TC": {
+    "n": 1848,
+    "bases": 168557,
+    "max": 432,
+    "homopolymers": 7
+   },
+   "TC_common": {
+    "n": 27350,
+    "bases": 859531
+   }
+  },
+  {
+   "chrom": "chr2",
+   "length": 242193529,
+   "acgt": 240548228,
+   "GA": {
+    "n": 1653,
+    "bases": 154533,
+    "max": 733,
+    "homopolymers": 8
+   },
+   "GA_common": {
+    "n": 25404,
+    "bases": 795233
+   },
+   "TC": {
+    "n": 1739,
+    "bases": 158247,
+    "max": 545,
+    "homopolymers": 3
+   },
+   "TC_common": {
+    "n": 25308,
+    "bases": 792884
+   }
+  },
+  {
+   "chrom": "chr3",
+   "length": 198295559,
+   "acgt": 198100135,
+   "GA": {
+    "n": 1352,
+    "bases": 124036,
+    "max": 589,
+    "homopolymers": 5
+   },
+   "GA_common": {
+    "n": 20400,
+    "bases": 636623
+   },
+   "TC": {
+    "n": 1352,
+    "bases": 119964,
+    "max": 542,
+    "homopolymers": 4
+   },
+   "TC_common": {
+    "n": 20872,
+    "bases": 645163
+   }
+  },
+  {
+   "chrom": "chr4",
+   "length": 190214555,
+   "acgt": 189752667,
+   "GA": {
+    "n": 1291,
+    "bases": 119438,
+    "max": 627,
+    "homopolymers": 6
+   },
+   "GA_common": {
+    "n": 18043,
+    "bases": 571293
+   },
+   "TC": {
+    "n": 1212,
+    "bases": 113687,
+    "max": 757,
+    "homopolymers": 5
+   },
+   "TC_common": {
+    "n": 18243,
+    "bases": 570559
+   }
+  },
+  {
+   "chrom": "chr5",
+   "length": 181538259,
+   "acgt": 181265378,
+   "GA": {
+    "n": 1082,
+    "bases": 104071,
+    "max": 868,
+    "homopolymers": 7
+   },
+   "GA_common": {
+    "n": 17975,
+    "bases": 558034
+   },
+   "TC": {
+    "n": 1132,
+    "bases": 105192,
+    "max": 416,
+    "homopolymers": 2
+   },
+   "TC_common": {
+    "n": 18205,
+    "bases": 565056
+   }
+  },
+  {
+   "chrom": "chr6",
+   "length": 170805979,
+   "acgt": 170078522,
+   "GA": {
+    "n": 1230,
+    "bases": 114714,
+    "max": 437,
+    "homopolymers": 2
+   },
+   "GA_common": {
+    "n": 17772,
+    "bases": 559255
+   },
+   "TC": {
+    "n": 1148,
+    "bases": 104902,
+    "max": 431,
+    "homopolymers": 4
+   },
+   "TC_common": {
+    "n": 17865,
+    "bases": 555902
+   }
+  },
+  {
+   "chrom": "chr7",
+   "length": 159345973,
+   "acgt": 158970131,
+   "GA": {
+    "n": 1376,
+    "bases": 128601,
+    "max": 1303,
+    "homopolymers": 1
+   },
+   "GA_common": {
+    "n": 18012,
+    "bases": 579683
+   },
+   "TC": {
+    "n": 1421,
+    "bases": 131181,
+    "max": 439,
+    "homopolymers": 6
+   },
+   "TC_common": {
+    "n": 18236,
+    "bases": 586220
+   }
+  },
+  {
+   "chrom": "chr8",
+   "length": 145138636,
+   "acgt": 144768136,
+   "GA": {
+    "n": 1143,
+    "bases": 104814,
+    "max": 742,
+    "homopolymers": 3
+   },
+   "GA_common": {
+    "n": 15326,
+    "bases": 486777
+   },
+   "TC": {
+    "n": 1097,
+    "bases": 102458,
+    "max": 626,
+    "homopolymers": 6
+   },
+   "TC_common": {
+    "n": 14849,
+    "bases": 474612
+   }
+  },
+  {
+   "chrom": "chr9",
+   "length": 138394717,
+   "acgt": 121790550,
+   "GA": {
+    "n": 852,
+    "bases": 74928,
+    "max": 511,
+    "homopolymers": 4
+   },
+   "GA_common": {
+    "n": 13547,
+    "bases": 417164
+   },
+   "TC": {
+    "n": 863,
+    "bases": 77843,
+    "max": 359,
+    "homopolymers": 2
+   },
+   "TC_common": {
+    "n": 13324,
+    "bases": 415089
+   }
+  },
+  {
+   "chrom": "chr10",
+   "length": 133797422,
+   "acgt": 133262962,
+   "GA": {
+    "n": 1102,
+    "bases": 103083,
+    "max": 403,
+    "homopolymers": 2
+   },
+   "GA_common": {
+    "n": 15127,
+    "bases": 483304
+   },
+   "TC": {
+    "n": 1107,
+    "bases": 100148,
+    "max": 368,
+    "homopolymers": 6
+   },
+   "TC_common": {
+    "n": 15176,
+    "bases": 482124
+   }
+  },
+  {
+   "chrom": "chr11",
+   "length": 135086622,
+   "acgt": 134533742,
+   "GA": {
+    "n": 956,
+    "bases": 90015,
+    "max": 472,
+    "homopolymers": 4
+   },
+   "GA_common": {
+    "n": 14294,
+    "bases": 448871
+   },
+   "TC": {
+    "n": 867,
+    "bases": 76419,
+    "max": 376,
+    "homopolymers": 2
+   },
+   "TC_common": {
+    "n": 13983,
+    "bases": 428918
+   }
+  },
+  {
+   "chrom": "chr12",
+   "length": 133275309,
+   "acgt": 133137816,
+   "GA": {
+    "n": 1029,
+    "bases": 96322,
+    "max": 477,
+    "homopolymers": 0
+   },
+   "GA_common": {
+    "n": 15649,
+    "bases": 490385
+   },
+   "TC": {
+    "n": 1103,
+    "bases": 102727,
+    "max": 417,
+    "homopolymers": 7
+   },
+   "TC_common": {
+    "n": 15693,
+    "bases": 496298
+   }
+  },
+  {
+   "chrom": "chr13",
+   "length": 114364328,
+   "acgt": 97983125,
+   "GA": {
+    "n": 609,
+    "bases": 54864,
+    "max": 357,
+    "homopolymers": 4
+   },
+   "GA_common": {
+    "n": 9075,
+    "bases": 282516
+   },
+   "TC": {
+    "n": 557,
+    "bases": 50603,
+    "max": 472,
+    "homopolymers": 3
+   },
+   "TC_common": {
+    "n": 9102,
+    "bases": 281337
+   }
+  },
+  {
+   "chrom": "chr14",
+   "length": 107043718,
+   "acgt": 90568149,
+   "GA": {
+    "n": 632,
+    "bases": 56638,
+    "max": 348,
+    "homopolymers": 3
+   },
+   "GA_common": {
+    "n": 9814,
+    "bases": 304579
+   },
+   "TC": {
+    "n": 686,
+    "bases": 62214,
+    "max": 569,
+    "homopolymers": 1
+   },
+   "TC_common": {
+    "n": 10146,
+    "bases": 317393
+   }
+  },
+  {
+   "chrom": "chr15",
+   "length": 101991189,
+   "acgt": 84641325,
+   "GA": {
+    "n": 544,
+    "bases": 46884,
+    "max": 274,
+    "homopolymers": 1
+   },
+   "GA_common": {
+    "n": 9771,
+    "bases": 295276
+   },
+   "TC": {
+    "n": 606,
+    "bases": 57914,
+    "max": 615,
+    "homopolymers": 1
+   },
+   "TC_common": {
+    "n": 9970,
+    "bases": 310406
+   }
+  },
+  {
+   "chrom": "chr16",
+   "length": 90338345,
+   "acgt": 81805943,
+   "GA": {
+    "n": 898,
+    "bases": 77929,
+    "max": 499,
+    "homopolymers": 2
+   },
+   "GA_common": {
+    "n": 11373,
+    "bases": 364729
+   },
+   "TC": {
+    "n": 937,
+    "bases": 87967,
+    "max": 706,
+    "homopolymers": 1
+   },
+   "TC_common": {
+    "n": 11584,
+    "bases": 379392
+   }
+  },
+  {
+   "chrom": "chr17",
+   "length": 83257441,
+   "acgt": 82920204,
+   "GA": {
+    "n": 739,
+    "bases": 68225,
+    "max": 574,
+    "homopolymers": 0
+   },
+   "GA_common": {
+    "n": 12064,
+    "bases": 374547
+   },
+   "TC": {
+    "n": 822,
+    "bases": 72396,
+    "max": 356,
+    "homopolymers": 0
+   },
+   "TC_common": {
+    "n": 12116,
+    "bases": 378810
+   }
+  },
+  {
+   "chrom": "chr18",
+   "length": 80373285,
+   "acgt": 80089605,
+   "GA": {
+    "n": 487,
+    "bases": 44299,
+    "max": 419,
+    "homopolymers": 1
+   },
+   "GA_common": {
+    "n": 7578,
+    "bases": 235281
+   },
+   "TC": {
+    "n": 508,
+    "bases": 47920,
+    "max": 635,
+    "homopolymers": 1
+   },
+   "TC_common": {
+    "n": 7612,
+    "bases": 240109
+   }
+  },
+  {
+   "chrom": "chr19",
+   "length": 58617616,
+   "acgt": 58440758,
+   "GA": {
+    "n": 918,
+    "bases": 84185,
+    "max": 421,
+    "homopolymers": 1
+   },
+   "GA_common": {
+    "n": 10543,
+    "bases": 347416
+   },
+   "TC": {
+    "n": 868,
+    "bases": 76374,
+    "max": 382,
+    "homopolymers": 1
+   },
+   "TC_common": {
+    "n": 10510,
+    "bases": 341990
+   }
+  },
+  {
+   "chrom": "chr20",
+   "length": 64444167,
+   "acgt": 63944257,
+   "GA": {
+    "n": 584,
+    "bases": 52713,
+    "max": 355,
+    "homopolymers": 1
+   },
+   "GA_common": {
+    "n": 7404,
+    "bases": 237649
+   },
+   "TC": {
+    "n": 656,
+    "bases": 61490,
+    "max": 432,
+    "homopolymers": 2
+   },
+   "TC_common": {
+    "n": 7893,
+    "bases": 257455
+   }
+  },
+  {
+   "chrom": "chr21",
+   "length": 46709983,
+   "acgt": 40088619,
+   "GA": {
+    "n": 348,
+    "bases": 33439,
+    "max": 586,
+    "homopolymers": 0
+   },
+   "GA_common": {
+    "n": 3978,
+    "bases": 131135
+   },
+   "TC": {
+    "n": 343,
+    "bases": 31116,
+    "max": 430,
+    "homopolymers": 3
+   },
+   "TC_common": {
+    "n": 4136,
+    "bases": 135426
+   }
+  },
+  {
+   "chrom": "chr22",
+   "length": 50818468,
+   "acgt": 39159777,
+   "GA": {
+    "n": 369,
+    "bases": 33738,
+    "max": 440,
+    "homopolymers": 0
+   },
+   "GA_common": {
+    "n": 5180,
+    "bases": 164270
+   },
+   "TC": {
+    "n": 330,
+    "bases": 30427,
+    "max": 325,
+    "homopolymers": 0
+   },
+   "TC_common": {
+    "n": 5132,
+    "bases": 160553
+   }
+  },
+  {
+   "chrom": "chrX",
+   "length": 156040895,
+   "acgt": 154893029,
+   "GA": {
+    "n": 1340,
+    "bases": 126555,
+    "max": 753,
+    "homopolymers": 1
+   },
+   "GA_common": {
+    "n": 15874,
+    "bases": 520574
+   },
+   "TC": {
+    "n": 1293,
+    "bases": 122642,
+    "max": 602,
+    "homopolymers": 4
+   },
+   "TC_common": {
+    "n": 15827,
+    "bases": 516323
+   }
+  },
+  {
+   "chrom": "chrY",
+   "length": 57227415,
+   "acgt": 26415043,
+   "GA": {
+    "n": 426,
+    "bases": 41571,
+    "max": 658,
+    "homopolymers": 4
+   },
+   "GA_common": {
+    "n": 3187,
+    "bases": 117973
+   },
+   "TC": {
+    "n": 460,
+    "bases": 43391,
+    "max": 602,
+    "homopolymers": 1
+   },
+   "TC_common": {
+    "n": 3323,
+    "bases": 123264
+   }
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "regions": 52162,
+ "sample": 300,
+ "seed": 9,
+ "agree": 300,
+ "differ": [],
+ "pass_records": 21766,
+ "background_windows": 59
+}
