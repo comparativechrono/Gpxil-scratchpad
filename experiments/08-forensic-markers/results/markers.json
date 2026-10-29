@@ -1,0 +1,687 @@
+{
+ "markers": 28,
+ "placed": 27,
+ "ga_sequences": [
+  "D10S1248",
+  "D18S51",
+  "D19S433",
+  "D2S1338",
+  "FGA",
+  "PENTAD",
+  "SE33"
+ ],
+ "alu_tails": [
+  "D18S51",
+  "D19S433",
+  "D3S1358",
+  "PENTAD",
+  "PENTAE"
+ ],
+ "liu2021": {
+  "loci": 19,
+  "ga_sequence_markers": [
+   "D18S51",
+   "D19S433",
+   "D2S1338",
+   "FGA",
+   "PENTAD"
+  ],
+  "mean_rate_ga": 0.0024824,
+  "mean_rate_other": 0.0020931400000000003,
+  "mann_whitney_p": 0.893188854489164,
+  "spearman_lus": [
+   0.199,
+   0.413
+  ],
+  "spearman_array_length": [
+   0.177,
+   0.468
+  ]
+ },
+ "markers_table": {
+  "CSF1PO": {
+   "marker": "CSF1PO",
+   "placed": true,
+   "chrom": "chr5",
+   "start": 150076321,
+   "end": 150076397,
+   "anchor": "L0",
+   "motif": "ATCT",
+   "array_length": 76,
+   "lus_units": 13,
+   "purine_strand": "-",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": [
+    0.0026945,
+    87,
+    22113
+   ]
+  },
+  "D10S1248": {
+   "marker": "D10S1248",
+   "placed": true,
+   "chrom": "chr10",
+   "start": 129294243,
+   "end": 129294301,
+   "anchor": "L0",
+   "motif": "GGAA",
+   "array_length": 58,
+   "lus_units": 13,
+   "purine_strand": "+",
+   "census": [
+    {
+     "start": "129294243",
+     "end": "129294296",
+     "kind": "GA",
+     "length": "53",
+     "origin": "Simple_repeat",
+     "alu": "",
+     "alu_class": "",
+     "distance": ""
+    }
+   ],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": true,
+   "liu2021": null
+  },
+  "D12S391": {
+   "marker": "D12S391",
+   "placed": true,
+   "chrom": "chr12",
+   "start": 12297013,
+   "end": 12297066,
+   "anchor": "L0",
+   "motif": "AGAT",
+   "array_length": 53,
+   "lus_units": 12,
+   "purine_strand": "+",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": [
+    0.004315,
+    158,
+    20562
+   ]
+  },
+  "D13S317": {
+   "marker": "D13S317",
+   "placed": true,
+   "chrom": "chr13",
+   "start": 82148024,
+   "end": 82148068,
+   "anchor": "L0",
+   "motif": "TATC",
+   "array_length": 44,
+   "lus_units": 11,
+   "purine_strand": "-",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": [
+    0.0014355,
+    51,
+    22113
+   ]
+  },
+  "D16S539": {
+   "marker": "D16S539",
+   "placed": true,
+   "chrom": "chr16",
+   "start": 86352701,
+   "end": 86352745,
+   "anchor": "L0",
+   "motif": "GATA",
+   "array_length": 44,
+   "lus_units": 11,
+   "purine_strand": "+",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": [
+    0.0016,
+    56,
+    22113
+   ]
+  },
+  "D17S1301": {
+   "marker": "D17S1301",
+   "placed": true,
+   "chrom": "chr17",
+   "start": 74684854,
+   "end": 74684902,
+   "anchor": "L0",
+   "motif": "AGAT",
+   "array_length": 48,
+   "lus_units": 12,
+   "purine_strand": "+",
+   "census": [],
+   "nearest_alu": "AluSx1",
+   "alu_distance": 46,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": null
+  },
+  "D18S51": {
+   "marker": "D18S51",
+   "placed": true,
+   "chrom": "chr18",
+   "start": 63281666,
+   "end": 63281743,
+   "anchor": "L16",
+   "motif": "AGAA",
+   "array_length": 77,
+   "lus_units": 18,
+   "purine_strand": "+",
+   "census": [
+    {
+     "start": "63281666",
+     "end": "63281773",
+     "kind": "GA",
+     "length": "107",
+     "origin": "Alu tail",
+     "alu": "AluJb",
+     "alu_class": "AluJ",
+     "distance": "29"
+    }
+   ],
+   "nearest_alu": "AluJb",
+   "alu_distance": 29,
+   "alu_at_start": "AluJb",
+   "ga_sequence": true,
+   "liu2021": [
+    0.0033265,
+    128,
+    22113
+   ]
+  },
+  "D19S433": {
+   "marker": "D19S433",
+   "placed": true,
+   "chrom": "chr19",
+   "start": 29926224,
+   "end": 29926299,
+   "anchor": "L32",
+   "motif": "CCTT",
+   "array_length": 75,
+   "lus_units": 13,
+   "purine_strand": "-",
+   "census": [
+    {
+     "start": "29926212",
+     "end": "29926285",
+     "kind": "TC",
+     "length": "73",
+     "origin": "Alu tail",
+     "alu": "AluJr4",
+     "alu_class": "AluJ",
+     "distance": "-15"
+    }
+   ],
+   "nearest_alu": "AluJr4",
+   "alu_distance": 1,
+   "alu_at_start": "AluJr4",
+   "ga_sequence": true,
+   "liu2021": [
+    0.001728,
+    60,
+    22113
+   ]
+  },
+  "D1S1656": {
+   "marker": "D1S1656",
+   "placed": true,
+   "chrom": "chr1",
+   "start": 230769616,
+   "end": 230769683,
+   "anchor": "L0",
+   "motif": "TCTA",
+   "array_length": 67,
+   "lus_units": 16,
+   "purine_strand": "-",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": [
+    0.0019225,
+    48,
+    13712
+   ]
+  },
+  "D20S482": {
+   "marker": "D20S482",
+   "placed": true,
+   "chrom": "chr20",
+   "start": 4525691,
+   "end": 4525753,
+   "anchor": "R8",
+   "motif": "AGAT",
+   "array_length": 62,
+   "lus_units": 14,
+   "purine_strand": "+",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": null
+  },
+  "D21S11": {
+   "marker": "D21S11",
+   "placed": true,
+   "chrom": "chr21",
+   "start": 19182012,
+   "end": 19182131,
+   "anchor": "L0",
+   "motif": "TCTA",
+   "array_length": 119,
+   "lus_units": 12,
+   "purine_strand": "-",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": [
+    0.0022847,
+    92,
+    22113
+   ]
+  },
+  "D22S1045": {
+   "marker": "D22S1045",
+   "placed": true,
+   "chrom": "chr22",
+   "start": 37140286,
+   "end": 37140342,
+   "anchor": "L0",
+   "motif": "ATT",
+   "array_length": 56,
+   "lus_units": 14,
+   "purine_strand": "-",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": null
+  },
+  "D2S1338": {
+   "marker": "D2S1338",
+   "placed": true,
+   "chrom": "chr2",
+   "start": 218014844,
+   "end": 218014924,
+   "anchor": "L0",
+   "motif": "GGAA",
+   "array_length": 80,
+   "lus_units": 13,
+   "purine_strand": "+",
+   "census": [
+    {
+     "start": "218014870",
+     "end": "218014924",
+     "kind": "GA",
+     "length": "54",
+     "origin": "Simple_repeat",
+     "alu": "",
+     "alu_class": "",
+     "distance": ""
+    }
+   ],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": true,
+   "liu2021": [
+    0.0016075,
+    64,
+    22113
+   ]
+  },
+  "D2S441": {
+   "marker": "D2S441",
+   "placed": true,
+   "chrom": "chr2",
+   "start": 68011946,
+   "end": 68011998,
+   "anchor": "L16",
+   "motif": "TCTA",
+   "array_length": 52,
+   "lus_units": 12,
+   "purine_strand": "-",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": null
+  },
+  "D3S1358": {
+   "marker": "D3S1358",
+   "placed": true,
+   "chrom": "chr3",
+   "start": 45540736,
+   "end": 45540803,
+   "anchor": "L0",
+   "motif": "TCTA",
+   "array_length": 67,
+   "lus_units": 14,
+   "purine_strand": "-",
+   "census": [],
+   "nearest_alu": "AluJr",
+   "alu_distance": 0,
+   "alu_at_start": "AluJr",
+   "ga_sequence": false,
+   "liu2021": [
+    0.0011697,
+    48,
+    22113
+   ]
+  },
+  "D4S2408": {
+   "marker": "D4S2408",
+   "placed": true,
+   "chrom": "chr4",
+   "start": 31302791,
+   "end": 31302834,
+   "anchor": "R0",
+   "motif": "ATCT",
+   "array_length": 43,
+   "lus_units": 9,
+   "purine_strand": "-",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": null
+  },
+  "D5S818": {
+   "marker": "D5S818",
+   "placed": true,
+   "chrom": "chr5",
+   "start": 123775552,
+   "end": 123775599,
+   "anchor": "L0",
+   "motif": "ATCT",
+   "array_length": 47,
+   "lus_units": 11,
+   "purine_strand": "-",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": [
+    0.0018365,
+    59,
+    22113
+   ]
+  },
+  "D6S1043": {
+   "marker": "D6S1043",
+   "placed": true,
+   "chrom": "chr6",
+   "start": 91740222,
+   "end": 91740287,
+   "anchor": "L0",
+   "motif": "ATCT",
+   "array_length": 65,
+   "lus_units": 12,
+   "purine_strand": "-",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": null
+  },
+  "D7S820": {
+   "marker": "D7S820",
+   "placed": true,
+   "chrom": "chr7",
+   "start": 84160212,
+   "end": 84160277,
+   "anchor": "L0",
+   "motif": "TATC",
+   "array_length": 65,
+   "lus_units": 13,
+   "purine_strand": "-",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": [
+    0.0018795,
+    67,
+    22113
+   ]
+  },
+  "D8S1179": {
+   "marker": "D8S1179",
+   "placed": true,
+   "chrom": "chr8",
+   "start": 124894862,
+   "end": 124894917,
+   "anchor": "L0",
+   "motif": "TCTA",
+   "array_length": 55,
+   "lus_units": 11,
+   "purine_strand": "-",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": [
+    0.002624,
+    94,
+    22113
+   ]
+  },
+  "D9S1122": {
+   "marker": "D9S1122",
+   "placed": false,
+   "note": "a window was found once on chr16, not chr9"
+  },
+  "FGA": {
+   "marker": "FGA",
+   "placed": true,
+   "chrom": "chr4",
+   "start": 154587745,
+   "end": 154587823,
+   "anchor": "L0",
+   "motif": "AAAG",
+   "array_length": 78,
+   "lus_units": 14,
+   "purine_strand": "+",
+   "census": [
+    {
+     "start": "154587717",
+     "end": "154587823",
+     "kind": "GA",
+     "length": "106",
+     "origin": "Simple_repeat",
+     "alu": "",
+     "alu_class": "",
+     "distance": ""
+    }
+   ],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": true,
+   "liu2021": [
+    0.0045905,
+    172,
+    22113
+   ]
+  },
+  "PENTAD": {
+   "marker": "PENTAD",
+   "placed": true,
+   "chrom": "chr21",
+   "start": 43636188,
+   "end": 43636272,
+   "anchor": "R0",
+   "motif": "AAAGA",
+   "array_length": 84,
+   "lus_units": 13,
+   "purine_strand": "+",
+   "census": [
+    {
+     "start": "43636188",
+     "end": "43636274",
+     "kind": "GA",
+     "length": "86",
+     "origin": "Alu tail",
+     "alu": "AluJb",
+     "alu_class": "AluJ",
+     "distance": "3"
+    }
+   ],
+   "nearest_alu": "AluJb",
+   "alu_distance": 3,
+   "alu_at_start": "AluJb",
+   "ga_sequence": true,
+   "liu2021": [
+    0.0011595,
+    40,
+    20562
+   ]
+  },
+  "PENTAE": {
+   "marker": "PENTAE",
+   "placed": true,
+   "chrom": "chr15",
+   "start": 96831011,
+   "end": 96831039,
+   "anchor": "L0",
+   "motif": "TCTTT",
+   "array_length": 28,
+   "lus_units": 5,
+   "purine_strand": "-",
+   "census": [],
+   "nearest_alu": "AluSx1",
+   "alu_distance": 28,
+   "alu_at_start": "AluSx1",
+   "ga_sequence": false,
+   "liu2021": [
+    0.003755,
+    142,
+    20562
+   ]
+  },
+  "SE33": {
+   "marker": "SE33",
+   "placed": true,
+   "chrom": "chr6",
+   "start": 88277129,
+   "end": 88277288,
+   "anchor": "L0",
+   "motif": "AAAG",
+   "array_length": 159,
+   "lus_units": 16,
+   "purine_strand": "-",
+   "census": [
+    {
+     "start": "88277128",
+     "end": "88277327",
+     "kind": "TC",
+     "length": "199",
+     "origin": "Simple_repeat",
+     "alu": "",
+     "alu_class": "",
+     "distance": ""
+    }
+   ],
+   "nearest_alu": "AluSq2",
+   "alu_distance": 70,
+   "alu_at_start": null,
+   "ga_sequence": true,
+   "liu2021": null
+  },
+  "TH01": {
+   "marker": "TH01",
+   "placed": true,
+   "chrom": "chr11",
+   "start": 2171085,
+   "end": 2171116,
+   "anchor": "L0",
+   "motif": "AATG",
+   "array_length": 31,
+   "lus_units": 7,
+   "purine_strand": "+",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": [
+    0.00016306,
+    7,
+    22113
+   ]
+  },
+  "TPOX": {
+   "marker": "TPOX",
+   "placed": true,
+   "chrom": "chr2",
+   "start": 1489650,
+   "end": 1489684,
+   "anchor": "L0",
+   "motif": "AATG",
+   "array_length": 34,
+   "lus_units": 8,
+   "purine_strand": "+",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": [
+    7.7e-05,
+    3,
+    22113
+   ]
+  },
+  "VWA": {
+   "marker": "VWA",
+   "placed": true,
+   "chrom": "chr12",
+   "start": 5983966,
+   "end": 5984020,
+   "anchor": "R0",
+   "motif": "TAGA",
+   "array_length": 54,
+   "lus_units": 11,
+   "purine_strand": "+",
+   "census": [],
+   "nearest_alu": null,
+   "alu_distance": null,
+   "alu_at_start": null,
+   "ga_sequence": false,
+   "liu2021": [
+    0.003547,
+    124,
+    22113
+   ]
+  }
+ }
+}

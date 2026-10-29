@@ -1,0 +1,416 @@
+{
+ "outside_loci_sample": {
+  "mutations": 3000,
+  "gnomad": {
+   "absent": 2081,
+   "PASS, under 0.1 %": 575,
+   "not PASS, under 0.1 %": 38,
+   "PASS, one genome": 228,
+   "PASS, 0.1 % or more": 64,
+   "not PASS, one genome": 10,
+   "not PASS, 0.1 % or more": 4
+  }
+ },
+ "in_loci": {
+  "purity 0.6+": {
+   "gnomad_of_copies": {
+    "PASS, one genome": 6,
+    "absent": 29,
+    "PASS, under 0.1 %": 41,
+    "not PASS, under 0.1 %": 45,
+    "not PASS, one genome": 1,
+    "PASS, 0.1 % or more": 25,
+    "not PASS, 0.1 % or more": 11
+   },
+   "gnomad_of_others": {
+    "absent": 420,
+    "PASS, one genome": 43,
+    "PASS, under 0.1 %": 69,
+    "PASS, 0.1 % or more": 14,
+    "not PASS, under 0.1 %": 26,
+    "not PASS, 0.1 % or more": 5,
+    "not PASS, one genome": 2
+   },
+   "all": {
+    "copies": {
+     "mutations": 737,
+     "observed": 158,
+     "expected": 95.7,
+     "ratio": 1.65,
+     "z": 7.9
+    },
+    "copies_5mer": {
+     "mutations": 737,
+     "observed": 158,
+     "expected": 98.2,
+     "ratio": 1.61,
+     "z": 7.5
+    },
+    "near": {
+     "mutations": 737,
+     "observed": 147,
+     "expected": 84.3,
+     "ratio": 1.74,
+     "z": 7.8
+    },
+    "toward": {
+     "mutations": 424,
+     "observed": 79,
+     "expected": 46.4,
+     "ratio": 1.7,
+     "z": 5.3
+    }
+   },
+   "absent": {
+    "copies": {
+     "mutations": 449,
+     "observed": 29,
+     "expected": 38.8,
+     "ratio": 0.75,
+     "z": -1.8
+    },
+    "copies_5mer": {
+     "mutations": 449,
+     "observed": 29,
+     "expected": 40.2,
+     "ratio": 0.72,
+     "z": -2.1
+    },
+    "near": {
+     "mutations": 449,
+     "observed": 36,
+     "expected": 42.6,
+     "ratio": 0.85,
+     "z": -1.1
+    },
+    "toward": {
+     "mutations": 207,
+     "observed": 16,
+     "expected": 21.3,
+     "ratio": 0.75,
+     "z": -1.3
+    }
+   },
+   "present": {
+    "copies": {
+     "mutations": 288,
+     "observed": 129,
+     "expected": 56.8,
+     "ratio": 2.27,
+     "z": 12.3
+    },
+    "copies_5mer": {
+     "mutations": 288,
+     "observed": 129,
+     "expected": 58.1,
+     "ratio": 2.22,
+     "z": 12.0
+    },
+    "near": {
+     "mutations": 288,
+     "observed": 111,
+     "expected": 41.8,
+     "ratio": 2.66,
+     "z": 12.4
+    },
+    "toward": {
+     "mutations": 217,
+     "observed": 63,
+     "expected": 25.1,
+     "ratio": 2.51,
+     "z": 8.4
+    }
+   },
+   "present, PASS": {
+    "copies": {
+     "mutations": 198,
+     "observed": 72,
+     "expected": 32.2,
+     "ratio": 2.24,
+     "z": 8.8
+    },
+    "copies_5mer": {
+     "mutations": 198,
+     "observed": 72,
+     "expected": 33.0,
+     "ratio": 2.18,
+     "z": 8.5
+    },
+    "near": {
+     "mutations": 198,
+     "observed": 62,
+     "expected": 26.2,
+     "ratio": 2.37,
+     "z": 8.1
+    },
+    "toward": {
+     "mutations": 136,
+     "observed": 34,
+     "expected": 15.5,
+     "ratio": 2.19,
+     "z": 5.2
+    }
+   },
+   "present, not PASS": {
+    "copies": {
+     "mutations": 90,
+     "observed": 57,
+     "expected": 24.7,
+     "ratio": 2.31,
+     "z": 8.7
+    },
+    "copies_5mer": {
+     "mutations": 90,
+     "observed": 57,
+     "expected": 25.1,
+     "ratio": 2.27,
+     "z": 8.6
+    },
+    "near": {
+     "mutations": 90,
+     "observed": 49,
+     "expected": 15.6,
+     "ratio": 3.15,
+     "z": 9.8
+    },
+    "toward": {
+     "mutations": 81,
+     "observed": 29,
+     "expected": 9.6,
+     "ratio": 3.02,
+     "z": 6.9
+    }
+   },
+   "absent or PASS in one genome": {
+    "copies": {
+     "mutations": 498,
+     "observed": 35,
+     "expected": 44.5,
+     "ratio": 0.79,
+     "z": -1.7
+    },
+    "copies_5mer": {
+     "mutations": 498,
+     "observed": 35,
+     "expected": 46.0,
+     "ratio": 0.76,
+     "z": -1.9
+    },
+    "near": {
+     "mutations": 498,
+     "observed": 45,
+     "expected": 48.2,
+     "ratio": 0.93,
+     "z": -0.5
+    },
+    "toward": {
+     "mutations": 234,
+     "observed": 19,
+     "expected": 24.3,
+     "ratio": 0.78,
+     "z": -1.2
+    }
+   }
+  },
+  "purity under 0.6": {
+   "gnomad_of_copies": {
+    "absent": 85,
+    "PASS, under 0.1 %": 61,
+    "not PASS, under 0.1 %": 29,
+    "PASS, 0.1 % or more": 17,
+    "not PASS, 0.1 % or more": 10,
+    "not PASS, one genome": 8,
+    "PASS, one genome": 13
+   },
+   "gnomad_of_others": {
+    "absent": 618,
+    "PASS, under 0.1 %": 187,
+    "PASS, one genome": 68,
+    "PASS, 0.1 % or more": 21,
+    "not PASS, under 0.1 %": 37,
+    "not PASS, one genome": 3,
+    "not PASS, 0.1 % or more": 6
+   },
+   "all": {
+    "copies": {
+     "mutations": 1163,
+     "observed": 223,
+     "expected": 190.5,
+     "ratio": 1.17,
+     "z": 2.9
+    },
+    "copies_5mer": {
+     "mutations": 1163,
+     "observed": 223,
+     "expected": 191.6,
+     "ratio": 1.16,
+     "z": 2.8
+    },
+    "near": {
+     "mutations": 1163,
+     "observed": 393,
+     "expected": 371.1,
+     "ratio": 1.06,
+     "z": 1.4
+    },
+    "toward": {
+     "mutations": 1143,
+     "observed": 256,
+     "expected": 236.3,
+     "ratio": 1.08,
+     "z": 1.5
+    }
+   },
+   "absent": {
+    "copies": {
+     "mutations": 703,
+     "observed": 85,
+     "expected": 99.4,
+     "ratio": 0.85,
+     "z": -1.7
+    },
+    "copies_5mer": {
+     "mutations": 703,
+     "observed": 85,
+     "expected": 100.3,
+     "ratio": 0.85,
+     "z": -1.8
+    },
+    "near": {
+     "mutations": 703,
+     "observed": 241,
+     "expected": 224.1,
+     "ratio": 1.08,
+     "z": 1.4
+    },
+    "toward": {
+     "mutations": 687,
+     "observed": 133,
+     "expected": 140.4,
+     "ratio": 0.95,
+     "z": -0.7
+    }
+   },
+   "present": {
+    "copies": {
+     "mutations": 460,
+     "observed": 138,
+     "expected": 91.0,
+     "ratio": 1.52,
+     "z": 6.2
+    },
+    "copies_5mer": {
+     "mutations": 460,
+     "observed": 138,
+     "expected": 91.4,
+     "ratio": 1.51,
+     "z": 6.1
+    },
+    "near": {
+     "mutations": 460,
+     "observed": 152,
+     "expected": 147.0,
+     "ratio": 1.03,
+     "z": 0.5
+    },
+    "toward": {
+     "mutations": 456,
+     "observed": 123,
+     "expected": 95.9,
+     "ratio": 1.28,
+     "z": 3.2
+    }
+   },
+   "present, PASS": {
+    "copies": {
+     "mutations": 367,
+     "observed": 91,
+     "expected": 65.4,
+     "ratio": 1.39,
+     "z": 3.9
+    },
+    "copies_5mer": {
+     "mutations": 367,
+     "observed": 91,
+     "expected": 65.8,
+     "ratio": 1.38,
+     "z": 3.9
+    },
+    "near": {
+     "mutations": 367,
+     "observed": 121,
+     "expected": 118.0,
+     "ratio": 1.03,
+     "z": 0.3
+    },
+    "toward": {
+     "mutations": 363,
+     "observed": 93,
+     "expected": 77.3,
+     "ratio": 1.2,
+     "z": 2.1
+    }
+   },
+   "present, not PASS": {
+    "copies": {
+     "mutations": 93,
+     "observed": 47,
+     "expected": 25.6,
+     "ratio": 1.83,
+     "z": 5.5
+    },
+    "copies_5mer": {
+     "mutations": 93,
+     "observed": 47,
+     "expected": 25.6,
+     "ratio": 1.84,
+     "z": 5.6
+    },
+    "near": {
+     "mutations": 93,
+     "observed": 31,
+     "expected": 29.0,
+     "ratio": 1.07,
+     "z": 0.5
+    },
+    "toward": {
+     "mutations": 93,
+     "observed": 30,
+     "expected": 18.6,
+     "ratio": 1.62,
+     "z": 3.1
+    }
+   },
+   "absent or PASS in one genome": {
+    "copies": {
+     "mutations": 784,
+     "observed": 98,
+     "expected": 109.6,
+     "ratio": 0.89,
+     "z": -1.3
+    },
+    "copies_5mer": {
+     "mutations": 784,
+     "observed": 98,
+     "expected": 110.5,
+     "ratio": 0.89,
+     "z": -1.4
+    },
+    "near": {
+     "mutations": 784,
+     "observed": 264,
+     "expected": 250.1,
+     "ratio": 1.06,
+     "z": 1.1
+    },
+    "toward": {
+     "mutations": 767,
+     "observed": 156,
+     "expected": 157.8,
+     "ratio": 0.99,
+     "z": -0.2
+    }
+   }
+  }
+ }
+}
