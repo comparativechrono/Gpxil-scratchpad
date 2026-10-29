@@ -1,0 +1,39 @@
+{
+ "call_set": "v5.0q",
+ "k": 6,
+ "context": 7,
+ "own": {
+  "sites": 3040807,
+  "copy": 1801622,
+  "w_sites": 2278.671,
+  "w_copy": 1373.733,
+  "ti": 10768,
+  "ti_copy": 9015,
+  "ti_iso": 2169,
+  "ti_iso_copy": 1781,
+  "share_sites": 0.5925,
+  "share_context": 0.6029,
+  "observed": 0.8372,
+  "p_vs_sites": 0.0,
+  "p_vs_context": 0.0,
+  "observed_isolated": 0.8211,
+  "p_isolated_vs_context": 1.379083410350412e-106
+ },
+ "other": {
+  "sites": 3040807,
+  "copy": 1555967,
+  "w_sites": 2278.671,
+  "w_copy": 1160.679,
+  "ti": 10768,
+  "ti_copy": 6566,
+  "ti_iso": 2169,
+  "ti_iso_copy": 1209,
+  "share_sites": 0.5117,
+  "share_context": 0.5094,
+  "observed": 0.6098,
+  "p_vs_sites": 5.604095935384222e-93,
+  "p_vs_context": 2.436050176730583e-97,
+  "observed_isolated": 0.5574,
+  "p_isolated_vs_context": 7.825097789295044e-06
+ }
+}

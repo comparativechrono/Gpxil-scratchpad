@@ -1,0 +1,27 @@
+chr1 [5s]
+chr2 [9s]
+chr3 [13s]
+chr4 [16s]
+chr5 [19s]
+chr6 [22s]
+chr7 [26s]
+chr8 [29s]
+chr9 [31s]
+chr10 [33s]
+chr11 [36s]
+chr12 [38s]
+chr13 [40s]
+chr14 [42s]
+chr15 [43s]
+chr16 [46s]
+chr17 [48s]
+chr18 [50s]
+chr19 [53s]
+chr20 [54s]
+chr21 [55s]
+chr22 [56s]
+
+v5.0q
+k=4: a transition copies a unit at 83.5 % of 3,113,895 bases; all 10218/10837 = 94.3 % (p = 5.5e-255; transitions 89 % of 12219); isolated 2087/2209 = 94.5 % (p = 1.7e-55; transitions 82 % of 2686); clustered 8131/8628 = 94.2 % (p = 2.9e-201; transitions 91 % of 9533)
+k=5: a transition copies a unit at 71.9 % of 3,077,349 bases; all 9624/10800 = 89.1 % (p = 0; transitions 89 % of 12116); isolated 1948/2187 = 89.1 % (p = 5.5e-85; transitions 82 % of 2657); clustered 7676/8613 = 89.1 % (p = 0; transitions 91 % of 9459)
+k=6: a transition copies a unit at 59.2 % of 3,040,808 bases; all 9015/10768 = 83.7 % (p = 0; transitions 89 % of 12060); isolated 1781/2169 = 82.1 % (p = 1.3e-115; transitions 83 % of 2627); clustered 7234/8599 = 84.1 % (p = 0; transitions 91 % of 9433)

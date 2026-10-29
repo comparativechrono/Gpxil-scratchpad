@@ -1,0 +1,92 @@
+{
+ "call_set": "v5.0q",
+ "k": {
+  "4": {
+   "sites": 3113895,
+   "sites_copy": 2600986,
+   "all": {
+    "ti": 10837,
+    "ti_copy": 10218,
+    "tv": 1382,
+    "share": 0.9429,
+    "p": 5.516997201468705e-255,
+    "transitions": 0.8869
+   },
+   "isolated": {
+    "ti": 2209,
+    "ti_copy": 2087,
+    "tv": 477,
+    "share": 0.9448,
+    "p": 1.6976293010203255e-55,
+    "transitions": 0.8224
+   },
+   "clustered": {
+    "ti": 8628,
+    "ti_copy": 8131,
+    "tv": 905,
+    "share": 0.9424,
+    "p": 2.8850359276905813e-201,
+    "transitions": 0.9051
+   },
+   "expected_share": 0.8353
+  },
+  "5": {
+   "sites": 3077349,
+   "sites_copy": 2212502,
+   "all": {
+    "ti": 10800,
+    "ti_copy": 9624,
+    "tv": 1316,
+    "share": 0.8911,
+    "p": 0.0,
+    "transitions": 0.8914
+   },
+   "isolated": {
+    "ti": 2187,
+    "ti_copy": 1948,
+    "tv": 470,
+    "share": 0.8907,
+    "p": 5.508094784934969e-85,
+    "transitions": 0.8231
+   },
+   "clustered": {
+    "ti": 8613,
+    "ti_copy": 7676,
+    "tv": 846,
+    "share": 0.8912,
+    "p": 0.0,
+    "transitions": 0.9106
+   },
+   "expected_share": 0.719
+  },
+  "6": {
+   "sites": 3040808,
+   "sites_copy": 1801623,
+   "all": {
+    "ti": 10768,
+    "ti_copy": 9015,
+    "tv": 1292,
+    "share": 0.8372,
+    "p": 0.0,
+    "transitions": 0.8929
+   },
+   "isolated": {
+    "ti": 2169,
+    "ti_copy": 1781,
+    "tv": 458,
+    "share": 0.8211,
+    "p": 1.266102744103706e-115,
+    "transitions": 0.8257
+   },
+   "clustered": {
+    "ti": 8599,
+    "ti_copy": 7234,
+    "tv": 834,
+    "share": 0.8413,
+    "p": 0.0,
+    "transitions": 0.9116
+   },
+   "expected_share": 0.5925
+  }
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "call_set": "v4.2.1",
+ "k": {
+  "4": {
+   "sites": 1489065,
+   "sites_copy": 1267682,
+   "all": {
+    "ti": 1220,
+    "ti_copy": 1164,
+    "tv": 306,
+    "share": 0.9541,
+    "p": 1.5100343414035944e-30,
+    "transitions": 0.7995
+   },
+   "isolated": {
+    "ti": 809,
+    "ti_copy": 775,
+    "tv": 232,
+    "share": 0.958,
+    "p": 1.74889836336846e-22,
+    "transitions": 0.7771
+   },
+   "clustered": {
+    "ti": 411,
+    "ti_copy": 389,
+    "tv": 74,
+    "share": 0.9465,
+    "p": 1.6150419552705788e-09,
+    "transitions": 0.8474
+   },
+   "expected_share": 0.8513
+  },
+  "5": {
+   "sites": 1469391,
+   "sites_copy": 1070647,
+   "all": {
+    "ti": 1211,
+    "ti_copy": 1075,
+    "tv": 299,
+    "share": 0.8877,
+    "p": 7.961837103326483e-42,
+    "transitions": 0.802
+   },
+   "isolated": {
+    "ti": 801,
+    "ti_copy": 708,
+    "tv": 228,
+    "share": 0.8839,
+    "p": 8.496780851529393e-27,
+    "transitions": 0.7784
+   },
+   "clustered": {
+    "ti": 410,
+    "ti_copy": 367,
+    "tv": 71,
+    "share": 0.8951,
+    "p": 1.6495549669648353e-16,
+    "transitions": 0.8524
+   },
+   "expected_share": 0.7286
+  },
+  "6": {
+   "sites": 1449794,
+   "sites_copy": 856247,
+   "all": {
+    "ti": 1206,
+    "ti_copy": 963,
+    "tv": 291,
+    "share": 0.7985,
+    "p": 4.158851729860084e-53,
+    "transitions": 0.8056
+   },
+   "isolated": {
+    "ti": 797,
+    "ti_copy": 627,
+    "tv": 222,
+    "share": 0.7867,
+    "p": 1.2831757276505656e-31,
+    "transitions": 0.7821
+   },
+   "clustered": {
+    "ti": 409,
+    "ti_copy": 336,
+    "tv": 69,
+    "share": 0.8215,
+    "p": 2.1717814528213246e-23,
+    "transitions": 0.8556
+   },
+   "expected_share": 0.5906
+  }
+ }
+}
