@@ -70,9 +70,11 @@ made for them; [they are set beside these](#the-familys-own-calls).
    have 0.26. From 101 bases on, GA-sequences have 0.41 to 0.69, the other
    simple repeats 0.14 to 0.27. But RepeatMasker's simple repeats need not
    be pure, pure runs of A and C are seldom so long, and those of A and T
-   so long have almost none, for reasons the table doesn't give; so whether
-   a run of purines mutates more than another pure repeat as long, this
-   family can't say.
+   so long have almost none, for reasons the table doesn't give.
+   [Experiment 06](../06-repeat-mutability/) asks it locus by locus, in the
+   catalogue TRGT genotyped: matched for length, unit and purity,
+   GA-sequences mutate as other repeats do, and they are half of the
+   genome's long, pure repeats.
 
 **What it means.** New mutations in GA-sequences are mostly a unit gained
 or lost, as in microsatellites, more often the longer the sequence, and so
