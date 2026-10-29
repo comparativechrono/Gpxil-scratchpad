@@ -893,6 +893,7 @@
     "under a quarter of the child's reads": 3,
     "a depth under 10 in the trio": 1
    },
+   "with_a_new_allele_of_the_papers_size": 14,
    "loci": [
     {
      "sample": "NA12882",
@@ -901,7 +902,8 @@
      "experiment05": "not a candidate",
      "record": null,
      "reason": "no new allele in the calls",
-     "broken": []
+     "broken": [],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12882",
@@ -910,7 +912,8 @@
      "experiment05": "not a candidate",
      "record": null,
      "reason": "no new allele in the calls",
-     "broken": []
+     "broken": [],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12882",
@@ -925,7 +928,8 @@
      "broken": [
       "a GQ under 20 in the trio",
       "another relative is called with it"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12882",
@@ -940,7 +944,8 @@
      "broken": [
       "a GQ under 20 in the trio",
       "another relative is called with it"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12882",
@@ -954,7 +959,8 @@
      "reason": "a GQ under 20 in the trio",
      "broken": [
       "a GQ under 20 in the trio"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": true
     },
     {
      "sample": "NA12882",
@@ -969,7 +975,8 @@
      "broken": [
       "a GQ under 20 in the trio",
       "another relative is called with it"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": true
     },
     {
      "sample": "NA12882",
@@ -984,7 +991,8 @@
      "broken": [
       "the child or a parent isn't called",
       "a GQ under 20 in the trio"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12882",
@@ -996,7 +1004,8 @@
       "change": 4
      },
      "reason": "none: a candidate",
-     "broken": []
+     "broken": [],
+     "a_new_allele_of_the_papers_size": true
     },
     {
      "sample": "NA12882",
@@ -1008,7 +1017,8 @@
       "change": -24
      },
      "reason": "none: a candidate",
-     "broken": []
+     "broken": [],
+     "a_new_allele_of_the_papers_size": true
     },
     {
      "sample": "NA12882",
@@ -1022,7 +1032,8 @@
      "reason": "a GQ under 20 in the trio",
      "broken": [
       "a GQ under 20 in the trio"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12885",
@@ -1037,7 +1048,8 @@
      "broken": [
       "the child or a parent isn't called",
       "a GQ under 20 in the trio"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": true
     },
     {
      "sample": "NA12885",
@@ -1046,7 +1058,8 @@
      "experiment05": "not a candidate",
      "record": null,
      "reason": "no new allele in the calls",
-     "broken": []
+     "broken": [],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12885",
@@ -1055,7 +1068,8 @@
      "experiment05": "not a candidate",
      "record": null,
      "reason": "no new allele in the calls",
-     "broken": []
+     "broken": [],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12885",
@@ -1070,7 +1084,8 @@
      "broken": [
       "a GQ under 20 in the trio",
       "another relative is called with it"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": true
     },
     {
      "sample": "NA12885",
@@ -1087,7 +1102,8 @@
       "a GQ under 20 in the trio",
       "a parent has a read of it",
       "another relative is called with it"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12885",
@@ -1103,7 +1119,8 @@
       "the child or a parent isn't called",
       "a GQ under 20 in the trio",
       "a parent has a read of it"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12885",
@@ -1112,7 +1129,8 @@
      "experiment05": "not a candidate",
      "record": null,
      "reason": "no new allele in the calls",
-     "broken": []
+     "broken": [],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12885",
@@ -1126,7 +1144,8 @@
      "reason": "a GQ under 20 in the trio",
      "broken": [
       "a GQ under 20 in the trio"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": true
     },
     {
      "sample": "NA12879",
@@ -1143,7 +1162,8 @@
       "a GQ under 20 in the trio",
       "a parent has a read of it",
       "another relative is called with it"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12879",
@@ -1152,7 +1172,8 @@
      "experiment05": "not a candidate",
      "record": null,
      "reason": "no new allele in the calls",
-     "broken": []
+     "broken": [],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12879",
@@ -1166,7 +1187,8 @@
      "reason": "a GQ under 20 in the trio",
      "broken": [
       "a GQ under 20 in the trio"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": true
     },
     {
      "sample": "NA12879",
@@ -1182,7 +1204,8 @@
       "the child or a parent isn't called",
       "a GQ under 20 in the trio",
       "a parent has a read of it"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": true
     },
     {
      "sample": "NA12881",
@@ -1196,7 +1219,8 @@
      "reason": "a GQ under 20 in the trio",
      "broken": [
       "a GQ under 20 in the trio"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12881",
@@ -1212,7 +1236,8 @@
       "the child or a parent isn't called",
       "a GQ under 20 in the trio",
       "a parent has a read of it"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": true
     },
     {
      "sample": "NA12881",
@@ -1226,7 +1251,8 @@
      "reason": "a GQ under 20 in the trio",
      "broken": [
       "a GQ under 20 in the trio"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": true
     },
     {
      "sample": "NA12881",
@@ -1241,7 +1267,8 @@
      "broken": [
       "a GQ under 20 in the trio",
       "under a quarter of the child's reads"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12881",
@@ -1256,7 +1283,8 @@
      "broken": [
       "the child or a parent isn't called",
       "a GQ under 20 in the trio"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12881",
@@ -1271,7 +1299,8 @@
      "broken": [
       "a GQ under 20 in the trio",
       "another relative is called with it"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12881",
@@ -1286,7 +1315,8 @@
      "broken": [
       "the child or a parent isn't called",
       "a GQ under 20 in the trio"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": true
     },
     {
      "sample": "NA12881",
@@ -1301,7 +1331,8 @@
      "broken": [
       "the child or a parent isn't called",
       "a GQ under 20 in the trio"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12881",
@@ -1317,7 +1348,8 @@
       "the child or a parent isn't called",
       "a GQ under 20 in the trio",
       "under a quarter of the child's reads"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12881",
@@ -1332,7 +1364,8 @@
      "broken": [
       "a GQ under 20 in the trio",
       "under a quarter of the child's reads"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": true
     },
     {
      "sample": "NA12886",
@@ -1348,7 +1381,8 @@
       "the child or a parent isn't called",
       "a GQ under 20 in the trio",
       "another relative is called with it"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12886",
@@ -1362,7 +1396,8 @@
      "reason": "another relative is called with it",
      "broken": [
       "another relative is called with it"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": true
     },
     {
      "sample": "NA12886",
@@ -1378,7 +1413,8 @@
       "the child or a parent isn't called",
       "a GQ under 20 in the trio",
       "a parent has a read of it"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12886",
@@ -1394,7 +1430,8 @@
       "the child or a parent isn't called",
       "a GQ under 20 in the trio",
       "a parent has a read of it"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12886",
@@ -1411,7 +1448,8 @@
       "a GQ under 20 in the trio",
       "a depth under 10 in the trio",
       "a parent has a read of it"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": true
     },
     {
      "sample": "NA12886",
@@ -1426,7 +1464,8 @@
      "broken": [
       "the child or a parent isn't called",
       "a GQ under 20 in the trio"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": false
     },
     {
      "sample": "NA12886",
@@ -1441,7 +1480,8 @@
      "broken": [
       "the child or a parent isn't called",
       "a GQ under 20 in the trio"
-     ]
+     ],
+     "a_new_allele_of_the_papers_size": true
     },
     {
      "sample": "NA12886",
@@ -1450,7 +1490,8 @@
      "experiment05": "not a candidate",
      "record": null,
      "reason": "no new allele in the calls",
-     "broken": []
+     "broken": [],
+     "a_new_allele_of_the_papers_size": false
     }
    ]
   }

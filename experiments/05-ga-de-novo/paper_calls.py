@@ -7,7 +7,7 @@ and de novo substitutions (SNVs) and indels outside TRs in G2 and G3, on T2T-CHM
 - the TR mutations (GRCh38) at a GA-sequence: "in" one when at least half of the TR locus lies in pure GA- or
   TC-sequences (experiment 04's census), "touching" one when any of it does; each with the change's size in units
   of the locus's motifs, its parent of origin, and whether it passed the paper's filters (its rates use those that
-  did) or is recurrent (seen in several children);
+  did) or is flagged recurrent;
 - their rate a base against the paper's TR mutations over all of the autosomes (the same calls, so the same
   sensitivity), and against the paper's genome-wide rates per transmission as experiment 05 set its own calls
   against them;
@@ -269,7 +269,7 @@ def tr_mutations(wb, runs: Runs, ours: list[dict]) -> tuple[dict, list[dict]]:
             "transmitted": r["is_transmitted"], "manual": r["manual_validation_status"], "element": r["element_validation_status"],
             "ga_bases": cover, "where": "in" if hits and cover >= (e - s) / 2 else "touching" if hits else "",
             "ga": ";".join(f"{a}-{b}:{k}:{runs.origin.get((c, a), '')}" for a, b, k in hits),
-            "origin": (runs.origin.get((c, main[0])) or "none") if main else "",
+            "origin": runs.origin.get((c, main[0]), "") if main else "",  # (experiment 04 classed the autosomes' only)
         }
         events.append(ev)
     auto = [x for x in events if x["chrom"] in ped.AUTOSOMES]
@@ -403,7 +403,9 @@ def why_missed(events: list[dict], vcf_path: str) -> dict:
     """For the paper's passing TR mutations in GA-sequences in the five shared children: what the HiFi joint calls
     hold over the locus, and which of call_dnms.py's rules kept each from experiment 05's candidates. A record holds
     a new allele when the child is called with an allele neither parent is; of the locus's new alleles, the one that
-    breaks the fewest rules speaks for it, and the first rule it breaks, in call_dnms.py's order, is its reason."""
+    breaks the fewest rules speaks for it, and the first rule it breaks, in call_dnms.py's order, is its reason. The
+    calls' alleles are written against the reference, so a new allele is of the paper's size when it differs by that
+    from an allele a parent is called with in the same record (or from the reference, when neither parent is called)."""
     from cyvcf2 import VCF
 
     from call_dnms import MAX_DP_FACTOR
@@ -423,20 +425,23 @@ def why_missed(events: list[dict], vcf_path: str) -> dict:
         for sib in ped.siblings(child):
             keep |= {sib} | ped.descendants(sib)
         outside = np.array([p not in keep for p in vcf.samples])
-        best = None
+        best, of_size = None, False
         recs = list(vcf(f"{x['chrom']}:{x['start'] - 5}-{x['end'] + 5}"))
         for v in recs:
             g = v.genotype.array()[:, :2]
             ad, gq, dp = v.format("AD"), v.format("GQ"), v.format("DP")
             if ad is None or gq is None or dp is None:
                 continue
+            lens = [0] + [len(a) - len(v.REF) for a in v.ALT]
+            parents = {a for a in (*g[fi], *g[mi]) if a >= 0} or {0}
             for k in range(1, len(v.ALT) + 1):
                 has = (g[:, 0] == k) | (g[:, 1] == k)
                 if not has[ci] or has[fi] or has[mi]:
                     continue
+                of_size |= any(lens[k] - lens[a] == x["size"] for a in parents)
                 broken = broken_rules(g, gq[:, 0], dp[:, 0], ad, k, ci, fi, mi, max_dp, outside)
                 if best is None or len(broken) < len(best[1]):
-                    best = ({"at": f"{v.CHROM}:{v.POS}", "change": len(v.ALT[k - 1]) - len(v.REF)}, broken)
+                    best = ({"at": f"{v.CHROM}:{v.POS}", "change": lens[k]}, broken)
         reason = ("no record over the locus" if not recs else "no new allele in the calls" if best is None
                   else best[1][0] if best[1] else "none: a candidate")
         first[reason] += 1
@@ -444,9 +449,11 @@ def why_missed(events: list[dict], vcf_path: str) -> dict:
             every[r] += 1
         rows.append({"sample": child, "locus": f"{x['chrom']}:{x['start']}-{x['end']}", "size": x["size"],
                      "experiment05": x["experiment05"], "record": best[0] if best else None, "reason": reason,
-                     "broken": best[1] if best else []})
+                     "broken": best[1] if best else [], "a_new_allele_of_the_papers_size": of_size})
     return {"mutations": len(rows), "first_rule_broken": dict(first.most_common()),
-            "any_rule_broken": dict(every.most_common()), "loci": rows}
+            "any_rule_broken": dict(every.most_common()),
+            "with_a_new_allele_of_the_papers_size": sum(r["a_new_allele_of_the_papers_size"] for r in rows if r["reason"] != "none: a candidate"),
+            "loci": rows}
 
 
 def lift_and_read(rows: list[dict], pos_key: str, chain: str, ref_dir: str, kind: str) -> list[dict]:

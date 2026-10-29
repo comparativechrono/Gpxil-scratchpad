@@ -24,17 +24,18 @@ made for them; [they are set beside these](#the-familys-own-calls).
 **Answers.**
 
 1. **New insertions and deletions hit GA-sequences 80 to 110 times as often
-   as the genome, a base.** Of the 440 new tandem-repeat (TR) mutations
-   that the family's paper calls in eight G3 children and that pass its
-   filters on the autosomes, 67 are in GA-sequences: 15 % of them, in 0.14 %
-   of the bases. That is 8.4 a transmission, where the paper's genome-wide rate of insertions
-   and deletions gives 0.10: 82 times (95 % interval 64 to 104), or 108 times
-   (84 to 138) the density of the same calls over all of the autosomes. This
-   experiment's own calls found 16.8 times (10.8 to 25): of the paper's 40 in
-   the five children both call, they had 2, most of the others genotyped
-   with too little confidence to pass its filters. The paper's ratios are
-   well above experiment 04's for polymorphisms (19 to 28 times), which
-   count each variant once, however often it arose.
+   as the genome, a base.** Of the 440 new tandem-repeat (TR) mutations that
+   the family's paper calls in eight G3 children and that pass its filters
+   on the autosomes, 67 are in GA-sequences: 15 % of them, in 0.14 % of the
+   bases. That is 8.4 a transmission, where the paper's genome-wide rate of
+   insertions and deletions gives 0.10: 82 times (95 % interval 64 to 104),
+   or 108 times (84 to 138) the density of the same calls over all of the
+   autosomes. This experiment's own calls found 16.8 times (10.8 to 25): of
+   the paper's 40 in the five children both call, they had 2, the joint
+   calls they start from genotyping most of the others with too little
+   confidence, or at another size. The paper's ratios are well above
+   experiment 04's for polymorphisms (19 to 28 times), which count each
+   variant once, however often it arose.
 2. **They add or remove whole units of the repeat.** Of the paper's 67, 38
    change the repeat by 4 bases (25 lose 4, 13 gain 4), 57 by a whole number
    of one of the locus's units of 2 bases or more, and 39 by a single unit.
@@ -57,8 +58,8 @@ made for them; [they are set beside these](#the-familys-own-calls).
    and at 160 times fewer (0.997), so they can't tell the two apart.
 4. **Longer GA-sequences mutate more.** In the paper's calls, from 0.062
    mutations per 1,000 GA-sequences a transmission at 51 to 75 bases to 0.67
-   at 151 to 250: eleven times. This experiment's own calls rise with length
-   too, at about a third of the rate. Alu tails carry 31 of the paper's 67
+   at 151 to 250: eleven times. This experiment's own calls rise too, less
+   steadily, at about a third of the rate. Alu tails carry 31 of the paper's 67
    (46 %), where 37 % of GA-sequences are Alu tails (p = 0.13), and 42 %
    would be with each GA-sequence weighted by its length's rate (p = 0.54).
 5. **Short GA-sequences mutate about as often as other repeats as long, long
@@ -212,8 +213,10 @@ Supplementary Table 10 of the paper lists 640 new TR mutations in the eight
 G3 children on GRCh38: 609 on the autosomes, 440 of them passing all of its
 filters. A TR mutation is counted in a GA-sequence when at least half of its
 locus is in GA-sequences (`results/paper_ga_events.tsv` lists those in one
-or touching one, each with its unit, its GA-sequence's origin and, in the
-five children both call, experiment 05's verdict).
+or touching one, each with its unit when one of the locus's motifs divides
+the change, the origin of the GA-sequence it overlaps most, on the
+autosomes, and, for those in one in the five children both call, experiment
+05's verdict).
 
 | The paper's TR mutations (passing, autosomes) | in a GA-sequence | touching one |
 |---|---|---|
@@ -237,9 +240,10 @@ NA12885 8 of 61, NA12886 8 of 66, NA12887 6 of 56.
 | passed on / not (in NA12879 and NA12886, whose children were sequenced) | 10 / 2 |
 | in an Alu tail / simple repeat / low complexity / other | 31 / 28 / 6 / 2 |
 
-A change's unit is the longest of the locus's motifs that divides it. 23
-loci in GA-sequences have a recurrent mutation, the same change in two
-children or more, which the paper's filters set aside.
+A change's unit is the longest of the locus's motifs that divides it. The
+table flags the mutations at 23 loci in GA-sequences as recurrent, and none
+of them passes its filters; 16 of the 23 have a mutation in only one of the
+eight children, so the flag draws on more than these calls.
 
 **By length.** Per 1,000 GA-sequences a transmission (95 %): 51 to 75
 bases, 0.062 (0.031 to 0.111; 11 mutations); 76 to 100, 0.122 (0.053 to
@@ -248,19 +252,21 @@ to 1.028; 21); 251 or more, 0.691 (0.188 to 1.768; 4).
 
 **The two call sets.** In the five G3 children both call, the paper has 40
 passing TR mutations in GA-sequences. Experiment 05 had 2 of them, both de
-novo. Of the other 38, the HiFi joint calls hold no new allele at 7; at the
-other 31, an allele new in the child breaks one of `call_dnms.py`'s rules,
-the first of them, in its order, a genotype missing in the trio (17), a GQ
-under 20 (13), or another relative called with it (1): 30 of the 31 were
-lost for want of a confident genotype. The other way, of experiment 05's 9
-de novo mutations in GA-sequences in those children, 2 are the paper's
-passing ones; 1, NA12885's loss of a TTCT at chr19:6,630,951-6,631,052, is
-the paper's, set aside as recurrent because NA12887, whose data are not
-open, has it too; and 6 are not in the paper: a TTTC, a TCTT and an AAGA
-lost and a GAAA gained (in NA12885 and NA12881), a complex change of 69
-bases that NA12879 passed on to 3 of her 5 children, and a substitution
-whose other allele isn't seen. Experiment 05's 9 mosaic in a parent are not
-in the paper.
+novo. Of the other 38, the HiFi joint calls give the child no new allele at
+7. At the other 31 they give it an allele neither parent is called with,
+though of the paper's size, against a parent's allele, at only 14, and each
+breaks one of `call_dnms.py`'s rules, the first of them, in its order, a
+genotype missing in the trio (17), a GQ under 20 (13), or another relative
+called with it (1). The joint calls genotype these repeats with little
+confidence, and `call_dnms.py` asks for confident genotypes. The other way,
+of experiment 05's 9 de novo mutations in GA-sequences in those children, 2
+are the paper's passing ones; 1, NA12885's loss of a TTCT at
+chr19:6,630,951-6,631,052, is the paper's, flagged recurrent and found in
+NA12887 too, whose data are not open; and 6 are not in the paper: a TTTC, a
+TCTT and an AAGA lost and a GAAA gained (in NA12885 and NA12881), a complex
+change of 69 bases that NA12879 passed on to 3 of her 5 children, and a
+substitution whose other allele isn't seen. Experiment 05's 9 mosaic in a
+parent are not in the paper.
 
 **Against other repeats.** Each set leaves out repeats that overlap a
 GA-sequence, and the mutations in GA-sequences:
@@ -310,7 +316,7 @@ chr16:6,018,166 in NA12882, in the locus of the TR mutation of 24 bases
 that both call sets have in that child, and perhaps the same deletion,
 written on T2T-CHM13. Of the paper's 24 new structural variants on GRCh38,
 3 are at GA-sequences, all TR deletions that TRGT called (of 53, 66 and 174
-bases), and all among the TR mutations set aside as recurrent.
+bases), and all among the TR mutations flagged recurrent.
 
 ## Caveats
 
@@ -320,8 +326,8 @@ bases), and all among the TR mutations set aside as recurrent.
   reads. One-base changes in runs of one base are missed, and so are alleles
   the caller didn't propose or genotyped with little confidence, so the
   counts, and the ratio to the genome, are underestimates: in the children
-  both call, the paper has 40 TR mutations in GA-sequences, of which these
-  calls have 2. But a call rests on one technology's reads, and allows a
+  both call, the paper has 40 passing TR mutations in GA-sequences, of which
+  these calls have 2. But a call rests on one technology's reads, and allows a
   read of the new allele in a parent; and the genome's rates are the
   family's paper's, from a more thorough pipeline.
 - Mosaic events (a few reads in a parent) are counted apart from de novo
@@ -335,7 +341,7 @@ bases), and all among the TR mutations set aside as recurrent.
   other repeats assume that the catalogue, and TRGT's genotypes, cover them
   as they cover GA-sequences, which isn't checked here.
 - A TR mutation counts in a GA-sequence when at least half of its locus is
-  in one: 67 do, and 13 more touch one.
+  in GA-sequences: 67 do, and 13 more touch one.
 - The ratios against the genome divide by the paper's genome-wide rates per
   transmission, as experiment 05's do; the ratio against the same TR calls
   over the autosomes needs no outside rate.
