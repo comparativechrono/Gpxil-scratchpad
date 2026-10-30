@@ -15,7 +15,8 @@ instability, and by what HG002 carries there, on each haplotype.
    instability), beside stable and unstable repeats alike. From 3 to 10
    bases away they run a little high, at 1.01 to 1.17 times, the more beside
    less stable repeats.
-2. **Around a repeat, HG002 varies as it varies in the repeat.** Around the
+2. **Where one haplotype differs in a repeat, HG002 varies about twice as
+   much around it.** Around the
    348,789 loci where one of HG002's haplotypes differs from the reference,
    heterozygous substitutions run at 2.02 to 2.21 times the expected from 11
    to 1,000 bases away. Around the 333,199 where both differ, they run at
@@ -41,8 +42,9 @@ instability, and by what HG002 carries there, on each haplotype.
    of 1.97). Beside the other classes, HG002's extending substitutions run at
    2.0, 3.1 and 4.4 times what the reference makes.
 5. **New mutations show it in short-read calls.** New mutations escape the
-   reference's effect. Outside low-complexity regions, where Sasani et al.
-   called none, and at the first base beside loci expected to gain a new TR
+   reference's effect. Outside low-complexity regions (Sasani et al. called
+   none inside their GRCh37 mask of them), and at the first base beside loci
+   expected to gain a new TR
    mutation in one transmission in a million or more, 40 new substitutions
    extend the repeat where 13.1 are expected (3.06; 2.18 to 4.16), and 26
    others don't, where 25.8 are (1.01). By class: 2.83 (26 against 9.2), 2.81
@@ -58,8 +60,9 @@ instability, and by what HG002 carries there, on each haplotype.
    6.3 (purine runs), 8.3 (A/T) and 3.8 (A/C) times the expected, and in
    those three alphabets 86 to 97 % of them extend the run: beside purine
    runs, 541 where 25.2 are expected (21.5 times). New mutations are too few
-   to tell. Low-complexity regions cover 26 to 48 % of these bases, and
-   outside them 2 new substitutions lie beside runs where 1.0 are expected,
+   to tell. In those three alphabets, low-complexity regions cover 26 to 48 %
+   of these bases, and outside them 2 new substitutions lie beside runs where
+   1.0 are expected,
    none of them beside a purine run (0.6 expected).
 7. **The haplotypes don't settle where the excess comes from.** Beside loci
    where HG002 varies on one haplotype only, heterozygous substitutions 21 to
@@ -73,15 +76,17 @@ instability, and by what HG002 carries there, on each haplotype.
    isolated substitutions show part of the fall (82 % to 80 %) with almost no
    excess.
 
-**What it means.** Tandem repeats don't raise mutation in the sequence
-around them beyond about 10 bases. What they do is lengthen at their edges
-by substitution. In HG002, the base beside a repeat turns into the repeat's
+**What it means.** HG002's variation doesn't rise beyond about 10 bases
+from a repeat; short-read new mutations run high out to 20 bases beside the
+least stable repeats. What repeats do is lengthen at their edges by
+substitution. In HG002, the base beside a repeat turns into the repeat's
 next base far more often than the spectrum predicts, the more so the less
-stable the repeat, and well beyond what the reference makes by deciding
-where repeats end. Short-read new mutations agree, though misaligned
-insertions could account for some of them. HG002's genotypes, read against
-the reference, overstate such changes unless corrected: the reference alone
-makes extending substitutions look 1.6 to 1.7 times commoner than they are.
+stable the repeat, and, except beside the most stable repeats, well beyond
+what the reference makes by deciding where repeats end. Short-read new
+mutations agree, though misaligned insertions could account for some of
+them. HG002's genotypes, read against the reference, overstate such changes
+unless corrected: under the neutral spectrum, the reference alone makes
+extending substitutions look 1.6 to 1.7 times commoner than they are.
 Bases beside homopolymers were known to vary more, toward the homopolymer's
 base (Siddle et al. 2011), and substitutions in A-tracts to gather at their
 ends (Bacolla et al. 2015). Here the excess is measured across the
@@ -142,9 +147,10 @@ excess in HG002. That is one way they could grow as their Alu elements age
 - **New substitutions** are those of the CEPH families (Sasani et al. 2019,
   lifted from GRCh37) and the Platinum Pedigree (Porubsky et al. 2025, lifted
   from T2T-CHM13), read as experiment 07 reads them. The 559 that both call
-  count once, and 59 of the Platinum Pedigree's in low-complexity regions are
-  left out. 25,323 lie outside the loci with a known trinucleotide, 25,198 of
-  them Sasani et al.'s.
+  count once. The 59 that lie in low-complexity regions as LCR-hs38 draws
+  them are left out, 57 of them Sasani et al.'s once lifted to GRCh38.
+  25,323 lie outside the loci and low-complexity regions with a known
+  trinucleotide, 25,198 of them Sasani et al.'s.
 
 ## Results
 
