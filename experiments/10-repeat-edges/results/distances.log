@@ -1,0 +1,77 @@
+heterozygous
+  all loci                           1-2:1.2997  3-5:1.0347  6-10:1.0261  11-20:0.999  21-50:0.9834  51-100:0.9853  101-200:0.9905  201-500:0.9923  501-1000:1.046  1001+:1.0902
+  nearest locus below 1e-6           1-2:1.1822  3-5:1.0165  6-10:1.0123  11-20:0.9963  21-50:0.9844  51-100:0.9896  101-200:0.9876  201-500:0.9922  501-1000:1.0422  1001+:1.059
+  nearest locus 1e-6 to 1e-5         1-2:1.4567  3-5:1.0701  6-10:1.0491  11-20:1.0013  21-50:0.978  51-100:0.9747  101-200:0.9943  201-500:0.9946  501-1000:1.0791  1001+:1.16
+  nearest locus 1e-5 to 1e-4         1-2:1.7732  3-5:1.0702  6-10:1.0616  11-20:1.0187  21-50:0.9905  51-100:0.9777  101-200:0.9987  201-500:0.9844  501-1000:0.9837  1001+:1.0725
+  nearest locus 1e-4 or more         1-2:2.3626  3-5:1.1706  6-10:1.1549  11-20:0.9921  21-50:0.981  51-100:0.9824  101-200:1.0285  201-500:1.0012  501-1000:1.0089  1001+:1.3578
+  HG002 the same in the locus        1-2:1.1742  3-5:0.9612  6-10:0.9588  11-20:0.9406  21-50:0.9291  51-100:0.9343  101-200:0.9397  201-500:0.9465  501-1000:1.0029  1001+:1.0439
+  HG002 varies in the locus          1-2:2.5877  3-5:1.7406  6-10:1.683  11-20:1.5756  21-50:1.5132  51-100:1.4837  101-200:1.4891  201-500:1.4533  501-1000:1.5075  1001+:1.5231
+heterozygous, isolated
+  all loci                           1-2:1.1855  3-5:0.9794  6-10:0.982  11-20:0.9904  21-50:0.9804  51-100:0.9822  101-200:0.9885  201-500:0.9938  501-1000:1.0372  1001+:1.0658
+  nearest locus below 1e-6           1-2:1.1279  3-5:0.9959  6-10:0.9909  11-20:0.9895  21-50:0.9819  51-100:0.9861  101-200:0.987  201-500:0.9943  501-1000:1.0368  1001+:1.0437
+  nearest locus 1e-6 to 1e-5         1-2:1.2816  3-5:0.9658  6-10:0.9725  11-20:0.9912  21-50:0.9742  51-100:0.9726  101-200:0.991  201-500:0.9941  501-1000:1.0587  1001+:1.093
+  nearest locus 1e-5 to 1e-4         1-2:1.3677  3-5:0.8877  6-10:0.933  11-20:0.9974  21-50:0.9842  51-100:0.9744  101-200:0.9915  201-500:0.9866  501-1000:0.9767  1001+:1.0766
+  nearest locus 1e-4 or more         1-2:1.6731  3-5:0.8838  6-10:0.9575  11-20:0.985  21-50:0.9846  51-100:0.9816  101-200:1.0113  201-500:1.0025  501-1000:0.9921  1001+:1.3438
+  HG002 the same in the locus        1-2:1.1508  3-5:0.9619  6-10:0.9522  11-20:0.9395  21-50:0.9319  51-100:0.9361  101-200:0.9431  201-500:0.9518  501-1000:0.9979  1001+:1.0261
+  HG002 varies in the locus          1-2:1.5425  3-5:1.1472  6-10:1.2731  11-20:1.4926  21-50:1.4539  51-100:1.4314  101-200:1.4349  201-500:1.4164  501-1000:1.4577  1001+:1.4367
+{
+"all, all classes": {
+"excess at 1-2 against 21-500": 1.776,
+"share of 1-2 that is excess": 0.437,
+"share in cis at 21-500": 0.823,
+"share in cis at 1-2": 0.749,
+"substitutions at 1-2": 3983,
+"share in cis at 1-2 if the excess took no account of haplotypes": 0.682
+},
+"all, below 1e-6": {
+"excess at 1-2 against 21-500": 1.726,
+"share of 1-2 that is excess": 0.421,
+"share in cis at 21-500": 0.826,
+"share in cis at 1-2": 0.773,
+"substitutions at 1-2": 1338,
+"share in cis at 1-2 if the excess took no account of haplotypes": 0.689
+},
+"all, 1e-6 to 1e-5": {
+"excess at 1-2 against 21-500": 1.648,
+"share of 1-2 that is excess": 0.393,
+"share in cis at 21-500": 0.814,
+"share in cis at 1-2": 0.741,
+"substitutions at 1-2": 1330,
+"share in cis at 1-2 if the excess took no account of haplotypes": 0.691
+},
+"all, 1e-5 to 1e-4": {
+"excess at 1-2 against 21-500": 1.882,
+"share of 1-2 that is excess": 0.469,
+"share in cis at 21-500": 0.829,
+"share in cis at 1-2": 0.753,
+"substitutions at 1-2": 1042,
+"share in cis at 1-2 if the excess took no account of haplotypes": 0.675
+},
+"all, 1e-4 or more": {
+"excess at 1-2 against 21-500": 2.513,
+"share of 1-2 that is excess": 0.602,
+"share in cis at 21-500": 0.845,
+"share in cis at 1-2": 0.663,
+"substitutions at 1-2": 273,
+"share in cis at 1-2 if the excess took no account of haplotypes": 0.637
+},
+"isolated, all classes": {
+"excess at 1-2 against 21-500": 1.047,
+"share of 1-2 that is excess": 0.045,
+"share in cis at 21-500": 0.82,
+"share in cis at 1-2": 0.797,
+"substitutions at 1-2": 2086,
+"share in cis at 1-2 if the excess took no account of haplotypes": 0.806
+},
+"isolated, below 1e-6": {
+"excess at 1-2 against 21-500": 0.644,
+"share of 1-2 that is excess": -0.552,
+"share in cis at 21-500": 0.822,
+"share in cis at 1-2": 0.797,
+"substitutions at 1-2": 434,
+"share in cis at 1-2 if the excess took no account of haplotypes": null
+},
+"isolated, 1e-6 to 1e-5": {
+"excess at 1-2 against 21-500": 1.084,
+"share of 1-2 that is excess": 0.078,
+"share in

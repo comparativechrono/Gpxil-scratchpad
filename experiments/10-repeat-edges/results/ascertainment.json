@@ -1,0 +1,96 @@
+{
+ "q 1/3": {
+  "neutral (a = 1)": 1.667,
+  "a = 0.8": 1.75,
+  "a = 1.2": 1.571,
+  "monte carlo, neutral": {
+   "extending": 1.673,
+   "others": 1.001,
+   "polymorphisms": 2000000
+  }
+ },
+ "base 1, by class": {
+  "below 1e-6": {
+   "q, the spectrum's chance of extending": 0.32,
+   "made by the reference": 1.709,
+   "range for a = 0.8 to 1.2": [
+    1.608,
+    1.798
+   ],
+   "HG002, extending": 1.9729,
+   "HG002, extending, beyond the reference's share": 1.154,
+   "HG002, others": 0.9918,
+   "new substitutions, extending": 1.2424,
+   "new substitutions, extending, observed": 43,
+   "new substitutions, extending, expected": 34.61,
+   "new substitutions, others": 0.9121
+  },
+  "1e-6 to 1e-5": {
+   "q, the spectrum's chance of extending": 0.324,
+   "made by the reference": 1.6967,
+   "range for a = 0.8 to 1.2": [
+    1.597,
+    1.784
+   ],
+   "HG002, extending": 3.4598,
+   "HG002, extending, beyond the reference's share": 2.039,
+   "HG002, others": 1.0154,
+   "new substitutions, extending": 2.5676,
+   "new substitutions, extending, observed": 26,
+   "new substitutions, extending, expected": 10.13,
+   "new substitutions, others": 0.8173
+  },
+  "1e-5 to 1e-4": {
+   "q, the spectrum's chance of extending": 0.346,
+   "made by the reference": 1.6292,
+   "range for a = 0.8 to 1.2": [
+    1.539,
+    1.708
+   ],
+   "HG002, extending": 5.0629,
+   "HG002, extending, beyond the reference's share": 3.108,
+   "HG002, others": 1.0869,
+   "new substitutions, extending": 2.3979,
+   "new substitutions, extending, observed": 9,
+   "new substitutions, extending, expected": 3.75,
+   "new substitutions, others": 1.3245
+  },
+  "1e-4 or more": {
+   "q, the spectrum's chance of extending": 0.364,
+   "made by the reference": 1.5829,
+   "range for a = 0.8 to 1.2": [
+    1.5,
+    1.656
+   ],
+   "HG002, extending": 6.8974,
+   "HG002, extending, beyond the reference's share": 4.357,
+   "HG002, others": 1.4207,
+   "new substitutions, extending": 6.0743,
+   "new substitutions, extending, observed": 5,
+   "new substitutions, extending, expected": 0.82,
+   "new substitutions, others": 0.0
+  }
+ },
+ "monte carlo at each class's q": {
+  "below 1e-6": {
+   "extending": 1.714,
+   "others": 1.002,
+   "polymorphisms": 2000000
+  },
+  "1e-6 to 1e-5": {
+   "extending": 1.701,
+   "others": 1.002,
+   "polymorphisms": 2000000
+  },
+  "1e-5 to 1e-4": {
+   "extending": 1.635,
+   "others": 1.002,
+   "polymorphisms": 2000000
+  },
+  "1e-4 or more": {
+   "extending": 1.588,
+   "others": 1.002,
+   "polymorphisms": 2000000
+  }
+ }
+}

@@ -1,0 +1,3445 @@
+{
+ "loci, HG002": {
+  "below 1e-6, base 1, reference breaks the repeat": {
+   "bases": 9463040,
+   "all": {
+    "observed": 10789,
+    "expected": 8264.09,
+    "ratio": 1.3055,
+    "ci": [
+     1.281,
+     1.3304
+    ]
+   },
+   "extending": {
+    "observed": 5214,
+    "expected": 2642.76,
+    "ratio": 1.9729,
+    "ci": [
+     1.9197,
+     2.0272
+    ]
+   },
+   "others": {
+    "observed": 5575,
+    "expected": 5621.33,
+    "ratio": 0.9918,
+    "ci": [
+     0.9659,
+     1.0181
+    ]
+   },
+   "share extending": 0.4833,
+   "share extending by the spectrum, where they are": 0.3193,
+   "q, the spectrum's chance of extending at these bases": 0.3198
+  },
+  "below 1e-6, base 1, reference breaks the repeat, isolated": {
+   "bases": 9463040,
+   "all": {
+    "observed": 9394,
+    "expected": 7632.95,
+    "ratio": 1.2307,
+    "ci": [
+     1.206,
+     1.2559
+    ]
+   },
+   "extending": {
+    "observed": 4325,
+    "expected": 2437.38,
+    "ratio": 1.7744,
+    "ci": [
+     1.722,
+     1.8281
+    ]
+   },
+   "others": {
+    "observed": 5069,
+    "expected": 5195.57,
+    "ratio": 0.9756,
+    "ci": [
+     0.949,
+     1.0029
+    ]
+   },
+   "share extending": 0.4604,
+   "share extending by the spectrum, where they are": 0.3209,
+   "q, the spectrum's chance of extending at these bases": 0.3193
+  },
+  "below 1e-6, base 1, reference continues the repeat": {
+   "bases": 244895,
+   "all": {
+    "observed": 193,
+    "expected": 185.85,
+    "ratio": 1.0385,
+    "ci": [
+     0.8971,
+     1.1958
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 193,
+    "expected": 185.85,
+    "ratio": 1.0385,
+    "ci": [
+     0.8971,
+     1.1958
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "below 1e-6, base 1, reference continues the repeat, isolated": {
+   "bases": 244895,
+   "all": {
+    "observed": 179,
+    "expected": 171.47,
+    "ratio": 1.0439,
+    "ci": [
+     0.8966,
+     1.2085
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 179,
+    "expected": 171.47,
+    "ratio": 1.0439,
+    "ci": [
+     0.8966,
+     1.2085
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "below 1e-6, base 2, reference breaks the repeat": {
+   "bases": 6410855,
+   "all": {
+    "observed": 5963,
+    "expected": 5602.65,
+    "ratio": 1.0643,
+    "ci": [
+     1.0375,
+     1.0917
+    ]
+   },
+   "extending": {
+    "observed": 2098,
+    "expected": 1759.28,
+    "ratio": 1.1925,
+    "ci": [
+     1.142,
+     1.2447
+    ]
+   },
+   "others": {
+    "observed": 3865,
+    "expected": 3843.37,
+    "ratio": 1.0056,
+    "ci": [
+     0.9742,
+     1.0378
+    ]
+   },
+   "share extending": 0.3518,
+   "share extending by the spectrum, where they are": 0.3239,
+   "q, the spectrum's chance of extending at these bases": 0.314
+  },
+  "below 1e-6, base 2, reference breaks the repeat, isolated": {
+   "bases": 6410855,
+   "all": {
+    "observed": 5463,
+    "expected": 5169.88,
+    "ratio": 1.0567,
+    "ci": [
+     1.0289,
+     1.0851
+    ]
+   },
+   "extending": {
+    "observed": 1913,
+    "expected": 1620.91,
+    "ratio": 1.1802,
+    "ci": [
+     1.1279,
+     1.2343
+    ]
+   },
+   "others": {
+    "observed": 3550,
+    "expected": 3548.98,
+    "ratio": 1.0003,
+    "ci": [
+     0.9677,
+     1.0337
+    ]
+   },
+   "share extending": 0.3502,
+   "share extending by the spectrum, where they are": 0.3241,
+   "q, the spectrum's chance of extending at these bases": 0.3135
+  },
+  "below 1e-6, base 2, reference continues the repeat": {
+   "bases": 2476387,
+   "all": {
+    "observed": 1900,
+    "expected": 2013.74,
+    "ratio": 0.9435,
+    "ci": [
+     0.9016,
+     0.9869
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 1900,
+    "expected": 2013.74,
+    "ratio": 0.9435,
+    "ci": [
+     0.9016,
+     0.9869
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "below 1e-6, base 2, reference continues the repeat, isolated": {
+   "bases": 2476387,
+   "all": {
+    "observed": 1747,
+    "expected": 1858.43,
+    "ratio": 0.94,
+    "ci": [
+     0.8965,
+     0.9852
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 1747,
+    "expected": 1858.43,
+    "ratio": 0.94,
+    "ci": [
+     0.8965,
+     0.9852
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "below 1e-6, base 3, reference breaks the repeat": {
+   "bases": 6272115,
+   "all": {
+    "observed": 5636,
+    "expected": 5269.09,
+    "ratio": 1.0696,
+    "ci": [
+     1.0419,
+     1.0979
+    ]
+   },
+   "extending": {
+    "observed": 2002,
+    "expected": 1691.74,
+    "ratio": 1.1834,
+    "ci": [
+     1.1321,
+     1.2364
+    ]
+   },
+   "others": {
+    "observed": 3634,
+    "expected": 3577.36,
+    "ratio": 1.0158,
+    "ci": [
+     0.9831,
+     1.0494
+    ]
+   },
+   "share extending": 0.3552,
+   "share extending by the spectrum, where they are": 0.3272,
+   "q, the spectrum's chance of extending at these bases": 0.3211
+  },
+  "below 1e-6, base 3, reference breaks the repeat, isolated": {
+   "bases": 6272115,
+   "all": {
+    "observed": 5218,
+    "expected": 4861.84,
+    "ratio": 1.0733,
+    "ci": [
+     1.0443,
+     1.1028
+    ]
+   },
+   "extending": {
+    "observed": 1842,
+    "expected": 1559.04,
+    "ratio": 1.1815,
+    "ci": [
+     1.1282,
+     1.2367
+    ]
+   },
+   "others": {
+    "observed": 3376,
+    "expected": 3302.8,
+    "ratio": 1.0222,
+    "ci": [
+     0.988,
+     1.0572
+    ]
+   },
+   "share extending": 0.353,
+   "share extending by the spectrum, where they are": 0.3281,
+   "q, the spectrum's chance of extending at these bases": 0.3207
+  },
+  "below 1e-6, base 3, reference continues the repeat": {
+   "bases": 2401588,
+   "all": {
+    "observed": 1854,
+    "expected": 1973.16,
+    "ratio": 0.9396,
+    "ci": [
+     0.8973,
+     0.9834
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 1854,
+    "expected": 1973.16,
+    "ratio": 0.9396,
+    "ci": [
+     0.8973,
+     0.9834
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "below 1e-6, base 3, reference continues the repeat, isolated": {
+   "bases": 2401588,
+   "all": {
+    "observed": 1718,
+    "expected": 1821.14,
+    "ratio": 0.9434,
+    "ci": [
+     0.8993,
+     0.9891
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 1718,
+    "expected": 1821.14,
+    "ratio": 0.9434,
+    "ci": [
+     0.8993,
+     0.9891
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "below 1e-6, base 4, reference breaks the repeat": {
+   "bases": 5845247,
+   "all": {
+    "observed": 5081,
+    "expected": 4927.77,
+    "ratio": 1.0311,
+    "ci": [
+     1.0029,
+     1.0598
+    ]
+   },
+   "extending": {
+    "observed": 1841,
+    "expected": 1635.15,
+    "ratio": 1.1259,
+    "ci": [
+     1.075,
+     1.1785
+    ]
+   },
+   "others": {
+    "observed": 3240,
+    "expected": 3292.62,
+    "ratio": 0.984,
+    "ci": [
+     0.9504,
+     1.0185
+    ]
+   },
+   "share extending": 0.3623,
+   "share extending by the spectrum, where they are": 0.3335,
+   "q, the spectrum's chance of extending at these bases": 0.3318
+  },
+  "below 1e-6, base 4, reference breaks the repeat, isolated": {
+   "bases": 5845247,
+   "all": {
+    "observed": 4693,
+    "expected": 4547.41,
+    "ratio": 1.032,
+    "ci": [
+     1.0027,
+     1.062
+    ]
+   },
+   "extending": {
+    "observed": 1708,
+    "expected": 1507.26,
+    "ratio": 1.1332,
+    "ci": [
+     1.0801,
+     1.1882
+    ]
+   },
+   "others": {
+    "observed": 2985,
+    "expected": 3040.15,
+    "ratio": 0.9819,
+    "ci": [
+     0.9469,
+     1.0177
+    ]
+   },
+   "share extending": 0.3639,
+   "share extending by the spectrum, where they are": 0.3351,
+   "q, the spectrum's chance of extending at these bases": 0.3315
+  },
+  "below 1e-6, base 4, reference continues the repeat": {
+   "bases": 2140096,
+   "all": {
+    "observed": 1456,
+    "expected": 1696.22,
+    "ratio": 0.8584,
+    "ci": [
+     0.8148,
+     0.9036
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 1456,
+    "expected": 1696.22,
+    "ratio": 0.8584,
+    "ci": [
+     0.8148,
+     0.9036
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "below 1e-6, base 4, reference continues the repeat, isolated": {
+   "bases": 2140096,
+   "all": {
+    "observed": 1347,
+    "expected": 1565.41,
+    "ratio": 0.8605,
+    "ci": [
+     0.8151,
+     0.9077
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 1347,
+    "expected": 1565.41,
+    "ratio": 0.8605,
+    "ci": [
+     0.8151,
+     0.9077
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-6 to 1e-5, base 1, reference breaks the repeat": {
+   "bases": 2796767,
+   "all": {
+    "observed": 4276,
+    "expected": 2367.25,
+    "ratio": 1.8063,
+    "ci": [
+     1.7526,
+     1.8613
+    ]
+   },
+   "extending": {
+    "observed": 2650,
+    "expected": 765.94,
+    "ratio": 3.4598,
+    "ci": [
+     3.3293,
+     3.5941
+    ]
+   },
+   "others": {
+    "observed": 1626,
+    "expected": 1601.31,
+    "ratio": 1.0154,
+    "ci": [
+     0.9667,
+     1.066
+    ]
+   },
+   "share extending": 0.6197,
+   "share extending by the spectrum, where they are": 0.3289,
+   "q, the spectrum's chance of extending at these bases": 0.3236
+  },
+  "1e-6 to 1e-5, base 1, reference breaks the repeat, isolated": {
+   "bases": 2796767,
+   "all": {
+    "observed": 3381,
+    "expected": 2186.53,
+    "ratio": 1.5463,
+    "ci": [
+     1.4946,
+     1.5993
+    ]
+   },
+   "extending": {
+    "observed": 1918,
+    "expected": 705.79,
+    "ratio": 2.7175,
+    "ci": [
+     2.5973,
+     2.8419
+    ]
+   },
+   "others": {
+    "observed": 1463,
+    "expected": 1480.74,
+    "ratio": 0.988,
+    "ci": [
+     0.938,
+     1.04
+    ]
+   },
+   "share extending": 0.5673,
+   "share extending by the spectrum, where they are": 0.3262,
+   "q, the spectrum's chance of extending at these bases": 0.3228
+  },
+  "1e-6 to 1e-5, base 1, reference continues the repeat": {
+   "bases": 280428,
+   "all": {
+    "observed": 264,
+    "expected": 222.22,
+    "ratio": 1.188,
+    "ci": [
+     1.049,
+     1.3403
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 264,
+    "expected": 222.22,
+    "ratio": 1.188,
+    "ci": [
+     1.049,
+     1.3403
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-6 to 1e-5, base 1, reference continues the repeat, isolated": {
+   "bases": 280428,
+   "all": {
+    "observed": 241,
+    "expected": 205.16,
+    "ratio": 1.1747,
+    "ci": [
+     1.031,
+     1.3327
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 241,
+    "expected": 205.16,
+    "ratio": 1.1747,
+    "ci": [
+     1.031,
+     1.3327
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-6 to 1e-5, base 2, reference breaks the repeat": {
+   "bases": 1564959,
+   "all": {
+    "observed": 1535,
+    "expected": 1350.84,
+    "ratio": 1.1363,
+    "ci": [
+     1.0802,
+     1.1946
+    ]
+   },
+   "extending": {
+    "observed": 596,
+    "expected": 437.36,
+    "ratio": 1.3627,
+    "ci": [
+     1.2555,
+     1.4767
+    ]
+   },
+   "others": {
+    "observed": 939,
+    "expected": 913.49,
+    "ratio": 1.0279,
+    "ci": [
+     0.9632,
+     1.0958
+    ]
+   },
+   "share extending": 0.3883,
+   "share extending by the spectrum, where they are": 0.3343,
+   "q, the spectrum's chance of extending at these bases": 0.3238
+  },
+  "1e-6 to 1e-5, base 2, reference breaks the repeat, isolated": {
+   "bases": 1564959,
+   "all": {
+    "observed": 1383,
+    "expected": 1246.49,
+    "ratio": 1.1095,
+    "ci": [
+     1.0518,
+     1.1696
+    ]
+   },
+   "extending": {
+    "observed": 531,
+    "expected": 402.87,
+    "ratio": 1.3181,
+    "ci": [
+     1.2083,
+     1.4351
+    ]
+   },
+   "others": {
+    "observed": 852,
+    "expected": 843.62,
+    "ratio": 1.0099,
+    "ci": [
+     0.9432,
+     1.0801
+    ]
+   },
+   "share extending": 0.3839,
+   "share extending by the spectrum, where they are": 0.3348,
+   "q, the spectrum's chance of extending at these bases": 0.3232
+  },
+  "1e-6 to 1e-5, base 2, reference continues the repeat": {
+   "bases": 723908,
+   "all": {
+    "observed": 514,
+    "expected": 556.0,
+    "ratio": 0.9245,
+    "ci": [
+     0.8463,
+     1.0079
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 514,
+    "expected": 556.0,
+    "ratio": 0.9245,
+    "ci": [
+     0.8463,
+     1.0079
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-6 to 1e-5, base 2, reference continues the repeat, isolated": {
+   "bases": 723908,
+   "all": {
+    "observed": 463,
+    "expected": 512.9,
+    "ratio": 0.9027,
+    "ci": [
+     0.8223,
+     0.9888
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 463,
+    "expected": 512.9,
+    "ratio": 0.9027,
+    "ci": [
+     0.8223,
+     0.9888
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-6 to 1e-5, base 3, reference breaks the repeat": {
+   "bases": 1447559,
+   "all": {
+    "observed": 1314,
+    "expected": 1232.17,
+    "ratio": 1.0664,
+    "ci": [
+     1.0095,
+     1.1257
+    ]
+   },
+   "extending": {
+    "observed": 486,
+    "expected": 386.68,
+    "ratio": 1.2569,
+    "ci": [
+     1.1476,
+     1.3737
+    ]
+   },
+   "others": {
+    "observed": 828,
+    "expected": 845.49,
+    "ratio": 0.9793,
+    "ci": [
+     0.9137,
+     1.0483
+    ]
+   },
+   "share extending": 0.3699,
+   "share extending by the spectrum, where they are": 0.3308,
+   "q, the spectrum's chance of extending at these bases": 0.3138
+  },
+  "1e-6 to 1e-5, base 3, reference breaks the repeat, isolated": {
+   "bases": 1447559,
+   "all": {
+    "observed": 1200,
+    "expected": 1137.41,
+    "ratio": 1.055,
+    "ci": [
+     0.9962,
+     1.1165
+    ]
+   },
+   "extending": {
+    "observed": 447,
+    "expected": 356.12,
+    "ratio": 1.2552,
+    "ci": [
+     1.1415,
+     1.3771
+    ]
+   },
+   "others": {
+    "observed": 753,
+    "expected": 781.29,
+    "ratio": 0.9638,
+    "ci": [
+     0.8962,
+     1.0352
+    ]
+   },
+   "share extending": 0.3725,
+   "share extending by the spectrum, where they are": 0.3276,
+   "q, the spectrum's chance of extending at these bases": 0.3131
+  },
+  "1e-6 to 1e-5, base 3, reference continues the repeat": {
+   "bases": 600862,
+   "all": {
+    "observed": 431,
+    "expected": 465.05,
+    "ratio": 0.9268,
+    "ci": [
+     0.8413,
+     1.0185
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 431,
+    "expected": 465.05,
+    "ratio": 0.9268,
+    "ci": [
+     0.8413,
+     1.0185
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-6 to 1e-5, base 3, reference continues the repeat, isolated": {
+   "bases": 600862,
+   "all": {
+    "observed": 397,
+    "expected": 429.18,
+    "ratio": 0.925,
+    "ci": [
+     0.8363,
+     1.0206
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 397,
+    "expected": 429.18,
+    "ratio": 0.925,
+    "ci": [
+     0.8363,
+     1.0206
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-6 to 1e-5, base 4, reference breaks the repeat": {
+   "bases": 1259878,
+   "all": {
+    "observed": 1110,
+    "expected": 1088.48,
+    "ratio": 1.0198,
+    "ci": [
+     0.9607,
+     1.0816
+    ]
+   },
+   "extending": {
+    "observed": 432,
+    "expected": 348.85,
+    "ratio": 1.2383,
+    "ci": [
+     1.1243,
+     1.3608
+    ]
+   },
+   "others": {
+    "observed": 678,
+    "expected": 739.63,
+    "ratio": 0.9167,
+    "ci": [
+     0.849,
+     0.9884
+    ]
+   },
+   "share extending": 0.3892,
+   "share extending by the spectrum, where they are": 0.3419,
+   "q, the spectrum's chance of extending at these bases": 0.3205
+  },
+  "1e-6 to 1e-5, base 4, reference breaks the repeat, isolated": {
+   "bases": 1259878,
+   "all": {
+    "observed": 1023,
+    "expected": 1004.98,
+    "ratio": 1.0179,
+    "ci": [
+     0.9565,
+     1.0823
+    ]
+   },
+   "extending": {
+    "observed": 405,
+    "expected": 321.46,
+    "ratio": 1.2599,
+    "ci": [
+     1.1402,
+     1.3888
+    ]
+   },
+   "others": {
+    "observed": 618,
+    "expected": 683.53,
+    "ratio": 0.9041,
+    "ci": [
+     0.8342,
+     0.9783
+    ]
+   },
+   "share extending": 0.3959,
+   "share extending by the spectrum, where they are": 0.3476,
+   "q, the spectrum's chance of extending at these bases": 0.3199
+  },
+  "1e-6 to 1e-5, base 4, reference continues the repeat": {
+   "bases": 516921,
+   "all": {
+    "observed": 358,
+    "expected": 391.48,
+    "ratio": 0.9145,
+    "ci": [
+     0.8222,
+     1.0143
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 358,
+    "expected": 391.48,
+    "ratio": 0.9145,
+    "ci": [
+     0.8222,
+     1.0143
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-6 to 1e-5, base 4, reference continues the repeat, isolated": {
+   "bases": 516921,
+   "all": {
+    "observed": 319,
+    "expected": 361.28,
+    "ratio": 0.883,
+    "ci": [
+     0.7887,
+     0.9854
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 319,
+    "expected": 361.28,
+    "ratio": 0.883,
+    "ci": [
+     0.7887,
+     0.9854
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-5 to 1e-4, base 1, reference breaks the repeat": {
+   "bases": 874828,
+   "all": {
+    "observed": 1935,
+    "expected": 785.36,
+    "ratio": 2.4638,
+    "ci": [
+     2.3553,
+     2.5761
+    ]
+   },
+   "extending": {
+    "observed": 1377,
+    "expected": 271.98,
+    "ratio": 5.0629,
+    "ci": [
+     4.799,
+     5.3376
+    ]
+   },
+   "others": {
+    "observed": 558,
+    "expected": 513.39,
+    "ratio": 1.0869,
+    "ci": [
+     0.9986,
+     1.1809
+    ]
+   },
+   "share extending": 0.7116,
+   "share extending by the spectrum, where they are": 0.3551,
+   "q, the spectrum's chance of extending at these bases": 0.3463
+  },
+  "1e-5 to 1e-4, base 1, reference breaks the repeat, isolated": {
+   "bases": 874828,
+   "all": {
+    "observed": 1308,
+    "expected": 725.53,
+    "ratio": 1.8028,
+    "ci": [
+     1.7064,
+     1.9032
+    ]
+   },
+   "extending": {
+    "observed": 835,
+    "expected": 251.07,
+    "ratio": 3.3258,
+    "ci": [
+     3.104,
+     3.5593
+    ]
+   },
+   "others": {
+    "observed": 473,
+    "expected": 474.46,
+    "ratio": 0.9969,
+    "ci": [
+     0.9091,
+     1.0909
+    ]
+   },
+   "share extending": 0.6384,
+   "share extending by the spectrum, where they are": 0.3426,
+   "q, the spectrum's chance of extending at these bases": 0.346
+  },
+  "1e-5 to 1e-4, base 1, reference continues the repeat": {
+   "bases": 135985,
+   "all": {
+    "observed": 124,
+    "expected": 111.96,
+    "ratio": 1.1075,
+    "ci": [
+     0.9212,
+     1.3205
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 124,
+    "expected": 111.96,
+    "ratio": 1.1075,
+    "ci": [
+     0.9212,
+     1.3205
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-5 to 1e-4, base 1, reference continues the repeat, isolated": {
+   "bases": 135985,
+   "all": {
+    "observed": 105,
+    "expected": 103.34,
+    "ratio": 1.0161,
+    "ci": [
+     0.8311,
+     1.23
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 105,
+    "expected": 103.34,
+    "ratio": 1.0161,
+    "ci": [
+     0.8311,
+     1.23
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-5 to 1e-4, base 2, reference breaks the repeat": {
+   "bases": 404603,
+   "all": {
+    "observed": 425,
+    "expected": 357.7,
+    "ratio": 1.1881,
+    "ci": [
+     1.0779,
+     1.3067
+    ]
+   },
+   "extending": {
+    "observed": 218,
+    "expected": 117.47,
+    "ratio": 1.8558,
+    "ci": [
+     1.6176,
+     2.1192
+    ]
+   },
+   "others": {
+    "observed": 207,
+    "expected": 240.23,
+    "ratio": 0.8617,
+    "ci": [
+     0.7483,
+     0.9874
+    ]
+   },
+   "share extending": 0.5129,
+   "share extending by the spectrum, where they are": 0.3887,
+   "q, the spectrum's chance of extending at these bases": 0.3284
+  },
+  "1e-5 to 1e-4, base 2, reference breaks the repeat, isolated": {
+   "bases": 404603,
+   "all": {
+    "observed": 352,
+    "expected": 330.17,
+    "ratio": 1.0661,
+    "ci": [
+     0.9576,
+     1.1835
+    ]
+   },
+   "extending": {
+    "observed": 167,
+    "expected": 108.29,
+    "ratio": 1.5422,
+    "ci": [
+     1.3171,
+     1.7946
+    ]
+   },
+   "others": {
+    "observed": 185,
+    "expected": 221.88,
+    "ratio": 0.8338,
+    "ci": [
+     0.718,
+     0.963
+    ]
+   },
+   "share extending": 0.4744,
+   "share extending by the spectrum, where they are": 0.3853,
+   "q, the spectrum's chance of extending at these bases": 0.328
+  },
+  "1e-5 to 1e-4, base 2, reference continues the repeat": {
+   "bases": 214997,
+   "all": {
+    "observed": 178,
+    "expected": 173.89,
+    "ratio": 1.0237,
+    "ci": [
+     0.8788,
+     1.1856
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 178,
+    "expected": 173.89,
+    "ratio": 1.0237,
+    "ci": [
+     0.8788,
+     1.1856
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-5 to 1e-4, base 2, reference continues the repeat, isolated": {
+   "bases": 214997,
+   "all": {
+    "observed": 141,
+    "expected": 160.48,
+    "ratio": 0.8786,
+    "ci": [
+     0.7396,
+     1.0362
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 141,
+    "expected": 160.48,
+    "ratio": 0.8786,
+    "ci": [
+     0.7396,
+     1.0362
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-5 to 1e-4, base 3, reference breaks the repeat": {
+   "bases": 253670,
+   "all": {
+    "observed": 234,
+    "expected": 222.87,
+    "ratio": 1.05,
+    "ci": [
+     0.9197,
+     1.1935
+    ]
+   },
+   "extending": {
+    "observed": 83,
+    "expected": 69.04,
+    "ratio": 1.2022,
+    "ci": [
+     0.9575,
+     1.4903
+    ]
+   },
+   "others": {
+    "observed": 151,
+    "expected": 153.82,
+    "ratio": 0.9816,
+    "ci": [
+     0.8313,
+     1.1513
+    ]
+   },
+   "share extending": 0.3547,
+   "share extending by the spectrum, where they are": 0.3181,
+   "q, the spectrum's chance of extending at these bases": 0.3098
+  },
+  "1e-5 to 1e-4, base 3, reference breaks the repeat, isolated": {
+   "bases": 253670,
+   "all": {
+    "observed": 197,
+    "expected": 205.75,
+    "ratio": 0.9575,
+    "ci": [
+     0.8284,
+     1.1009
+    ]
+   },
+   "extending": {
+    "observed": 73,
+    "expected": 63.62,
+    "ratio": 1.1474,
+    "ci": [
+     0.8994,
+     1.4427
+    ]
+   },
+   "others": {
+    "observed": 124,
+    "expected": 142.13,
+    "ratio": 0.8724,
+    "ci": [
+     0.7256,
+     1.0402
+    ]
+   },
+   "share extending": 0.3706,
+   "share extending by the spectrum, where they are": 0.3365,
+   "q, the spectrum's chance of extending at these bases": 0.3092
+  },
+  "1e-5 to 1e-4, base 3, reference continues the repeat": {
+   "bases": 102349,
+   "all": {
+    "observed": 81,
+    "expected": 86.31,
+    "ratio": 0.9385,
+    "ci": [
+     0.7453,
+     1.1665
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 81,
+    "expected": 86.31,
+    "ratio": 0.9385,
+    "ci": [
+     0.7453,
+     1.1665
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-5 to 1e-4, base 3, reference continues the repeat, isolated": {
+   "bases": 102349,
+   "all": {
+    "observed": 70,
+    "expected": 79.67,
+    "ratio": 0.8786,
+    "ci": [
+     0.6849,
+     1.11
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 70,
+    "expected": 79.67,
+    "ratio": 0.8786,
+    "ci": [
+     0.6849,
+     1.11
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-5 to 1e-4, base 4, reference breaks the repeat": {
+   "bases": 216552,
+   "all": {
+    "observed": 183,
+    "expected": 193.49,
+    "ratio": 0.9458,
+    "ci": [
+     0.8137,
+     1.0932
+    ]
+   },
+   "extending": {
+    "observed": 66,
+    "expected": 60.39,
+    "ratio": 1.0929,
+    "ci": [
+     0.8453,
+     1.3905
+    ]
+   },
+   "others": {
+    "observed": 117,
+    "expected": 133.11,
+    "ratio": 0.879,
+    "ci": [
+     0.7269,
+     1.0534
+    ]
+   },
+   "share extending": 0.3607,
+   "share extending by the spectrum, where they are": 0.3562,
+   "q, the spectrum's chance of extending at these bases": 0.3121
+  },
+  "1e-5 to 1e-4, base 4, reference breaks the repeat, isolated": {
+   "bases": 216552,
+   "all": {
+    "observed": 164,
+    "expected": 178.68,
+    "ratio": 0.9178,
+    "ci": [
+     0.7827,
+     1.0696
+    ]
+   },
+   "extending": {
+    "observed": 60,
+    "expected": 55.66,
+    "ratio": 1.0779,
+    "ci": [
+     0.8225,
+     1.3875
+    ]
+   },
+   "others": {
+    "observed": 104,
+    "expected": 123.01,
+    "ratio": 0.8454,
+    "ci": [
+     0.6908,
+     1.0244
+    ]
+   },
+   "share extending": 0.3659,
+   "share extending by the spectrum, where they are": 0.3578,
+   "q, the spectrum's chance of extending at these bases": 0.3115
+  },
+  "1e-5 to 1e-4, base 4, reference continues the repeat": {
+   "bases": 86403,
+   "all": {
+    "observed": 69,
+    "expected": 70.0,
+    "ratio": 0.9858,
+    "ci": [
+     0.767,
+     1.2476
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 69,
+    "expected": 70.0,
+    "ratio": 0.9858,
+    "ci": [
+     0.767,
+     1.2476
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-5 to 1e-4, base 4, reference continues the repeat, isolated": {
+   "bases": 86403,
+   "all": {
+    "observed": 60,
+    "expected": 64.6,
+    "ratio": 0.9288,
+    "ci": [
+     0.7087,
+     1.1955
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 60,
+    "expected": 64.6,
+    "ratio": 0.9288,
+    "ci": [
+     0.7087,
+     1.1955
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-4 or more, base 1, reference breaks the repeat": {
+   "bases": 157193,
+   "all": {
+    "observed": 506,
+    "expected": 148.25,
+    "ratio": 3.4131,
+    "ci": [
+     3.1222,
+     3.7239
+    ]
+   },
+   "extending": {
+    "observed": 372,
+    "expected": 53.93,
+    "ratio": 6.8974,
+    "ci": [
+     6.2142,
+     7.6351
+    ]
+   },
+   "others": {
+    "observed": 134,
+    "expected": 94.32,
+    "ratio": 1.4207,
+    "ci": [
+     1.1904,
+     1.6826
+    ]
+   },
+   "share extending": 0.7352,
+   "share extending by the spectrum, where they are": 0.356,
+   "q, the spectrum's chance of extending at these bases": 0.3638
+  },
+  "1e-4 or more, base 1, reference breaks the repeat, isolated": {
+   "bases": 157193,
+   "all": {
+    "observed": 326,
+    "expected": 137.03,
+    "ratio": 2.379,
+    "ci": [
+     2.1277,
+     2.6518
+    ]
+   },
+   "extending": {
+    "observed": 219,
+    "expected": 49.85,
+    "ratio": 4.393,
+    "ci": [
+     3.8304,
+     5.0149
+    ]
+   },
+   "others": {
+    "observed": 107,
+    "expected": 87.18,
+    "ratio": 1.2273,
+    "ci": [
+     1.0058,
+     1.4831
+    ]
+   },
+   "share extending": 0.6718,
+   "share extending by the spectrum, where they are": 0.3449,
+   "q, the spectrum's chance of extending at these bases": 0.3638
+  },
+  "1e-4 or more, base 1, reference continues the repeat": {
+   "bases": 24361,
+   "all": {
+    "observed": 52,
+    "expected": 19.61,
+    "ratio": 2.6518,
+    "ci": [
+     1.9805,
+     3.4775
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 52,
+    "expected": 19.61,
+    "ratio": 2.6518,
+    "ci": [
+     1.9805,
+     3.4775
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-4 or more, base 1, reference continues the repeat, isolated": {
+   "bases": 24361,
+   "all": {
+    "observed": 34,
+    "expected": 18.09,
+    "ratio": 1.8793,
+    "ci": [
+     1.3015,
+     2.6262
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 34,
+    "expected": 18.09,
+    "ratio": 1.8793,
+    "ci": [
+     1.3015,
+     2.6262
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-4 or more, base 2, reference breaks the repeat": {
+   "bases": 78726,
+   "all": {
+    "observed": 116,
+    "expected": 68.66,
+    "ratio": 1.6894,
+    "ci": [
+     1.396,
+     2.0263
+    ]
+   },
+   "extending": {
+    "observed": 61,
+    "expected": 23.06,
+    "ratio": 2.6456,
+    "ci": [
+     2.0237,
+     3.3984
+    ]
+   },
+   "others": {
+    "observed": 55,
+    "expected": 45.61,
+    "ratio": 1.206,
+    "ci": [
+     0.9085,
+     1.5698
+    ]
+   },
+   "share extending": 0.5259,
+   "share extending by the spectrum, where they are": 0.3788,
+   "q, the spectrum's chance of extending at these bases": 0.3358
+  },
+  "1e-4 or more, base 2, reference breaks the repeat, isolated": {
+   "bases": 78726,
+   "all": {
+    "observed": 77,
+    "expected": 63.37,
+    "ratio": 1.215,
+    "ci": [
+     0.9589,
+     1.5186
+    ]
+   },
+   "extending": {
+    "observed": 36,
+    "expected": 21.26,
+    "ratio": 1.6932,
+    "ci": [
+     1.1859,
+     2.3441
+    ]
+   },
+   "others": {
+    "observed": 41,
+    "expected": 42.11,
+    "ratio": 0.9736,
+    "ci": [
+     0.6987,
+     1.3208
+    ]
+   },
+   "share extending": 0.4675,
+   "share extending by the spectrum, where they are": 0.4154,
+   "q, the spectrum's chance of extending at these bases": 0.3355
+  },
+  "1e-4 or more, base 2, reference continues the repeat": {
+   "bases": 48321,
+   "all": {
+    "observed": 34,
+    "expected": 36.01,
+    "ratio": 0.9443,
+    "ci": [
+     0.6539,
+     1.3196
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 34,
+    "expected": 36.01,
+    "ratio": 0.9443,
+    "ci": [
+     0.6539,
+     1.3196
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-4 or more, base 2, reference continues the repeat, isolated": {
+   "bases": 48321,
+   "all": {
+    "observed": 22,
+    "expected": 33.2,
+    "ratio": 0.6626,
+    "ci": [
+     0.4152,
+     1.0032
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 22,
+    "expected": 33.2,
+    "ratio": 0.6626,
+    "ci": [
+     0.4152,
+     1.0032
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-4 or more, base 3, reference breaks the repeat": {
+   "bases": 35594,
+   "all": {
+    "observed": 40,
+    "expected": 30.55,
+    "ratio": 1.3092,
+    "ci": [
+     0.9353,
+     1.7828
+    ]
+   },
+   "extending": {
+    "observed": 18,
+    "expected": 10.17,
+    "ratio": 1.7698,
+    "ci": [
+     1.0489,
+     2.797
+    ]
+   },
+   "others": {
+    "observed": 22,
+    "expected": 20.38,
+    "ratio": 1.0794,
+    "ci": [
+     0.6764,
+     1.6342
+    ]
+   },
+   "share extending": 0.45,
+   "share extending by the spectrum, where they are": 0.3571,
+   "q, the spectrum's chance of extending at these bases": 0.3329
+  },
+  "1e-4 or more, base 3, reference breaks the repeat, isolated": {
+   "bases": 35594,
+   "all": {
+    "observed": 30,
+    "expected": 28.2,
+    "ratio": 1.0638,
+    "ci": [
+     0.7177,
+     1.5186
+    ]
+   },
+   "extending": {
+    "observed": 14,
+    "expected": 9.38,
+    "ratio": 1.4926,
+    "ci": [
+     0.816,
+     2.5043
+    ]
+   },
+   "others": {
+    "observed": 16,
+    "expected": 18.82,
+    "ratio": 0.8501,
+    "ci": [
+     0.4859,
+     1.3805
+    ]
+   },
+   "share extending": 0.4667,
+   "share extending by the spectrum, where they are": 0.3181,
+   "q, the spectrum's chance of extending at these bases": 0.3326
+  },
+  "1e-4 or more, base 3, reference continues the repeat": {
+   "bases": 15277,
+   "all": {
+    "observed": 10,
+    "expected": 12.4,
+    "ratio": 0.8063,
+    "ci": [
+     0.3867,
+     1.4829
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 10,
+    "expected": 12.4,
+    "ratio": 0.8063,
+    "ci": [
+     0.3867,
+     1.4829
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-4 or more, base 3, reference continues the repeat, isolated": {
+   "bases": 15277,
+   "all": {
+    "observed": 9,
+    "expected": 11.45,
+    "ratio": 0.7863,
+    "ci": [
+     0.3595,
+     1.4926
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 9,
+    "expected": 11.45,
+    "ratio": 0.7863,
+    "ci": [
+     0.3595,
+     1.4926
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-4 or more, base 4, reference breaks the repeat": {
+   "bases": 32073,
+   "all": {
+    "observed": 35,
+    "expected": 27.72,
+    "ratio": 1.2627,
+    "ci": [
+     0.8795,
+     1.7561
+    ]
+   },
+   "extending": {
+    "observed": 12,
+    "expected": 8.81,
+    "ratio": 1.3624,
+    "ci": [
+     0.704,
+     2.3799
+    ]
+   },
+   "others": {
+    "observed": 23,
+    "expected": 18.91,
+    "ratio": 1.2162,
+    "ci": [
+     0.771,
+     1.825
+    ]
+   },
+   "share extending": 0.3429,
+   "share extending by the spectrum, where they are": 0.305,
+   "q, the spectrum's chance of extending at these bases": 0.3178
+  },
+  "1e-4 or more, base 4, reference breaks the repeat, isolated": {
+   "bases": 32073,
+   "all": {
+    "observed": 25,
+    "expected": 25.58,
+    "ratio": 0.9772,
+    "ci": [
+     0.6324,
+     1.4425
+    ]
+   },
+   "extending": {
+    "observed": 8,
+    "expected": 8.12,
+    "ratio": 0.9853,
+    "ci": [
+     0.4254,
+     1.9414
+    ]
+   },
+   "others": {
+    "observed": 17,
+    "expected": 17.46,
+    "ratio": 0.9734,
+    "ci": [
+     0.5671,
+     1.5586
+    ]
+   },
+   "share extending": 0.32,
+   "share extending by the spectrum, where they are": 0.3044,
+   "q, the spectrum's chance of extending at these bases": 0.3174
+  },
+  "1e-4 or more, base 4, reference continues the repeat": {
+   "bases": 13088,
+   "all": {
+    "observed": 12,
+    "expected": 10.21,
+    "ratio": 1.1752,
+    "ci": [
+     0.6072,
+     2.0528
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 12,
+    "expected": 10.21,
+    "ratio": 1.1752,
+    "ci": [
+     0.6072,
+     2.0528
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  },
+  "1e-4 or more, base 4, reference continues the repeat, isolated": {
+   "bases": 13088,
+   "all": {
+    "observed": 9,
+    "expected": 9.42,
+    "ratio": 0.9556,
+    "ci": [
+     0.437,
+     1.814
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": null,
+    "ci": null
+   },
+   "others": {
+    "observed": 9,
+    "expected": 9.42,
+    "ratio": 0.9556,
+    "ci": [
+     0.437,
+     1.814
+    ]
+   },
+   "share extending": 0.0,
+   "share extending by the spectrum, where they are": 0.0,
+   "q, the spectrum's chance of extending at these bases": 0.0
+  }
+ },
+ "loci, new substitutions": {
+  "below 1e-6, base 1": {
+   "bases": 9814575,
+   "all": {
+    "observed": 110,
+    "expected": 108.07,
+    "ratio": 1.0179,
+    "ci": [
+     0.8366,
+     1.2268
+    ]
+   },
+   "extending": {
+    "observed": 43,
+    "expected": 34.61,
+    "ratio": 1.2424,
+    "ci": [
+     0.8992,
+     1.6736
+    ]
+   },
+   "others": {
+    "observed": 67,
+    "expected": 73.46,
+    "ratio": 0.9121,
+    "ci": [
+     0.7068,
+     1.1583
+    ]
+   },
+   "share extending": 0.3909,
+   "share extending by the spectrum, where they are": 0.3619,
+   "q, the spectrum's chance of extending at these bases": 0.3202
+  },
+  "below 1e-6, base 2": {
+   "bases": 6648156,
+   "all": {
+    "observed": 63,
+    "expected": 73.16,
+    "ratio": 0.8611,
+    "ci": [
+     0.6617,
+     1.1017
+    ]
+   },
+   "extending": {
+    "observed": 16,
+    "expected": 22.82,
+    "ratio": 0.701,
+    "ci": [
+     0.4007,
+     1.1384
+    ]
+   },
+   "others": {
+    "observed": 47,
+    "expected": 50.34,
+    "ratio": 0.9336,
+    "ci": [
+     0.686,
+     1.2415
+    ]
+   },
+   "share extending": 0.254,
+   "share extending by the spectrum, where they are": 0.2833,
+   "q, the spectrum's chance of extending at these bases": 0.3119
+  },
+  "below 1e-6, base 3": {
+   "bases": 6503744,
+   "all": {
+    "observed": 73,
+    "expected": 68.45,
+    "ratio": 1.0665,
+    "ci": [
+     0.836,
+     1.341
+    ]
+   },
+   "extending": {
+    "observed": 24,
+    "expected": 22.14,
+    "ratio": 1.0838,
+    "ci": [
+     0.6944,
+     1.6126
+    ]
+   },
+   "others": {
+    "observed": 49,
+    "expected": 46.3,
+    "ratio": 1.0583,
+    "ci": [
+     0.7829,
+     1.3991
+    ]
+   },
+   "share extending": 0.3288,
+   "share extending by the spectrum, where they are": 0.3504,
+   "q, the spectrum's chance of extending at these bases": 0.3235
+  },
+  "below 1e-6, base 4": {
+   "bases": 6061954,
+   "all": {
+    "observed": 59,
+    "expected": 63.52,
+    "ratio": 0.9288,
+    "ci": [
+     0.707,
+     1.1981
+    ]
+   },
+   "extending": {
+    "observed": 25,
+    "expected": 21.27,
+    "ratio": 1.1756,
+    "ci": [
+     0.7608,
+     1.7354
+    ]
+   },
+   "others": {
+    "observed": 34,
+    "expected": 42.26,
+    "ratio": 0.8046,
+    "ci": [
+     0.5572,
+     1.1243
+    ]
+   },
+   "share extending": 0.4237,
+   "share extending by the spectrum, where they are": 0.3454,
+   "q, the spectrum's chance of extending at these bases": 0.3348
+  },
+  "1e-6 to 1e-5, base 1": {
+   "bases": 2904593,
+   "all": {
+    "observed": 43,
+    "expected": 30.93,
+    "ratio": 1.3904,
+    "ci": [
+     1.0062,
+     1.8728
+    ]
+   },
+   "extending": {
+    "observed": 26,
+    "expected": 10.13,
+    "ratio": 2.5676,
+    "ci": [
+     1.6772,
+     3.7621
+    ]
+   },
+   "others": {
+    "observed": 17,
+    "expected": 20.8,
+    "ratio": 0.8173,
+    "ci": [
+     0.4761,
+     1.3086
+    ]
+   },
+   "share extending": 0.6047,
+   "share extending by the spectrum, where they are": 0.3649,
+   "q, the spectrum's chance of extending at these bases": 0.3274
+  },
+  "1e-6 to 1e-5, base 2": {
+   "bases": 1623151,
+   "all": {
+    "observed": 24,
+    "expected": 17.63,
+    "ratio": 1.3611,
+    "ci": [
+     0.8721,
+     2.0253
+    ]
+   },
+   "extending": {
+    "observed": 6,
+    "expected": 5.83,
+    "ratio": 1.0294,
+    "ci": [
+     0.3778,
+     2.2406
+    ]
+   },
+   "others": {
+    "observed": 18,
+    "expected": 11.8,
+    "ratio": 1.5249,
+    "ci": [
+     0.9038,
+     2.4101
+    ]
+   },
+   "share extending": 0.25,
+   "share extending by the spectrum, where they are": 0.279,
+   "q, the spectrum's chance of extending at these bases": 0.3306
+  },
+  "1e-6 to 1e-5, base 3": {
+   "bases": 1501751,
+   "all": {
+    "observed": 17,
+    "expected": 16.04,
+    "ratio": 1.0598,
+    "ci": [
+     0.6174,
+     1.6969
+    ]
+   },
+   "extending": {
+    "observed": 6,
+    "expected": 5.11,
+    "ratio": 1.1747,
+    "ci": [
+     0.4311,
+     2.5568
+    ]
+   },
+   "others": {
+    "observed": 11,
+    "expected": 10.93,
+    "ratio": 1.0061,
+    "ci": [
+     0.5023,
+     1.8003
+    ]
+   },
+   "share extending": 0.3529,
+   "share extending by the spectrum, where they are": 0.2366,
+   "q, the spectrum's chance of extending at these bases": 0.3184
+  },
+  "1e-6 to 1e-5, base 4": {
+   "bases": 1306835,
+   "all": {
+    "observed": 17,
+    "expected": 14.11,
+    "ratio": 1.2046,
+    "ci": [
+     0.7017,
+     1.9287
+    ]
+   },
+   "extending": {
+    "observed": 7,
+    "expected": 4.61,
+    "ratio": 1.5177,
+    "ci": [
+     0.6102,
+     3.1271
+    ]
+   },
+   "others": {
+    "observed": 10,
+    "expected": 9.5,
+    "ratio": 1.0526,
+    "ci": [
+     0.5048,
+     1.9358
+    ]
+   },
+   "share extending": 0.4118,
+   "share extending by the spectrum, where they are": 0.3616,
+   "q, the spectrum's chance of extending at these bases": 0.3268
+  },
+  "1e-5 to 1e-4, base 1": {
+   "bases": 921288,
+   "all": {
+    "observed": 18,
+    "expected": 10.55,
+    "ratio": 1.7065,
+    "ci": [
+     1.0114,
+     2.697
+    ]
+   },
+   "extending": {
+    "observed": 9,
+    "expected": 3.75,
+    "ratio": 2.3979,
+    "ci": [
+     1.0965,
+     4.5519
+    ]
+   },
+   "others": {
+    "observed": 9,
+    "expected": 6.79,
+    "ratio": 1.3245,
+    "ci": [
+     0.6057,
+     2.5144
+    ]
+   },
+   "share extending": 0.5,
+   "share extending by the spectrum, where they are": 0.2666,
+   "q, the spectrum's chance of extending at these bases": 0.3558
+  },
+  "1e-5 to 1e-4, base 2": {
+   "bases": 425785,
+   "all": {
+    "observed": 2,
+    "expected": 4.75,
+    "ratio": 0.4212,
+    "ci": [
+     0.051,
+     1.5214
+    ]
+   },
+   "extending": {
+    "observed": 2,
+    "expected": 1.58,
+    "ratio": 1.2665,
+    "ci": [
+     0.1534,
+     4.5749
+    ]
+   },
+   "others": {
+    "observed": 0,
+    "expected": 3.17,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     1.1639
+    ]
+   },
+   "share extending": 1.0,
+   "share extending by the spectrum, where they are": 0.4039,
+   "q, the spectrum's chance of extending at these bases": 0.3326
+  },
+  "1e-5 to 1e-4, base 3": {
+   "bases": 268841,
+   "all": {
+    "observed": 3,
+    "expected": 3.01,
+    "ratio": 0.9983,
+    "ci": [
+     0.2059,
+     2.9174
+    ]
+   },
+   "extending": {
+    "observed": 2,
+    "expected": 0.93,
+    "ratio": 2.1464,
+    "ci": [
+     0.2599,
+     7.7535
+    ]
+   },
+   "others": {
+    "observed": 1,
+    "expected": 2.07,
+    "ratio": 0.4823,
+    "ci": [
+     0.0122,
+     2.6872
+    ]
+   },
+   "share extending": 0.6667,
+   "share extending by the spectrum, where they are": 0.5389,
+   "q, the spectrum's chance of extending at these bases": 0.3101
+  },
+  "1e-5 to 1e-4, base 4": {
+   "bases": 229746,
+   "all": {
+    "observed": 3,
+    "expected": 2.59,
+    "ratio": 1.159,
+    "ci": [
+     0.239,
+     3.3871
+    ]
+   },
+   "extending": {
+    "observed": 1,
+    "expected": 0.82,
+    "ratio": 1.2166,
+    "ci": [
+     0.0308,
+     6.7782
+    ]
+   },
+   "others": {
+    "observed": 2,
+    "expected": 1.77,
+    "ratio": 1.1322,
+    "ci": [
+     0.1371,
+     4.09
+    ]
+   },
+   "share extending": 0.3333,
+   "share extending by the spectrum, where they are": 0.1244,
+   "q, the spectrum's chance of extending at these bases": 0.3176
+  },
+  "1e-4 or more, base 1": {
+   "bases": 184278,
+   "all": {
+    "observed": 5,
+    "expected": 2.22,
+    "ratio": 2.2508,
+    "ci": [
+     0.7308,
+     5.2525
+    ]
+   },
+   "extending": {
+    "observed": 5,
+    "expected": 0.82,
+    "ratio": 6.0743,
+    "ci": [
+     1.9723,
+     14.1753
+    ]
+   },
+   "others": {
+    "observed": 0,
+    "expected": 1.4,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     2.6381
+    ]
+   },
+   "share extending": 1.0,
+   "share extending by the spectrum, where they are": 0.4667,
+   "q, the spectrum's chance of extending at these bases": 0.3705
+  },
+  "1e-4 or more, base 2": {
+   "bases": 94470,
+   "all": {
+    "observed": 4,
+    "expected": 1.05,
+    "ratio": 3.8234,
+    "ci": [
+     1.0417,
+     9.7894
+    ]
+   },
+   "extending": {
+    "observed": 3,
+    "expected": 0.36,
+    "ratio": 8.3031,
+    "ci": [
+     1.7123,
+     24.2653
+    ]
+   },
+   "others": {
+    "observed": 1,
+    "expected": 0.68,
+    "ratio": 1.4601,
+    "ci": [
+     0.037,
+     8.1351
+    ]
+   },
+   "share extending": 0.75,
+   "share extending by the spectrum, where they are": 0.368,
+   "q, the spectrum's chance of extending at these bases": 0.3454
+  },
+  "1e-4 or more, base 3": {
+   "bases": 44958,
+   "all": {
+    "observed": 1,
+    "expected": 0.5,
+    "ratio": 1.9876,
+    "ci": [
+     0.0503,
+     11.0741
+    ]
+   },
+   "extending": {
+    "observed": 1,
+    "expected": 0.17,
+    "ratio": 5.975,
+    "ci": [
+     0.1513,
+     33.2908
+    ]
+   },
+   "others": {
+    "observed": 0,
+    "expected": 0.34,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     10.9867
+    ]
+   },
+   "share extending": 1.0,
+   "share extending by the spectrum, where they are": 0.5873,
+   "q, the spectrum's chance of extending at these bases": 0.3326
+  },
+  "1e-4 or more, base 4": {
+   "bases": 40397,
+   "all": {
+    "observed": 0,
+    "expected": 0.45,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     8.2215
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.15,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     25.436
+    ]
+   },
+   "others": {
+    "observed": 0,
+    "expected": 0.3,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     12.148
+    ]
+   },
+   "share extending": null,
+   "share extending by the spectrum, where they are": null,
+   "q, the spectrum's chance of extending at these bases": 0.3232
+  },
+  "1e-6 or more, base 1": {
+   "bases": 4010159,
+   "all": {
+    "observed": 66,
+    "expected": 43.7,
+    "ratio": 1.5104,
+    "ci": [
+     1.1682,
+     1.9216
+    ]
+   },
+   "extending": {
+    "observed": 40,
+    "expected": 14.7,
+    "ratio": 2.7206,
+    "ci": [
+     1.9436,
+     3.7047
+    ]
+   },
+   "others": {
+    "observed": 26,
+    "expected": 28.99,
+    "ratio": 0.8967,
+    "ci": [
+     0.5858,
+     1.3139
+    ]
+   },
+   "share extending": 0.6061,
+   "share extending by the spectrum, where they are": 0.3458,
+   "q, the spectrum's chance of extending at these bases": 0.3365
+  }
+ },
+ "runs, HG002": {
+  "A/C, others": {
+   "bases": 9942,
+   "all": {
+    "observed": 40,
+    "expected": 10.94,
+    "ratio": 3.656,
+    "ci": [
+     2.6119,
+     4.9784
+    ]
+   },
+   "extending": {
+    "observed": 39,
+    "expected": 9.56,
+    "ratio": 4.0813,
+    "ci": [
+     2.9022,
+     5.5793
+    ]
+   },
+   "others": {
+    "observed": 1,
+    "expected": 1.39,
+    "ratio": 0.7219,
+    "ci": [
+     0.0183,
+     4.022
+    ]
+   },
+   "share extending": 0.975,
+   "share extending by the spectrum, where they are": 0.8497,
+   "q, the spectrum's chance of extending at these bases": 0.8734
+  },
+  "A/C, others, isolated": {
+   "bases": 9942,
+   "all": {
+    "observed": 19,
+    "expected": 10.13,
+    "ratio": 1.8755,
+    "ci": [
+     1.1292,
+     2.9288
+    ]
+   },
+   "extending": {
+    "observed": 18,
+    "expected": 8.86,
+    "ratio": 2.0309,
+    "ci": [
+     1.2036,
+     3.2096
+    ]
+   },
+   "others": {
+    "observed": 1,
+    "expected": 1.27,
+    "ratio": 0.789,
+    "ci": [
+     0.02,
+     4.3959
+    ]
+   },
+   "share extending": 0.9474,
+   "share extending by the spectrum, where they are": 0.8555,
+   "q, the spectrum's chance of extending at these bases": 0.8749
+  },
+  "A/C, tails": {
+   "bases": 7546,
+   "all": {
+    "observed": 28,
+    "expected": 7.14,
+    "ratio": 3.9233,
+    "ci": [
+     2.607,
+     5.6703
+    ]
+   },
+   "extending": {
+    "observed": 26,
+    "expected": 6.19,
+    "ratio": 4.198,
+    "ci": [
+     2.7423,
+     6.1511
+    ]
+   },
+   "others": {
+    "observed": 2,
+    "expected": 0.94,
+    "ratio": 2.12,
+    "ci": [
+     0.2567,
+     7.6582
+    ]
+   },
+   "share extending": 0.9286,
+   "share extending by the spectrum, where they are": 0.8531,
+   "q, the spectrum's chance of extending at these bases": 0.8678
+  },
+  "A/C, tails, isolated": {
+   "bases": 7546,
+   "all": {
+    "observed": 12,
+    "expected": 6.61,
+    "ratio": 1.8166,
+    "ci": [
+     0.9387,
+     3.1732
+    ]
+   },
+   "extending": {
+    "observed": 11,
+    "expected": 5.74,
+    "ratio": 1.9156,
+    "ci": [
+     0.9562,
+     3.4275
+    ]
+   },
+   "others": {
+    "observed": 1,
+    "expected": 0.86,
+    "ratio": 1.1583,
+    "ci": [
+     0.0293,
+     6.4534
+    ]
+   },
+   "share extending": 0.9167,
+   "share extending by the spectrum, where they are": 0.8516,
+   "q, the spectrum's chance of extending at these bases": 0.8693
+  },
+  "A/T, others": {
+   "bases": 11298,
+   "all": {
+    "observed": 87,
+    "expected": 10.29,
+    "ratio": 8.4557,
+    "ci": [
+     6.7727,
+     10.4301
+    ]
+   },
+   "extending": {
+    "observed": 85,
+    "expected": 8.25,
+    "ratio": 10.3053,
+    "ci": [
+     8.2315,
+     12.7426
+    ]
+   },
+   "others": {
+    "observed": 2,
+    "expected": 2.04,
+    "ratio": 0.98,
+    "ci": [
+     0.1187,
+     3.5403
+    ]
+   },
+   "share extending": 0.977,
+   "share extending by the spectrum, where they are": 0.7916,
+   "q, the spectrum's chance of extending at these bases": 0.8017
+  },
+  "A/T, others, isolated": {
+   "bases": 11298,
+   "all": {
+    "observed": 45,
+    "expected": 9.5,
+    "ratio": 4.7378,
+    "ci": [
+     3.4558,
+     6.3396
+    ]
+   },
+   "extending": {
+    "observed": 43,
+    "expected": 7.61,
+    "ratio": 5.6508,
+    "ci": [
+     4.0895,
+     7.6116
+    ]
+   },
+   "others": {
+    "observed": 2,
+    "expected": 1.89,
+    "ratio": 1.059,
+    "ci": [
+     0.1283,
+     3.8256
+    ]
+   },
+   "share extending": 0.9556,
+   "share extending by the spectrum, where they are": 0.795,
+   "q, the spectrum's chance of extending at these bases": 0.8012
+  },
+  "A/T, tails": {
+   "bases": 14814,
+   "all": {
+    "observed": 103,
+    "expected": 12.55,
+    "ratio": 8.2055,
+    "ci": [
+     6.6976,
+     9.9516
+    ]
+   },
+   "extending": {
+    "observed": 99,
+    "expected": 9.98,
+    "ratio": 9.9158,
+    "ci": [
+     8.0591,
+     12.0721
+    ]
+   },
+   "others": {
+    "observed": 4,
+    "expected": 2.57,
+    "ratio": 1.5573,
+    "ci": [
+     0.4243,
+     3.9874
+    ]
+   },
+   "share extending": 0.9612,
+   "share extending by the spectrum, where they are": 0.7882,
+   "q, the spectrum's chance of extending at these bases": 0.7954
+  },
+  "A/T, tails, isolated": {
+   "bases": 14814,
+   "all": {
+    "observed": 48,
+    "expected": 11.58,
+    "ratio": 4.1451,
+    "ci": [
+     3.0563,
+     5.4958
+    ]
+   },
+   "extending": {
+    "observed": 46,
+    "expected": 9.2,
+    "ratio": 4.999,
+    "ci": [
+     3.6599,
+     6.668
+    ]
+   },
+   "others": {
+    "observed": 2,
+    "expected": 2.38,
+    "ratio": 0.841,
+    "ci": [
+     0.1019,
+     3.038
+    ]
+   },
+   "share extending": 0.9583,
+   "share extending by the spectrum, where they are": 0.7958,
+   "q, the spectrum's chance of extending at these bases": 0.7946
+  },
+  "G/C, others": {
+   "bases": 173,
+   "all": {
+    "observed": 1,
+    "expected": 0.11,
+    "ratio": 9.4145,
+    "ci": [
+     0.2384,
+     52.454
+    ]
+   },
+   "extending": {
+    "observed": 1,
+    "expected": 0.09,
+    "ratio": 10.9586,
+    "ci": [
+     0.2774,
+     61.0575
+    ]
+   },
+   "others": {
+    "observed": 0,
+    "expected": 0.01,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     246.4628
+    ]
+   },
+   "share extending": 1.0,
+   "share extending by the spectrum, where they are": 0.8722,
+   "q, the spectrum's chance of extending at these bases": 0.8591
+  },
+  "G/C, others, isolated": {
+   "bases": 173,
+   "all": {
+    "observed": 1,
+    "expected": 0.1,
+    "ratio": 10.2886,
+    "ci": [
+     0.2605,
+     57.3243
+    ]
+   },
+   "extending": {
+    "observed": 1,
+    "expected": 0.08,
+    "ratio": 11.9397,
+    "ci": [
+     0.3023,
+     66.5236
+    ]
+   },
+   "others": {
+    "observed": 0,
+    "expected": 0.01,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     274.4555
+    ]
+   },
+   "share extending": 1.0,
+   "share extending by the spectrum, where they are": 0.8748,
+   "q, the spectrum's chance of extending at these bases": 0.8617
+  },
+  "purine/pyrimidine, others": {
+   "bases": 40861,
+   "all": {
+    "observed": 383,
+    "expected": 60.06,
+    "ratio": 6.3772,
+    "ci": [
+     5.7544,
+     7.0489
+    ]
+   },
+   "extending": {
+    "observed": 324,
+    "expected": 14.63,
+    "ratio": 22.1391,
+    "ci": [
+     19.7938,
+     24.6858
+    ]
+   },
+   "others": {
+    "observed": 59,
+    "expected": 45.42,
+    "ratio": 1.2989,
+    "ci": [
+     0.9888,
+     1.6755
+    ]
+   },
+   "share extending": 0.846,
+   "share extending by the spectrum, where they are": 0.2872,
+   "q, the spectrum's chance of extending at these bases": 0.2437
+  },
+  "purine/pyrimidine, others, isolated": {
+   "bases": 40861,
+   "all": {
+    "observed": 194,
+    "expected": 55.65,
+    "ratio": 3.486,
+    "ci": [
+     3.0127,
+     4.0126
+    ]
+   },
+   "extending": {
+    "observed": 145,
+    "expected": 13.37,
+    "ratio": 10.8423,
+    "ci": [
+     9.1494,
+     12.7576
+    ]
+   },
+   "others": {
+    "observed": 49,
+    "expected": 42.28,
+    "ratio": 1.159,
+    "ci": [
+     0.8574,
+     1.5323
+    ]
+   },
+   "share extending": 0.7474,
+   "share extending by the spectrum, where they are": 0.2734,
+   "q, the spectrum's chance of extending at these bases": 0.2403
+  },
+  "purine/pyrimidine, tails": {
+   "bases": 31568,
+   "all": {
+    "observed": 247,
+    "expected": 40.37,
+    "ratio": 6.1191,
+    "ci": [
+     5.3798,
+     6.9318
+    ]
+   },
+   "extending": {
+    "observed": 217,
+    "expected": 10.58,
+    "ratio": 20.5073,
+    "ci": [
+     17.8693,
+     23.4249
+    ]
+   },
+   "others": {
+    "observed": 30,
+    "expected": 29.78,
+    "ratio": 1.0073,
+    "ci": [
+     0.6796,
+     1.4379
+    ]
+   },
+   "share extending": 0.8785,
+   "share extending by the spectrum, where they are": 0.2973,
+   "q, the spectrum's chance of extending at these bases": 0.2621
+  },
+  "purine/pyrimidine, tails, isolated": {
+   "bases": 31568,
+   "all": {
+    "observed": 121,
+    "expected": 37.39,
+    "ratio": 3.2363,
+    "ci": [
+     2.6854,
+     3.8669
+    ]
+   },
+   "extending": {
+    "observed": 97,
+    "expected": 9.67,
+    "ratio": 10.0292,
+    "ci": [
+     8.133,
+     12.2347
+    ]
+   },
+   "others": {
+    "observed": 24,
+    "expected": 27.72,
+    "ratio": 0.8659,
+    "ci": [
+     0.5548,
+     1.2884
+    ]
+   },
+   "share extending": 0.8017,
+   "share extending by the spectrum, where they are": 0.2931,
+   "q, the spectrum's chance of extending at these bases": 0.2587
+  },
+  "A/C": {
+   "bases": 17488,
+   "all": {
+    "observed": 68,
+    "expected": 18.08,
+    "ratio": 3.7615,
+    "ci": [
+     2.921,
+     4.7686
+    ]
+   },
+   "extending": {
+    "observed": 65,
+    "expected": 15.75,
+    "ratio": 4.1272,
+    "ci": [
+     3.1853,
+     5.2605
+    ]
+   },
+   "others": {
+    "observed": 3,
+    "expected": 2.33,
+    "ratio": 1.2883,
+    "ci": [
+     0.2657,
+     3.7649
+    ]
+   },
+   "share extending": 0.9559,
+   "share extending by the spectrum, where they are": 0.8511,
+   "q, the spectrum's chance of extending at these bases": 0.8712
+  },
+  "A/C, isolated": {
+   "bases": 17488,
+   "all": {
+    "observed": 31,
+    "expected": 16.74,
+    "ratio": 1.8522,
+    "ci": [
+     1.2585,
+     2.6291
+    ]
+   },
+   "extending": {
+    "observed": 29,
+    "expected": 14.61,
+    "ratio": 1.9855,
+    "ci": [
+     1.3297,
+     2.8516
+    ]
+   },
+   "others": {
+    "observed": 2,
+    "expected": 2.13,
+    "ratio": 0.9386,
+    "ci": [
+     0.1137,
+     3.3906
+    ]
+   },
+   "share extending": 0.9355,
+   "share extending by the spectrum, where they are": 0.854,
+   "q, the spectrum's chance of extending at these bases": 0.8727
+  },
+  "A/T": {
+   "bases": 26112,
+   "all": {
+    "observed": 190,
+    "expected": 22.84,
+    "ratio": 8.3182,
+    "ci": [
+     7.1774,
+     9.5888
+    ]
+   },
+   "extending": {
+    "observed": 184,
+    "expected": 18.23,
+    "ratio": 10.092,
+    "ci": [
+     8.6864,
+     11.6602
+    ]
+   },
+   "others": {
+    "observed": 6,
+    "expected": 4.61,
+    "ratio": 1.3017,
+    "ci": [
+     0.4777,
+     2.8333
+    ]
+   },
+   "share extending": 0.9684,
+   "share extending by the spectrum, where they are": 0.7898,
+   "q, the spectrum's chance of extending at these bases": 0.7982
+  },
+  "A/T, isolated": {
+   "bases": 26112,
+   "all": {
+    "observed": 93,
+    "expected": 21.08,
+    "ratio": 4.4122,
+    "ci": [
+     3.5612,
+     5.4053
+    ]
+   },
+   "extending": {
+    "observed": 89,
+    "expected": 16.81,
+    "ratio": 5.2941,
+    "ci": [
+     4.2516,
+     6.5148
+    ]
+   },
+   "others": {
+    "observed": 4,
+    "expected": 4.27,
+    "ratio": 0.9375,
+    "ci": [
+     0.2554,
+     2.4004
+    ]
+   },
+   "share extending": 0.957,
+   "share extending by the spectrum, where they are": 0.7954,
+   "q, the spectrum's chance of extending at these bases": 0.7976
+  },
+  "G/C": {
+   "bases": 173,
+   "all": {
+    "observed": 1,
+    "expected": 0.11,
+    "ratio": 9.4145,
+    "ci": [
+     0.2384,
+     52.454
+    ]
+   },
+   "extending": {
+    "observed": 1,
+    "expected": 0.09,
+    "ratio": 10.9586,
+    "ci": [
+     0.2774,
+     61.0575
+    ]
+   },
+   "others": {
+    "observed": 0,
+    "expected": 0.01,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     246.4628
+    ]
+   },
+   "share extending": 1.0,
+   "share extending by the spectrum, where they are": 0.8722,
+   "q, the spectrum's chance of extending at these bases": 0.8591
+  },
+  "G/C, isolated": {
+   "bases": 173,
+   "all": {
+    "observed": 1,
+    "expected": 0.1,
+    "ratio": 10.2886,
+    "ci": [
+     0.2605,
+     57.3243
+    ]
+   },
+   "extending": {
+    "observed": 1,
+    "expected": 0.08,
+    "ratio": 11.9397,
+    "ci": [
+     0.3023,
+     66.5236
+    ]
+   },
+   "others": {
+    "observed": 0,
+    "expected": 0.01,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     274.4555
+    ]
+   },
+   "share extending": 1.0,
+   "share extending by the spectrum, where they are": 0.8748,
+   "q, the spectrum's chance of extending at these bases": 0.8617
+  },
+  "purine/pyrimidine": {
+   "bases": 72429,
+   "all": {
+    "observed": 630,
+    "expected": 100.42,
+    "ratio": 6.2735,
+    "ci": [
+     5.7931,
+     6.783
+    ]
+   },
+   "extending": {
+    "observed": 541,
+    "expected": 25.22,
+    "ratio": 21.4543,
+    "ci": [
+     19.6843,
+     23.3408
+    ]
+   },
+   "others": {
+    "observed": 89,
+    "expected": 75.21,
+    "ratio": 1.1834,
+    "ci": [
+     0.9504,
+     1.4563
+    ]
+   },
+   "share extending": 0.8587,
+   "share extending by the spectrum, where they are": 0.2912,
+   "q, the spectrum's chance of extending at these bases": 0.2511
+  },
+  "purine/pyrimidine, isolated": {
+   "bases": 72429,
+   "all": {
+    "observed": 315,
+    "expected": 93.04,
+    "ratio": 3.3857,
+    "ci": [
+     3.0221,
+     3.781
+    ]
+   },
+   "extending": {
+    "observed": 242,
+    "expected": 23.05,
+    "ratio": 10.501,
+    "ci": [
+     9.2195,
+     11.9108
+    ]
+   },
+   "others": {
+    "observed": 73,
+    "expected": 69.99,
+    "ratio": 1.0429,
+    "ci": [
+     0.8175,
+     1.3113
+    ]
+   },
+   "share extending": 0.7683,
+   "share extending by the spectrum, where they are": 0.2809,
+   "q, the spectrum's chance of extending at these bases": 0.2477
+  }
+ },
+ "runs, new substitutions": {
+  "A/C": {
+   "bases": 19445,
+   "all": {
+    "observed": 2,
+    "expected": 0.27,
+    "ratio": 7.4596,
+    "ci": [
+     0.9034,
+     26.9465
+    ]
+   },
+   "extending": {
+    "observed": 2,
+    "expected": 0.24,
+    "ratio": 8.4054,
+    "ci": [
+     1.0179,
+     30.3634
+    ]
+   },
+   "others": {
+    "observed": 0,
+    "expected": 0.03,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     122.2646
+    ]
+   },
+   "share extending": 1.0,
+   "share extending by the spectrum, where they are": 0.8612,
+   "q, the spectrum's chance of extending at these bases": 0.8875
+  },
+  "A/T": {
+   "bases": 33356,
+   "all": {
+    "observed": 0,
+    "expected": 0.36,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     10.1469
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.29,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     12.8339
+    ]
+   },
+   "others": {
+    "observed": 0,
+    "expected": 0.08,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     48.4639
+    ]
+   },
+   "share extending": null,
+   "share extending by the spectrum, where they are": null,
+   "q, the spectrum's chance of extending at these bases": 0.7906
+  },
+  "G/C": {
+   "bases": 210,
+   "all": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     2916.6821
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     3520.0724
+    ]
+   },
+   "others": {
+    "observed": 0,
+    "expected": 0.0,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     17015.4088
+    ]
+   },
+   "share extending": null,
+   "share extending by the spectrum, where they are": null,
+   "q, the spectrum's chance of extending at these bases": 0.8286
+  },
+  "purine/pyrimidine": {
+   "bases": 84321,
+   "all": {
+    "observed": 0,
+    "expected": 1.52,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     2.4229
+    ]
+   },
+   "extending": {
+    "observed": 0,
+    "expected": 0.32,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     11.4316
+    ]
+   },
+   "others": {
+    "observed": 0,
+    "expected": 1.2,
+    "ratio": 0.0,
+    "ci": [
+     0.0,
+     3.0745
+    ]
+   },
+   "share extending": null,
+   "share extending by the spectrum, where they are": null,
+   "q, the spectrum's chance of extending at these bases": 0.2119
+  }
+ }
+}
