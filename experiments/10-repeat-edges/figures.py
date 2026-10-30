@@ -87,7 +87,7 @@ def main() -> None:
                       label="HG002: other substitutions"),
                Line2D([], [], color=INK, linewidth=1.6, label="extending, made by the reference alone"),
                Line2D([], [], marker="D", linestyle="none", markersize=5.5, color=INK, markerfacecolor=SURFACE,
-                      label="new mutations: extending (95 % CI)")]
+                      label="new mutations (short reads): extending, 95 % CI")]
     b.legend(handles=handles, fontsize=7.2, frameon=False, loc="upper left")
     b.set_title("B. Substitutions beside a repeat extend it", fontsize=9, color=INK, loc="left")
     fig.tight_layout()

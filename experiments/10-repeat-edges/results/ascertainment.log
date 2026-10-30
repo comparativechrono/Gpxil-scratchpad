@@ -20,10 +20,10 @@
    "HG002, extending": 1.9729,
    "HG002, extending, beyond the reference's share": 1.154,
    "HG002, others": 0.9918,
-   "new substitutions, extending": 1.2424,
-   "new substitutions, extending, observed": 43,
-   "new substitutions, extending, expected": 34.61,
-   "new substitutions, others": 0.9121
+   "new substitutions, extending": 1.2484,
+   "new substitutions, extending, observed": 42,
+   "new substitutions, extending, expected": 33.64,
+   "new substitutions, others": 0.9382
   },
   "1e-6 to 1e-5": {
    "q, the spectrum's chance of extending": 0.324,
@@ -35,10 +35,10 @@
    "HG002, extending": 3.4598,
    "HG002, extending, beyond the reference's share": 2.039,
    "HG002, others": 1.0154,
-   "new substitutions, extending": 2.5676,
+   "new substitutions, extending": 2.8259,
    "new substitutions, extending, observed": 26,
-   "new substitutions, extending, expected": 10.13,
-   "new substitutions, others": 0.8173
+   "new substitutions, extending, expected": 9.2,
+   "new substitutions, others": 0.905
   },
   "1e-5 to 1e-4": {
    "q, the spectrum's chance of extending": 0.346,
@@ -50,10 +50,10 @@
    "HG002, extending": 5.0629,
    "HG002, extending, beyond the reference's share": 3.108,
    "HG002, others": 1.0869,
-   "new substitutions, extending": 2.3979,
+   "new substitutions, extending": 2.8066,
    "new substitutions, extending, observed": 9,
-   "new substitutions, extending, expected": 3.75,
-   "new substitutions, others": 1.3245
+   "new substitutions, extending, expected": 3.21,
+   "new substitutions, others": 1.5405
   },
   "1e-4 or more": {
    "q, the spectrum's chance of extending": 0.364,
@@ -65,9 +65,9 @@
    "HG002, extending": 6.8974,
    "HG002, extending, beyond the reference's share": 4.357,
    "HG002, others": 1.4207,
-   "new substitutions, extending": 6.0743,
+   "new substitutions, extending": 7.3326,
    "new substitutions, extending, observed": 5,
-   "new substitutions, extending, expected": 0.82,
+   "new substitutions, extending, expected": 0.68,
    "new substitutions, others": 0.0
   }
  },

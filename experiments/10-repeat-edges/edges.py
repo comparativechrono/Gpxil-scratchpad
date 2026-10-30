@@ -94,6 +94,7 @@ def main(ref_dir, hg_dir, bed_path, features, dnm_dir, chain37, table, chain_t2t
     run_hg = defaultdict(lambda: np.zeros(6))  # (alphabet, tail, isolated)
     run_new = defaultdict(lambda: np.zeros(6))  # alphabet
     by_study = defaultdict(lambda: np.zeros(4))  # (study, class) at base 1: expected, expected extending, observed, extending
+    run_lcr = defaultdict(lambda: np.zeros(2))  # alphabet: edge bases with a known trinucleotide, of them in low-complexity regions
     for c in ga.AUTOSOMES:
         s_, e_, cls_, _, p_ = loci[c]
         bs, be = bed[c]
@@ -203,6 +204,7 @@ def main(ref_dir, hg_dir, bed_path, features, dnm_dir, chain37, table, chain_t2t
                         t[3] += 1
                         t[4] += alt[i] in ext_b
                         t[5] += r_ext / r_all
+                run_lcr[al] += [1, lcr_run[i]]
                 if lcr_run[i]:
                     continue
                 t = run_new[al]
@@ -238,9 +240,14 @@ def main(ref_dir, hg_dir, bed_path, features, dnm_dir, chain37, table, chain_t2t
         for study in ("Sasani", "Platinum") for k in list(range(SH.NC)) + [None]
         for v in [by_study[(study, k)] if k is not None else sum(by_study[(study, kk)] for kk in range(SH.NC))]}
     out["new substitutions' share by study, 201 to 1,000 bases from any locus"] = {k: round(v, 4) for k, v in share.items()}
+    out["runs: edge bases in low-complexity regions"] = {al: {"bases": int(v[0]), "in low-complexity regions": int(v[1]),
+                                                              "share": round(float(v[1] / v[0]), 4)} for al, v in sorted(run_lcr.items())}
     with open(os.path.join(HERE, "results", "edges.json"), "w") as fh:
         json.dump(out, fh, indent=1)
     for sec, v in out.items():
+        if sec not in ("loci, HG002", "loci, new substitutions", "runs, HG002", "runs, new substitutions"):
+            print(sec, json.dumps(v))
+            continue
         print(sec)
         for k, r in v.items():
             if "base 1" in k or sec.startswith("runs"):

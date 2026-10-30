@@ -5,8 +5,9 @@
  "bases": 2508916262,
  "callable bases": 2351820011,
  "heterozygous substitutions": 1951983,
- "new substitutions: placed": 25382,
+ "new substitutions: placed": 25323,
  "new substitutions: in a locus": 2175,
+ "new substitutions: in a low-complexity region": 59,
  "new substitutions: reference differs, or N": 2,
  "new substitutions read": 27559,
  "sets": [

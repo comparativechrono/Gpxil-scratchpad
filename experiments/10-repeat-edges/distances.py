@@ -111,7 +111,10 @@ def main() -> None:
                 "excess at 1-2 against 21-500": round(float(rel), 3), "share of 1-2 that is excess": round(float(f), 3),
                 "share in cis at 21-500": round(float(far_share), 3), "share in cis at 1-2": round(float(c0 / (c0 + t0)), 3),
                 "substitutions at 1-2": int(c0 + t0),
-                "share in cis at 1-2 if the excess took no account of haplotypes": round(float((1 - f) * far_share + f / 2), 3) if f > 0 else None}
+                "share in cis at 1-2 if the excess took no account of haplotypes": round(float((1 - f) * far_share + f / 2), 3) if f > 0 else None,
+                "the excess's own share in cis": round(float((c0 - (1 - f) * far_share * (c0 + t0)) / (f * (c0 + t0))), 3) if f > 0 else None,
+                "at most this much of the excess in cis by the same event, were the rest blind":
+                    round(float(((c0 - (1 - f) * far_share * (c0 + t0)) / (f * (c0 + t0)) - 0.5) / 0.5), 3) if f > 0 else None}
     out["cis_if_the_excess_were_blind"] = blind
     # new substitutions, against all bases outside low-complexity regions
     a_all = z["A_new"]
