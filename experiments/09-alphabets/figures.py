@@ -55,7 +55,7 @@ def main() -> None:
     style(b)
     rows = [("purine/pyrimidine", "purines, 3 A to 1 G", spec["purine, 3 A to 1 G"]["kept"]),
             ("A/C", "A/C, 3 A to 1 C", spec["A/C, 3 A to 1 C"]["kept"]),
-            ("G/C", "G/C", spec["G/C, outside CpG"]["kept"]),
+            ("G/C", "G/C, outside CpG", spec["G/C, outside CpG"]["kept"]),
             ("A/T", "A/T", spec["A/T"]["kept"])]
     for i, (name, lab, v) in enumerate(rows):
         b.barh(i, v, height=0.56, color=COLOUR[name], zorder=3)

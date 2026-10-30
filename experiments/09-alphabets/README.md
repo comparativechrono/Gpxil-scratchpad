@@ -60,19 +60,22 @@ pure runs of the other alphabets too? If not, why purines?
    class.
 
 **What it means.** The poly(A) tails of retrotransposons seed pure runs in
-every alphabet that holds A. Substitutions then decide which stay pure. Most
-substitutions are transitions, which keep a purine run pure and break the
-other runs, so the tails that stay pure as they age are purine runs, and in
-Alu tails only purine runs grow longer. Albrecht-Buehler's GA-sequences are the alphabet
-that the human spectrum of mutation preserves. This is a mutational
-explanation of a pattern long known in eukaryotic genomes. Long oligopurine
-tracts are far more common than base composition predicts (Behe 1995), more
-so than the other two-letter tracts (Yagil 2004); both papers proposed a
-function. Substitutions inside a run can't lengthen it: the growth must come
-from slippage, or from substitutions at its edges. In HG002, substitutions
-beside pure runs extend them far more often than the spectrum predicts
-(experiment 10), but new mutations there are too few to tell how much of
-that is mutation.
+every alphabet that holds A. Most substitutions are transitions, which keep a
+purine run pure and break the other runs. That fits the purine runs being
+the ones that become commoner, and in Alu tails longer, as the tails age:
+Albrecht-Buehler's GA-sequences are the alphabet that the human spectrum of
+mutation preserves. This is a mutational explanation of a pattern long known
+in eukaryotic genomes. Long oligopurine tracts are far more common than base
+composition predicts (Behe 1995), more so than the other two-letter tracts
+(Yagil 2004); both papers proposed a function. The spectrum doesn't explain
+everything: it breaks A/C runs at least as often as A/T runs, yet Alu tails'
+A/C runs hold steady with age while their A/T runs fall four-fold. The
+tails' sequence when they arrive, slippage, or substitutions peculiar to
+poly(A) must shape those. Substitutions inside a run can't lengthen it
+either: the growth must come from slippage, or from substitutions at its
+edges. In HG002, substitutions beside pure runs extend them far more often
+than the spectrum predicts (experiment 10), but new mutations there are too
+few to tell how much of that is mutation.
 
 ![Alu tails that are a pure run in each alphabet, by the Alu's age; and the share of new substitutions that keep a run of each alphabet pure](figures/alphabets.png)
 
@@ -93,13 +96,15 @@ that is mutation.
   purity come from gpxiltools' period finder (periods up to 12), its unit is
   its commonest word of that length in canonical form, and its strand is the
   one with more A than T (A/T runs) or more G than C (G/C runs).
-- **Origins** extend experiment 04's rule for Alu tails to every
-  transposable element of UCSC's RepeatMasker annotation of hg38: one whose
-  3' end lies within 30 bases of the run's start, on the run's A-rich
-  strand, makes the run its tail (the closest, when several do); otherwise
-  the run takes the class whose annotation covers half of it or more. So the
-  counts differ a little from experiment 04's, which looked for Alus alone:
-  15,653 purine runs are Alu tails here, against 15,698 there. For ages,
+- **Origins** extend experiment 04's rule for Alu tails to every element of
+  the SINE, LINE, LTR, DNA and retroposon classes of UCSC's RepeatMasker
+  annotation of hg38: one whose 3' end lies within 30 bases of the run's
+  start, on the run's A-rich strand, makes the run its tail (the closest,
+  when several do); otherwise the run takes the class whose annotation,
+  summed, covers half of it or more. Experiment 04 looked for Alus alone and
+  took the single annotation covering half a run, so the counts differ: here
+  15,653 purine runs are Alu tails and 30.2 % simple repeats, there 15,698
+  and 33.3 %. For ages,
   each tail run is given to its element, and each RepeatMasker row counts
   as an element; its milliDiv (divergence from its subfamily's consensus)
   measures its age.
@@ -223,9 +228,10 @@ alphabet's runs are called less often than the genome at large.
   mismatches in the first bases of a tail could add to it. Subfamilies give
   ages that don't depend on any copy's tail; across them, purine tail runs
   rise with age and A/T runs fall, as by each copy's divergence. The thirds
-  within subfamilies are cut on each copy's own divergence. By subfamily,
-  purine tail runs are commonest in AluJ; the free monomers FLAM and FRAM,
-  as old or older, have fewer.
+  within subfamilies are cut on each copy's own divergence. Pooled by group,
+  purine tail runs are commonest in AluJ, but subfamily by subfamily FRAM
+  has the most (20.3 per 1,000) and FLAM_A, as old, among the fewest
+  (10.4).
 - Each RepeatMasker row counts as an element: an element split into two rows
   counts twice.
 - The spectrum is that of new substitutions anywhere in the genome; inside
@@ -242,7 +248,7 @@ alphabet's runs are called less often than the genome at large.
 ## Sources
 
 - Albrecht-Buehler G. Properties and distribution of pure GA-sequences of
-  mammalian genomes. PLoS ONE. 2008;3(12):e3818.
+  mammalian genomes. PLoS ONE. 2008;3(11):e3818.
   doi:[10.1371/journal.pone.0003818](https://doi.org/10.1371/journal.pone.0003818).
 - Behe MJ. An overabundance of long oligopurine tracts occurs in the genome
   of simple and complex eukaryotes. Nucleic Acids Res. 1995;23(4):689-695.
