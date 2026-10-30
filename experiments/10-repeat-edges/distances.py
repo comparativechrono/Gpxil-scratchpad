@@ -2,8 +2,8 @@
 
 The expected count at each distance is its callable bases times the rate of their trinucleotides, the rate being HG002's
 substitutions of that kind per callable base 201 bases or more from any locus (the far bases). New substitutions are
-set against all bases (not only HG002's callable ones), with their own rate 201 to 1,000 bases from any locus: farther
-out lie large regions where the two studies called almost none.
+set against all bases outside low-complexity regions (not only HG002's callable ones), with their own rate 201 to 1,000
+bases from any locus: farther out lie large regions where the two studies called almost none.
 
 For the loci where HG002 varies on one haplotype only, a heterozygous substitution beside them is in cis when it is on
 the haplotype that varies in the locus. Its share in cis far from the locus measures how the two haplotypes' histories
@@ -58,7 +58,8 @@ def main() -> None:
         add("all loci", x, a_call)
         for k, cl in enumerate(CLASSES):
             add(f"nearest locus {cl}", x[k], a_call[k])
-        for st, sel in (("HG002 the same in the locus", [0]), ("HG002 varies in the locus", [1, 2, 3])):
+        for st, sel in (("HG002 the same in the locus", [0]), ("HG002 varies in the locus", [1, 2, 3]),
+                        ("HG002 varies on one haplotype", [1, 2]), ("HG002 varies on both haplotypes", [3])):
             add(st, x[:, sel], a_call[:, sel])
             for k, cl in enumerate(CLASSES):
                 add(f"{st}, {cl}", x[k, sel], a_call[k, sel])
@@ -112,8 +113,8 @@ def main() -> None:
                 "substitutions at 1-2": int(c0 + t0),
                 "share in cis at 1-2 if the excess took no account of haplotypes": round(float((1 - f) * far_share + f / 2), 3) if f > 0 else None}
     out["cis_if_the_excess_were_blind"] = blind
-    # new substitutions, against all bases
-    a_all = z["A_all"].sum(axis=1)
+    # new substitutions, against all bases outside low-complexity regions
+    a_all = z["A_new"]
     sets = [str(s) for s in z["sets"]]
     dn = {}
     for lab, sel in (("all", list(range(len(sets)))), ("Sasani", [i for i, s in enumerate(sets) if s.startswith("Sasani")]),
@@ -124,6 +125,7 @@ def main() -> None:
         for k, cl in enumerate(CLASSES):
             res[f"nearest locus {cl}"] = {bins[b]: oe(d[k, b].sum(), (a_all[k, b] * mu).sum()) for b in range(nb)}
             res[f"nearest locus {cl}, within 20 bases"] = oe(d[k, :4].sum(), (a_all[k, :4].sum(axis=0) * mu).sum())
+            res[f"nearest locus {cl}, 3 to 20 bases"] = oe(d[k, 1:4].sum(), (a_all[k, 1:4].sum(axis=0) * mu).sum())
         dn[lab] = res
     out["new substitutions"] = dn
     with open(os.path.join(RESULTS, "distances.json"), "w") as fh:

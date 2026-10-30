@@ -54,7 +54,7 @@ def main() -> None:
     a.set_xlabel("distance from the nearest tandem repeat (bases)", fontsize=8, color=INK2)
     a.set_ylabel("HG002's heterozygous substitutions, observed / expected", fontsize=8, color=INK2)
     a.legend(title="new TR mutations per locus\nand transmission", title_fontsize=7.4, fontsize=7.4, frameon=False, loc="upper right")
-    a.set_title("A. An excess only right beside the repeat", fontsize=9, color=INK, loc="left")
+    a.set_title("A. An excess within a few bases of the repeat", fontsize=9, color=INK, loc="left")
     style(b)
     off = {"HG002, extending": -0.24, "HG002, others": 0.0, "new mutations, extending": 0.24}
     for k, cl in enumerate(CLASSES):

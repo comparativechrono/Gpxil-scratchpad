@@ -9,11 +9,12 @@ counted apart. Bases inside another locus, N, or (for HG002) outside the benchma
   spectrum of its heterozygous substitutions at the far bases (shadow.npz): all substitutions, those that extend and
   those that don't, by the locus's instability class;
 * the new substitutions of the CEPH families and the Platinum Pedigree, the same way, against their own spectrum 201 to
-  1,000 bases from any locus;
+  1,000 bases from any locus, bases and substitutions both outside low-complexity regions (LCR-hs38), where Sasani et
+  al. called none;
 * the bases beside pure two-letter runs (experiment 09's census): a substitution extends the run when its new base is
   in the run's alphabet.
 
-    python3 -I edges.py REF_DIR HG002_DIR BED FEATURES DNM_DIR CHAIN37 TABLE.xlsx CHAIN_T2T     -> results/edges.json
+    python3 -I edges.py REF_DIR HG002_DIR BED FEATURES DNM_DIR CHAIN37 TABLE.xlsx CHAIN_T2T LCR     -> results/edges.json
 """
 
 from __future__ import annotations
@@ -63,16 +64,21 @@ def summarise(t: np.ndarray) -> dict:
             "q, the spectrum's chance of extending at these bases": round(e_ext / e, 4) if e else None}
 
 
-def main(ref_dir, hg_dir, bed_path, features, dnm_dir, chain37, table, chain_t2t) -> None:
+def main(ref_dir, hg_dir, bed_path, features, dnm_dir, chain37, table, chain_t2t, lcr_path) -> None:
     z = np.load(os.path.join(HERE, "results", "shadow.npz"))
     base_far = z["A_call"][:, :, FAR, :].sum(axis=(0, 1, 2))
     rate = z["A_het"][:, :, FAR].sum(axis=(0, 1, 2)) / np.maximum(base_far, 1)[:, None]  # HG002: [ctx, new base]
     rate_iso = z["A_iso"][:, :, FAR].sum(axis=(0, 1, 2)) / np.maximum(base_far, 1)[:, None]
-    a_all = z["A_all"].sum(axis=1)
+    a_all = z["A_new"]  # (bases outside low-complexity regions)
     far_new = slice(7, 9)  # (201 to 1,000 bases: see distances.py)
     mu = z["D_A"].sum(axis=0)[:, far_new].sum(axis=(0, 1)) / np.maximum(a_all[:, far_new].sum(axis=(0, 1)), 1)[:, None]  # new substitutions
+    sets = [str(x) for x in z["sets"]]
+    plat = [i for i, x in enumerate(sets) if x.startswith("Platinum")]
+    share = {"Platinum": float(z["D_A"][plat][:, :, far_new].sum() / z["D_A"][:, :, far_new].sum())}
+    share["Sasani"] = 1 - share["Platinum"]
     loci = SH.read_loci(features, SH.strata_rates())
     bed = SH.read_bed(bed_path)
+    lcr = SH.read_bed(lcr_path)
     dn_by = defaultdict(list)
     for d in SH.dnms(ref_dir, dnm_dir, chain37, table, chain_t2t):
         dn_by[d["chrom"]].append(d)
@@ -87,9 +93,16 @@ def main(ref_dir, hg_dir, bed_path, features, dnm_dir, chain37, table, chain_t2t
     new = defaultdict(lambda: np.zeros(6))  # (class, base)
     run_hg = defaultdict(lambda: np.zeros(6))  # (alphabet, tail, isolated)
     run_new = defaultdict(lambda: np.zeros(6))  # alphabet
+    by_study = defaultdict(lambda: np.zeros(4))  # (study, class) at base 1: expected, expected extending, observed, extending
     for c in ga.AUTOSOMES:
         s_, e_, cls_, _, p_ = loci[c]
         bs, be = bed[c]
+        ls, le = lcr.get(c, (np.array([], int), np.array([], int)))
+
+        def in_lcr(pos: np.ndarray) -> np.ndarray:
+            j = np.searchsorted(ls, pos, "right") - 1
+            return (j >= 0) & (pos < le[np.maximum(j, 0)]) if len(ls) else np.zeros(len(pos), dtype=bool)
+
         with ga.reference(ref_dir, c) as g:
             x = SH.IDX[g[c].read("ref")]
         with open_gpxil(os.path.join(hg_dir, f"HG002_{c}.gpxil.tif")) as h:
@@ -145,15 +158,19 @@ def main(ref_dir, hg_dir, bed_path, features, dnm_dir, chain37, table, chain_t2t
                             sel = keep & call & (cls == k) & (refc == bool(rc))
                             t = hg[(k, d, rc, iso_only)]
                             t += [sel.sum(), r_all[sel].sum(), r_ext[sel].sum(), (sub & sel).sum(), (ext & sel).sum(), p_ext[sub & sel].sum()]
-                # new substitutions, where the reference breaks the repeat
+                # new substitutions, where the reference breaks the repeat, outside low-complexity regions
                 r_all, r_ext = mu.sum(axis=1)[ctx], mu[ctx, cbc]
+                open_ = keep & ~refc & ~in_lcr(pos)
                 for k in range(SH.NC):
-                    sel = keep & ~refc & (cls == k)
+                    sel = open_ & (cls == k)
                     t = new[(k, d)]
                     t[0] += sel.sum()
                     t[1] += r_all[sel].sum()
                     t[2] += r_ext[sel].sum()
-                for i in np.flatnonzero(keep & ~refc & np.isin(pos, dn_arr)):
+                    if d == 1:
+                        for study in ("Sasani", "Platinum"):
+                            by_study[(study, k)][:2] += [r_all[sel].sum() * share[study], r_ext[sel].sum() * share[study]]
+                for i in np.flatnonzero(open_ & np.isin(pos, dn_arr)):
                     for dd in dn_pos[int(pos[i])]:
                         if "ACGT"[m[i]] != dd["ref"]:
                             continue
@@ -161,12 +178,15 @@ def main(ref_dir, hg_dir, bed_path, features, dnm_dir, chain37, table, chain_t2t
                         t[3] += 1
                         t[4] += "ACGT".index(dd["alt"]) == cb[i]
                         t[5] += r_ext[i] / r_all[i]
+                        if d == 1:
+                            by_study[(dd["set"].split()[0], int(cls[i]))][2:] += [1, "ACGT".index(dd["alt"]) == cb[i]]
         # the pure runs' edges
         rr = runs.get(c, [])
         if rr:
             pos = np.array([p for s, e, *_ in rr for p in (s - 1, e)])
             info = [(al, letters, tail) for s, e, al, letters, tail in rr for _ in (0, 1)]
             ok = (pos >= 1) & (pos < n - 1)
+            lcr_run = in_lcr(pos)
             ctx, flip, good, m = ctx_of(x, np.clip(pos, 1, n - 2))
             call, alt, iso = hg002(np.clip(pos, 1, n - 2))
             for i in np.flatnonzero(ok & good):
@@ -183,6 +203,8 @@ def main(ref_dir, hg_dir, bed_path, features, dnm_dir, chain37, table, chain_t2t
                         t[3] += 1
                         t[4] += alt[i] in ext_b
                         t[5] += r_ext / r_all
+                if lcr_run[i]:
+                    continue
                 t = run_new[al]
                 r_all, r_ext = mu[ctx[i]].sum(), mu[ctx[i], ext_c].sum()
                 t[:3] += [1, r_all, r_ext]
@@ -210,6 +232,12 @@ def main(ref_dir, hg_dir, bed_path, features, dnm_dir, chain37, table, chain_t2t
             out["runs, HG002"][f"{al}{', isolated' if iso_only else ''}"] = summarise(t)
     for al, t in sorted(run_new.items()):
         out["runs, new substitutions"][al] = summarise(t)
+    out["loci, new substitutions, by study, base 1"] = {
+        f"{study}, {classes[k] if k is not None else 'all classes'}": {
+            "expected": round(float(v[0]), 2), "observed": int(v[2]), "expected extending": round(float(v[1]), 2), "extending": int(v[3])}
+        for study in ("Sasani", "Platinum") for k in list(range(SH.NC)) + [None]
+        for v in [by_study[(study, k)] if k is not None else sum(by_study[(study, kk)] for kk in range(SH.NC))]}
+    out["new substitutions' share by study, 201 to 1,000 bases from any locus"] = {k: round(v, 4) for k, v in share.items()}
     with open(os.path.join(HERE, "results", "edges.json"), "w") as fh:
         json.dump(out, fh, indent=1)
     for sec, v in out.items():
@@ -220,6 +248,6 @@ def main(ref_dir, hg_dir, bed_path, features, dnm_dir, chain37, table, chain_t2t
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 9:
+    if len(sys.argv) != 10:
         sys.exit(__doc__)
-    main(*sys.argv[1:9])
+    main(*sys.argv[1:10])

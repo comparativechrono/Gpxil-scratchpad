@@ -16,13 +16,14 @@ base other than the reference's; heterozygous when the other haplotype is the re
 variant (any haplotype state, or an insertion) lies within 10 bases. Counts are kept by distance, class and
 trinucleotide (read with a pyrimidine in the middle) and new base. The new substitutions of the CEPH families (Sasani
 et al. 2019) and the Platinum Pedigree (Porubsky et al. 2025), read as experiment 07 reads them, are placed the same
-way, against all bases.
+way. Sasani et al. called no new mutations in low-complexity regions, so for new substitutions both the bases and the
+substitutions are counted outside LCR-hs38 (Li 2014), which stands in for their GRCh37 mask.
 
-    python3 -I shadow.py REF_DIR HG002_DIR BED FEATURES DNM_DIR CHAIN37 TABLE.xlsx CHAIN_T2T
+    python3 -I shadow.py REF_DIR HG002_DIR BED FEATURES DNM_DIR CHAIN37 TABLE.xlsx CHAIN_T2T LCR
         -> results/shadow.npz, results/shadow_counts.json
 
 HG002_DIR: HG002_chrN.gpxil.tif from v5.0q, encoded as experiment 04's encode_hg002.sh does. BED: v5.0q's benchmark
-regions. FEATURES: the locus measures experiment 06 writes with --features.
+regions. FEATURES: the locus measures experiment 06 writes with --features. LCR: LCR-hs38.bed.gz (lh3/varcmp).
 """
 
 from __future__ import annotations
@@ -112,8 +113,10 @@ def read_loci(features: str, rates: dict) -> dict:
 
 
 def read_bed(path: str) -> dict:
+    import gzip
+
     iv = defaultdict(list)
-    with open(path) as fh:
+    with (gzip.open(path, "rt") if path.endswith(".gz") else open(path)) as fh:
         for line in fh:
             c, s, e = line.split("\t")[:3]
             iv[c].append((int(s), int(e)))
@@ -162,10 +165,12 @@ def dnms(ref_dir: str, dnm_dir: str, chain37: str, table: str, chain_t2t: str) -
     return snvs + [d for d in p if (d["chrom"], d["pos"], d["alt"]) not in seen]
 
 
-def main(ref_dir: str, hg_dir: str, bed_path: str, features: str, dnm_dir: str, chain37: str, table: str, chain_t2t: str) -> None:
+def main(ref_dir: str, hg_dir: str, bed_path: str, features: str, dnm_dir: str, chain37: str, table: str, chain_t2t: str,
+         lcr_path: str) -> None:
     t0 = time.time()
     loci = read_loci(features, strata_rates())
     bed = read_bed(bed_path)
+    lcr = read_bed(lcr_path)
     dn = dnms(ref_dir, dnm_dir, chain37, table, chain_t2t)
     dn_by = defaultdict(list)
     for d in dn:
@@ -181,12 +186,14 @@ def main(ref_dir: str, hg_dir: str, bed_path: str, features: str, dnm_dir: str, 
     cis_trans = np.zeros((NC, NB, 2, 2), np.int64)  # loci varying on one haplotype: [class, bin, isolated, cis]
     d_a = np.zeros((len(sets), NC, NB, 32, 4), np.int64)
     d_b = np.zeros((len(sets), NC, NB, 32, 4), np.int64)
+    a_new, b_new = np.zeros(shp_b, np.int64), np.zeros(shp_b, np.int64)  # bases outside low-complexity regions
     seen = Counter()
 
     for c in ga.AUTOSOMES:
         s_, e_, cls_, _, _ = loci[c]
         per = [(s_[cls_ == k], e_[cls_ == k]) for k in range(NC)]
         bs, be = bed.get(c, (np.array([], int), np.array([], int)))
+        ls, le = lcr.get(c, (np.array([], int), np.array([], int)))
         with ga.reference(ref_dir, c) as g, open_gpxil(os.path.join(hg_dir, f"HG002_{c}.gpxil.tif")) as h:
             ref, hc = g[c], h[c]
             n = hc.length
@@ -230,6 +237,8 @@ def main(ref_dir: str, hg_dir: str, bed_path: str, features: str, dnm_dir: str, 
                 h1, h2 = gt >> 4, gt & 15
                 known = (h1 != 15) & (h2 != 15) & (h1 != 12) & (h2 != 12) & (h1 != 13) & (h2 != 13)
                 cb = (interval_mask(a, b, bs, be) & known)[q - a]
+                nl = ~interval_mask(a, b, ls, le)[q - a]
+                a_new += np.bincount(((k_a.astype(np.int64) * NB + db) * 32 + cq)[nl], minlength=a_new.size).reshape(shp_b)
                 a_call += np.bincount(idx_a[cb], minlength=a_all.size).reshape(shp_a)
                 db_k = []
                 for k in range(NC):
@@ -239,6 +248,7 @@ def main(ref_dir: str, hg_dir: str, bed_path: str, features: str, dnm_dir: str, 
                     idx_b = (k * NB + dbk.astype(np.int64)) * 32 + cq
                     b_all += np.bincount(idx_b, minlength=b_all.size).reshape(shp_b)
                     b_call += np.bincount(idx_b[cb], minlength=b_all.size).reshape(shp_b)
+                    b_new += np.bincount(idx_b[nl], minlength=b_all.size).reshape(shp_b)
                 a1, a2 = HAP[h1[q - a]], HAP[h2[q - a]]
                 fq, rq = flip[q - a], xc[q - a]
                 for al in (a1, a2):
@@ -280,6 +290,10 @@ def main(ref_dir: str, hg_dir: str, bed_path: str, features: str, dnm_dir: str, 
                 if li0 >= 0 and p < e_[li0]:
                     seen["new substitutions: in a locus"] += 1
                     continue
+                lj = np.searchsorted(ls, p, "right") - 1
+                if lj >= 0 and p < le[lj]:
+                    seen["new substitutions: in a low-complexity region"] += 1
+                    continue
                 d, li = nearest(np.array([p]), s_, e_)
                 al = "ACGT".index(dd["alt"])
                 alt = 3 - al if flip[0] else al
@@ -291,7 +305,7 @@ def main(ref_dir: str, hg_dir: str, bed_path: str, features: str, dnm_dir: str, 
                 seen["new substitutions: placed"] += 1
         print(c, dict(seen), f"[{time.time() - t0:.0f}s]", flush=True)
     os.makedirs(RESULTS, exist_ok=True)
-    np.savez_compressed(os.path.join(RESULTS, "shadow.npz"), A_all=a_all, A_call=a_call, A_snv=a_snv, A_het=a_het, A_iso=a_iso,
+    np.savez_compressed(os.path.join(RESULTS, "shadow.npz"), A_all=a_all, A_call=a_call, A_snv=a_snv, A_het=a_het, A_iso=a_iso, A_new=a_new, B_new=b_new,
                         B_all=b_all, B_call=b_call, B_het=b_het, B_iso=b_iso, CT=cis_trans, D_A=d_a, D_B=d_b, sets=np.array(sets),
                         edges=EDGES, cls=CLS)
     with open(os.path.join(RESULTS, "shadow_counts.json"), "w") as fh:
@@ -299,6 +313,6 @@ def main(ref_dir: str, hg_dir: str, bed_path: str, features: str, dnm_dir: str, 
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 9:
+    if len(sys.argv) != 10:
         sys.exit(__doc__)
-    main(*sys.argv[1:9])
+    main(*sys.argv[1:10])
