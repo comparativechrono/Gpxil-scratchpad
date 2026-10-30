@@ -20,9 +20,12 @@ and a person's two haplotypes base for base beside them.
    complete (at most 20 bases of its consensus missing). The Alu tails, 7.8
    % of loci, hold 48 of the family's 440 new TR mutations (10.9 %): 1.13
    times what loci of their length, motif size and purity have elsewhere
-   (0.84 to 1.50). The 364,475 loci that begin as close to an element's end
-   but fail either test, most of them at ends RepeatMasker finds
-   incomplete, hold 142 (32 %): 1.35 times (1.14 to 1.59).
+   (0.84 to 1.50). The strata leave out composition, and experiment 06
+   found A- and T-rich repeats mutate about twice as often at equal length
+   and purity, so against other A-rich repeats the tails may mutate less.
+   The 364,475 loci that begin as close to an element's end but fail either
+   test, most of them at ends RepeatMasker finds incomplete, hold 142 (32
+   %): 1.35 times (1.14 to 1.59).
 2. **In the reference, Alu tails are richest in A next to the Alu, at every
    age.** In Alu tails 0 to 4 % diverged, the tenth of the array next to
    the Alu is on average 99.4 % A and the ninth tenth 86 %; in the
@@ -30,7 +33,8 @@ and a person's two haplotypes base for base beside them.
    diverged at the median), 99.3 % and 85 %. The gradient forms early,
    perhaps at insertion; but A-tails change within a million years
    (Roy-Engel et al. 2002), so a fast early decay of the far end can't be
-   ruled out. With age the tails lose A all along, least at the two ends:
+   ruled out. With age the tails lose A all along, least at the two ends
+   (where the catalogue's loci also tend to begin and end on a unit):
    from the youngest to the oldest (20 % or more), the near tenth falls by
    12 points, the third by 20, the sixth by 15 and the far tenth by 10. Part
    of that is a change in what the arrays are: 98 % of the youngest tails
@@ -38,7 +42,8 @@ and a person's two haplotypes base for base beside them.
    falls are 3 to 10 points. In experiment 09's pure purine runs at Alu tails, the
    share of G rises from 4 % next to the Alu to 27 % at the far end in the
    youngest Alus, and from 33 % to 40 % (44 % mid-run) in the oldest; A/T
-   runs, with T, go the same way. L1 tails are flatter, and richest in A at
+   runs, with T, go the same way (those runs are experiment 09's tails,
+   found without the test of a complete end). L1 tails are flatter, and richest in A at
    both ends.
 3. **Length changes follow the purest stretch.** Where an allele differs in
    length from the reference, the comparison places the difference in a
@@ -53,13 +58,14 @@ and a person's two haplotypes base for base beside them.
    there 9.9 to 1 (HG002 15.0); where it lies wholly in the far half, they
    fall there 4.0 to 1 (HG002 4.4). Placed differences touch the purest
    stretch 1.43 times as often as stretches as wide put at random (HG002
-   1.55; 1.41 over all 355,505 placed differences at any catalogue locus).
+   1.54; 1.41 over all 355,505 placed differences at any catalogue locus).
 4. **Beyond the purest stretch, Alu tails change more at the Alu end while
    they are young; L1 tails don't.** Were changes to follow the purest
    stretch alone, the two ratios above would mirror each other; at Alu
    tails they leave an excess at the near end of 1.57 times (HG002 1.86).
-   It is 1.8 to 2.1 in tails up to 12 % diverged (HG002 2.0 to 2.6) and
-   fades with age to 0.99 in the oldest (HG002 1.32). Where the two halves
+   It is 1.75 to 2.12 in tails 4 to 12 % diverged (HG002 1.97 to 2.54),
+   and fades with age to 0.99 in the oldest (HG002 1.32); the youngest
+   have too few differences where the purest stretch lies far to say. Where the two halves
    of the array are about as rich in A (within 5 points), Alu tails still
    change near 1.34 times as often as far (HG002 1.16), L1 tails 0.95 times
    (0.95). At L1 tails the excess is 0.90 (0.94), and overall the far half
@@ -71,12 +77,14 @@ interruptions are known to slow slippage (Ananda et al. 2014), and here
 the alleles of two sets of haplotypes differ where the array's purest
 stretch lies, at either end. Alu tails hold their purest stretch next to
 the Alu, from their youngest, so most of their length changes happen at the
-Alu end. Beyond that, young Alu tails change more at the Alu end than their
-purest stretch predicts, by 1.8 to 2.6 times up to 12 % divergence, an
-excess that fades as they age and that L1 tails don't show; why is not clear, and part of it may be
+Alu end. Beyond that, younger Alu tails change more at the Alu end than
+their purest stretch predicts, by 1.75 to 2.12 times in tails 4 to 12 %
+diverged (HG002 1.97 to 2.54), an excess that fades as they age and that
+L1 tails don't show; why is not clear, and part of it may be
 purity the longest stretch doesn't measure. Substitutions, for their part,
-wear the tails down all along their length, least at the ends. So no
-array decays from one end, and length changes go mostly where purity is,
+wear the tails down all along their length, least at the ends. So, on
+average, the tails don't decay from one end, and length changes go mostly
+where purity is,
 which in Alu tails is next to the Alu. The landmark is what makes this
 visible: without the Alu to line them up on, an array's two ends can't be
 told apart, and polarity can't be asked about.
@@ -159,14 +167,14 @@ By where the array's purest stretch lies:
 | Alu, family | 33,715 : 3,411 (9.88) | 1,124 : 4,507 (0.25) | 1.57 |
 | Alu, HG002 | 48,683 : 3,242 (15.02) | 931 : 4,051 (0.23) | 1.86 |
 | L1, family | 2,066 : 469 (4.41) | 456 : 2,475 (0.18) | 0.90 |
-| L1, HG002 | 1,943 : 386 (5.03) | 366 : 2,090 (0.17) | 0.94 |
+| L1, HG002 | 1,943 : 386 (5.03) | 366 : 2,090 (0.18) | 0.94 |
 
 At Alu tails, by the Alu's divergence:
 
 | Divergence | Near : far, family | Excess beyond the purest stretch, family | Near : far, HG002 | Excess, HG002 |
 |---|---|---|---|---|
-| 0-4 % | 1.83 | 1.76 | 2.33 | 2.62 |
-| 4-8 % | 3.08 | 2.12 | 3.65 | 2.54 |
+| 0-4 % | 1.84 | 1.76 | 2.33 | 2.62 |
+| 4-8 % | 3.08 | 2.12 | 3.64 | 2.54 |
 | 8-12 % | 3.09 | 1.75 | 3.80 | 1.97 |
 | 12-16 % | 2.49 | 1.38 | 3.35 | 1.66 |
 | 16-20 % | 2.14 | 1.28 | 2.71 | 1.45 |
@@ -181,11 +189,14 @@ At Alu tails, by the Alu's divergence:
   poly(A).
 - Most differences can't be placed: half of them could lie anywhere in at
   least 79 % of the array (86 % in HG002). The placed ones come from
-  interrupted arrays, where slippage is slower. A difference that is more
-  than one insertion or deletion (9 % of the family's at Alu tails) is
-  placed between the two sequences' shared ends, which can be narrower than
-  where its change in length could lie; single events alone give 3.1 to 1
-  near (HG002 4.3).
+  interrupted arrays, where slippage is slower. A difference that one
+  insertion or deletion alone doesn't explain (9 % of the family's at Alu
+  tails, 21 % of those placed) is placed between the two sequences' shared
+  ends, which can be narrower than where its change in length could lie;
+  the differences one event explains give 3.1 to 1 near (HG002 4.3).
+- The differences aren't independent: an allele counts once for each
+  haplotype that carries it, and the intervals of the ratios, which aren't
+  given, would be wider than counts alone suggest.
 - The purest stretch is the longest stretch in which each base equals the
   base one shortest motif on; for a poly(A), the longest run of one base.
   It is one measure of purity, and the near-end excess may partly be

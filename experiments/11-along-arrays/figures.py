@@ -88,11 +88,11 @@ def main() -> None:
     c = fig.add_subplot(gs[2])
     style(c)
     rows = [("Alu tails", "Alu", "all", None),
-            ("purest stretch in near half", "Alu", "all", "longest in frame wholly in the near half"),
-            ("purest stretch in far half", "Alu", "all", "longest in frame wholly in the far half"),
+            ("purest stretch\nwholly in near half", "Alu", "all", "longest in frame wholly in the near half"),
+            ("purest stretch\nwholly in far half", "Alu", "all", "longest in frame wholly in the far half"),
             ("L1 tails", "L1", "all", None),
-            ("purest stretch in near half", "L1", "all", "longest in frame wholly in the near half"),
-            ("purest stretch in far half", "L1", "all", "longest in frame wholly in the far half")]
+            ("purest stretch\nwholly in near half", "L1", "all", "longest in frame wholly in the near half"),
+            ("purest stretch\nwholly in far half", "L1", "all", "longest in frame wholly in the far half")]
     for i, (label, fam, age, part) in enumerate(rows):
         for dy, (src, (colour, marker, _)) in zip((-0.13, 0.13), SOURCE.items()):
             d = lengths[src][fam][age]

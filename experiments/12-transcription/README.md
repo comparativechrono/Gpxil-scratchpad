@@ -27,7 +27,7 @@ HG002's two haplotypes are read beside it from its gpxil files.
    purine repeats (1.015 to 1.080; HG002 1.022, 0.991 to 1.054) and 1.108
    times for A-rich A/T repeats (1.062 to 1.156; HG002 1.080, 1.035 to
    1.127). With a fifth to two-fifths of poly(A) loci varying, an odds ratio
-   of 1.03 is about 1.02 times as often. G-rich repeats show no difference (1.015, 0.896 to 1.150; HG002
+   of 1.03 corresponds to varying about 1.02 times as often. G-rich repeats show no difference (1.015, 0.896 to 1.150; HG002
    0.960), nor do A/T-alternating ones, whose orientation means nothing
    (0.974 and 0.974).
 3. **Alu tails don't explain it.** The poly(A) loci at Alu tails
@@ -39,7 +39,7 @@ HG002's two haplotypes are read beside it from its gpxil files.
 4. **New TR mutations are too few to tell.** The groups' intronic loci hold
    4 to 44 of the family's new TR mutations each, and no rate ratio of
    sense to antisense is distinguishable from 1. The only rate ratio of the
-   15 whose interval excludes 1 runs against answer 1: purine loci,
+   12 that can be estimated whose interval excludes 1 runs against answer 1: purine loci,
    antisense against between genes, 1.93 (1.02 to 3.68).
 
 **What it means.** In the germline, genes go with fewer length variants at
@@ -54,9 +54,9 @@ bases are commoner when the poly(T) is on the strand the polymerase
 doesn't read (Georgakopoulos-Soares et al. 2020), that is, here,
 antisense. The effects are small, a few percent in odds,
 and they are of variation, which mutation, selection and history shape
-together; but they are seen in two sets of haplotypes called by different
-methods, within Alu tails and outside them, and not where the orientation
-means nothing. Genes differ from the DNA between them in more than
+together; but the poly(A) difference is seen in two sets of haplotypes
+called by different methods, within Alu tails and outside them, and none
+is seen where the orientation means nothing. Genes differ from the DNA between them in more than
 transcription (they replicate earlier, for one), so answer 1 shows a
 difference, not its cause; answer 2 compares intronic loci only.
 
