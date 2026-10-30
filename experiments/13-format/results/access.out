@@ -1,0 +1,258 @@
+wrote /tmp/claude-0/-home-claude/1ef0b659-4e0f-5cfe-8515-a381a38066b2/scratchpad/e13/work/GRCh38.fa.bgz in 319 s
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+{
+ "gpxiltools": "0.8.2",
+ "pysam": "0.24.1",
+ "python": "3.13.17",
+ "cpu": "x86_64",
+ "cores": 2,
+ "local": {
+  "open_ms": {
+   "reference gpxil": 0.82,
+   "bgzipped FASTA": 0.46,
+   "sample gpxil, with the reference gpxil": 0.39,
+   "VCF and its index": 58.43
+  },
+  "reads": {
+   "1000": {
+    "reference: gpxil": {
+     "median_ms": 0.415,
+     "p90_ms": 0.443,
+     "n": 100
+    },
+    "reference: bgzipped FASTA (faidx)": {
+     "median_ms": 0.218,
+     "p90_ms": 0.239,
+     "n": 100
+    },
+    "calls: gpxil planes and insertions": {
+     "median_ms": 0.13,
+     "p90_ms": 34.956,
+     "n": 100
+    },
+    "calls: VCF records with genotypes (tabix)": {
+     "median_ms": 0.143,
+     "p90_ms": 0.173,
+     "n": 100
+    },
+    "haplotypes: gpxil, both as sequences": {
+     "median_ms": 1.116,
+     "p90_ms": 1.341,
+     "n": 100
+    }
+   },
+   "100000": {
+    "reference: gpxil": {
+     "median_ms": 0.731,
+     "p90_ms": 1.134,
+     "n": 100
+    },
+    "reference: bgzipped FASTA (faidx)": {
+     "median_ms": 0.546,
+     "p90_ms": 0.645,
+     "n": 100
+    },
+    "calls: gpxil planes and insertions": {
+     "median_ms": 0.188,
+     "p90_ms": 0.292,
+     "n": 100
+    },
+    "calls: VCF records with genotypes (tabix)": {
+     "median_ms": 0.351,
+     "p90_ms": 0.522,
+     "n": 100
+    },
+    "haplotypes: gpxil, both as sequences": {
+     "median_ms": 3.616,
+     "p90_ms": 4.686,
+     "n": 100
+    }
+   },
+   "1000000": {
+    "reference: gpxil": {
+     "median_ms": 4.882,
+     "p90_ms": 5.641,
+     "n": 100
+    },
+    "reference: bgzipped FASTA (faidx)": {
+     "median_ms": 3.562,
+     "p90_ms": 3.673,
+     "n": 100
+    },
+    "calls: gpxil planes and insertions": {
+     "median_ms": 0.993,
+     "p90_ms": 1.143,
+     "n": 100
+    },
+    "calls: VCF records with genotypes (tabix)": {
+     "median_ms": 1.676,
+     "p90_ms": 2.486,
+     "n": 100
+    },
+    "haplotypes: gpxil, both as sequences": {
+     "median_ms": 27.924,
+     "p90_ms": 33.174,
+     "n": 100
+    }
+   }
+  },
+  "records_per_region": {
+   "1000": 1.0,
+   "100000": 175.0,
+   "1000000": 1733.0
+  }
+ },
+ "web": {
+  "open": {
+   "requests": 2,
+   "bytes": 421040,
+   "ms": 1640.1
+  },
+  "1000": {
+   "regions": [
+    {
+     "region": "chr16:31285587-31286586",
+     "requests": 3,
+     "bytes": 620805,
+     "file_bytes": 23165189,
+     "ms": 963.5,
+     "bases": 1000
+    },
+    {
+     "region": "chr16:33865425-33866424",
+     "requests": 3,
+     "bytes": 882949,
+     "file_bytes": 23165189,
+     "ms": 550.3,
+     "bases": 1000
+    },
+    {
+     "region": "chr15:22557960-22558959",
+     "requests": 3,
+     "bytes": 570995,
+     "file_bytes": 24163955,
+     "ms": 861.0,
+     "bases": 1000
+    },
+    {
+     "region": "chr4:143088577-143089576",
+     "requests": 3,
+     "bytes": 739406,
+     "file_bytes": 55527502,
+     "ms": 1316.4,
+     "bases": 1000
+    },
+    {
+     "region": "chr1:115954666-115955665",
+     "requests": 3,
+     "bytes": 683184,
+     "file_bytes": 66743472,
+     "ms": 468.0,
+     "bases": 1000
+    }
+   ],
+   "median_bytes": 683184.0,
+   "median_requests": 3.0,
+   "median_ms": 861.0
+  },
+  "100000": {
+   "regions": [
+    {
+     "region": "chr18:9148589-9248588",
+     "requests": 3,
+     "bytes": 769423,
+     "file_bytes": 22265231,
+     "ms": 770.2,
+     "bases": 100000
+    },
+    {
+     "region": "chr2:23817384-23917383",
+     "requests": 3,
+     "bytes": 1037528,
+     "file_bytes": 70505688,
+     "ms": 1770.4,
+     "bases": 100000
+    },
+    {
+     "region": "chr1:112555970-112655969",
+     "requests": 3,
+     "bytes": 683184,
+     "file_bytes": 66743472,
+     "ms": 482.2,
+     "bases": 100000
+    },
+    {
+     "region": "chr2:76259478-76359477",
+     "requests": 4,
+     "bytes": 1037528,
+     "file_bytes": 70505688,
+     "ms": 750.6,
+     "bases": 100000
+    },
+    {
+     "region": "chr13:87724340-87824339",
+     "requests": 3,
+     "bytes": 1005951,
+     "file_bytes": 28531071,
+     "ms": 949.4,
+     "bases": 100000
+    }
+   ],
+   "median_bytes": 1005951.0,
+   "median_requests": 3.0,
+   "median_ms": 770.2
+  },
+  "1000000": {
+   "regions": [
+    {
+     "region": "chr2:102925563-103925562",
+     "requests": 4,
+     "bytes": 1299672,
+     "file_bytes": 70505688,
+     "ms": 1038.8,
+     "bases": 1000000
+    },
+    {
+     "region": "chr3:46647721-47647720",
+     "requests": 4,
+     "bytes": 882636,
+     "file_bytes": 57767884,
+     "ms": 2179.7,
+     "bases": 1000000
+    },
+    {
+     "region": "chr12:71144001-72144000",
+     "requests": 4,
+     "bytes": 812731,
+     "file_bytes": 38299323,
+     "ms": 1593.2,
+     "bases": 1000000
+    },
+    {
+     "region": "chr1:66803079-67803078",
+     "requests": 4,
+     "bytes": 945328,
+     "file_bytes": 66743472,
+     "ms": 601.1,
+     "bases": 1000000
+    },
+    {
+     "region": "chr12:41988149-42988148",
+     "requests": 4,
+     "bytes": 812731,
+     "file_bytes": 38299323,
+     "ms": 587.7,
+     "bases": 1000000
+    }
+   ],
+   "median_bytes": 882636.0,
+   "median_requests": 4.0,
+   "median_ms": 1038.8
+  }
+ }
+}

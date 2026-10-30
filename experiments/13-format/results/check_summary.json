@@ -1,0 +1,86 @@
+{
+ "chromosomes": [
+  "chr9",
+  "chr1",
+  "chr2",
+  "chr3",
+  "chr4",
+  "chr5",
+  "chr6",
+  "chr7",
+  "chr8",
+  "chr10",
+  "chr11",
+  "chr12",
+  "chr13",
+  "chr14",
+  "chr15",
+  "chr16",
+  "chr17",
+  "chr18",
+  "chr19",
+  "chr20",
+  "chr21",
+  "chr22",
+  "chrX",
+  "chrY"
+ ],
+ "haplotypes": {
+  "called": 5350862029,
+  "unknown": 627778759,
+  "consensus_unknown": 0,
+  "differing_bases": 2083,
+  "differing_stretches": 1753,
+  "event_stretches": 1384541,
+  "consensus_applied": 7405920,
+  "consensus_left_out_overlapping": 69806,
+  "consensus_left_out_not_star": 4456,
+  "vcf_reference_masked_bases": 17993
+ },
+ "haplotype_differing_sites": {
+  "consensus_left_out_overlapping": 3312,
+  "consensus_wrote_star": 408
+ },
+ "haplotype_other_sites": [],
+ "records": {
+  "vcf_records": 5945525,
+  "export_records": 6876980,
+  "export_nocall_blocks": 1579317,
+  "vcf_alleles": 5469075,
+  "export_alleles": 7144974,
+  "same": 5438650,
+  "same_filter": 5438016
+ },
+ "records_differing": {
+  "only_in_export/at_a_haplotype_difference": 56381,
+  "only_in_export/unknown_bases_written_as_N": 229674,
+  "only_in_export/written_differently": 1420269,
+  "only_in_vcf/at_a_haplotype_difference": 3760,
+  "only_in_vcf/written_differently": 26662,
+  "only_in_vcf/unknown_bases_written_as_N": 3
+ },
+ "again": {
+  "gt_bases_differing": 1830468,
+  "gt_stretches_differing": 7977,
+  "chromosomes_sidecar_same": 1,
+  "sidecar_entries": 700634,
+  "sidecar_entries_again": 699215,
+  "reencode_conflicts": 0,
+  "flag_bases_differing": {
+   "PHASED": 0,
+   "INS1": 2051,
+   "INS2": 1920,
+   "FILTERED": 436257,
+   "VARIANT_SITE": 335826681
+  },
+  "chromosomes_with_other_haplotypes": []
+ },
+ "wall_s": {
+  "fasta_export": 29.6,
+  "vcf_export": 272.4,
+  "reencode": 482.9
+ },
+ "export_bytes": 312938273,
+ "export_peak_rss_mb": 544.2,
+ "reencode_peak_rss_mb": 1526.2
+}

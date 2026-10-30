@@ -1,0 +1,49 @@
+{
+ "gpxiltools": "0.8.2",
+ "reference": {
+  "gpxil": {
+   "bytes": 848537950,
+   "contigs": 194,
+   "planes": {
+    "ref": 848039405
+   },
+   "other": 498545
+  },
+  "browser_files": {
+   "files": 26,
+   "bytes": 848544203
+  },
+  "ensembl_fasta_gz_bytes": 942484168,
+  "bgzipped_fasta": {
+   "bytes": 963787784,
+   "fai_bytes": 6479,
+   "gzi_bytes": 772408
+  },
+  "sequences": 194,
+  "bases": 3099750718,
+  "N": 151122963,
+  "other_iupac": 0,
+  "soft_masked": 1594222653,
+  "fasta_uncompressed_bytes": 3151415524,
+  "twobit_bytes": 812795814
+ },
+ "sample": {
+  "vcf_gz_bytes": 42067644,
+  "tbi_bytes": 1547524,
+  "bed_bytes": 685544,
+  "bcf": {
+   "bytes": 48894060,
+   "csi_bytes": 1366180
+  },
+  "gpxil": {
+   "bytes": 39558308,
+   "contigs": 24,
+   "planes": {
+    "gt": 17593724,
+    "sidecar": 6241259,
+    "flags": 15425864
+   },
+   "other": 297461
+  }
+ }
+}

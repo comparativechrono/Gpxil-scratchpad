@@ -1,0 +1,65 @@
+{
+ "gpxiltools": "0.8.2",
+ "command": "gpxil encode GRCh38.gpxil.tif -v HG002_GRCh38_v5.0q_smvar.vcf.gz --callable HG002_GRCh38_v5.0q_smvar.benchmark.bed --sex XY --no-ref -o HG002_v5.0q.gpxil.tif",
+ "encode": {
+  "returncode": 0,
+  "wall_s": 407.2,
+  "cpu_s": 397.6,
+  "peak_rss_mb": 1784.6
+ },
+ "validate": {
+  "returncode": 0,
+  "wall_s": 35.8,
+  "cpu_s": 35.4,
+  "peak_rss_mb": 214.1,
+  "says": [
+   "/tmp/claude-0/-home-claude/1ef0b659-4e0f-5cfe-8515-a381a38066b2/scratchpad/e13/work/HG002_v5.0q.gpxil.tif: valid (24 contigs checked, 0 errors, 0 warnings)"
+  ]
+ },
+ "file_bytes": 39558308,
+ "sha256": "5687a6f3ac24c90c8aecceaaa05c70a6e4acbe53ea0645f21f8c04e7d76ab6fc",
+ "contigs": [
+  "chr1",
+  "chr10",
+  "chr11",
+  "chr12",
+  "chr13",
+  "chr14",
+  "chr15",
+  "chr16",
+  "chr17",
+  "chr18",
+  "chr19",
+  "chr2",
+  "chr20",
+  "chr21",
+  "chr22",
+  "chr3",
+  "chr4",
+  "chr5",
+  "chr6",
+  "chr7",
+  "chr8",
+  "chr9",
+  "chrX",
+  "chrY"
+ ],
+ "stats": {
+  "records": 5945525,
+  "skipped_out_of_range": 0,
+  "clipped_to_contig_end": 0,
+  "ref_mismatches": 0,
+  "conflicts": 0,
+  "ploidy_mismatches": 42,
+  "missing_genotypes": 0,
+  "spanning_deletion_alleles": 74017,
+  "spanning_deletions_reassigned": 0,
+  "overlapping_calls_reassigned": 0,
+  "symbolic_alleles": 0,
+  "nonacgt_inserted_bases": 0,
+  "polyploid_skipped": 0,
+  "bad_allele_index": 0,
+  "callable_bases": 2739407815
+ },
+ "input_vcf_bytes": 42067644
+}
