@@ -71,8 +71,8 @@ def main() -> None:
     for src, (colour, marker, name) in SOURCE.items():
         a.plot([], [], marker=marker, color=colour, linestyle="none", markersize=6, label=name)
     a.legend(loc="lower right", fontsize=7.2, frameon=False)
-    b.set_xticks([0.8, 0.9, 1.0])
-    b.set_xlim(0.76, 1.06)
+    b.set_xticks([0.8, 0.9, 1.0, 1.1])
+    b.set_xlim(0.76, 1.12)
     b.set_xlabel("odds of a length variant, in genes over between genes\n(filled: sense; open: antisense)", fontsize=8, color=INK2)
     b.set_title("B. Repeats in genes vary less, most when the\npolymerase reads their A- or purine-rich strand", fontsize=9, color=INK, loc="left")
     fig.tight_layout()

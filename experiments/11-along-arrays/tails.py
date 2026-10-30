@@ -2,9 +2,12 @@
 them is in the reference, by the element's age.
 
 Arrays: the catalogue's autosomal loci (Platinum TRs v1.0; experiment 06's measures of them) that begin within 30 bases
-of an Alu's or an L1's 3' end, on its strand, the rule by which experiments 04 and 09 give a run its origin. Each is
-read on the element's strand, from the end next to the element (proximal) to the far end (distal). Its age is the
-element's divergence from its consensus in RepeatMasker's annotation, as in experiment 09.
+of an Alu's or an L1's 3' end, on its strand (the distance by which experiments 04 and 09 give a run its origin), whose
+bases on the element's strand are at least half A (a tail, as 04 and 09 read a run on its A-rich strand), at an end that
+RepeatMasker finds complete (at most 20 bases of the consensus missing: an L1 is often cut into pieces, whose ends are
+not its 3' end). Each is read on the element's strand, from the end next to the element (proximal) to the far end
+(distal). Its age is the element's divergence from its consensus in RepeatMasker's annotation, as in experiment 09.
+Loci near an end that fail either test are counted apart.
 
 For each array, on GRCh38's gpxil files: its length, the share of A in each tenth of it, and its longest stretch in
 frame (each base the same as the base one shortest motif on; for a poly(A), its longest run of A): where it lies and
@@ -42,6 +45,9 @@ import new_mutations as nm  # noqa: E402  (experiment 07: base letters)
 RESULTS = os.path.join(HERE, "results")
 RUNS09 = os.path.join(EXP, "09-alphabets", "results", "runs.tsv.gz")
 NEAR = 30  #: a TE's 3' end this close to an array's start makes the array its tail (experiments 04 and 09)
+COMPLETE = 20  #: at most this many bases of the consensus missing at the element's 3' end
+A_RICH = 0.5  #: a tail's bases on the element's strand: at least this share A
+HUMAN = ("AluYa5", "AluYa8", "AluYb8", "AluYb9")  #: subfamilies that are human-specific
 FAMILIES = ("Alu", "L1")
 AGES = [0, 4, 8, 12, 16, 20, 100]  #: divergence bins (%), as in experiment 09
 DECILES = 10
@@ -133,6 +139,7 @@ def measure(ref_dir: str, loci) -> dict:
     """Per array (on the TE's strand, proximal first): A share by tenth, the longest stretch in frame."""
     out = {k: np.zeros((len(loci), DECILES)) if k == "a" else np.zeros(len(loci), dtype=np.int64)
            for k in ("a", "best_lo", "best_hi")}
+    out["a_total"] = np.zeros(len(loci))
     t0 = time.time()
     for c in ga.AUTOSOMES:
         idx = np.flatnonzero(loci.chrom.to_numpy() == c)
@@ -152,6 +159,7 @@ def measure(ref_dir: str, loci) -> dict:
             a = np.frombuffer(seq.encode(), dtype=np.uint8) == ord("A")
             dec = np.minimum((np.arange(n) * DECILES) // n, DECILES - 1)
             out["a"][k] = np.bincount(dec, weights=a, minlength=DECILES) / np.bincount(dec, minlength=DECILES)
+            out["a_total"][k] = a.mean()
             out["best_lo"][k], out["best_hi"][k] = in_frame_longest(seq, int(m))
         del let
         print(c, len(idx), f"[{time.time() - t0:.0f}s]", flush=True)
@@ -226,26 +234,35 @@ def mutations_vs_strata(loci_all, tail: np.ndarray, fam: np.ndarray) -> dict:
 
 
 def summarise(t, meas: dict) -> dict:
+    """By family and age, and for the poly(A) arrays (shortest motif 1) and the human-specific Alu subfamilies alone:
+    each tenth's share of A (the mean over arrays), the longest stretch in frame."""
     n = (t.end - t.start).to_numpy()
     blen = meas["best_hi"] - meas["best_lo"]
     centre = (meas["best_lo"] + meas["best_hi"]) / 2
+    fam, age_, motif = t.fam.to_numpy(), t.age.to_numpy(), t.motif_min.to_numpy()
+    human = t.te_name.astype(str).str.startswith(HUMAN).to_numpy()
     out = {}
     for f in FAMILIES:
-        for age in ["all"] + [age_label(a + 0.01) for a in AGES[:-1]]:
-            m = (t.fam.to_numpy() == f) & ((t.age.to_numpy() == age) if age != "all" else True)
-            if not m.any():
+        for subset, keep in (("all arrays", np.ones(len(t), dtype=bool)), ("poly(A) arrays", motif == 1),
+                             ("human-specific subfamilies", human)):
+            if subset == "human-specific subfamilies" and f != "Alu":
                 continue
-            a = meas["a"][m]
-            d = {"arrays": int(m.sum()), "mean_length": round(float(n[m].mean()), 2),
-                 "a_share": round(float((a.mean(1)).mean()), 6),
-                 "a_by_tenth": [round(float(v), 6) for v in a.mean(0)],
-                 "longest_in_frame_share_of_array": round(float((blen[m] / n[m]).mean()), 6),
-                 "longest_in_frame_mean_bases": round(float(blen[m].mean()), 2),
-                 "longest_in_frame_centre_relative": round(float((centre[m] / n[m]).mean()), 6),
-                 "longest_in_frame_centre_bases_from_element": round(float(centre[m].mean()), 2),
-                 "longest_in_frame_in_proximal_half": round(float((centre[m] < n[m] / 2).mean()), 6),
-                 "poly_a_loci": int((t.motif_min.to_numpy()[m] == 1).sum())}
-            out.setdefault(f, {})[age] = d
+            for age in ["all"] + [age_label(a + 0.01) for a in AGES[:-1]]:
+                m = (fam == f) & keep & ((age_ == age) if age != "all" else True)
+                if not m.any() or (subset == "human-specific subfamilies" and age != "all"):
+                    continue
+                a = meas["a"][m]
+                d = {"arrays": int(m.sum()), "mean_length": round(float(n[m].mean()), 2),
+                     "median_divergence": round(float(np.median(t["div"].to_numpy()[m])), 2),
+                     "a_share": round(float(a.mean(1).mean()), 6),
+                     "a_by_tenth": [round(float(v), 6) for v in a.mean(0)],
+                     "longest_in_frame_share_of_array": round(float((blen[m] / n[m]).mean()), 6),
+                     "longest_in_frame_mean_bases": round(float(blen[m].mean()), 2),
+                     "longest_in_frame_centre_relative": round(float((centre[m] / n[m]).mean()), 6),
+                     "longest_in_frame_wholly_in_near_half": round(float((meas["best_hi"][m] <= n[m] / 2).mean()), 6),
+                     "longest_in_frame_wholly_in_far_half": round(float((meas["best_lo"][m] >= n[m] / 2).mean()), 6),
+                     "poly_a_share": round(float((motif[m] == 1).mean()), 6)}
+                out.setdefault(f, {}).setdefault(subset, {})[age] = d
     return out
 
 
@@ -256,15 +273,39 @@ def main(ref_dir: str, rmsk: str, features: str) -> None:
                        "motif_min": "int32", "purity": "float32", "class": "category", "mutations": "int16"})
     loci = loci[loci.chrom.isin(ga.AUTOSOMES)].reset_index(drop=True)
     print("loci", len(loci), flush=True)
-    tail, fam, strand, name, div, missing, dist = match_tails(loci, te_ends(rmsk))
-    out = {"near": NEAR, "loci": int(len(loci)), "tails": {f: int((tail & (fam == f)).sum()) for f in FAMILIES}}
-    out["new_tr_mutations"] = mutations_vs_strata(loci, tail, fam)
-    t = loci[tail].copy()
-    t["fam"], t["te_strand"], t["te_name"], t["div"] = fam[tail], strand[tail], name[tail], div[tail]
-    t["te_end_missing"], t["te_distance"] = missing[tail], dist[tail]
+    near, fam, strand, name, div, missing, dist = match_tails(loci, te_ends(rmsk))
+    t = loci[near].copy()
+    t["fam"], t["te_strand"], t["te_name"], t["div"] = fam[near], strand[near], name[near], div[near]
+    t["te_end_missing"], t["te_distance"] = missing[near], dist[near]
     t["age"] = [age_label(x) for x in t["div"]]
     t = t.reset_index(drop=True)
     meas = measure(ref_dir, t)
+    complete = t.te_end_missing.to_numpy() <= COMPLETE
+    a_rich = meas["a_total"] >= A_RICH
+    keep = complete & a_rich
+    out = {"near": NEAR, "complete_end_missing_at_most": COMPLETE, "a_share_at_least": A_RICH, "loci": int(len(loci)),
+           "near_an_end": {}, "tails": {f: int((keep & (t.fam.to_numpy() == f)).sum()) for f in FAMILIES}}
+    for f in FAMILIES:
+        m = t.fam.to_numpy() == f
+        mu = t.mutations.to_numpy()
+        out["near_an_end"][f] = {"loci": int(m.sum()), "mutations": int(mu[m].sum()),
+                                 "end incomplete": int((m & ~complete).sum()), "end incomplete, mutations": int(mu[m & ~complete].sum()),
+                                 "complete, under half A": int((m & complete & ~a_rich).sum()),
+                                 "complete, under half A, mutations": int(mu[m & complete & ~a_rich].sum()),
+                                 "tails": int((m & keep).sum()), "tails, mutations": int(mu[m & keep].sum())}
+    print(json.dumps(out["near_an_end"]), flush=True)
+    # new TR mutations: the tails, and the loci near an end that aren't tails, against loci elsewhere of their strata
+    is_tail = np.zeros(len(loci), dtype=bool)
+    tail_fam = np.full(len(loci), "", dtype=object)
+    idx = np.flatnonzero(near)
+    is_tail[idx[keep]] = True
+    tail_fam[idx[keep]] = t.fam.to_numpy()[keep]
+    other_near = near.copy()
+    other_near[idx[keep]] = False
+    out["new_tr_mutations"] = mutations_vs_strata(loci, is_tail, tail_fam)
+    out["new_tr_mutations"]["near an end, not a tail"] = mutations_vs_strata(loci, other_near, np.full(len(loci), "either", dtype=object))["either tails"]
+    t = t[keep].reset_index(drop=True)
+    meas = {k: v[keep] for k, v in meas.items()}
     for i in range(DECILES):
         t[f"a{i}"] = meas["a"][:, i].round(3)
     t["best_lo"], t["best_hi"] = meas["best_lo"], meas["best_hi"]

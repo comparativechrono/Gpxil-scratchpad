@@ -19,7 +19,8 @@ sense means a gene on the + strand.
 Three measures of how much a locus mutates:
 
 - the family: whether either parent of the Platinum Pedigree's G3 children (NA12877, NA12878) has a haplotype whose
-  allele differs in length from the reference (TRGT's open-access calls; loci they don't list: none does);
+  allele differs in length from the reference (the Platinum Pedigree's pedigree-consistent TRGT calls of its
+  open-access samples; loci they don't list: none does);
 - HG002: whether either haplotype has an insertion or deletion in the locus, among loci GIAB's v5.0q calls on both
   haplotypes (with the base either side), read from its gpxil files;
 - new TR mutations: the Platinum Pedigree's, in eight G3 children (experiment 06).
@@ -171,6 +172,8 @@ def hg002_indels(ref_dir: str, hg_dir: str, loci) -> tuple[np.ndarray, np.ndarra
 def mh_odds(y: np.ndarray, x: np.ndarray, strata: np.ndarray) -> dict:
     """Mantel-Haenszel odds ratio of y (bool) for x (bool: True the exposed group) over strata, with its 95 % interval
     (Robins, Breslow and Greenland)."""
+    if not len(strata):
+        return {"odds_ratio": None}
     k = strata.max() + 1
     a = np.bincount(strata[x & y], minlength=k).astype(float)
     b = np.bincount(strata[x & ~y], minlength=k).astype(float)
@@ -193,6 +196,8 @@ def mh_odds(y: np.ndarray, x: np.ndarray, strata: np.ndarray) -> dict:
 def mh_rate(m: np.ndarray, x: np.ndarray, strata: np.ndarray) -> dict:
     """Mantel-Haenszel rate ratio of counts m for x over strata (each locus the same exposure), with a 95 % interval
     from the variance of the exposed group's count given each stratum's total (binomial, as Greenland and Robins)."""
+    if not len(strata):
+        return {"exposed": 0, "other": 0, "rate_ratio": None}
     k = strata.max() + 1
     m1 = np.bincount(strata[x], weights=m[x], minlength=k)
     m0 = np.bincount(strata[~x], weights=m[~x], minlength=k)

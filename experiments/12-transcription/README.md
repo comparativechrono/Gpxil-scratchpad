@@ -22,48 +22,51 @@ HG002's two haplotypes are read beside it from its gpxil files.
    0.93 to 0.97 for A/T-alternating repeats, whose strands don't.
 2. **They vary least when the polymerase reads their A- or purine-rich
    strand.** Sense against antisense, matched on length, motif size and
-   purity, a locus has a length variant 1.030 times as often for poly(A)
+   purity, the odds of a length variant are 1.030 times as high for poly(A)
    (95 % CI 1.013 to 1.048; HG002 1.028, 1.011 to 1.044), 1.047 times for
    purine repeats (1.015 to 1.080; HG002 1.022, 0.991 to 1.054) and 1.108
    times for A-rich A/T repeats (1.062 to 1.156; HG002 1.080, 1.035 to
-   1.127). G-rich repeats show no difference (1.015, 0.896 to 1.150; HG002
+   1.127). With a fifth to two-fifths of poly(A) loci varying, an odds ratio
+   of 1.03 is about 1.02 times as often. G-rich repeats show no difference (1.015, 0.896 to 1.150; HG002
    0.960), nor do A/T-alternating ones, whose orientation means nothing
    (0.974 and 0.974).
-3. **Alus don't make it.** The poly(A) loci at Alu tails lie in introns
-   more often antisense (85,210) than sense (71,716). Within them, the
-   difference is 1.039 (1.014 to 1.065; HG002 1.030); within the poly(A)
-   loci at neither an Alu's nor an L1's tail, 1.047 (1.022 to 1.073; HG002
-   1.049). Only the loci at L1
-   tails go the other way (0.968, 0.902 to 1.038; HG002 0.924, 0.863 to
-   0.988).
+3. **Alu tails don't explain it.** The poly(A) loci at Alu tails
+   (experiment 11's) lie in introns more often antisense (81,118) than
+   sense (68,203). Within them, the difference is 1.039 (1.013 to 1.065;
+   HG002 1.029, 1.006 to 1.053); within the poly(A) loci at neither an
+   Alu's nor an L1's tail, 1.030 (1.007 to 1.054; HG002 1.030, 1.007 to
+   1.053); at L1 tails, 1.094 (0.964 to 1.243; HG002 1.078).
 4. **New TR mutations are too few to tell.** The groups' intronic loci hold
    4 to 44 of the family's new TR mutations each, and no rate ratio of
-   sense to antisense is distinguishable from 1.
+   sense to antisense is distinguishable from 1. The only rate ratio of the
+   15 whose interval excludes 1 runs against answer 1: purine loci,
+   antisense against between genes, 1.93 (1.02 to 3.68).
 
-**What it means.** In the germline, transcription goes with fewer length
-variants at repeats, as transcriptional scanning would have it: genes
-expressed during spermatogenesis have lower mutation rates on their
-transcribed strand (Xia et al. 2020). The repeats' own strands matter: the
+**What it means.** In the germline, genes go with fewer length variants at
+repeats. Transcriptional scanning would give that: genes expressed during
+spermatogenesis have lower mutation rates on their transcribed strand (Xia
+et al. 2020). So would selection at linked sites, which lowers diversity
+near genes on both strands alike, as at the strand-symmetric repeats here. The repeats' own strands matter: the
 lowering is deepest where the strand the polymerase reads is the A- or
 purine-rich one. In cancers the strand asymmetry of indels at poly(T)
-tracts runs the other way: they mutate more when the poly(T) is on the
-strand the polymerase doesn't read (Georgakopoulos-Soares et al. 2020),
-that is, here, antisense. The effects are small, a few percent in odds,
+tracts runs the other way: somatic indels at poly(T) tracts of 2 to 10
+bases are commoner when the poly(T) is on the strand the polymerase
+doesn't read (Georgakopoulos-Soares et al. 2020), that is, here,
+antisense. The effects are small, a few percent in odds,
 and they are of variation, which mutation, selection and history shape
 together; but they are seen in two sets of haplotypes called by different
 methods, within Alu tails and outside them, and not where the orientation
 means nothing. Genes differ from the DNA between them in more than
 transcription (they replicate earlier, for one), so answer 1 shows a
-difference, not its cause; answer 2 compares loci within the same introns'
-world.
+difference, not its cause; answer 2 compares intronic loci only.
 
-![How much more often a repeat has a length variant when the transcript carries its A-, purine- or G-rich strand than when the polymerase reads it; and how much less often repeats in genes have one than repeats between genes](figures/transcription.png)
+![The odds ratio of a length variant at a repeat when the transcript carries its A-, purine- or G-rich strand against when the polymerase reads it; and the odds ratios of repeats in genes, sense and antisense, against repeats between genes](figures/transcription.png)
 
 ## How it was done
 
 | Script | What it does | Output |
 |---|---|---|
-| `strands.py` | Puts each autosomal locus of the catalogue in a group by how its strands differ (from experiment 06's base counts on the + strand) and by where it lies (Ensembl 116's protein-coding and lncRNA genes: sense, antisense, between genes); whether the family's parents (TRGT's open-access calls) or HG002 (its v5.0q gpxil files: deletions inside the locus, insertions after its bases or the base before it, loci called on both haplotypes with the base either side) have a length variant; new TR mutations (experiment 06); Mantel-Haenszel odds and rate ratios within experiment 06's strata of length, motif size and purity; the same within the loci at Alu and L1 tails (experiment 11) and elsewhere | `results/strands.json`, `results/loci.tsv.gz` |
+| `strands.py` | Puts each autosomal locus of the catalogue in a group by how its strands differ (from experiment 06's base counts on the + strand) and by where it lies (Ensembl 116's protein-coding and lncRNA genes: sense, antisense, between genes); whether the family's parents (the Platinum Pedigree's pedigree-consistent TRGT calls) or HG002 (its v5.0q gpxil files: deletions inside the locus, insertions after its bases or the base before it, loci called on both haplotypes with the base either side) have a length variant; new TR mutations (experiment 06); Mantel-Haenszel odds and rate ratios within experiment 06's strata of length, motif size and purity; the same within the loci at Alu and L1 tails (experiment 11) and elsewhere | `results/strands.json`, `results/loci.tsv.gz` |
 | `figures.py` | The figure | `figures/transcription.png` |
 
 The per-locus table, `results/loci.tsv.gz` (20 MB), is written by
@@ -75,9 +78,9 @@ The per-locus table, `results/loci.tsv.gz` (20 MB), is written by
 |---|---|---|
 | poly(A) | one strand 90 % A or more | 550,930 |
 | purine | one strand 90 % purines or more, not a poly(A) | 926,982 |
-| A-rich A/T | 90 % A or T, one strand at least three-quarters A, not in the groups above | 406,829 |
+| A-rich A/T | 90 % A or T, at least three-quarters of one strand's A and T being A, not in the groups above | 406,829 |
 | G-rich | one strand at least 60 % G and at most 10 % C, not in the groups above | 280,870 |
-| A/T alternating (control) | 90 % A or T, neither strand more than 60 % A | 199,937 |
+| A/T alternating (control) | 90 % A or T, neither A nor T more than 60 % of the A and T | 199,937 |
 
 **Where.** Sense or antisense: inside genes of one strand only (Ensembl's
 gene bodies), no nearer than 100 bases to an exon of them (splice sites'
@@ -126,9 +129,9 @@ elsewhere (family; HG002):
 
 | Group | Alu tails | L1 tails | Elsewhere |
 |---|---|---|---|
-| poly(A) | 1.039 (1.014-1.065); 1.030 (1.007-1.054) | 0.968 (0.902-1.038); 0.924 (0.863-0.988) | 1.047 (1.022-1.073); 1.049 (1.024-1.074) |
-| purine | 1.047 (0.999-1.098); 1.025 (0.980-1.073) | 1.032 (0.898-1.186); 0.963 (0.837-1.107) | 1.057 (1.012-1.104); 1.026 (0.981-1.072) |
-| A-rich A/T | 1.120 (1.047-1.198); 1.109 (1.037-1.186) | 1.135 (1.010-1.275); 1.174 (1.044-1.319) | 1.085 (1.019-1.156); 1.027 (0.964-1.094) |
+| poly(A) | 1.039 (1.013-1.065); 1.029 (1.006-1.053) | 1.094 (0.964-1.243); 1.078 (0.950-1.224) | 1.030 (1.007-1.054); 1.030 (1.007-1.053) |
+| purine | 1.050 (0.997-1.105); 1.046 (0.996-1.097) | 1.070 (0.846-1.353); 0.906 (0.710-1.156) | 1.050 (1.009-1.093); 1.012 (0.972-1.054) |
+| A-rich A/T | 1.181 (1.087-1.283); 1.127 (1.039-1.222) | 1.138 (0.992-1.305); 1.134 (0.987-1.302) | 1.074 (1.019-1.133); 1.051 (0.996-1.110) |
 
 ## Caveats
 
@@ -136,12 +139,16 @@ elsewhere (family; HG002):
   reference by history, which selection and drift shape as well as
   mutation. The new mutations, which would show mutation alone, are too
   few in these loci.
-- The effects are a few percent in odds. Many groups and comparisons were
-  made; the ones reported as differences have intervals that exclude 1 in
-  both sets of haplotypes, except the purine group's in HG002.
-- The family's open-access calls list a locus only where one of seven
-  people has a non-reference allele; a locus they don't list counts as
-  without a variant in the parents, whether or not TRGT called it.
+- The effects are a few percent in odds, and many groups and comparisons
+  were made. Only the poly(A) difference has intervals that exclude 1 in
+  both sets of haplotypes, within Alu tails and outside them; the purine
+  group's includes 1 in HG002, and so do the A-rich A/T group's outside
+  TE tails in HG002.
+- The family's calls are its pedigree-consistent tandem repeats (TRGT,
+  the open-access samples): a locus is listed only where one of seven
+  people has a non-reference allele and the calls fit inheritance through
+  the pedigree. A locus not listed counts as without a variant in the
+  parents, whether or not TRGT called it.
 - HG002's calls are GIAB's small-variant benchmark, least sure in long
   homopolymers; only loci it calls on both haplotypes are counted.
 - Gene bodies are Ensembl's, whatever their expression in the germline;

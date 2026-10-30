@@ -7,1224 +7,2596 @@
   "not in the catalogue's autosomal loci": 16936
  },
  "hg002": {
-  "arrays not called on both haplotypes": 44103,
-  "arrays called": 968809,
-  "haplotypes differing in length": 380490
+  "arrays not called on both haplotypes": 26080,
+  "arrays called": 622357,
+  "haplotypes differing in length": 256008
  },
  "tails": {
   "family": {
    "Alu": {
     "all": {
-     "differences": 264812,
-     "arrays": 119635,
-     "gains": 132975,
-     "losses": 131837,
+     "differences": 186515,
+     "arrays": 87697,
+     "gains": {
+      "localised": 34882,
+      "near": 21516,
+      "far": 8300,
+      "near_to_far": 2.592
+     },
+     "losses": {
+      "localised": 30447,
+      "near": 18051,
+      "far": 6322,
+      "near_to_far": 2.855
+     },
+     "single_events": 170216,
      "stretch_share_of_array_quartiles": [
-      0.333,
-      0.688,
+      0.386,
+      0.7895,
       1.0
      ],
-     "localised": 102466,
-     "proximal": 58265,
-     "distal": 25549,
-     "across_the_middle": 18703,
-     "proximal_to_distal": 2.28,
-     "touch_longest_in_frame": 85287,
-     "touch_longest_in_frame_expected_at_random": 57588.8,
-     "longest in frame in the proximal half": {
-      "localised": 72670,
-      "proximal": 49134,
-      "distal": 11290
+     "localised": 65329,
+     "near": 39567,
+     "far": 14622,
+     "near_to_far": 2.706,
+     "across_the_middle": 11140,
+     "touch_longest_in_frame": 56716,
+     "touch_longest_in_frame_expected_at_random": 39643.3,
+     "longest in frame wholly in the near half": {
+      "localised": 41764,
+      "near": 33715,
+      "far": 3411,
+      "near_to_far": 9.884
      },
-     "longest in frame in the distal half": {
-      "localised": 29796,
-      "proximal": 9131,
-      "distal": 14259
+     "longest in frame wholly in the far half": {
+      "localised": 6623,
+      "near": 1124,
+      "far": 4507,
+      "near_to_far": 0.249
+     },
+     "longest in frame across the middle": {
+      "localised": 16942,
+      "near": 4728,
+      "far": 6704,
+      "near_to_far": 0.705
      },
      "not touching the longest in frame": {
-      "localised": 17179,
-      "proximal": 6209,
-      "distal": 7190
+      "localised": 8613,
+      "near": 2622,
+      "far": 4201,
+      "near_to_far": 0.624
+     },
+     "single events": {
+      "localised": 51849,
+      "near": 34075,
+      "far": 11023,
+      "near_to_far": 3.091
      },
      "by_te_strand": {
       "+": {
-       "proximal": 29415,
-       "distal": 12884
+       "localised": 33286,
+       "near": 20006,
+       "far": 7422,
+       "near_to_far": 2.695
       },
       "-": {
-       "proximal": 28850,
-       "distal": 12665
+       "localised": 32043,
+       "near": 19561,
+       "far": 7200,
+       "near_to_far": 2.717
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 43369,
+      "near": 30186,
+      "far": 6479,
+      "near_to_far": 4.659
+     },
+     "halves within 0.05 in A": {
+      "localised": 14546,
+      "near": 6698,
+      "far": 5000,
+      "near_to_far": 1.34
+     },
+     "far half richer in A": {
+      "localised": 6298,
+      "near": 1971,
+      "far": 2934,
+      "near_to_far": 0.672
+     },
+     "near_end_excess_beyond_the_purest_stretch": 1.569
     },
     "0-4 %": {
-     "differences": 3995,
-     "arrays": 1681,
-     "gains": 1978,
-     "losses": 2017,
+     "differences": 3481,
+     "arrays": 1472,
+     "gains": {
+      "localised": 454,
+      "near": 247,
+      "far": 151,
+      "near_to_far": 1.636
+     },
+     "losses": {
+      "localised": 337,
+      "near": 188,
+      "far": 86,
+      "near_to_far": 2.186
+     },
+     "single_events": 3196,
      "stretch_share_of_array_quartiles": [
-      0.5,
+      0.5385,
       1.0,
       1.0
      ],
-     "localised": 1042,
-     "proximal": 603,
-     "distal": 286,
-     "across_the_middle": 157,
-     "proximal_to_distal": 2.11,
-     "touch_longest_in_frame": 943,
-     "touch_longest_in_frame_expected_at_random": 642.2,
-     "longest in frame in the proximal half": {
-      "localised": 778,
-      "proximal": 515,
-      "distal": 160
+     "localised": 791,
+     "near": 435,
+     "far": 237,
+     "near_to_far": 1.835,
+     "across_the_middle": 119,
+     "touch_longest_in_frame": 730,
+     "touch_longest_in_frame_expected_at_random": 526.8,
+     "longest in frame wholly in the near half": {
+      "localised": 469,
+      "near": 377,
+      "far": 34,
+      "near_to_far": 11.088
      },
-     "longest in frame in the distal half": {
-      "localised": 264,
-      "proximal": 88,
-      "distal": 126
+     "longest in frame wholly in the far half": {
+      "localised": 27,
+      "near": 5,
+      "far": 18,
+      "near_to_far": 0.278
+     },
+     "longest in frame across the middle": {
+      "localised": 295,
+      "near": 53,
+      "far": 185,
+      "near_to_far": 0.286
      },
      "not touching the longest in frame": {
-      "localised": 99,
-      "proximal": 29,
-      "distal": 58
+      "localised": 61,
+      "near": 16,
+      "far": 40,
+      "near_to_far": 0.4
+     },
+     "single events": {
+      "localised": 537,
+      "near": 355,
+      "far": 146,
+      "near_to_far": 2.432
      },
      "by_te_strand": {
       "+": {
-       "proximal": 337,
-       "distal": 168
+       "localised": 445,
+       "near": 248,
+       "far": 133,
+       "near_to_far": 1.865
       },
       "-": {
-       "proximal": 266,
-       "distal": 118
+       "localised": 346,
+       "near": 187,
+       "far": 104,
+       "near_to_far": 1.798
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 532,
+      "near": 332,
+      "far": 130,
+      "near_to_far": 2.554
+     },
+     "halves within 0.05 in A": {
+      "localised": 214,
+      "near": 77,
+      "far": 99,
+      "near_to_far": 0.778
+     },
+     "far half richer in A": {
+      "localised": 28,
+      "near": 16,
+      "far": 8,
+      "near_to_far": 2.0
+     },
+     "near_end_excess_beyond_the_purest_stretch": 1.756
     },
     "4-8 %": {
-     "differences": 38467,
-     "arrays": 17473,
-     "gains": 19273,
-     "losses": 19194,
+     "differences": 30964,
+     "arrays": 14366,
+     "gains": {
+      "localised": 4580,
+      "near": 2947,
+      "far": 1009,
+      "near_to_far": 2.921
+     },
+     "losses": {
+      "localised": 4025,
+      "near": 2564,
+      "far": 779,
+      "near_to_far": 3.291
+     },
+     "single_events": 28738,
      "stretch_share_of_array_quartiles": [
-      0.412,
-      0.867,
+      0.4667,
+      1.0,
       1.0
      ],
-     "localised": 12099,
-     "proximal": 7544,
-     "distal": 2670,
-     "across_the_middle": 1893,
-     "proximal_to_distal": 2.83,
-     "touch_longest_in_frame": 10553,
-     "touch_longest_in_frame_expected_at_random": 7207.0,
-     "longest in frame in the proximal half": {
-      "localised": 9127,
-      "proximal": 6517,
-      "distal": 1322
+     "localised": 8605,
+     "near": 5511,
+     "far": 1788,
+     "near_to_far": 3.082,
+     "across_the_middle": 1306,
+     "touch_longest_in_frame": 7748,
+     "touch_longest_in_frame_expected_at_random": 5517.7,
+     "longest in frame wholly in the near half": {
+      "localised": 5666,
+      "near": 4736,
+      "far": 385,
+      "near_to_far": 12.301
      },
-     "longest in frame in the distal half": {
-      "localised": 2972,
-      "proximal": 1027,
-      "distal": 1348
+     "longest in frame wholly in the far half": {
+      "localised": 557,
+      "near": 126,
+      "far": 344,
+      "near_to_far": 0.366
+     },
+     "longest in frame across the middle": {
+      "localised": 2382,
+      "near": 649,
+      "far": 1059,
+      "near_to_far": 0.613
      },
      "not touching the longest in frame": {
-      "localised": 1546,
-      "proximal": 546,
-      "distal": 686
+      "localised": 857,
+      "near": 254,
+      "far": 434,
+      "near_to_far": 0.585
+     },
+     "single events": {
+      "localised": 6644,
+      "near": 4682,
+      "far": 1238,
+      "near_to_far": 3.782
      },
      "by_te_strand": {
       "+": {
-       "proximal": 3895,
-       "distal": 1326
+       "localised": 4382,
+       "near": 2817,
+       "far": 893,
+       "near_to_far": 3.155
       },
       "-": {
-       "proximal": 3649,
-       "distal": 1344
+       "localised": 4223,
+       "near": 2694,
+       "far": 895,
+       "near_to_far": 3.01
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 6013,
+      "near": 4326,
+      "far": 873,
+      "near_to_far": 4.955
+     },
+     "halves within 0.05 in A": {
+      "localised": 1842,
+      "near": 868,
+      "far": 645,
+      "near_to_far": 1.346
+     },
+     "far half richer in A": {
+      "localised": 563,
+      "near": 208,
+      "far": 237,
+      "near_to_far": 0.878
+     },
+     "near_end_excess_beyond_the_purest_stretch": 2.122
     },
     "8-12 %": {
-     "differences": 113958,
-     "arrays": 51992,
-     "gains": 57299,
-     "losses": 56659,
+     "differences": 85698,
+     "arrays": 40442,
+     "gains": {
+      "localised": 15165,
+      "near": 9745,
+      "far": 3324,
+      "near_to_far": 2.932
+     },
+     "losses": {
+      "localised": 13309,
+      "near": 8203,
+      "far": 2491,
+      "near_to_far": 3.293
+     },
+     "single_events": 78937,
      "stretch_share_of_array_quartiles": [
-      0.361,
-      0.737,
+      0.4091,
+      0.8519,
       1.0
      ],
-     "localised": 41520,
-     "proximal": 24962,
-     "distal": 9459,
-     "across_the_middle": 7125,
-     "proximal_to_distal": 2.64,
-     "touch_longest_in_frame": 35381,
-     "touch_longest_in_frame_expected_at_random": 23772.8,
-     "longest in frame in the proximal half": {
-      "localised": 30767,
-      "proximal": 21460,
-      "distal": 4373
+     "localised": 28474,
+     "near": 17948,
+     "far": 5815,
+     "near_to_far": 3.087,
+     "across_the_middle": 4711,
+     "touch_longest_in_frame": 25291,
+     "touch_longest_in_frame_expected_at_random": 17621.0,
+     "longest in frame wholly in the near half": {
+      "localised": 18869,
+      "near": 15548,
+      "far": 1259,
+      "near_to_far": 12.349
      },
-     "longest in frame in the distal half": {
-      "localised": 10753,
-      "proximal": 3502,
-      "distal": 5086
+     "longest in frame wholly in the far half": {
+      "localised": 2364,
+      "near": 396,
+      "far": 1596,
+      "near_to_far": 0.248
+     },
+     "longest in frame across the middle": {
+      "localised": 7241,
+      "near": 2004,
+      "far": 2960,
+      "near_to_far": 0.677
      },
      "not touching the longest in frame": {
-      "localised": 6139,
-      "proximal": 2216,
-      "distal": 2594
+      "localised": 3183,
+      "near": 936,
+      "far": 1567,
+      "near_to_far": 0.597
+     },
+     "single events": {
+      "localised": 22762,
+      "near": 15597,
+      "far": 4339,
+      "near_to_far": 3.595
      },
      "by_te_strand": {
       "+": {
-       "proximal": 12475,
-       "distal": 4809
+       "localised": 14380,
+       "near": 8945,
+       "far": 2990,
+       "near_to_far": 2.992
       },
       "-": {
-       "proximal": 12487,
-       "distal": 4650
+       "localised": 14094,
+       "near": 9003,
+       "far": 2825,
+       "near_to_far": 3.187
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 19394,
+      "near": 13870,
+      "far": 2565,
+      "near_to_far": 5.407
+     },
+     "halves within 0.05 in A": {
+      "localised": 6163,
+      "near": 2956,
+      "far": 2062,
+      "near_to_far": 1.434
+     },
+     "far half richer in A": {
+      "localised": 2427,
+      "near": 786,
+      "far": 1103,
+      "near_to_far": 0.713
+     },
+     "near_end_excess_beyond_the_purest_stretch": 1.75
     },
     "12-16 %": {
-     "differences": 70222,
-     "arrays": 31640,
-     "gains": 35423,
-     "losses": 34799,
+     "differences": 46370,
+     "arrays": 22003,
+     "gains": {
+      "localised": 9903,
+      "near": 5948,
+      "far": 2480,
+      "near_to_far": 2.398
+     },
+     "losses": {
+      "localised": 8628,
+      "near": 4907,
+      "far": 1888,
+      "near_to_far": 2.599
+     },
+     "single_events": 41771,
      "stretch_share_of_array_quartiles": [
-      0.305,
-      0.615,
+      0.3448,
+      0.6552,
       1.0
      ],
-     "localised": 29794,
-     "proximal": 16323,
-     "distal": 7792,
-     "across_the_middle": 5691,
-     "proximal_to_distal": 2.09,
-     "touch_longest_in_frame": 24398,
-     "touch_longest_in_frame_expected_at_random": 16482.6,
-     "longest in frame in the proximal half": {
-      "localised": 20609,
-      "proximal": 13624,
-      "distal": 3337
+     "localised": 18531,
+     "near": 10855,
+     "far": 4368,
+     "near_to_far": 2.485,
+     "across_the_middle": 3308,
+     "touch_longest_in_frame": 15785,
+     "touch_longest_in_frame_expected_at_random": 11000.5,
+     "longest in frame wholly in the near half": {
+      "localised": 11578,
+      "near": 9149,
+      "far": 1060,
+      "near_to_far": 8.631
      },
-     "longest in frame in the distal half": {
-      "localised": 9185,
-      "proximal": 2699,
-      "distal": 4455
+     "longest in frame wholly in the far half": {
+      "localised": 2218,
+      "near": 346,
+      "far": 1579,
+      "near_to_far": 0.219
+     },
+     "longest in frame across the middle": {
+      "localised": 4735,
+      "near": 1360,
+      "far": 1729,
+      "near_to_far": 0.787
      },
      "not touching the longest in frame": {
-      "localised": 5396,
-      "proximal": 1913,
-      "distal": 2255
+      "localised": 2746,
+      "near": 837,
+      "far": 1311,
+      "near_to_far": 0.638
+     },
+     "single events": {
+      "localised": 14795,
+      "near": 9311,
+      "far": 3392,
+      "near_to_far": 2.745
      },
      "by_te_strand": {
       "+": {
-       "proximal": 8363,
-       "distal": 3954
+       "localised": 9613,
+       "near": 5587,
+       "far": 2224,
+       "near_to_far": 2.512
       },
       "-": {
-       "proximal": 7960,
-       "distal": 3838
+       "localised": 8918,
+       "near": 5268,
+       "far": 2144,
+       "near_to_far": 2.457
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 12104,
+      "near": 8282,
+      "far": 1852,
+      "near_to_far": 4.472
+     },
+     "halves within 0.05 in A": {
+      "localised": 4148,
+      "near": 1831,
+      "far": 1435,
+      "near_to_far": 1.276
+     },
+     "far half richer in A": {
+      "localised": 1966,
+      "near": 548,
+      "far": 1016,
+      "near_to_far": 0.539
+     },
+     "near_end_excess_beyond_the_purest_stretch": 1.375
     },
     "16-20 %": {
-     "differences": 31716,
-     "arrays": 14050,
-     "gains": 15703,
-     "losses": 16013,
+     "differences": 17191,
+     "arrays": 8107,
+     "gains": {
+      "localised": 3955,
+      "near": 2239,
+      "far": 1079,
+      "near_to_far": 2.075
+     },
+     "losses": {
+      "localised": 3507,
+      "near": 1897,
+      "far": 852,
+      "near_to_far": 2.227
+     },
+     "single_events": 15211,
      "stretch_share_of_array_quartiles": [
-      0.261,
-      0.556,
+      0.2941,
+      0.6,
       1.0
      ],
-     "localised": 14646,
-     "proximal": 7360,
-     "distal": 4217,
-     "across_the_middle": 3070,
-     "proximal_to_distal": 1.75,
-     "touch_longest_in_frame": 11488,
-     "touch_longest_in_frame_expected_at_random": 7776.4,
-     "longest in frame in the proximal half": {
-      "localised": 9389,
-      "proximal": 5913,
-      "distal": 1647
+     "localised": 7462,
+     "near": 4136,
+     "far": 1931,
+     "near_to_far": 2.142,
+     "across_the_middle": 1395,
+     "touch_longest_in_frame": 6072,
+     "touch_longest_in_frame_expected_at_random": 4197.7,
+     "longest in frame wholly in the near half": {
+      "localised": 4411,
+      "near": 3394,
+      "far": 529,
+      "near_to_far": 6.416
      },
-     "longest in frame in the distal half": {
-      "localised": 5257,
-      "proximal": 1447,
-      "distal": 2570
+     "longest in frame wholly in the far half": {
+      "localised": 1149,
+      "near": 192,
+      "far": 757,
+      "near_to_far": 0.254
+     },
+     "longest in frame across the middle": {
+      "localised": 1902,
+      "near": 550,
+      "far": 645,
+      "near_to_far": 0.853
      },
      "not touching the longest in frame": {
-      "localised": 3158,
-      "proximal": 1207,
-      "distal": 1241
+      "localised": 1390,
+      "near": 448,
+      "far": 664,
+      "near_to_far": 0.675
+     },
+     "single events": {
+      "localised": 5967,
+      "near": 3542,
+      "far": 1528,
+      "near_to_far": 2.318
      },
      "by_te_strand": {
       "+": {
-       "proximal": 3605,
-       "distal": 2110
+       "localised": 3760,
+       "near": 2070,
+       "far": 966,
+       "near_to_far": 2.143
       },
       "-": {
-       "proximal": 3755,
-       "distal": 2107
+       "localised": 3702,
+       "near": 2066,
+       "far": 965,
+       "near_to_far": 2.141
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 4518,
+      "near": 2919,
+      "far": 856,
+      "near_to_far": 3.41
+     },
+     "halves within 0.05 in A": {
+      "localised": 1804,
+      "near": 830,
+      "far": 597,
+      "near_to_far": 1.39
+     },
+     "far half richer in A": {
+      "localised": 1050,
+      "near": 334,
+      "far": 461,
+      "near_to_far": 0.725
+     },
+     "near_end_excess_beyond_the_purest_stretch": 1.277
     },
     "20 %+": {
-     "differences": 6454,
-     "arrays": 2799,
-     "gains": 3299,
-     "losses": 3155,
+     "differences": 2811,
+     "arrays": 1307,
+     "gains": {
+      "localised": 825,
+      "near": 390,
+      "far": 257,
+      "near_to_far": 1.518
+     },
+     "losses": {
+      "localised": 641,
+      "near": 292,
+      "far": 226,
+      "near_to_far": 1.292
+     },
+     "single_events": 2363,
      "stretch_share_of_array_quartiles": [
-      0.212,
-      0.481,
+      0.2237,
+      0.48,
       1.0
      ],
-     "localised": 3365,
-     "proximal": 1473,
-     "distal": 1125,
-     "across_the_middle": 767,
-     "proximal_to_distal": 1.31,
-     "touch_longest_in_frame": 2524,
-     "touch_longest_in_frame_expected_at_random": 1707.9,
-     "longest in frame in the proximal half": {
-      "localised": 2000,
-      "proximal": 1105,
-      "distal": 451
+     "localised": 1466,
+     "near": 682,
+     "far": 483,
+     "near_to_far": 1.412,
+     "across_the_middle": 301,
+     "touch_longest_in_frame": 1090,
+     "touch_longest_in_frame_expected_at_random": 779.5,
+     "longest in frame wholly in the near half": {
+      "localised": 771,
+      "near": 511,
+      "far": 144,
+      "near_to_far": 3.549
      },
-     "longest in frame in the distal half": {
-      "localised": 1365,
-      "proximal": 368,
-      "distal": 674
+     "longest in frame wholly in the far half": {
+      "localised": 308,
+      "near": 59,
+      "far": 213,
+      "near_to_far": 0.277
+     },
+     "longest in frame across the middle": {
+      "localised": 387,
+      "near": 112,
+      "far": 126,
+      "near_to_far": 0.889
      },
      "not touching the longest in frame": {
-      "localised": 841,
-      "proximal": 298,
-      "distal": 356
+      "localised": 376,
+      "near": 131,
+      "far": 185,
+      "near_to_far": 0.708
+     },
+     "single events": {
+      "localised": 1144,
+      "near": 588,
+      "far": 380,
+      "near_to_far": 1.547
      },
      "by_te_strand": {
       "+": {
-       "proximal": 740,
-       "distal": 517
+       "localised": 706,
+       "near": 339,
+       "far": 216,
+       "near_to_far": 1.569
       },
       "-": {
-       "proximal": 733,
-       "distal": 608
+       "localised": 760,
+       "near": 343,
+       "far": 267,
+       "near_to_far": 1.285
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 808,
+      "near": 457,
+      "far": 203,
+      "near_to_far": 2.251
+     },
+     "halves within 0.05 in A": {
+      "localised": 375,
+      "near": 136,
+      "far": 162,
+      "near_to_far": 0.84
+     },
+     "far half richer in A": {
+      "localised": 264,
+      "near": 79,
+      "far": 109,
+      "near_to_far": 0.725
+     },
+     "near_end_excess_beyond_the_purest_stretch": 0.992
     }
    },
    "L1": {
     "all": {
-     "differences": 63341,
-     "arrays": 27394,
-     "gains": 30464,
-     "losses": 32877,
+     "differences": 17628,
+     "arrays": 8383,
+     "gains": {
+      "localised": 4781,
+      "near": 1754,
+      "far": 2106,
+      "near_to_far": 0.833
+     },
+     "losses": {
+      "localised": 4837,
+      "near": 1714,
+      "far": 2008,
+      "near_to_far": 0.854
+     },
+     "single_events": 15283,
      "stretch_share_of_array_quartiles": [
-      0.255,
-      0.556,
+      0.2195,
+      0.4583,
       1.0
      ],
-     "localised": 29243,
-     "proximal": 11635,
-     "distal": 11091,
-     "across_the_middle": 6525,
-     "proximal_to_distal": 1.05,
-     "touch_longest_in_frame": 23661,
-     "touch_longest_in_frame_expected_at_random": 16513.3,
-     "longest in frame in the proximal half": {
-      "localised": 13731,
-      "proximal": 7857,
-      "distal": 2589
+     "localised": 9618,
+     "near": 3468,
+     "far": 4114,
+     "near_to_far": 0.843,
+     "across_the_middle": 2036,
+     "touch_longest_in_frame": 7852,
+     "touch_longest_in_frame_expected_at_random": 5788.9,
+     "longest in frame wholly in the near half": {
+      "localised": 2981,
+      "near": 2066,
+      "far": 469,
+      "near_to_far": 4.405
      },
-     "longest in frame in the distal half": {
-      "localised": 15512,
-      "proximal": 3778,
-      "distal": 8502
+     "longest in frame wholly in the far half": {
+      "localised": 3360,
+      "near": 456,
+      "far": 2475,
+      "near_to_far": 0.184
+     },
+     "longest in frame across the middle": {
+      "localised": 3277,
+      "near": 946,
+      "far": 1170,
+      "near_to_far": 0.809
      },
      "not touching the longest in frame": {
-      "localised": 5582,
-      "proximal": 2418,
-      "distal": 2008
+      "localised": 1766,
+      "near": 722,
+      "far": 739,
+      "near_to_far": 0.977
+     },
+     "single events": {
+      "localised": 7736,
+      "near": 2897,
+      "far": 3469,
+      "near_to_far": 0.835
      },
      "by_te_strand": {
       "+": {
-       "proximal": 5907,
-       "distal": 5379
+       "localised": 4766,
+       "near": 1798,
+       "far": 1992,
+       "near_to_far": 0.903
       },
       "-": {
-       "proximal": 5728,
-       "distal": 5712
+       "localised": 4852,
+       "near": 1670,
+       "far": 2122,
+       "near_to_far": 0.787
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 3400,
+      "near": 1727,
+      "far": 963,
+      "near_to_far": 1.793
+     },
+     "halves within 0.05 in A": {
+      "localised": 2406,
+      "near": 927,
+      "far": 978,
+      "near_to_far": 0.948
+     },
+     "far half richer in A": {
+      "localised": 3654,
+      "near": 764,
+      "far": 2110,
+      "near_to_far": 0.362
+     },
+     "near_end_excess_beyond_the_purest_stretch": 0.9
     },
     "0-4 %": {
-     "differences": 6307,
-     "arrays": 2888,
-     "gains": 3017,
-     "losses": 3290,
-     "stretch_share_of_array_quartiles": [
-      0.188,
-      0.37,
-      0.714
-     ],
-     "localised": 3977,
-     "proximal": 1472,
-     "distal": 1628,
-     "across_the_middle": 881,
-     "proximal_to_distal": 0.9,
-     "touch_longest_in_frame": 3131,
-     "touch_longest_in_frame_expected_at_random": 2158.0,
-     "longest in frame in the proximal half": {
-      "localised": 1718,
-      "proximal": 961,
-      "distal": 357
+     "differences": 5814,
+     "arrays": 2673,
+     "gains": {
+      "localised": 1783,
+      "near": 633,
+      "far": 813,
+      "near_to_far": 0.779
      },
-     "longest in frame in the distal half": {
-      "localised": 2259,
-      "proximal": 511,
-      "distal": 1271
+     "losses": {
+      "localised": 1843,
+      "near": 629,
+      "far": 729,
+      "near_to_far": 0.863
+     },
+     "single_events": 4759,
+     "stretch_share_of_array_quartiles": [
+      0.1968,
+      0.3805,
+      0.7333
+     ],
+     "localised": 3626,
+     "near": 1262,
+     "far": 1542,
+     "near_to_far": 0.818,
+     "across_the_middle": 822,
+     "touch_longest_in_frame": 2866,
+     "touch_longest_in_frame_expected_at_random": 2070.8,
+     "longest in frame wholly in the near half": {
+      "localised": 1126,
+      "near": 732,
+      "far": 202,
+      "near_to_far": 3.624
+     },
+     "longest in frame wholly in the far half": {
+      "localised": 1430,
+      "near": 245,
+      "far": 942,
+      "near_to_far": 0.26
+     },
+     "longest in frame across the middle": {
+      "localised": 1070,
+      "near": 285,
+      "far": 398,
+      "near_to_far": 0.716
      },
      "not touching the longest in frame": {
-      "localised": 846,
-      "proximal": 399,
-      "distal": 311
+      "localised": 760,
+      "near": 338,
+      "far": 292,
+      "near_to_far": 1.158
+     },
+     "single events": {
+      "localised": 2771,
+      "near": 1026,
+      "far": 1276,
+      "near_to_far": 0.804
      },
      "by_te_strand": {
       "+": {
-       "proximal": 737,
-       "distal": 830
+       "localised": 1855,
+       "near": 644,
+       "far": 788,
+       "near_to_far": 0.817
       },
       "-": {
-       "proximal": 735,
-       "distal": 798
+       "localised": 1771,
+       "near": 618,
+       "far": 754,
+       "near_to_far": 0.82
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 1159,
+      "near": 584,
+      "far": 341,
+      "near_to_far": 1.713
+     },
+     "halves within 0.05 in A": {
+      "localised": 909,
+      "near": 351,
+      "far": 337,
+      "near_to_far": 1.042
+     },
+     "far half richer in A": {
+      "localised": 1481,
+      "near": 305,
+      "far": 839,
+      "near_to_far": 0.364
+     },
+     "near_end_excess_beyond_the_purest_stretch": 0.971
     },
     "4-8 %": {
-     "differences": 6274,
-     "arrays": 2904,
-     "gains": 3000,
-     "losses": 3274,
+     "differences": 4936,
+     "arrays": 2339,
+     "gains": {
+      "localised": 1305,
+      "near": 486,
+      "far": 559,
+      "near_to_far": 0.869
+     },
+     "losses": {
+      "localised": 1226,
+      "near": 466,
+      "far": 508,
+      "near_to_far": 0.917
+     },
+     "single_events": 4346,
      "stretch_share_of_array_quartiles": [
-      0.215,
-      0.471,
+      0.2308,
+      0.5,
       1.0
      ],
-     "localised": 3348,
-     "proximal": 1300,
-     "distal": 1351,
-     "across_the_middle": 697,
-     "proximal_to_distal": 0.96,
-     "touch_longest_in_frame": 2678,
-     "touch_longest_in_frame_expected_at_random": 1894.2,
-     "longest in frame in the proximal half": {
-      "localised": 1631,
-      "proximal": 920,
-      "distal": 338
+     "localised": 2531,
+     "near": 952,
+     "far": 1067,
+     "near_to_far": 0.892,
+     "across_the_middle": 512,
+     "touch_longest_in_frame": 2074,
+     "touch_longest_in_frame_expected_at_random": 1554.5,
+     "longest in frame wholly in the near half": {
+      "localised": 867,
+      "near": 587,
+      "far": 155,
+      "near_to_far": 3.787
      },
-     "longest in frame in the distal half": {
-      "localised": 1717,
-      "proximal": 380,
-      "distal": 1013
+     "longest in frame wholly in the far half": {
+      "localised": 796,
+      "near": 83,
+      "far": 616,
+      "near_to_far": 0.135
+     },
+     "longest in frame across the middle": {
+      "localised": 868,
+      "near": 282,
+      "far": 296,
+      "near_to_far": 0.953
      },
      "not touching the longest in frame": {
-      "localised": 670,
-      "proximal": 238,
-      "distal": 306
+      "localised": 457,
+      "near": 149,
+      "far": 220,
+      "near_to_far": 0.677
+     },
+     "single events": {
+      "localised": 2069,
+      "near": 779,
+      "far": 933,
+      "near_to_far": 0.835
      },
      "by_te_strand": {
       "+": {
-       "proximal": 659,
-       "distal": 657
+       "localised": 1282,
+       "near": 495,
+       "far": 527,
+       "near_to_far": 0.939
       },
       "-": {
-       "proximal": 641,
-       "distal": 694
+       "localised": 1249,
+       "near": 457,
+       "far": 540,
+       "near_to_far": 0.846
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 974,
+      "near": 492,
+      "far": 293,
+      "near_to_far": 1.679
+     },
+     "halves within 0.05 in A": {
+      "localised": 605,
+      "near": 230,
+      "far": 255,
+      "near_to_far": 0.902
+     },
+     "far half richer in A": {
+      "localised": 915,
+      "near": 217,
+      "far": 501,
+      "near_to_far": 0.433
+     },
+     "near_end_excess_beyond_the_purest_stretch": 0.715
     },
     "8-12 %": {
-     "differences": 6566,
-     "arrays": 2808,
-     "gains": 3096,
-     "losses": 3470,
+     "differences": 2747,
+     "arrays": 1324,
+     "gains": {
+      "localised": 682,
+      "near": 266,
+      "far": 286,
+      "near_to_far": 0.93
+     },
+     "losses": {
+      "localised": 743,
+      "near": 240,
+      "far": 349,
+      "near_to_far": 0.688
+     },
+     "single_events": 2469,
      "stretch_share_of_array_quartiles": [
-      0.242,
-      0.533,
+      0.234,
+      0.48,
       1.0
      ],
-     "localised": 3141,
-     "proximal": 1210,
-     "distal": 1218,
-     "across_the_middle": 714,
-     "proximal_to_distal": 0.99,
-     "touch_longest_in_frame": 2535,
-     "touch_longest_in_frame_expected_at_random": 1726.8,
-     "longest in frame in the proximal half": {
-      "localised": 1462,
-      "proximal": 839,
-      "distal": 248
+     "localised": 1425,
+     "near": 506,
+     "far": 635,
+     "near_to_far": 0.797,
+     "across_the_middle": 284,
+     "touch_longest_in_frame": 1203,
+     "touch_longest_in_frame_expected_at_random": 869.2,
+     "longest in frame wholly in the near half": {
+      "localised": 422,
+      "near": 317,
+      "far": 52,
+      "near_to_far": 6.096
      },
-     "longest in frame in the distal half": {
-      "localised": 1679,
-      "proximal": 371,
-      "distal": 970
+     "longest in frame wholly in the far half": {
+      "localised": 481,
+      "near": 37,
+      "far": 418,
+      "near_to_far": 0.089
+     },
+     "longest in frame across the middle": {
+      "localised": 522,
+      "near": 152,
+      "far": 165,
+      "near_to_far": 0.921
      },
      "not touching the longest in frame": {
-      "localised": 606,
-      "proximal": 256,
-      "distal": 213
+      "localised": 222,
+      "near": 87,
+      "far": 100,
+      "near_to_far": 0.87
+     },
+     "single events": {
+      "localised": 1204,
+      "near": 440,
+      "far": 534,
+      "near_to_far": 0.824
      },
      "by_te_strand": {
       "+": {
-       "proximal": 644,
-       "distal": 556
+       "localised": 653,
+       "near": 265,
+       "far": 287,
+       "near_to_far": 0.923
       },
       "-": {
-       "proximal": 566,
-       "distal": 662
+       "localised": 772,
+       "near": 241,
+       "far": 348,
+       "near_to_far": 0.693
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 532,
+      "near": 277,
+      "far": 139,
+      "near_to_far": 1.993
+     },
+     "halves within 0.05 in A": {
+      "localised": 353,
+      "near": 124,
+      "far": 145,
+      "near_to_far": 0.855
+     },
+     "far half richer in A": {
+      "localised": 516,
+      "near": 97,
+      "far": 338,
+      "near_to_far": 0.287
+     },
+     "near_end_excess_beyond_the_purest_stretch": 0.737
     },
     "12-16 %": {
-     "differences": 7907,
-     "arrays": 3387,
-     "gains": 3721,
-     "losses": 4186,
+     "differences": 1822,
+     "arrays": 898,
+     "gains": {
+      "localised": 494,
+      "near": 149,
+      "far": 238,
+      "near_to_far": 0.626
+     },
+     "losses": {
+      "localised": 472,
+      "near": 143,
+      "far": 221,
+      "near_to_far": 0.647
+     },
+     "single_events": 1632,
      "stretch_share_of_array_quartiles": [
-      0.269,
-      0.598,
+      0.2381,
+      0.4615,
       1.0
      ],
-     "localised": 3457,
-     "proximal": 1346,
-     "distal": 1384,
-     "across_the_middle": 727,
-     "proximal_to_distal": 0.97,
-     "touch_longest_in_frame": 2813,
-     "touch_longest_in_frame_expected_at_random": 1947.8,
-     "longest in frame in the proximal half": {
-      "localised": 1574,
-      "proximal": 918,
-      "distal": 307
+     "localised": 966,
+     "near": 292,
+     "far": 459,
+     "near_to_far": 0.636,
+     "across_the_middle": 215,
+     "touch_longest_in_frame": 825,
+     "touch_longest_in_frame_expected_at_random": 601.7,
+     "longest in frame wholly in the near half": {
+      "localised": 232,
+      "near": 178,
+      "far": 24,
+      "near_to_far": 7.417
      },
-     "longest in frame in the distal half": {
-      "localised": 1883,
-      "proximal": 428,
-      "distal": 1077
+     "longest in frame wholly in the far half": {
+      "localised": 359,
+      "near": 46,
+      "far": 285,
+      "near_to_far": 0.161
+     },
+     "longest in frame across the middle": {
+      "localised": 375,
+      "near": 68,
+      "far": 150,
+      "near_to_far": 0.453
      },
      "not touching the longest in frame": {
-      "localised": 644,
-      "proximal": 284,
-      "distal": 218
+      "localised": 141,
+      "near": 65,
+      "far": 58,
+      "near_to_far": 1.121
+     },
+     "single events": {
+      "localised": 804,
+      "near": 256,
+      "far": 384,
+      "near_to_far": 0.667
      },
      "by_te_strand": {
       "+": {
-       "proximal": 704,
-       "distal": 636
+       "localised": 438,
+       "near": 157,
+       "far": 180,
+       "near_to_far": 0.872
       },
       "-": {
-       "proximal": 642,
-       "distal": 748
+       "localised": 528,
+       "near": 135,
+       "far": 279,
+       "near_to_far": 0.484
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 362,
+      "near": 172,
+      "far": 105,
+      "near_to_far": 1.638
+     },
+     "halves within 0.05 in A": {
+      "localised": 190,
+      "near": 59,
+      "far": 103,
+      "near_to_far": 0.573
+     },
+     "far half richer in A": {
+      "localised": 403,
+      "near": 55,
+      "far": 251,
+      "near_to_far": 0.219
+     },
+     "near_end_excess_beyond_the_purest_stretch": 1.093
     },
     "16-20 %": {
-     "differences": 9316,
-     "arrays": 3942,
-     "gains": 4461,
-     "losses": 4855,
+     "differences": 1147,
+     "arrays": 556,
+     "gains": {
+      "localised": 254,
+      "near": 105,
+      "far": 109,
+      "near_to_far": 0.963
+     },
+     "losses": {
+      "localised": 297,
+      "near": 130,
+      "far": 121,
+      "near_to_far": 1.074
+     },
+     "single_events": 1034,
      "stretch_share_of_array_quartiles": [
-      0.28,
-      0.625,
+      0.2172,
+      0.5357,
       1.0
      ],
-     "localised": 3861,
-     "proximal": 1673,
-     "distal": 1365,
-     "across_the_middle": 823,
-     "proximal_to_distal": 1.23,
-     "touch_longest_in_frame": 3173,
-     "touch_longest_in_frame_expected_at_random": 2180.0,
-     "longest in frame in the proximal half": {
-      "localised": 1885,
-      "proximal": 1127,
-      "distal": 350
+     "localised": 551,
+     "near": 235,
+     "far": 230,
+     "near_to_far": 1.022,
+     "across_the_middle": 86,
+     "touch_longest_in_frame": 448,
+     "touch_longest_in_frame_expected_at_random": 333.5,
+     "longest in frame wholly in the near half": {
+      "localised": 164,
+      "near": 139,
+      "far": 12,
+      "near_to_far": 11.583
      },
-     "longest in frame in the distal half": {
-      "localised": 1976,
-      "proximal": 546,
-      "distal": 1015
+     "longest in frame wholly in the far half": {
+      "localised": 177,
+      "near": 27,
+      "far": 129,
+      "near_to_far": 0.209
+     },
+     "longest in frame across the middle": {
+      "localised": 210,
+      "near": 69,
+      "far": 89,
+      "near_to_far": 0.775
      },
      "not touching the longest in frame": {
-      "localised": 688,
-      "proximal": 319,
-      "distal": 222
+      "localised": 103,
+      "near": 52,
+      "far": 29,
+      "near_to_far": 1.793
+     },
+     "single events": {
+      "localised": 472,
+      "near": 213,
+      "far": 194,
+      "near_to_far": 1.098
      },
      "by_te_strand": {
       "+": {
-       "proximal": 819,
-       "distal": 599
+       "localised": 255,
+       "near": 105,
+       "far": 111,
+       "near_to_far": 0.946
       },
       "-": {
-       "proximal": 854,
-       "distal": 766
+       "localised": 296,
+       "near": 130,
+       "far": 119,
+       "near_to_far": 1.092
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 193,
+      "near": 103,
+      "far": 56,
+      "near_to_far": 1.839
+     },
+     "halves within 0.05 in A": {
+      "localised": 176,
+      "near": 82,
+      "far": 74,
+      "near_to_far": 1.108
+     },
+     "far half richer in A": {
+      "localised": 173,
+      "near": 49,
+      "far": 93,
+      "near_to_far": 0.527
+     },
+     "near_end_excess_beyond_the_purest_stretch": 1.556
     },
     "20 %+": {
-     "differences": 26971,
-     "arrays": 11465,
-     "gains": 13169,
-     "losses": 13802,
+     "differences": 1162,
+     "arrays": 593,
+     "gains": {
+      "localised": 263,
+      "near": 115,
+      "far": 101,
+      "near_to_far": 1.139
+     },
+     "losses": {
+      "localised": 256,
+      "near": 106,
+      "far": 80,
+      "near_to_far": 1.325
+     },
+     "single_events": 1043,
      "stretch_share_of_array_quartiles": [
-      0.287,
-      0.611,
+      0.2885,
+      0.6396,
       1.0
      ],
-     "localised": 11459,
-     "proximal": 4634,
-     "distal": 4145,
-     "across_the_middle": 2683,
-     "proximal_to_distal": 1.12,
-     "touch_longest_in_frame": 9331,
-     "touch_longest_in_frame_expected_at_random": 6606.6,
-     "longest in frame in the proximal half": {
-      "localised": 5461,
-      "proximal": 3092,
-      "distal": 989
+     "localised": 519,
+     "near": 221,
+     "far": 181,
+     "near_to_far": 1.221,
+     "across_the_middle": 117,
+     "touch_longest_in_frame": 436,
+     "touch_longest_in_frame_expected_at_random": 359.3,
+     "longest in frame wholly in the near half": {
+      "localised": 170,
+      "near": 113,
+      "far": 24,
+      "near_to_far": 4.708
      },
-     "longest in frame in the distal half": {
-      "localised": 5998,
-      "proximal": 1542,
-      "distal": 3156
+     "longest in frame wholly in the far half": {
+      "localised": 117,
+      "near": 18,
+      "far": 85,
+      "near_to_far": 0.212
+     },
+     "longest in frame across the middle": {
+      "localised": 232,
+      "near": 90,
+      "far": 72,
+      "near_to_far": 1.25
      },
      "not touching the longest in frame": {
-      "localised": 2128,
-      "proximal": 922,
-      "distal": 738
+      "localised": 83,
+      "near": 31,
+      "far": 40,
+      "near_to_far": 0.775
+     },
+     "single events": {
+      "localised": 416,
+      "near": 183,
+      "far": 148,
+      "near_to_far": 1.236
      },
      "by_te_strand": {
       "+": {
-       "proximal": 2344,
-       "distal": 2101
+       "localised": 283,
+       "near": 132,
+       "far": 99,
+       "near_to_far": 1.333
       },
       "-": {
-       "proximal": 2290,
-       "distal": 2044
+       "localised": 236,
+       "near": 89,
+       "far": 82,
+       "near_to_far": 1.085
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 180,
+      "near": 99,
+      "far": 29,
+      "near_to_far": 3.414
+     },
+     "halves within 0.05 in A": {
+      "localised": 173,
+      "near": 81,
+      "far": 64,
+      "near_to_far": 1.266
+     },
+     "far half richer in A": {
+      "localised": 166,
+      "near": 41,
+      "far": 88,
+      "near_to_far": 0.466
+     },
+     "near_end_excess_beyond_the_purest_stretch": 0.999
     }
    }
   },
   "HG002": {
    "Alu": {
     "all": {
-     "differences": 322083,
-     "arrays": 212484,
-     "gains": 160400,
-     "losses": 161683,
+     "differences": 241576,
+     "arrays": 160558,
+     "gains": {
+      "localised": 42514,
+      "near": 28695,
+      "far": 8531,
+      "near_to_far": 3.364
+     },
+     "losses": {
+      "localised": 39160,
+      "near": 25385,
+      "far": 7115,
+      "near_to_far": 3.568
+     },
+     "single_events": 219766,
      "stretch_share_of_array_quartiles": [
-      0.316,
-      0.688,
+      0.3913,
+      0.8621,
       1.0
      ],
-     "localised": 127252,
-     "proximal": 80898,
-     "distal": 27210,
-     "across_the_middle": 19196,
-     "proximal_to_distal": 2.97,
-     "touch_longest_in_frame": 111550,
-     "touch_longest_in_frame_expected_at_random": 66619.1,
-     "longest in frame in the proximal half": {
-      "localised": 97691,
-      "proximal": 72864,
-      "distal": 11403
+     "localised": 81674,
+     "near": 54080,
+     "far": 15646,
+     "near_to_far": 3.456,
+     "across_the_middle": 11948,
+     "touch_longest_in_frame": 73875,
+     "touch_longest_in_frame_expected_at_random": 47815.8,
+     "longest in frame wholly in the near half": {
+      "localised": 57889,
+      "near": 48683,
+      "far": 3242,
+      "near_to_far": 15.016
      },
-     "longest in frame in the distal half": {
-      "localised": 29561,
-      "proximal": 8034,
-      "distal": 15807
+     "longest in frame wholly in the far half": {
+      "localised": 5829,
+      "near": 931,
+      "far": 4051,
+      "near_to_far": 0.23
+     },
+     "longest in frame across the middle": {
+      "localised": 17956,
+      "near": 4466,
+      "far": 8353,
+      "near_to_far": 0.535
      },
      "not touching the longest in frame": {
-      "localised": 15702,
-      "proximal": 5688,
-      "distal": 6701
+      "localised": 7799,
+      "near": 2286,
+      "far": 3803,
+      "near_to_far": 0.601
+     },
+     "single events": {
+      "localised": 63861,
+      "near": 46653,
+      "far": 10907,
+      "near_to_far": 4.277
      },
      "by_te_strand": {
       "+": {
-       "proximal": 40998,
-       "distal": 14369
+       "localised": 42930,
+       "near": 27957,
+       "far": 8559,
+       "near_to_far": 3.266
       },
       "-": {
-       "proximal": 39900,
-       "distal": 12841
+       "localised": 38744,
+       "near": 26123,
+       "far": 7087,
+       "near_to_far": 3.686
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 59895,
+      "near": 44847,
+      "far": 7135,
+      "near_to_far": 6.285
+     },
+     "halves within 0.05 in A": {
+      "localised": 15088,
+      "near": 6687,
+      "far": 5770,
+      "near_to_far": 1.159
+     },
+     "far half richer in A": {
+      "localised": 5602,
+      "near": 1850,
+      "far": 2537,
+      "near_to_far": 0.729
+     },
+     "near_end_excess_beyond_the_purest_stretch": 1.858
     },
     "0-4 %": {
-     "differences": 7911,
-     "arrays": 5003,
-     "gains": 3956,
-     "losses": 3955,
+     "differences": 7184,
+     "arrays": 4531,
+     "gains": {
+      "localised": 899,
+      "near": 540,
+      "far": 257,
+      "near_to_far": 2.101
+     },
+     "losses": {
+      "localised": 744,
+      "near": 438,
+      "far": 163,
+      "near_to_far": 2.687
+     },
+     "single_events": 6631,
      "stretch_share_of_array_quartiles": [
-      0.468,
+      0.5556,
       1.0,
       1.0
      ],
-     "localised": 2126,
-     "proximal": 1368,
-     "distal": 473,
-     "across_the_middle": 287,
-     "proximal_to_distal": 2.89,
-     "touch_longest_in_frame": 1998,
-     "touch_longest_in_frame_expected_at_random": 1240.7,
-     "longest in frame in the proximal half": {
-      "localised": 1778,
-      "proximal": 1291,
-      "distal": 261
+     "localised": 1643,
+     "near": 978,
+     "far": 420,
+     "near_to_far": 2.329,
+     "across_the_middle": 245,
+     "touch_longest_in_frame": 1562,
+     "touch_longest_in_frame_expected_at_random": 1074.4,
+     "longest in frame wholly in the near half": {
+      "localised": 1080,
+      "near": 908,
+      "far": 44,
+      "near_to_far": 20.636
      },
-     "longest in frame in the distal half": {
-      "localised": 348,
-      "proximal": 77,
-      "distal": 212
+     "longest in frame wholly in the far half": {
+      "localised": 21,
+      "near": 4,
+      "far": 12,
+      "near_to_far": 0.333
+     },
+     "longest in frame across the middle": {
+      "localised": 542,
+      "near": 66,
+      "far": 364,
+      "near_to_far": 0.181
      },
      "not touching the longest in frame": {
-      "localised": 128,
-      "proximal": 31,
-      "distal": 75
+      "localised": 81,
+      "near": 16,
+      "far": 52,
+      "near_to_far": 0.308
+     },
+     "single events": {
+      "localised": 1161,
+      "near": 835,
+      "far": 236,
+      "near_to_far": 3.538
      },
      "by_te_strand": {
       "+": {
-       "proximal": 711,
-       "distal": 280
+       "localised": 905,
+       "near": 519,
+       "far": 251,
+       "near_to_far": 2.068
       },
       "-": {
-       "proximal": 657,
-       "distal": 193
+       "localised": 738,
+       "near": 459,
+       "far": 169,
+       "near_to_far": 2.716
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 1258,
+      "near": 863,
+      "far": 216,
+      "near_to_far": 3.995
+     },
+     "halves within 0.05 in A": {
+      "localised": 323,
+      "near": 87,
+      "far": 192,
+      "near_to_far": 0.453
+     },
+     "far half richer in A": {
+      "localised": 40,
+      "near": 19,
+      "far": 9,
+      "near_to_far": 2.111
+     },
+     "near_end_excess_beyond_the_purest_stretch": 2.621
     },
     "4-8 %": {
-     "differences": 53323,
-     "arrays": 35083,
-     "gains": 26698,
-     "losses": 26625,
+     "differences": 44672,
+     "arrays": 29475,
+     "gains": {
+      "localised": 6474,
+      "near": 4516,
+      "far": 1239,
+      "near_to_far": 3.645
+     },
+     "losses": {
+      "localised": 6033,
+      "near": 3991,
+      "far": 1095,
+      "near_to_far": 3.645
+     },
+     "single_events": 41198,
      "stretch_share_of_array_quartiles": [
-      0.375,
-      0.875,
+      0.4583,
+      1.0,
       1.0
      ],
-     "localised": 17648,
-     "proximal": 12080,
-     "distal": 3308,
-     "across_the_middle": 2266,
-     "proximal_to_distal": 3.65,
-     "touch_longest_in_frame": 16009,
-     "touch_longest_in_frame_expected_at_random": 9537.0,
-     "longest in frame in the proximal half": {
-      "localised": 14449,
-      "proximal": 11154,
-      "distal": 1597
+     "localised": 12507,
+     "near": 8507,
+     "far": 2334,
+     "near_to_far": 3.645,
+     "across_the_middle": 1666,
+     "touch_longest_in_frame": 11628,
+     "touch_longest_in_frame_expected_at_random": 7596.0,
+     "longest in frame wholly in the near half": {
+      "localised": 9032,
+      "near": 7730,
+      "far": 404,
+      "near_to_far": 19.134
      },
-     "longest in frame in the distal half": {
-      "localised": 3199,
-      "proximal": 926,
-      "distal": 1711
+     "longest in frame wholly in the far half": {
+      "localised": 539,
+      "near": 116,
+      "far": 344,
+      "near_to_far": 0.337
+     },
+     "longest in frame across the middle": {
+      "localised": 2936,
+      "near": 661,
+      "far": 1586,
+      "near_to_far": 0.417
      },
      "not touching the longest in frame": {
-      "localised": 1639,
-      "proximal": 598,
-      "distal": 745
+      "localised": 879,
+      "near": 258,
+      "far": 442,
+      "near_to_far": 0.584
+     },
+     "single events": {
+      "localised": 9553,
+      "near": 7277,
+      "far": 1494,
+      "near_to_far": 4.871
      },
      "by_te_strand": {
       "+": {
-       "proximal": 6304,
-       "distal": 1805
+       "localised": 6712,
+       "near": 4510,
+       "far": 1302,
+       "near_to_far": 3.464
       },
       "-": {
-       "proximal": 5776,
-       "distal": 1503
+       "localised": 5795,
+       "near": 3997,
+       "far": 1032,
+       "near_to_far": 3.873
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 9510,
+      "near": 7209,
+      "far": 1124,
+      "near_to_far": 6.414
+     },
+     "halves within 0.05 in A": {
+      "localised": 2210,
+      "near": 943,
+      "far": 938,
+      "near_to_far": 1.005
+     },
+     "far half richer in A": {
+      "localised": 576,
+      "near": 237,
+      "far": 225,
+      "near_to_far": 1.053
+     },
+     "near_end_excess_beyond_the_purest_stretch": 2.539
     },
     "8-12 %": {
-     "differences": 142218,
-     "arrays": 94175,
-     "gains": 70969,
-     "losses": 71249,
+     "differences": 112583,
+     "arrays": 75017,
+     "gains": {
+      "localised": 19289,
+      "near": 13325,
+      "far": 3618,
+      "near_to_far": 3.683
+     },
+     "losses": {
+      "localised": 17771,
+      "near": 11884,
+      "far": 3015,
+      "near_to_far": 3.942
+     },
+     "single_events": 103117,
      "stretch_share_of_array_quartiles": [
-      0.333,
-      0.718,
+      0.4037,
+      1.0,
       1.0
      ],
-     "localised": 54329,
-     "proximal": 36220,
-     "distal": 10503,
-     "across_the_middle": 7633,
-     "proximal_to_distal": 3.45,
-     "touch_longest_in_frame": 48461,
-     "touch_longest_in_frame_expected_at_random": 28872.6,
-     "longest in frame in the proximal half": {
-      "localised": 43295,
-      "proximal": 33066,
-      "distal": 4644
+     "localised": 37060,
+     "near": 25209,
+     "far": 6633,
+     "near_to_far": 3.801,
+     "across_the_middle": 5218,
+     "touch_longest_in_frame": 33971,
+     "touch_longest_in_frame_expected_at_random": 22014.5,
+     "longest in frame wholly in the near half": {
+      "localised": 26867,
+      "near": 22869,
+      "far": 1315,
+      "near_to_far": 17.391
      },
-     "longest in frame in the distal half": {
-      "localised": 11034,
-      "proximal": 3154,
-      "distal": 5859
+     "longest in frame wholly in the far half": {
+      "localised": 2138,
+      "near": 333,
+      "far": 1499,
+      "near_to_far": 0.222
+     },
+     "longest in frame across the middle": {
+      "localised": 8055,
+      "near": 2007,
+      "far": 3819,
+      "near_to_far": 0.526
      },
      "not touching the longest in frame": {
-      "localised": 5868,
-      "proximal": 2114,
-      "distal": 2531
+      "localised": 3089,
+      "near": 887,
+      "far": 1528,
+      "near_to_far": 0.58
+     },
+     "single events": {
+      "localised": 29275,
+      "near": 21926,
+      "far": 4595,
+      "near_to_far": 4.772
      },
      "by_te_strand": {
       "+": {
-       "proximal": 18327,
-       "distal": 5666
+       "localised": 19460,
+       "near": 12999,
+       "far": 3694,
+       "near_to_far": 3.519
       },
       "-": {
-       "proximal": 17893,
-       "distal": 4837
+       "localised": 17600,
+       "near": 12210,
+       "far": 2939,
+       "near_to_far": 4.154
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 27839,
+      "near": 21186,
+      "far": 3077,
+      "near_to_far": 6.885
+     },
+     "halves within 0.05 in A": {
+      "localised": 6523,
+      "near": 2938,
+      "far": 2514,
+      "near_to_far": 1.169
+     },
+     "far half richer in A": {
+      "localised": 2221,
+      "near": 758,
+      "far": 971,
+      "near_to_far": 0.781
+     },
+     "near_end_excess_beyond_the_purest_stretch": 1.965
     },
     "12-16 %": {
-     "differences": 79562,
-     "arrays": 52587,
-     "gains": 39605,
-     "losses": 39957,
+     "differences": 55641,
+     "arrays": 37195,
+     "gains": {
+      "localised": 11086,
+      "near": 7364,
+      "far": 2285,
+      "near_to_far": 3.223
+     },
+     "losses": {
+      "localised": 10234,
+      "near": 6519,
+      "far": 1864,
+      "near_to_far": 3.497
+     },
+     "single_events": 49827,
      "stretch_share_of_array_quartiles": [
-      0.286,
-      0.605,
+      0.35,
+      0.7,
       1.0
      ],
-     "localised": 34517,
-     "proximal": 21096,
-     "distal": 7831,
-     "across_the_middle": 5600,
-     "proximal_to_distal": 2.69,
-     "touch_longest_in_frame": 29699,
-     "touch_longest_in_frame_expected_at_random": 17739.0,
-     "longest in frame in the proximal half": {
-      "localised": 25673,
-      "proximal": 18728,
-      "distal": 3120
+     "localised": 21320,
+     "near": 13883,
+     "far": 4149,
+     "near_to_far": 3.346,
+     "across_the_middle": 3288,
+     "touch_longest_in_frame": 18960,
+     "touch_longest_in_frame_expected_at_random": 12180.5,
+     "longest in frame wholly in the near half": {
+      "localised": 14902,
+      "near": 12360,
+      "far": 944,
+      "near_to_far": 13.093
      },
-     "longest in frame in the distal half": {
-      "localised": 8844,
-      "proximal": 2368,
-      "distal": 4711
+     "longest in frame wholly in the far half": {
+      "localised": 1913,
+      "near": 285,
+      "far": 1353,
+      "near_to_far": 0.211
+     },
+     "longest in frame across the middle": {
+      "localised": 4505,
+      "near": 1238,
+      "far": 1852,
+      "near_to_far": 0.668
      },
      "not touching the longest in frame": {
-      "localised": 4818,
-      "proximal": 1703,
-      "distal": 2030
+      "localised": 2360,
+      "near": 663,
+      "far": 1122,
+      "near_to_far": 0.591
+     },
+     "single events": {
+      "localised": 16668,
+      "near": 11878,
+      "far": 2982,
+      "near_to_far": 3.983
      },
      "by_te_strand": {
       "+": {
-       "proximal": 10662,
-       "distal": 4047
+       "localised": 11126,
+       "near": 7126,
+       "far": 2195,
+       "near_to_far": 3.246
       },
       "-": {
-       "proximal": 10434,
-       "distal": 3784
+       "localised": 10194,
+       "near": 6757,
+       "far": 1954,
+       "near_to_far": 3.458
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 15184,
+      "near": 11288,
+      "far": 1819,
+      "near_to_far": 6.206
+     },
+     "halves within 0.05 in A": {
+      "localised": 4139,
+      "near": 1890,
+      "far": 1425,
+      "near_to_far": 1.326
+     },
+     "far half richer in A": {
+      "localised": 1719,
+      "near": 521,
+      "far": 855,
+      "near_to_far": 0.609
+     },
+     "near_end_excess_beyond_the_purest_stretch": 1.662
     },
     "16-20 %": {
-     "differences": 33249,
-     "arrays": 21833,
-     "gains": 16375,
-     "losses": 16874,
+     "differences": 18967,
+     "arrays": 12656,
+     "gains": {
+      "localised": 4132,
+      "near": 2602,
+      "far": 962,
+      "near_to_far": 2.705
+     },
+     "losses": {
+      "localised": 3803,
+      "near": 2243,
+      "far": 828,
+      "near_to_far": 2.709
+     },
+     "single_events": 16858,
      "stretch_share_of_array_quartiles": [
-      0.25,
-      0.548,
+      0.3077,
+      0.6316,
       1.0
      ],
-     "localised": 15658,
-     "proximal": 8709,
-     "distal": 4133,
-     "across_the_middle": 2818,
-     "proximal_to_distal": 2.11,
-     "touch_longest_in_frame": 13009,
-     "touch_longest_in_frame_expected_at_random": 7810.3,
-     "longest in frame in the proximal half": {
-      "localised": 10706,
-      "proximal": 7469,
-      "distal": 1483
+     "localised": 7935,
+     "near": 4845,
+     "far": 1790,
+     "near_to_far": 2.707,
+     "across_the_middle": 1300,
+     "touch_longest_in_frame": 6777,
+     "touch_longest_in_frame_expected_at_random": 4321.0,
+     "longest in frame wholly in the near half": {
+      "localised": 5276,
+      "near": 4265,
+      "far": 455,
+      "near_to_far": 9.374
      },
-     "longest in frame in the distal half": {
-      "localised": 4952,
-      "proximal": 1240,
-      "distal": 2650
+     "longest in frame wholly in the far half": {
+      "localised": 988,
+      "near": 153,
+      "far": 686,
+      "near_to_far": 0.223
+     },
+     "longest in frame across the middle": {
+      "localised": 1671,
+      "near": 427,
+      "far": 649,
+      "near_to_far": 0.658
      },
      "not touching the longest in frame": {
-      "localised": 2649,
-      "proximal": 1018,
-      "distal": 1076
+      "localised": 1158,
+      "near": 380,
+      "far": 551,
+      "near_to_far": 0.69
+     },
+     "single events": {
+      "localised": 6287,
+      "near": 4192,
+      "far": 1353,
+      "near_to_far": 3.098
      },
      "by_te_strand": {
       "+": {
-       "proximal": 4327,
-       "distal": 2097
+       "localised": 4143,
+       "near": 2498,
+       "far": 957,
+       "near_to_far": 2.61
       },
       "-": {
-       "proximal": 4382,
-       "distal": 2036
+       "localised": 3792,
+       "near": 2347,
+       "far": 833,
+       "near_to_far": 2.818
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 5362,
+      "near": 3813,
+      "far": 767,
+      "near_to_far": 4.971
+     },
+     "halves within 0.05 in A": {
+      "localised": 1624,
+      "near": 722,
+      "far": 594,
+      "near_to_far": 1.215
+     },
+     "far half richer in A": {
+      "localised": 865,
+      "near": 260,
+      "far": 405,
+      "near_to_far": 0.642
+     },
+     "near_end_excess_beyond_the_purest_stretch": 1.446
     },
     "20 %+": {
-     "differences": 5820,
-     "arrays": 3803,
-     "gains": 2797,
-     "losses": 3023,
+     "differences": 2529,
+     "arrays": 1684,
+     "gains": {
+      "localised": 634,
+      "near": 348,
+      "far": 170,
+      "near_to_far": 2.047
+     },
+     "losses": {
+      "localised": 575,
+      "near": 310,
+      "far": 150,
+      "near_to_far": 2.067
+     },
+     "single_events": 2135,
      "stretch_share_of_array_quartiles": [
-      0.218,
-      0.492,
+      0.2545,
+      0.5472,
       1.0
      ],
-     "localised": 2974,
-     "proximal": 1425,
-     "distal": 962,
-     "across_the_middle": 592,
-     "proximal_to_distal": 1.48,
-     "touch_longest_in_frame": 2374,
-     "touch_longest_in_frame_expected_at_random": 1419.5,
-     "longest in frame in the proximal half": {
-      "localised": 1790,
-      "proximal": 1156,
-      "distal": 298
+     "localised": 1209,
+     "near": 658,
+     "far": 320,
+     "near_to_far": 2.056,
+     "across_the_middle": 231,
+     "touch_longest_in_frame": 977,
+     "touch_longest_in_frame_expected_at_random": 629.3,
+     "longest in frame wholly in the near half": {
+      "localised": 732,
+      "near": 551,
+      "far": 80,
+      "near_to_far": 6.888
      },
-     "longest in frame in the distal half": {
-      "localised": 1184,
-      "proximal": 269,
-      "distal": 664
+     "longest in frame wholly in the far half": {
+      "localised": 230,
+      "near": 40,
+      "far": 157,
+      "near_to_far": 0.255
+     },
+     "longest in frame across the middle": {
+      "localised": 247,
+      "near": 67,
+      "far": 83,
+      "near_to_far": 0.807
      },
      "not touching the longest in frame": {
-      "localised": 600,
-      "proximal": 224,
-      "distal": 244
+      "localised": 232,
+      "near": 82,
+      "far": 108,
+      "near_to_far": 0.759
+     },
+     "single events": {
+      "localised": 917,
+      "near": 545,
+      "far": 247,
+      "near_to_far": 2.206
      },
      "by_te_strand": {
       "+": {
-       "proximal": 667,
-       "distal": 474
+       "localised": 584,
+       "near": 305,
+       "far": 160,
+       "near_to_far": 1.906
       },
       "-": {
-       "proximal": 758,
-       "distal": 488
+       "localised": 625,
+       "near": 353,
+       "far": 160,
+       "near_to_far": 2.206
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 742,
+      "near": 488,
+      "far": 132,
+      "near_to_far": 3.697
+     },
+     "halves within 0.05 in A": {
+      "localised": 269,
+      "near": 107,
+      "far": 107,
+      "near_to_far": 1.0
+     },
+     "far half richer in A": {
+      "localised": 181,
+      "near": 55,
+      "far": 72,
+      "near_to_far": 0.764
+     },
+     "near_end_excess_beyond_the_purest_stretch": 1.325
     }
    },
    "L1": {
     "all": {
-     "differences": 58407,
-     "arrays": 38100,
-     "gains": 27251,
-     "losses": 31156,
+     "differences": 14432,
+     "arrays": 9733,
+     "gains": {
+      "localised": 3945,
+      "near": 1537,
+      "far": 1624,
+      "near_to_far": 0.946
+     },
+     "losses": {
+      "localised": 3890,
+      "near": 1412,
+      "far": 1550,
+      "near_to_far": 0.911
+     },
+     "single_events": 12290,
      "stretch_share_of_array_quartiles": [
-      0.232,
-      0.542,
+      0.2174,
+      0.4545,
       1.0
      ],
-     "localised": 27699,
-     "proximal": 11471,
-     "distal": 10656,
-     "across_the_middle": 5582,
-     "proximal_to_distal": 1.08,
-     "touch_longest_in_frame": 23187,
-     "touch_longest_in_frame_expected_at_random": 14361.0,
-     "longest in frame in the proximal half": {
-      "localised": 13241,
-      "proximal": 8336,
-      "distal": 2144
+     "localised": 7835,
+     "near": 2949,
+     "far": 3174,
+     "near_to_far": 0.929,
+     "across_the_middle": 1712,
+     "touch_longest_in_frame": 6478,
+     "touch_longest_in_frame_expected_at_random": 4419.1,
+     "longest in frame wholly in the near half": {
+      "localised": 2702,
+      "near": 1943,
+      "far": 386,
+      "near_to_far": 5.034
      },
-     "longest in frame in the distal half": {
-      "localised": 14458,
-      "proximal": 3135,
-      "distal": 8512
+     "longest in frame wholly in the far half": {
+      "localised": 2833,
+      "near": 366,
+      "far": 2090,
+      "near_to_far": 0.175
+     },
+     "longest in frame across the middle": {
+      "localised": 2300,
+      "near": 640,
+      "far": 698,
+      "near_to_far": 0.917
      },
      "not touching the longest in frame": {
-      "localised": 4512,
-      "proximal": 1938,
-      "distal": 1765
+      "localised": 1357,
+      "near": 566,
+      "far": 559,
+      "near_to_far": 1.013
+     },
+     "single events": {
+      "localised": 6157,
+      "near": 2390,
+      "far": 2676,
+      "near_to_far": 0.893
      },
      "by_te_strand": {
       "+": {
-       "proximal": 5669,
-       "distal": 5345
+       "localised": 3935,
+       "near": 1496,
+       "far": 1596,
+       "near_to_far": 0.937
       },
       "-": {
-       "proximal": 5802,
-       "distal": 5311
+       "localised": 3900,
+       "near": 1453,
+       "far": 1578,
+       "near_to_far": 0.921
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 2958,
+      "near": 1641,
+      "far": 725,
+      "near_to_far": 2.263
+     },
+     "halves within 0.05 in A": {
+      "localised": 1954,
+      "near": 747,
+      "far": 785,
+      "near_to_far": 0.952
+     },
+     "far half richer in A": {
+      "localised": 2798,
+      "near": 517,
+      "far": 1621,
+      "near_to_far": 0.319
+     },
+     "near_end_excess_beyond_the_purest_stretch": 0.939
     },
     "0-4 %": {
-     "differences": 5427,
-     "arrays": 3595,
-     "gains": 2587,
-     "losses": 2840,
-     "stretch_share_of_array_quartiles": [
-      0.179,
-      0.37,
-      0.733
-     ],
-     "localised": 3388,
-     "proximal": 1388,
-     "distal": 1200,
-     "across_the_middle": 803,
-     "proximal_to_distal": 1.16,
-     "touch_longest_in_frame": 2699,
-     "touch_longest_in_frame_expected_at_random": 1708.2,
-     "longest in frame in the proximal half": {
-      "localised": 1651,
-      "proximal": 1000,
-      "distal": 278
+     "differences": 4832,
+     "arrays": 3214,
+     "gains": {
+      "localised": 1484,
+      "near": 582,
+      "far": 578,
+      "near_to_far": 1.007
      },
-     "longest in frame in the distal half": {
-      "localised": 1737,
-      "proximal": 388,
-      "distal": 922
+     "losses": {
+      "localised": 1459,
+      "near": 510,
+      "far": 526,
+      "near_to_far": 0.97
+     },
+     "single_events": 3794,
+     "stretch_share_of_array_quartiles": [
+      0.1935,
+      0.3929,
+      0.751
+     ],
+     "localised": 2943,
+     "near": 1092,
+     "far": 1104,
+     "near_to_far": 0.989,
+     "across_the_middle": 747,
+     "touch_longest_in_frame": 2330,
+     "touch_longest_in_frame_expected_at_random": 1586.9,
+     "longest in frame wholly in the near half": {
+      "localised": 1031,
+      "near": 678,
+      "far": 170,
+      "near_to_far": 3.988
+     },
+     "longest in frame wholly in the far half": {
+      "localised": 1131,
+      "near": 187,
+      "far": 721,
+      "near_to_far": 0.259
+     },
+     "longest in frame across the middle": {
+      "localised": 781,
+      "near": 227,
+      "far": 213,
+      "near_to_far": 1.066
      },
      "not touching the longest in frame": {
-      "localised": 689,
-      "proximal": 335,
-      "distal": 241
+      "localised": 613,
+      "near": 285,
+      "far": 224,
+      "near_to_far": 1.272
+     },
+     "single events": {
+      "localised": 2147,
+      "near": 831,
+      "far": 902,
+      "near_to_far": 0.921
      },
      "by_te_strand": {
       "+": {
-       "proximal": 711,
-       "distal": 637
+       "localised": 1520,
+       "near": 568,
+       "far": 585,
+       "near_to_far": 0.971
       },
       "-": {
-       "proximal": 677,
-       "distal": 563
+       "localised": 1423,
+       "near": 524,
+       "far": 519,
+       "near_to_far": 1.01
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 1040,
+      "near": 580,
+      "far": 237,
+      "near_to_far": 2.447
+     },
+     "halves within 0.05 in A": {
+      "localised": 776,
+      "near": 288,
+      "far": 291,
+      "near_to_far": 0.99
+     },
+     "far half richer in A": {
+      "localised": 1069,
+      "near": 208,
+      "far": 560,
+      "near_to_far": 0.371
+     },
+     "near_end_excess_beyond_the_purest_stretch": 1.016
     },
     "4-8 %": {
-     "differences": 5349,
-     "arrays": 3563,
-     "gains": 2558,
-     "losses": 2791,
+     "differences": 3917,
+     "arrays": 2650,
+     "gains": {
+      "localised": 1027,
+      "near": 402,
+      "far": 432,
+      "near_to_far": 0.931
+     },
+     "losses": {
+      "localised": 985,
+      "near": 388,
+      "far": 394,
+      "near_to_far": 0.985
+     },
+     "single_events": 3416,
      "stretch_share_of_array_quartiles": [
-      0.2,
-      0.448,
+      0.2222,
+      0.4872,
       1.0
      ],
-     "localised": 2930,
-     "proximal": 1213,
-     "distal": 1158,
-     "across_the_middle": 559,
-     "proximal_to_distal": 1.05,
-     "touch_longest_in_frame": 2408,
-     "touch_longest_in_frame_expected_at_random": 1491.1,
-     "longest in frame in the proximal half": {
-      "localised": 1466,
-      "proximal": 934,
-      "distal": 253
+     "localised": 2012,
+     "near": 790,
+     "far": 826,
+     "near_to_far": 0.956,
+     "across_the_middle": 396,
+     "touch_longest_in_frame": 1673,
+     "touch_longest_in_frame_expected_at_random": 1138.2,
+     "longest in frame wholly in the near half": {
+      "localised": 734,
+      "near": 545,
+      "far": 105,
+      "near_to_far": 5.19
      },
-     "longest in frame in the distal half": {
-      "localised": 1464,
-      "proximal": 279,
-      "distal": 905
+     "longest in frame wholly in the far half": {
+      "localised": 703,
+      "near": 77,
+      "far": 552,
+      "near_to_far": 0.139
+     },
+     "longest in frame across the middle": {
+      "localised": 575,
+      "near": 168,
+      "far": 169,
+      "near_to_far": 0.994
      },
      "not touching the longest in frame": {
-      "localised": 522,
-      "proximal": 185,
-      "distal": 240
+      "localised": 339,
+      "near": 121,
+      "far": 152,
+      "near_to_far": 0.796
+     },
+     "single events": {
+      "localised": 1629,
+      "near": 655,
+      "far": 709,
+      "near_to_far": 0.924
      },
      "by_te_strand": {
       "+": {
-       "proximal": 612,
-       "distal": 577
+       "localised": 1031,
+       "near": 405,
+       "far": 418,
+       "near_to_far": 0.969
       },
       "-": {
-       "proximal": 601,
-       "distal": 581
+       "localised": 981,
+       "near": 385,
+       "far": 408,
+       "near_to_far": 0.944
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 794,
+      "near": 437,
+      "far": 209,
+      "near_to_far": 2.091
+     },
+     "halves within 0.05 in A": {
+      "localised": 453,
+      "near": 192,
+      "far": 175,
+      "near_to_far": 1.097
+     },
+     "far half richer in A": {
+      "localised": 733,
+      "near": 149,
+      "far": 431,
+      "near_to_far": 0.346
+     },
+     "near_end_excess_beyond_the_purest_stretch": 0.849
     },
     "8-12 %": {
-     "differences": 5847,
-     "arrays": 3803,
-     "gains": 2645,
-     "losses": 3202,
+     "differences": 2247,
+     "arrays": 1535,
+     "gains": {
+      "localised": 601,
+      "near": 241,
+      "far": 267,
+      "near_to_far": 0.903
+     },
+     "losses": {
+      "localised": 586,
+      "near": 215,
+      "far": 250,
+      "near_to_far": 0.86
+     },
+     "single_events": 2007,
      "stretch_share_of_array_quartiles": [
-      0.222,
-      0.511,
+      0.2381,
+      0.4762,
       1.0
      ],
-     "localised": 2900,
-     "proximal": 1204,
-     "distal": 1157,
-     "across_the_middle": 541,
-     "proximal_to_distal": 1.04,
-     "touch_longest_in_frame": 2440,
-     "touch_longest_in_frame_expected_at_random": 1518.4,
-     "longest in frame in the proximal half": {
-      "localised": 1372,
-      "proximal": 850,
-      "distal": 226
+     "localised": 1187,
+     "near": 456,
+     "far": 517,
+     "near_to_far": 0.882,
+     "across_the_middle": 214,
+     "touch_longest_in_frame": 1024,
+     "touch_longest_in_frame_expected_at_random": 699.7,
+     "longest in frame wholly in the near half": {
+      "localised": 397,
+      "near": 312,
+      "far": 48,
+      "near_to_far": 6.5
      },
-     "longest in frame in the distal half": {
-      "localised": 1528,
-      "proximal": 354,
-      "distal": 931
+     "longest in frame wholly in the far half": {
+      "localised": 411,
+      "near": 37,
+      "far": 350,
+      "near_to_far": 0.106
+     },
+     "longest in frame across the middle": {
+      "localised": 379,
+      "near": 107,
+      "far": 119,
+      "near_to_far": 0.899
      },
      "not touching the longest in frame": {
-      "localised": 460,
-      "proximal": 198,
-      "distal": 197
+      "localised": 163,
+      "near": 65,
+      "far": 82,
+      "near_to_far": 0.793
+     },
+     "single events": {
+      "localised": 998,
+      "near": 397,
+      "far": 446,
+      "near_to_far": 0.89
      },
      "by_te_strand": {
       "+": {
-       "proximal": 584,
-       "distal": 569
+       "localised": 566,
+       "near": 230,
+       "far": 252,
+       "near_to_far": 0.913
       },
       "-": {
-       "proximal": 620,
-       "distal": 588
+       "localised": 621,
+       "near": 226,
+       "far": 265,
+       "near_to_far": 0.853
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 462,
+      "near": 253,
+      "far": 118,
+      "near_to_far": 2.144
+     },
+     "halves within 0.05 in A": {
+      "localised": 292,
+      "near": 116,
+      "far": 120,
+      "near_to_far": 0.967
+     },
+     "far half richer in A": {
+      "localised": 418,
+      "near": 79,
+      "far": 273,
+      "near_to_far": 0.289
+     },
+     "near_end_excess_beyond_the_purest_stretch": 0.83
     },
     "12-16 %": {
-     "differences": 7416,
-     "arrays": 4785,
-     "gains": 3456,
-     "losses": 3960,
+     "differences": 1437,
+     "arrays": 982,
+     "gains": {
+      "localised": 382,
+      "near": 118,
+      "far": 170,
+      "near_to_far": 0.694
+     },
+     "losses": {
+      "localised": 379,
+      "near": 117,
+      "far": 181,
+      "near_to_far": 0.646
+     },
+     "single_events": 1276,
      "stretch_share_of_array_quartiles": [
-      0.246,
-      0.579,
+      0.2222,
+      0.4615,
       1.0
      ],
-     "localised": 3329,
-     "proximal": 1316,
-     "distal": 1360,
-     "across_the_middle": 653,
-     "proximal_to_distal": 0.97,
-     "touch_longest_in_frame": 2782,
-     "touch_longest_in_frame_expected_at_random": 1721.6,
-     "longest in frame in the proximal half": {
-      "localised": 1558,
-      "proximal": 954,
-      "distal": 281
+     "localised": 761,
+     "near": 235,
+     "far": 351,
+     "near_to_far": 0.67,
+     "across_the_middle": 175,
+     "touch_longest_in_frame": 649,
+     "touch_longest_in_frame_expected_at_random": 446.1,
+     "longest in frame wholly in the near half": {
+      "localised": 207,
+      "near": 151,
+      "far": 30,
+      "near_to_far": 5.033
      },
-     "longest in frame in the distal half": {
-      "localised": 1771,
-      "proximal": 362,
-      "distal": 1079
+     "longest in frame wholly in the far half": {
+      "localised": 293,
+      "near": 33,
+      "far": 231,
+      "near_to_far": 0.143
+     },
+     "longest in frame across the middle": {
+      "localised": 261,
+      "near": 51,
+      "far": 90,
+      "near_to_far": 0.567
      },
      "not touching the longest in frame": {
-      "localised": 547,
-      "proximal": 215,
-      "distal": 230
+      "localised": 112,
+      "near": 47,
+      "far": 46,
+      "near_to_far": 1.022
+     },
+     "single events": {
+      "localised": 627,
+      "near": 194,
+      "far": 303,
+      "near_to_far": 0.64
      },
      "by_te_strand": {
       "+": {
-       "proximal": 617,
-       "distal": 705
+       "localised": 350,
+       "near": 106,
+       "far": 150,
+       "near_to_far": 0.707
       },
       "-": {
-       "proximal": 699,
-       "distal": 655
+       "localised": 411,
+       "near": 129,
+       "far": 201,
+       "near_to_far": 0.642
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 281,
+      "near": 144,
+      "far": 77,
+      "near_to_far": 1.87
+     },
+     "halves within 0.05 in A": {
+      "localised": 183,
+      "near": 55,
+      "far": 89,
+      "near_to_far": 0.618
+     },
+     "far half richer in A": {
+      "localised": 291,
+      "near": 31,
+      "far": 184,
+      "near_to_far": 0.168
+     },
+     "near_end_excess_beyond_the_purest_stretch": 0.848
     },
     "16-20 %": {
-     "differences": 8834,
-     "arrays": 5736,
-     "gains": 4038,
-     "losses": 4796,
+     "differences": 1013,
+     "arrays": 682,
+     "gains": {
+      "localised": 233,
+      "near": 101,
+      "far": 92,
+      "near_to_far": 1.098
+     },
+     "losses": {
+      "localised": 279,
+      "near": 109,
+      "far": 123,
+      "near_to_far": 0.886
+     },
+     "single_events": 908,
      "stretch_share_of_array_quartiles": [
-      0.243,
-      0.582,
+      0.2188,
+      0.494,
       1.0
      ],
-     "localised": 3975,
-     "proximal": 1712,
-     "distal": 1511,
-     "across_the_middle": 754,
-     "proximal_to_distal": 1.13,
-     "touch_longest_in_frame": 3399,
-     "touch_longest_in_frame_expected_at_random": 2088.5,
-     "longest in frame in the proximal half": {
-      "localised": 1895,
-      "proximal": 1232,
-      "distal": 277
+     "localised": 512,
+     "near": 210,
+     "far": 215,
+     "near_to_far": 0.977,
+     "across_the_middle": 87,
+     "touch_longest_in_frame": 440,
+     "touch_longest_in_frame_expected_at_random": 285.5,
+     "longest in frame wholly in the near half": {
+      "localised": 191,
+      "near": 152,
+      "far": 18,
+      "near_to_far": 8.444
      },
-     "longest in frame in the distal half": {
-      "localised": 2080,
-      "proximal": 480,
-      "distal": 1234
+     "longest in frame wholly in the far half": {
+      "localised": 173,
+      "near": 13,
+      "far": 141,
+      "near_to_far": 0.092
+     },
+     "longest in frame across the middle": {
+      "localised": 148,
+      "near": 45,
+      "far": 56,
+      "near_to_far": 0.804
      },
      "not touching the longest in frame": {
-      "localised": 576,
-      "proximal": 257,
-      "distal": 210
+      "localised": 72,
+      "near": 23,
+      "far": 34,
+      "near_to_far": 0.676
+     },
+     "single events": {
+      "localised": 422,
+      "near": 182,
+      "far": 183,
+      "near_to_far": 0.995
      },
      "by_te_strand": {
       "+": {
-       "proximal": 828,
-       "distal": 734
+       "localised": 261,
+       "near": 97,
+       "far": 112,
+       "near_to_far": 0.866
       },
       "-": {
-       "proximal": 884,
-       "distal": 777
+       "localised": 251,
+       "near": 113,
+       "far": 103,
+       "near_to_far": 1.097
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 218,
+      "near": 129,
+      "far": 55,
+      "near_to_far": 2.345
+     },
+     "halves within 0.05 in A": {
+      "localised": 142,
+      "near": 53,
+      "far": 69,
+      "near_to_far": 0.768
+     },
+     "far half richer in A": {
+      "localised": 141,
+      "near": 26,
+      "far": 84,
+      "near_to_far": 0.31
+     },
+     "near_end_excess_beyond_the_purest_stretch": 0.881
     },
     "20 %+": {
-     "differences": 25534,
-     "arrays": 16618,
-     "gains": 11967,
-     "losses": 13567,
+     "differences": 986,
+     "arrays": 670,
+     "gains": {
+      "localised": 218,
+      "near": 93,
+      "far": 85,
+      "near_to_far": 1.094
+     },
+     "losses": {
+      "localised": 202,
+      "near": 73,
+      "far": 76,
+      "near_to_far": 0.961
+     },
+     "single_events": 889,
      "stretch_share_of_array_quartiles": [
-      0.262,
-      0.6,
+      0.2935,
+      0.6875,
       1.0
      ],
-     "localised": 11177,
-     "proximal": 4638,
-     "distal": 4270,
-     "across_the_middle": 2272,
-     "proximal_to_distal": 1.09,
-     "touch_longest_in_frame": 9459,
-     "touch_longest_in_frame_expected_at_random": 5833.3,
-     "longest in frame in the proximal half": {
-      "localised": 5299,
-      "proximal": 3366,
-      "distal": 829
+     "localised": 420,
+     "near": 166,
+     "far": 161,
+     "near_to_far": 1.031,
+     "across_the_middle": 93,
+     "touch_longest_in_frame": 362,
+     "touch_longest_in_frame_expected_at_random": 262.7,
+     "longest in frame wholly in the near half": {
+      "localised": 142,
+      "near": 105,
+      "far": 15,
+      "near_to_far": 7.0
      },
-     "longest in frame in the distal half": {
-      "localised": 5878,
-      "proximal": 1272,
-      "distal": 3441
+     "longest in frame wholly in the far half": {
+      "localised": 122,
+      "near": 19,
+      "far": 95,
+      "near_to_far": 0.2
+     },
+     "longest in frame across the middle": {
+      "localised": 156,
+      "near": 42,
+      "far": 51,
+      "near_to_far": 0.824
      },
      "not touching the longest in frame": {
-      "localised": 1718,
-      "proximal": 748,
-      "distal": 647
+      "localised": 58,
+      "near": 25,
+      "far": 21,
+      "near_to_far": 1.19
+     },
+     "single events": {
+      "localised": 334,
+      "near": 131,
+      "far": 133,
+      "near_to_far": 0.985
      },
      "by_te_strand": {
       "+": {
-       "proximal": 2317,
-       "distal": 2123
+       "localised": 207,
+       "near": 90,
+       "far": 79,
+       "near_to_far": 1.139
       },
       "-": {
-       "proximal": 2321,
-       "distal": 2147
+       "localised": 213,
+       "near": 76,
+       "far": 82,
+       "near_to_far": 0.927
       }
-     }
+     },
+     "near half richer in A": {
+      "localised": 163,
+      "near": 98,
+      "far": 29,
+      "near_to_far": 3.379
+     },
+     "halves within 0.05 in A": {
+      "localised": 108,
+      "near": 43,
+      "far": 41,
+      "near_to_far": 1.049
+     },
+     "far half richer in A": {
+      "localised": 146,
+      "near": 24,
+      "far": 89,
+      "near_to_far": 0.27
+     },
+     "near_end_excess_beyond_the_purest_stretch": 1.183
     }
    }
   }
@@ -1233,7 +2605,7 @@
   "differences": 801890,
   "localised": 355505,
   "touch_longest_in_frame": 289494,
-  "expected_at_random": 201679.8,
+  "expected_at_random": 204705.1,
   "longest_in_frame_mean_share_of_locus": 0.3841
  }
 }
