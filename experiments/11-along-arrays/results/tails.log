@@ -1,0 +1,31 @@
+loci 7270921
+chr1 90048 [4s]
+chr2 81219 [7s]
+chr3 65251 [10s]
+chr4 56757 [12s]
+chr5 57399 [15s]
+chr6 57158 [18s]
+chr7 61816 [20s]
+chr8 47801 [22s]
+chr9 45105 [24s]
+chr10 50418 [26s]
+chr11 44938 [28s]
+chr12 52055 [29s]
+chr13 29769 [31s]
+chr14 33129 [32s]
+chr15 34450 [34s]
+chr16 40165 [35s]
+chr17 44312 [36s]
+chr18 24430 [37s]
+chr19 39648 [39s]
+chr20 25319 [39s]
+chr21 12831 [40s]
+chr22 18894 [41s]
+{"Alu": {"loci": 760533, "mutations": 154, "end incomplete": 134420, "end incomplete, mutations": 80, "complete, under half A": 59877, "complete, under half A, mutations": 26, "tails": 566236, "tails, mutations": 48}, "L1": {"loci": 252379, "mutations": 41, "end incomplete": 145728, "end incomplete, mutations": 34, "complete, under half A": 24450, "complete, under half A, mutations": 2, "tails": 82201, "tails, mutations": 5}}
+mutations Alu {'loci': 566236, 'share_of_loci': 0.0779, 'mutations': 48, 'share_of_mutations': 0.1091, 'expected_from_strata': 42.3, 'ratio': 1.13, 'ci': [0.84, 1.5]}
+mutations L1 {'loci': 82201, 'share_of_loci': 0.0113, 'mutations': 5, 'share_of_mutations': 0.0114, 'expected_from_strata': 3.5, 'ratio': 1.45, 'ci': [0.47, 3.38]}
+mutations either {'loci': 648437, 'share_of_loci': 0.0892, 'mutations': 53, 'share_of_mutations': 0.1205, 'expected_from_strata': 46.1, 'ratio': 1.15, 'ci': [0.86, 1.5]}
+mutations Alu {'loci': 0, 'share_of_loci': 0.0, 'mutations': 0, 'share_of_mutations': 0.0, 'expected_from_strata': 0.0, 'ratio': None, 'ci': None}
+mutations L1 {'loci': 0, 'share_of_loci': 0.0, 'mutations': 0, 'share_of_mutations': 0.0, 'expected_from_strata': 0.0, 'ratio': None, 'ci': None}
+mutations either {'loci': 364475, 'share_of_loci': 0.0501, 'mutations': 142, 'share_of_mutations': 0.3227, 'expected_from_strata': 105.0, 'ratio': 1.35, 'ci': [1.14, 1.59]}
+{"Alu": {"all arrays": {"all": {"arrays": 566236, "mean_length": 30.31, "median_divergence": 11.3, "a_share": 0.850103, "a_by_tenth": [0.94288, 0.911751, 0.873813, 0.851814, 0.830842, 0.816872, 0.804792, 0.799348, 0.819003, 0.849915], "longest_in_frame_share_of_array": 0.685068, "longest_in_frame_mean_bases": 15.64, "longest_in_frame_centre_relative": 0.429149, "longest_in_frame_wholly_in_near_half": 0.238507, "longest_in_frame_wholly_in_far_half": 0.058869, "poly_a_share": 0.682177}, "0-4 %": {"arrays": 8005, "mean_length": 30.82, "median_divergence": 1.9, "a_share": 0.925638, "a_by_tenth": [0.993889, 0.989162, 0.973321, 0.949578, 0.922006, 0.9021, 0.886145, 0.877034, 0.862851, 0.900293], "longest_in_frame_share_of_array": 0.819823, "longest_in_frame_mean_bases": 21.27, "longest_in_frame_centre_relative": 0.423943, "longest_in_frame_wholly_in_near_half": 0.16727, "longest_in_frame_wholly_in_far_half": 0.008245, "poly_a_share": 0.978763}, "4-8 %": {"arrays": 74102, "mean_length": 28.76, "median_divergence": 6.7, "a_share": 0.894136, "a_by_tenth": [0.97608, 0.961102, 0.933507, 0.905723, 0.879479, 0.862239, 0.848528, 0.845053, 0.848782, 0.880872], "longest_in_frame_share_of_array": 0.74404, "longest_in_frame_mean_bases": 17.03, "longest_in_frame_centre_relative": 0.420347, "longest_in_frame_wholly_in_near_half": 0.220089, "longest_in_frame_wholly_in_far_half": 0.031524, "poly_a_share": 0.87497}, "8-12 %": {"arrays": 241414, "mean_length": 29.54, "median_divergence": 10.2, "a_share": 0.863866, "a_by_tenth": [0.955457, 0.928725, 0.894147, 0.869169, 0.845282, 0.828611, 0.818273, 0.813356, 0.827927, 0.857717], "longest_in_frame_share_of_array": 0.695976, "longest_in_frame_mean_bases": 15.86, "longest_in_frame_centre_relative": 0.423416, "longest_in_frame_wholly_in_near_half": 0.242757, "longest_in_frame_wholly_in_far_half": 0.050407, "poly_a_share": 0.746539}, "12-16 %": {"arrays": 158104, "mean_length": 31.26, "median_divergence": 13.6, "a_share": 0.830277, "a_by_tenth": [0.928595, 0.889238, 0.847285, 0.827287, 0.808729, 0.796839, 0.784538, 0.778592, 0.805036, 0.836634], "longest_in_frame_share_of_array": 0.658124, "longest_in_frame_mean_bases": 15.11, "longest_in_frame_centre_relative": 0.4331, "longest_in_frame_wholly_in_near_half": 0.245364, "longest_in_frame_wholly_in_far_half": 0.071137, "poly_a_share": 0.594963}, "16-20 %": {"arrays": 71936, "mean_length": 31.53, "median_divergence": 17.4, "a_share": 0.806847, "a_by_tenth": [0.90449, 0.86104, 0.809799, 0.

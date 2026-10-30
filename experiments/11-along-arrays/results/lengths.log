@@ -1,0 +1,298 @@
+tail arrays 648437
+family differences at tails 204143 {"not in the catalogue's autosomal loci": 16936}
+chr1 {'arrays not called on both haplotypes': 2919, 'arrays called': 55848, 'haplotypes differing in length': 22911} [4s]
+chr2 {'arrays not called on both haplotypes': 4326, 'arrays called': 105386, 'haplotypes differing in length': 43080} [9s]
+chr3 {'arrays not called on both haplotypes': 4955, 'arrays called': 145846, 'haplotypes differing in length': 59430} [12s]
+chr4 {'arrays not called on both haplotypes': 5556, 'arrays called': 180900, 'haplotypes differing in length': 74441} [16s]
+chr5 {'arrays not called on both haplotypes': 6537, 'arrays called': 215818, 'haplotypes differing in length': 88573} [19s]
+chr6 {'arrays not called on both haplotypes': 6983, 'arrays called': 251619, 'haplotypes differing in length': 103341} [22s]
+chr7 {'arrays not called on both haplotypes': 9799, 'arrays called': 287932, 'haplotypes differing in length': 118020} [25s]
+chr8 {'arrays not called on both haplotypes': 11490, 'arrays called': 316524, 'haplotypes differing in length': 129566} [28s]
+chr9 {'arrays not called on both haplotypes': 14186, 'arrays called': 342549, 'haplotypes differing in length': 139905} [30s]
+chr10 {'arrays not called on both haplotypes': 15317, 'arrays called': 373706, 'haplotypes differing in length': 153721} [32s]
+chr11 {'arrays not called on both haplotypes': 15856, 'arrays called': 401880, 'haplotypes differing in length': 165787} [35s]
+chr12 {'arrays not called on both haplotypes': 16338, 'arrays called': 435142, 'haplotypes differing in length': 179517} [37s]
+chr13 {'arrays not called on both haplotypes': 16847, 'arrays called': 453198, 'haplotypes differing in length': 187841} [39s]
+chr14 {'arrays not called on both haplotypes': 17543, 'arrays called': 473931, 'haplotypes differing in length': 196643} [41s]
+chr15 {'arrays not called on both haplotypes': 18770, 'arrays called': 494666, 'haplotypes differing in length': 205549} [43s]
+chr16 {'arrays not called on both haplotypes': 20817, 'arrays called': 518997, 'haplotypes differing in length': 214793} [45s]
+chr17 {'arrays not called on both haplotypes': 22672, 'arrays called': 547058, 'haplotypes differing in length': 225587} [46s]
+chr18 {'arrays not called on both haplotypes': 23108, 'arrays called': 561800, 'haplotypes differing in length': 232042} [48s]
+chr19 {'arrays not called on both haplotypes': 23599, 'arrays called': 587851, 'haplotypes differing in length': 242184} [49s]
+chr20 {'arrays not called on both haplotypes': 24062, 'arrays called': 603657, 'haplotypes differing in length': 248393} [50s]
+chr21 {'arrays not called on both haplotypes': 24859, 'arrays called': 611029, 'haplotypes differing in length': 251772} [50s]
+chr22 {'arrays not called on both haplotypes': 26080, 'arrays called': 622357, 'haplotypes differing in length': 256008} [51s]
+{
+ "parents": [
+  "NA12877",
+  "NA12878"
+ ],
+ "family_skipped": {
+  "not in the catalogue's autosomal loci": 16936
+ },
+ "hg002": {
+  "arrays not called on both haplotypes": 26080,
+  "arrays called": 622357,
+  "haplotypes differing in length": 256008
+ },
+ "tails": {
+  "family": {
+   "Alu": {
+    "all": {
+     "differences": 186515,
+     "arrays": 87697,
+     "gains": {
+      "localised": 34882,
+      "near": 21516,
+      "far": 8300,
+      "near_to_far": 2.592
+     },
+     "losses": {
+      "localised": 30447,
+      "near": 18051,
+      "far": 6322,
+      "near_to_far": 2.855
+     },
+     "single_events": 170216,
+     "stretch_share_of_array_quartiles": [
+      0.386,
+      0.7895,
+      1.0
+     ],
+     "localised": 65329,
+     "near": 39567,
+     "far": 14622,
+     "near_to_far": 2.706,
+     "across_the_middle": 11140,
+     "touch_longest_in_frame": 56716,
+     "touch_longest_in_frame_expected_at_random": 39643.3,
+     "longest in frame wholly in the near half": {
+      "localised": 41764,
+      "near": 33715,
+      "far": 3411,
+      "near_to_far": 9.884
+     },
+     "longest in frame wholly in the far half": {
+      "localised": 6623,
+      "near": 1124,
+      "far": 4507,
+      "near_to_far": 0.249
+     },
+     "longest in frame across the middle": {
+      "localised": 16942,
+      "near": 4728,
+      "far": 6704,
+      "near_to_far": 0.705
+     },
+     "not touching the longest in frame": {
+      "localised": 8613,
+      "near": 2622,
+      "far": 4201,
+      "near_to_far": 0.624
+     },
+     "single events": {
+      "localised": 51849,
+      "near": 34075,
+      "far": 11023,
+      "near_to_far": 3.091
+     },
+     "by_te_strand": {
+      "+": {
+       "localised": 33286,
+       "near": 20006,
+       "far": 7422,
+       "near_to_far": 2.695
+      },
+      "-": {
+       "localised": 32043,
+       "near": 19561,
+       "far": 7200,
+       "near_to_far": 2.717
+      }
+     },
+     "near half richer in A": {
+      "localised": 43369,
+      "near": 30186,
+      "far": 6479,
+      "near_to_far": 4.659
+     },
+     "halves within 0.05 in A": {
+      "localised": 14546,
+      "near": 6698,
+      "far": 5000,
+      "near_to_far": 1.34
+     },
+     "far half richer in A": {
+      "localised": 6298,
+      "near": 1971,
+      "far": 2934,
+      "near_to_far": 0.672
+     },
+     "near_end_excess_beyond_the_purest_stretch": 1.569
+    },
+    "0-4 %": {
+     "differences": 3481,
+     "arrays": 1472,
+     "gains": {
+      "localised": 454,
+      "near": 247,
+      "far": 151,
+      "near_to_far": 1.636
+     },
+     "losses": {
+      "localised": 337,
+      "near": 188,
+      "far": 86,
+      "near_to_far": 2.186
+     },
+     "single_events": 3196,
+     "stretch_share_of_array_quartiles": [
+      0.5385,
+      1.0,
+      1.0
+     ],
+     "localised": 791,
+     "near": 435,
+     "far": 237,
+     "near_to_far": 1.835,
+     "across_the_middle": 119,
+     "touch_longest_in_frame": 730,
+     "touch_longest_in_frame_expected_at_random": 526.8,
+     "longest in frame wholly in the near half": {
+      "localised": 469,
+      "near": 377,
+      "far": 34,
+      "near_to_far": 11.088
+     },
+     "longest in frame wholly in the far half": {
+      "localised": 27,
+      "near": 5,
+      "far": 18,
+      "near_to_far": 0.278
+     },
+     "longest in frame across the middle": {
+      "localised": 295,
+      "near": 53,
+      "far": 185,
+      "near_to_far": 0.286
+     },
+     "not touching the longest in frame": {
+      "localised": 61,
+      "near": 16,
+      "far": 40,
+      "near_to_far": 0.4
+     },
+     "single events": {
+      "localised": 537,
+      "near": 355,
+      "far": 146,
+      "near_to_far": 2.432
+     },
+     "by_te_strand": {
+      "+": {
+       "localised": 445,
+       "near": 248,
+       "far": 133,
+       "near_to_far": 1.865
+      },
+      "-": {
+       "localised": 346,
+       "near": 187,
+       "far": 104,
+       "near_to_far": 1.798
+      }
+     },
+     "near half richer in A": {
+      "localised": 532,
+      "near": 332,
+      "far": 130,
+      "near_to_far": 2.554
+     },
+     "halves within 0.05 in A": {
+      "localised": 214,
+      "near": 77,
+      "far": 99,
+      "near_to_far": 0.778
+     },
+     "far half richer in A": {
+      "localised": 28,
+      "near": 16,
+      "far": 8,
+      "near_to_far": 2.0
+     },
+     "near_end_excess_beyond_the_purest_stretch": 1.756
+    },
+    "4-8 %": {
+     "differences": 30964,
+     "arrays": 14366,
+     "gains": {
+      "localised": 4580,
+      "near": 2947,
+      "far": 1009,
+      "near_to_far": 2.921
+     },
+     "losses": {
+      "localised": 4025,
+      "near": 2564,
+      "far": 779,
+      "near_to_far": 3.291
+     },
+     "single_events": 28738,
+     "stretch_share_of_array_quartiles": [
+      0.4667,
+      1.0,
+      1.0
+     ],
+     "localised": 8605,
+     "near": 5511,
+     "far": 1788,
+     "near_to_far": 3.082,
+     "across_the_middle": 1306,
+     "touch_longest_in_frame": 7748,
+     "touch_longest_in_frame_expected_at_random": 5517.7,
+     "longest in frame wholly in the near half": {
+      "localised": 5666,
+      "near": 4736,
+      "far": 385,
+      "near_to_far": 12.301
+     },
+     "longest in frame wholly in the far half": {
+      "localised": 557,
+      "near": 126,
+      "far": 344,
+      "near_to_far": 0.366
+     },
+     "longest in frame across the middle": {
+      "localised": 2382,
+      "near": 649,
+      "far": 1059,
+      "near_to_far": 0.613
+     },
+     "not touching the longest in frame": {
+      "localised": 857,
+      "near": 254,
+      "far": 434,
+      "near_to_far": 0.585
+     },
+     "single events": {
+      "localised": 6644,
+      "near": 4682,
+      "far": 1238,
+      "near_to_far": 3.782
+     },
+     "by_te_strand": {
+      "+": {
+       "localised": 4382,
+       "near": 2817,
+       "far": 893,
+       "near_to_far": 3.155
+      },
+      "-": {
+       "localised": 4223,
+       "near": 2694,
+       "far": 895,
+       "near_to_far": 3.01
+      }
+     },
+     "near half richer in A": {
+      "localised": 

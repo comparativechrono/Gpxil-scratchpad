@@ -1,0 +1,873 @@
+{
+ "biotypes": [
+  "protein_coding",
+  "lncRNA"
+ ],
+ "parents": [
+  "NA12877",
+  "NA12878"
+ ],
+ "loci": 7270921,
+ "groups": {
+  "poly(A)": {
+   "loci": 550930,
+   "sense": {
+    "loci": 143561,
+    "family_polymorphic": 32664,
+    "family_share": 0.2275,
+    "hg002_called": 139211,
+    "hg002_indel": 52560,
+    "hg002_share": 0.3776,
+    "new_tr_mutations": 5,
+    "mean_length": 17.1
+   },
+   "antisense": {
+    "loci": 184552,
+    "family_polymorphic": 40843,
+    "family_share": 0.2213,
+    "hg002_called": 179190,
+    "hg002_indel": 66745,
+    "hg002_share": 0.3725,
+    "new_tr_mutations": 2,
+    "mean_length": 17.1
+   },
+   "between genes": {
+    "loci": 134780,
+    "family_polymorphic": 33993,
+    "family_share": 0.2522,
+    "hg002_called": 127973,
+    "hg002_indel": 51412,
+    "hg002_share": 0.4017,
+    "new_tr_mutations": 3,
+    "mean_length": 17.0
+   },
+   "sense vs antisense": {
+    "family": {
+     "odds_ratio": 1.03,
+     "ci": [
+      1.013,
+      1.048
+     ],
+     "z": 3.48
+    },
+    "hg002": {
+     "odds_ratio": 1.028,
+     "ci": [
+      1.011,
+      1.044
+     ],
+     "z": 3.37
+    },
+    "new_tr_mutations": {
+     "exposed": 5,
+     "other": 2,
+     "rate_ratio": 3.181,
+     "ci": [
+      0.641,
+      15.785
+     ],
+     "z": 1.42
+    }
+   },
+   "sense vs between genes": {
+    "family": {
+     "odds_ratio": 0.864,
+     "ci": [
+      0.849,
+      0.88
+     ],
+     "z": -16.21
+    },
+    "hg002": {
+     "odds_ratio": 0.872,
+     "ci": [
+      0.857,
+      0.887
+     ],
+     "z": -15.74
+    },
+    "new_tr_mutations": {
+     "exposed": 5,
+     "other": 3,
+     "rate_ratio": 1.925,
+     "ci": [
+      0.411,
+      9.012
+     ],
+     "z": 0.83
+    }
+   },
+   "antisense vs between genes": {
+    "family": {
+     "odds_ratio": 0.839,
+     "ci": [
+      0.825,
+      0.853
+     ],
+     "z": -20.67
+    },
+    "hg002": {
+     "odds_ratio": 0.848,
+     "ci": [
+      0.835,
+      0.862
+     ],
+     "z": -19.98
+    },
+    "new_tr_mutations": {
+     "exposed": 2,
+     "other": 3,
+     "rate_ratio": 0.545,
+     "ci": [
+      0.083,
+      3.595
+     ],
+     "z": -0.63
+    }
+   },
+   "sense vs antisense, by origin": {
+    "Alu tail": {
+     "sense": 68203,
+     "antisense": 81118,
+     "family": {
+      "odds_ratio": 1.039,
+      "ci": [
+       1.013,
+       1.065
+      ],
+      "z": 2.99
+     },
+     "hg002": {
+      "odds_ratio": 1.029,
+      "ci": [
+       1.006,
+       1.053
+      ],
+      "z": 2.44
+     }
+    },
+    "L1 tail": {
+     "sense": 2060,
+     "antisense": 3461,
+     "family": {
+      "odds_ratio": 1.094,
+      "ci": [
+       0.964,
+       1.243
+      ],
+      "z": 1.39
+     },
+     "hg002": {
+      "odds_ratio": 1.078,
+      "ci": [
+       0.95,
+       1.224
+      ],
+      "z": 1.16
+     }
+    },
+    "elsewhere": {
+     "sense": 73298,
+     "antisense": 99973,
+     "family": {
+      "odds_ratio": 1.03,
+      "ci": [
+       1.007,
+       1.054
+      ],
+      "z": 2.57
+     },
+     "hg002": {
+      "odds_ratio": 1.03,
+      "ci": [
+       1.007,
+       1.053
+      ],
+      "z": 2.55
+     }
+    }
+   }
+  },
+  "purine": {
+   "loci": 926982,
+   "sense": {
+    "loci": 231762,
+    "family_polymorphic": 9205,
+    "family_share": 0.0397,
+    "hg002_called": 225523,
+    "hg002_indel": 12197,
+    "hg002_share": 0.0541,
+    "new_tr_mutations": 13,
+    "mean_length": 20.4
+   },
+   "antisense": {
+    "loci": 277051,
+    "family_polymorphic": 12675,
+    "family_share": 0.0457,
+    "hg002_called": 269151,
+    "hg002_indel": 17690,
+    "hg002_share": 0.0657,
+    "new_tr_mutations": 31,
+    "mean_length": 23.3
+   },
+   "between genes": {
+    "loci": 246567,
+    "family_polymorphic": 11867,
+    "family_share": 0.0481,
+    "hg002_called": 234239,
+    "hg002_indel": 15898,
+    "hg002_share": 0.0679,
+    "new_tr_mutations": 15,
+    "mean_length": 23.4
+   },
+   "sense vs antisense": {
+    "family": {
+     "odds_ratio": 1.047,
+     "ci": [
+      1.015,
+      1.08
+     ],
+     "z": 2.9
+    },
+    "hg002": {
+     "odds_ratio": 1.022,
+     "ci": [
+      0.991,
+      1.054
+     ],
+     "z": 1.4
+    },
+    "new_tr_mutations": {
+     "exposed": 13,
+     "other": 28,
+     "rate_ratio": 1.021,
+     "ci": [
+      0.509,
+      2.05
+     ],
+     "z": 0.06
+    }
+   },
+   "sense vs between genes": {
+    "family": {
+     "odds_ratio": 0.934,
+     "ci": [
+      0.905,
+      0.964
+     ],
+     "z": -4.22
+    },
+    "hg002": {
+     "odds_ratio": 0.902,
+     "ci": [
+      0.874,
+      0.931
+     ],
+     "z": -6.41
+    },
+    "new_tr_mutations": {
+     "exposed": 13,
+     "other": 15,
+     "rate_ratio": 1.465,
+     "ci": [
+      0.698,
+      3.075
+     ],
+     "z": 1.01
+    }
+   },
+   "antisense vs between genes": {
+    "family": {
+     "odds_ratio": 0.894,
+     "ci": [
+      0.868,
+      0.92
+     ],
+     "z": -7.55
+    },
+    "hg002": {
+     "odds_ratio": 0.884,
+     "ci": [
+      0.859,
+      0.91
+     ],
+     "z": -8.31
+    },
+    "new_tr_mutations": {
+     "exposed": 30,
+     "other": 14,
+     "rate_ratio": 1.933,
+     "ci": [
+      1.016,
+      3.679
+     ],
+     "z": 2.01
+    }
+   },
+   "sense vs antisense, by origin": {
+    "Alu tail": {
+     "sense": 21678,
+     "antisense": 28670,
+     "family": {
+      "odds_ratio": 1.05,
+      "ci": [
+       0.997,
+       1.105
+      ],
+      "z": 1.85
+     },
+     "hg002": {
+      "odds_ratio": 1.046,
+      "ci": [
+       0.996,
+       1.097
+      ],
+      "z": 1.81
+     }
+    },
+    "L1 tail": {
+     "sense": 1682,
+     "antisense": 2891,
+     "family": {
+      "odds_ratio": 1.07,
+      "ci": [
+       0.846,
+       1.353
+      ],
+      "z": 0.56
+     },
+     "hg002": {
+      "odds_ratio": 0.906,
+      "ci": [
+       0.71,
+       1.156
+      ],
+      "z": -0.79
+     }
+    },
+    "elsewhere": {
+     "sense": 208402,
+     "antisense": 245490,
+     "family": {
+      "odds_ratio": 1.05,
+      "ci": [
+       1.009,
+       1.093
+      ],
+      "z": 2.4
+     },
+     "hg002": {
+      "odds_ratio": 1.012,
+      "ci": [
+       0.972,
+       1.054
+      ],
+      "z": 0.57
+     }
+    }
+   }
+  },
+  "A-rich A/T": {
+   "loci": 406829,
+   "sense": {
+    "loci": 98404,
+    "family_polymorphic": 5277,
+    "family_share": 0.0536,
+    "hg002_called": 95770,
+    "hg002_indel": 5723,
+    "hg002_share": 0.0598,
+    "new_tr_mutations": 2,
+    "mean_length": 19.8
+   },
+   "antisense": {
+    "loci": 134382,
+    "family_polymorphic": 7012,
+    "family_share": 0.0522,
+    "hg002_called": 130851,
+    "hg002_indel": 7942,
+    "hg002_share": 0.0607,
+    "new_tr_mutations": 4,
+    "mean_length": 20.4
+   },
+   "between genes": {
+    "loci": 113671,
+    "family_polymorphic": 6244,
+    "family_share": 0.0549,
+    "hg002_called": 108339,
+    "hg002_indel": 6764,
+    "hg002_share": 0.0624,
+    "new_tr_mutations": 4,
+    "mean_length": 20.0
+   },
+   "sense vs antisense": {
+    "family": {
+     "odds_ratio": 1.108,
+     "ci": [
+      1.062,
+      1.156
+     ],
+     "z": 4.76
+    },
+    "hg002": {
+     "odds_ratio": 1.08,
+     "ci": [
+      1.035,
+      1.127
+     ],
+     "z": 3.56
+    },
+    "new_tr_mutations": {
+     "exposed": 2,
+     "other": 4,
+     "rate_ratio": 0.675,
+     "ci": [
+      0.131,
+      3.487
+     ],
+     "z": -0.47
+    }
+   },
+   "sense vs between genes": {
+    "family": {
+     "odds_ratio": 0.971,
+     "ci": [
+      0.93,
+      1.014
+     ],
+     "z": -1.33
+    },
+    "hg002": {
+     "odds_ratio": 0.925,
+     "ci": [
+      0.885,
+      0.966
+     ],
+     "z": -3.5
+    },
+    "new_tr_mutations": {
+     "exposed": 2,
+     "other": 4,
+     "rate_ratio": 0.516,
+     "ci": [
+      0.08,
+      3.312
+     ],
+     "z": -0.7
+    }
+   },
+   "antisense vs between genes": {
+    "family": {
+     "odds_ratio": 0.877,
+     "ci": [
+      0.842,
+      0.914
+     ],
+     "z": -6.32
+    },
+    "hg002": {
+     "odds_ratio": 0.859,
+     "ci": [
+      0.824,
+      0.894
+     ],
+     "z": -7.33
+    },
+    "new_tr_mutations": {
+     "exposed": 4,
+     "other": 4,
+     "rate_ratio": 0.927,
+     "ci": [
+      0.235,
+      3.656
+     ],
+     "z": -0.11
+    }
+   },
+   "sense vs antisense, by origin": {
+    "Alu tail": {
+     "sense": 18270,
+     "antisense": 24862,
+     "family": {
+      "odds_ratio": 1.181,
+      "ci": [
+       1.087,
+       1.283
+      ],
+      "z": 3.92
+     },
+     "hg002": {
+      "odds_ratio": 1.127,
+      "ci": [
+       1.039,
+       1.222
+      ],
+      "z": 2.88
+     }
+    },
+    "L1 tail": {
+     "sense": 5012,
+     "antisense": 8057,
+     "family": {
+      "odds_ratio": 1.138,
+      "ci": [
+       0.992,
+       1.305
+      ],
+      "z": 1.85
+     },
+     "hg002": {
+      "odds_ratio": 1.134,
+      "ci": [
+       0.987,
+       1.302
+      ],
+      "z": 1.77
+     }
+    },
+    "elsewhere": {
+     "sense": 75122,
+     "antisense": 101463,
+     "family": {
+      "odds_ratio": 1.074,
+      "ci": [
+       1.019,
+       1.133
+      ],
+      "z": 2.64
+     },
+     "hg002": {
+      "odds_ratio": 1.051,
+      "ci": [
+       0.996,
+       1.11
+      ],
+      "z": 1.82
+     }
+    }
+   }
+  },
+  "G-rich": {
+   "loci": 280870,
+   "sense": {
+    "loci": 81913,
+    "family_polymorphic": 606,
+    "family_share": 0.0074,
+    "hg002_called": 79580,
+    "hg002_indel": 715,
+    "hg002_share": 0.009,
+    "new_tr_mutations": 3,
+    "mean_length": 14.6
+   },
+   "antisense": {
+    "loci": 75690,
+    "family_polymorphic": 568,
+    "family_share": 0.0075,
+    "hg002_called": 73544,
+    "hg002_indel": 727,
+    "hg002_share": 0.0099,
+    "new_tr_mutations": 1,
+    "mean_length": 14.7
+   },
+   "between genes": {
+    "loci": 68561,
+    "family_polymorphic": 529,
+    "family_share": 0.0077,
+    "hg002_called": 64774,
+    "hg002_indel": 641,
+    "hg002_share": 0.0099,
+    "new_tr_mutations": 1,
+    "mean_length": 14.7
+   },
+   "sense vs antisense": {
+    "family": {
+     "odds_ratio": 1.015,
+     "ci": [
+      0.896,
+      1.15
+     ],
+     "z": 0.24
+    },
+    "hg002": {
+     "odds_ratio": 0.96,
+     "ci": [
+      0.854,
+      1.079
+     ],
+     "z": -0.69
+    },
+    "new_tr_mutations": {
+     "exposed": 2,
+     "other": 0,
+     "rate_ratio": null
+    }
+   },
+   "sense vs between genes": {
+    "family": {
+     "odds_ratio": 0.956,
+     "ci": [
+      0.842,
+      1.085
+     ],
+     "z": -0.7
+    },
+    "hg002": {
+     "odds_ratio": 0.892,
+     "ci": [
+      0.792,
+      1.006
+     ],
+     "z": -1.86
+    },
+    "new_tr_mutations": {
+     "exposed": 2,
+     "other": 0,
+     "rate_ratio": null
+    }
+   },
+   "antisense vs between genes": {
+    "family": {
+     "odds_ratio": 0.942,
+     "ci": [
+      0.829,
+      1.071
+     ],
+     "z": -0.91
+    },
+    "hg002": {
+     "odds_ratio": 0.925,
+     "ci": [
+      0.821,
+      1.043
+     ],
+     "z": -1.27
+    },
+    "new_tr_mutations": {
+     "exposed": 1,
+     "other": 0,
+     "rate_ratio": null
+    }
+   },
+   "sense vs antisense, by origin": {
+    "Alu tail": {
+     "sense": 0,
+     "antisense": 0,
+     "family": {
+      "odds_ratio": null
+     },
+     "hg002": {
+      "odds_ratio": null
+     }
+    },
+    "L1 tail": {
+     "sense": 0,
+     "antisense": 0,
+     "family": {
+      "odds_ratio": null
+     },
+     "hg002": {
+      "odds_ratio": null
+     }
+    },
+    "elsewhere": {
+     "sense": 81913,
+     "antisense": 75690,
+     "family": {
+      "odds_ratio": 1.015,
+      "ci": [
+       0.896,
+       1.15
+      ],
+      "z": 0.24
+     },
+     "hg002": {
+      "odds_ratio": 0.96,
+      "ci": [
+       0.854,
+       1.079
+      ],
+      "z": -0.69
+     }
+    }
+   }
+  },
+  "A/T alternating": {
+   "loci": 199937,
+   "sense": {
+    "loci": 57598,
+    "family_polymorphic": 2544,
+    "family_share": 0.0442,
+    "hg002_called": 55690,
+    "hg002_indel": 3126,
+    "hg002_share": 0.0561,
+    "new_tr_mutations": 13,
+    "mean_length": 27.8
+   },
+   "antisense": {
+    "loci": 55617,
+    "family_polymorphic": 2531,
+    "family_share": 0.0455,
+    "hg002_called": 53901,
+    "hg002_indel": 3181,
+    "hg002_share": 0.059,
+    "new_tr_mutations": 11,
+    "mean_length": 27.8
+   },
+   "between genes": {
+    "loci": 57543,
+    "family_polymorphic": 2769,
+    "family_share": 0.0481,
+    "hg002_called": 54511,
+    "hg002_indel": 3271,
+    "hg002_share": 0.06,
+    "new_tr_mutations": 9,
+    "mean_length": 29.7
+   },
+   "sense vs antisense": {
+    "family": {
+     "odds_ratio": 0.974,
+     "ci": [
+      0.912,
+      1.039
+     ],
+     "z": -0.8
+    },
+    "hg002": {
+     "odds_ratio": 0.974,
+     "ci": [
+      0.907,
+      1.047
+     ],
+     "z": -0.71
+    },
+    "new_tr_mutations": {
+     "exposed": 13,
+     "other": 10,
+     "rate_ratio": 1.455,
+     "ci": [
+      0.621,
+      3.405
+     ],
+     "z": 0.86
+    }
+   },
+   "sense vs between genes": {
+    "family": {
+     "odds_ratio": 0.929,
+     "ci": [
+      0.872,
+      0.991
+     ],
+     "z": -2.25
+    },
+    "hg002": {
+     "odds_ratio": 0.937,
+     "ci": [
+      0.872,
+      1.006
+     ],
+     "z": -1.81
+    },
+    "new_tr_mutations": {
+     "exposed": 13,
+     "other": 9,
+     "rate_ratio": 1.576,
+     "ci": [
+      0.659,
+      3.773
+     ],
+     "z": 1.02
+    }
+   },
+   "antisense vs between genes": {
+    "family": {
+     "odds_ratio": 0.956,
+     "ci": [
+      0.897,
+      1.019
+     ],
+     "z": -1.37
+    },
+    "hg002": {
+     "odds_ratio": 0.968,
+     "ci": [
+      0.901,
+      1.039
+     ],
+     "z": -0.9
+    },
+    "new_tr_mutations": {
+     "exposed": 10,
+     "other": 9,
+     "rate_ratio": 1.213,
+     "ci": [
+      0.519,
+      2.835
+     ],
+     "z": 0.45
+    }
+   },
+   "sense vs antisense, by origin": {
+    "Alu tail": {
+     "sense": 740,
+     "antisense": 759,
+     "family": {
+      "odds_ratio": 0.838,
+      "ci": [
+       0.59,
+       1.191
+      ],
+      "z": -0.98
+     },
+     "hg002": {
+      "odds_ratio": 0.785,
+      "ci": [
+       0.545,
+       1.13
+      ],
+      "z": -1.3
+     }
+    },
+    "L1 tail": {
+     "sense": 1037,
+     "antisense": 943,
+     "family": {
+      "odds_ratio": 0.977,
+      "ci": [
+       0.645,
+       1.479
+      ],
+      "z": -0.11
+     },
+     "hg002": {
+      "odds_ratio": 0.885,
+      "ci": [
+       0.543,
+       1.442
+      ],
+      "z": -0.49
+     }
+    },
+    "elsewhere": {
+     "sense": 55821,
+     "antisense": 53915,
+     "family": {
+      "odds_ratio": 0.982,
+      "ci": [
+       0.917,
+       1.051
+      ],
+      "z": -0.53
+     },
+     "hg002": {
+      "odds_ratio": 0.983,
+      "ci": [
+       0.912,
+       1.059
+      ],
+      "z": -0.45
+     }
+    }
+   }
+  }
+ }
+}
