@@ -1,0 +1,551 @@
+{
+ "min_length": 51,
+ "census": {
+  "purine/pyrimidine": {
+   "all chromosomes": {
+    "runs": 45681,
+    "bases": 4203759,
+    "by_kind": {
+     "C/T": 22955,
+     "A/G": 22726
+    }
+   },
+   "autosomes": {
+    "runs": 42162,
+    "bases": 3869600,
+    "by_kind": {
+     "C/T": 21202,
+     "A/G": 20960
+    },
+    "length_quantiles_50_90_99": [
+     73,
+     155,
+     282
+    ],
+    "longest": 1303,
+    "one_base_98": 222,
+    "top_units": [
+     [
+      "AAAG",
+      10385
+     ],
+     [
+      "AAGG",
+      8285
+     ],
+     [
+      "AAAA",
+      3683
+     ],
+     [
+      "AGAG",
+      2199
+     ],
+     [
+      "AGGG",
+      2183
+     ],
+     [
+      "AG",
+      1878
+     ],
+     [
+      "AAG",
+      1453
+     ],
+     [
+      "AGG",
+      1417
+     ],
+     [
+      "AAAAA",
+      1016
+     ],
+     [
+      "A",
+      960
+     ],
+     [
+      "AGGGG",
+      807
+     ],
+     [
+      "AAAAG",
+      720
+     ]
+    ],
+    "periods": {
+     "1": 1041,
+     "2": 2565,
+     "3": 3640,
+     "4": 26765,
+     "5": 4188,
+     "6": 1842,
+     "7": 224,
+     "8": 817,
+     "9": 224,
+     "10": 337,
+     "11": 122,
+     "12": 397
+    },
+    "origin": {
+     "Alu tail": 15653,
+     "Simple_repeat": 12746,
+     "Low_complexity": 7352,
+     "Alu body": 1555,
+     "L1 tail": 1361,
+     "none": 1069,
+     "L1 body": 992,
+     "other LINE tail": 395,
+     "LTR tail": 307,
+     "LTR body": 245,
+     "DNA tail": 131,
+     "SVA body": 130,
+     "other LINE body": 90,
+     "other SINE tail": 74,
+     "DNA body": 45,
+     "SVA tail": 12,
+     "other SINE body": 5
+    }
+   }
+  },
+  "A/T": {
+   "all chromosomes": {
+    "runs": 18033,
+    "bases": 1311631,
+    "by_kind": {
+     "A/T": 18033
+    }
+   },
+   "autosomes": {
+    "runs": 16679,
+    "bases": 1209670,
+    "by_kind": {
+     "A/T": 16679
+    },
+    "length_quantiles_50_90_99": [
+     59,
+     100,
+     278
+    ],
+    "longest": 1067,
+    "one_base_98": 177,
+    "top_units": [
+     [
+      "AT",
+      5703
+     ],
+     [
+      "AAAT",
+      2728
+     ],
+     [
+      "AA",
+      1794
+     ],
+     [
+      "AAAAT",
+      1457
+     ],
+     [
+      "A",
+      844
+     ],
+     [
+      "AAT",
+      794
+     ],
+     [
+      "AAAA",
+      476
+     ],
+     [
+      "AATATAT",
+      443
+     ],
+     [
+      "AATAT",
+      324
+     ],
+     [
+      "AAA",
+      266
+     ],
+     [
+      "ATAT",
+      264
+     ],
+     [
+      "AAATAAAT",
+      124
+     ]
+    ],
+    "periods": {
+     "1": 844,
+     "2": 7497,
+     "3": 1060,
+     "4": 3527,
+     "5": 1931,
+     "6": 319,
+     "7": 563,
+     "8": 343,
+     "9": 174,
+     "10": 185,
+     "11": 97,
+     "12": 139
+    },
+    "origin": {
+     "Alu tail": 6690,
+     "Simple_repeat": 5258,
+     "L1 tail": 1280,
+     "Alu body": 1236,
+     "none": 1093,
+     "L1 body": 379,
+     "LTR tail": 172,
+     "SVA tail": 166,
+     "Low_complexity": 137,
+     "DNA tail": 79,
+     "other SINE tail": 49,
+     "DNA body": 45,
+     "other LINE tail": 45,
+     "LTR body": 34,
+     "other LINE body": 9,
+     "other SINE body": 7
+    }
+   }
+  },
+  "G/C": {
+   "all chromosomes": {
+    "runs": 111,
+    "bases": 7368,
+    "by_kind": {
+     "G/C": 111
+    }
+   },
+   "autosomes": {
+    "runs": 105,
+    "bases": 6965,
+    "by_kind": {
+     "G/C": 105
+    },
+    "length_quantiles_50_90_99": [
+     59,
+     84,
+     173
+    ],
+    "longest": 261,
+    "one_base_98": 2,
+    "top_units": [
+     [
+      "CCCCG",
+      20
+     ],
+     [
+      "CCG",
+      16
+     ],
+     [
+      "CCCCCG",
+      7
+     ],
+     [
+      "CCGCCG",
+      7
+     ],
+     [
+      "CCCCGG",
+      5
+     ],
+     [
+      "C",
+      4
+     ],
+     [
+      "CC",
+      3
+     ],
+     [
+      "CCCG",
+      3
+     ],
+     [
+      "CCCCGCCG",
+      3
+     ],
+     [
+      "CCC",
+      3
+     ],
+     [
+      "CCGCCGCG",
+      2
+     ],
+     [
+      "CCCCC",
+      2
+     ]
+    ],
+    "periods": {
+     "1": 4,
+     "2": 4,
+     "3": 19,
+     "4": 5,
+     "5": 24,
+     "6": 20,
+     "7": 9,
+     "8": 7,
+     "9": 5,
+     "10": 2,
+     "11": 5,
+     "12": 1
+    },
+    "origin": {
+     "Simple_repeat": 49,
+     "none": 40,
+     "Low_complexity": 14,
+     "LTR body": 2
+    }
+   }
+  },
+  "A/C": {
+   "all chromosomes": {
+    "runs": 10422,
+    "bases": 602823,
+    "by_kind": {
+     "A/C": 5210,
+     "G/T": 5212
+    }
+   },
+   "autosomes": {
+    "runs": 9725,
+    "bases": 561619,
+    "by_kind": {
+     "A/C": 4880,
+     "G/T": 4845
+    },
+    "length_quantiles_50_90_99": [
+     55,
+     66,
+     93
+    ],
+    "longest": 653,
+    "one_base_98": 206,
+    "top_units": [
+     [
+      "AC",
+      4702
+     ],
+     [
+      "A",
+      996
+     ],
+     [
+      "AAA",
+      610
+     ],
+     [
+      "AAAA",
+      576
+     ],
+     [
+      "AAAAC",
+      540
+     ],
+     [
+      "AA",
+      416
+     ],
+     [
+      "AAAC",
+      263
+     ],
+     [
+      "AAAAA",
+      220
+     ],
+     [
+      "AAC",
+      206
+     ],
+     [
+      "ACAC",
+      189
+     ],
+     [
+      "AAAAAC",
+      162
+     ],
+     [
+      "ACACAC",
+      125
+     ]
+    ],
+    "periods": {
+     "1": 1000,
+     "2": 5134,
+     "3": 874,
+     "4": 1071,
+     "5": 803,
+     "6": 424,
+     "7": 89,
+     "8": 107,
+     "9": 39,
+     "10": 86,
+     "11": 36,
+     "12": 62
+    },
+    "origin": {
+     "Simple_repeat": 3900,
+     "Alu tail": 3059,
+     "Alu body": 1310,
+     "L1 tail": 579,
+     "LTR tail": 212,
+     "L1 body": 143,
+     "Low_complexity": 123,
+     "none": 121,
+     "other LINE tail": 114,
+     "DNA tail": 73,
+     "LTR body": 34,
+     "other SINE tail": 32,
+     "DNA body": 12,
+     "other LINE body": 7,
+     "SVA tail": 5,
+     "other SINE body": 1
+    }
+   }
+  }
+ },
+ "composition_autosomes": {
+  "A": 0.2948,
+  "C": 0.2043,
+  "G": 0.2052,
+  "T": 0.2957
+ },
+ "dinucleotides_autosomes": [
+  [
+   268742408,
+   138944097,
+   193367887,
+   211453182,
+   296
+  ],
+  [
+   199762511,
+   142500969,
+   27852739,
+   193112680,
+   248
+  ],
+  [
+   164998518,
+   117623469,
+   143590999,
+   139315177,
+   158
+  ],
+  [
+   179004106,
+   164160474,
+   200716478,
+   271184463,
+   182
+  ],
+  [
+   327,
+   138,
+   218,
+   201,
+   118669575
+  ]
+ ],
+ "expected_runs_autosomes": {
+  "A/G": {
+   "markov": 0.000138,
+   "independent": 6.09e-07
+  },
+  "C/T": {
+   "markov": 0.000139,
+   "independent": 6.15e-07
+  },
+  "A/T": {
+   "markov": 0.000467,
+   "independent": 0.00242
+  },
+  "G/C": {
+   "markov": 2.64e-14,
+   "independent": 2.74e-11
+  },
+  "A/C": {
+   "markov": 2.96e-05,
+   "independent": 5.6e-07
+  },
+  "G/T": {
+   "markov": 3.42e-05,
+   "independent": 6.68e-07
+  }
+ },
+ "coverage": {
+  "v4.2.1": {
+   "purine/pyrimidine": 0.4001,
+   "A/T": 0.3814,
+   "G/C": 0.4083,
+   "A/C": 0.5366,
+   "genome": 0.9223
+  },
+  "v5.0q": {
+   "purine/pyrimidine": 0.833,
+   "A/T": 0.7236,
+   "G/C": 0.7602,
+   "A/C": 0.9047,
+   "genome": 0.9358
+  }
+ },
+ "tr_mutations": {
+  "loci": 7270921,
+  "mutations": 440,
+  "purine/pyrimidine": {
+   "loci": 27784,
+   "mutations": 67,
+   "expected_from_strata": 72.5,
+   "ratio": 0.92,
+   "ci": [
+    0.72,
+    1.17
+   ],
+   "share_of_all_mutations": 0.1523
+  },
+  "A/T": {
+   "loci": 11151,
+   "mutations": 31,
+   "expected_from_strata": 16.5,
+   "ratio": 1.87,
+   "ci": [
+    1.27,
+    2.66
+   ],
+   "share_of_all_mutations": 0.0705
+  },
+  "G/C": {
+   "loci": 38,
+   "mutations": 0,
+   "expected_from_strata": 0.3,
+   "ratio": 0.0,
+   "ci": [
+    0.0,
+    13.37
+   ],
+   "share_of_all_mutations": 0.0
+  },
+  "A/C": {
+   "loci": 8028,
+   "mutations": 6,
+   "expected_from_strata": 9.3,
+   "ratio": 0.65,
+   "ci": [
+    0.24,
+    1.41
+   ],
+   "share_of_all_mutations": 0.0136
+  }
+ }
+}

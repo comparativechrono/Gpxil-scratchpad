@@ -1,0 +1,20 @@
+{
+ "variant bases not phased": 0,
+ "loci where HG002 varies": 681988,
+ "loci where HG002 varies on one haplotype": 348789,
+ "bases": 2508916262,
+ "callable bases": 2351820011,
+ "heterozygous substitutions": 1951983,
+ "new substitutions: placed": 25323,
+ "new substitutions: in a locus": 2175,
+ "new substitutions: in a low-complexity region": 59,
+ "new substitutions: reference differs, or N": 2,
+ "new substitutions read": 27559,
+ "sets": [
+  "Platinum germline",
+  "Platinum postzygotic",
+  "Sasani post pgcs",
+  "Sasani second gen",
+  "Sasani third gen"
+ ]
+}

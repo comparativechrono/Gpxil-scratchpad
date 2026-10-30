@@ -1,0 +1,78 @@
+experiment 06's class model: deviance 1150.5 on 3752
+loci without a rate: 0
+chr1
+chr2
+chr3
+chr4
+chr5
+chr6
+chr7
+chr8
+chr9
+chr10
+chr11
+chr12
+chr13
+chr14
+chr15
+chr16
+chr17
+chr18
+chr19
+chr20
+chr21
+chr22
+loci, HG002
+  below 1e-6, base 1, reference breaks the repeat: all 1.3055 (10789), extending 1.9729 (5214 vs 2642.76), others 0.9918
+  below 1e-6, base 1, reference breaks the repeat, isolated: all 1.2307 (9394), extending 1.7744 (4325 vs 2437.38), others 0.9756
+  below 1e-6, base 1, reference continues the repeat: all 1.0385 (193), extending None (0 vs 0.0), others 1.0385
+  below 1e-6, base 1, reference continues the repeat, isolated: all 1.0439 (179), extending None (0 vs 0.0), others 1.0439
+  1e-6 to 1e-5, base 1, reference breaks the repeat: all 1.8063 (4276), extending 3.4598 (2650 vs 765.94), others 1.0154
+  1e-6 to 1e-5, base 1, reference breaks the repeat, isolated: all 1.5463 (3381), extending 2.7175 (1918 vs 705.79), others 0.988
+  1e-6 to 1e-5, base 1, reference continues the repeat: all 1.188 (264), extending None (0 vs 0.0), others 1.188
+  1e-6 to 1e-5, base 1, reference continues the repeat, isolated: all 1.1747 (241), extending None (0 vs 0.0), others 1.1747
+  1e-5 to 1e-4, base 1, reference breaks the repeat: all 2.4638 (1935), extending 5.0629 (1377 vs 271.98), others 1.0869
+  1e-5 to 1e-4, base 1, reference breaks the repeat, isolated: all 1.8028 (1308), extending 3.3258 (835 vs 251.07), others 0.9969
+  1e-5 to 1e-4, base 1, reference continues the repeat: all 1.1075 (124), extending None (0 vs 0.0), others 1.1075
+  1e-5 to 1e-4, base 1, reference continues the repeat, isolated: all 1.0161 (105), extending None (0 vs 0.0), others 1.0161
+  1e-4 or more, base 1, reference breaks the repeat: all 3.4131 (506), extending 6.8974 (372 vs 53.93), others 1.4207
+  1e-4 or more, base 1, reference breaks the repeat, isolated: all 2.379 (326), extending 4.393 (219 vs 49.85), others 1.2273
+  1e-4 or more, base 1, reference continues the repeat: all 2.6518 (52), extending None (0 vs 0.0), others 2.6518
+  1e-4 or more, base 1, reference continues the repeat, isolated: all 1.8793 (34), extending None (0 vs 0.0), others 1.8793
+loci, new substitutions
+  below 1e-6, base 1: all 1.0375 (109), extending 1.2484 (42 vs 33.64), others 0.9382
+  1e-6 to 1e-5, base 1: all 1.5366 (43), extending 2.8259 (26 vs 9.2), others 0.905
+  1e-5 to 1e-4, base 1: all 1.9892 (18), extending 2.8066 (9 vs 3.21), others 1.5405
+  1e-4 or more, base 1: all 2.6618 (5), extending 7.3326 (5 vs 0.68), others 0.0
+  1e-6 or more, base 1: all 1.6962 (66), extending 3.056 (40 vs 13.09), others 1.0069
+runs, HG002
+  A/C, others: all 3.656 (40), extending 4.0813 (39 vs 9.56), others 0.7219
+  A/C, others, isolated: all 1.8755 (19), extending 2.0309 (18 vs 8.86), others 0.789
+  A/C, tails: all 3.9233 (28), extending 4.198 (26 vs 6.19), others 2.12
+  A/C, tails, isolated: all 1.8166 (12), extending 1.9156 (11 vs 5.74), others 1.1583
+  A/T, others: all 8.4557 (87), extending 10.3053 (85 vs 8.25), others 0.98
+  A/T, others, isolated: all 4.7378 (45), extending 5.6508 (43 vs 7.61), others 1.059
+  A/T, tails: all 8.2055 (103), extending 9.9158 (99 vs 9.98), others 1.5573
+  A/T, tails, isolated: all 4.1451 (48), extending 4.999 (46 vs 9.2), others 0.841
+  G/C, others: all 9.4145 (1), extending 10.9586 (1 vs 0.09), others 0.0
+  G/C, others, isolated: all 10.2886 (1), extending 11.9397 (1 vs 0.08), others 0.0
+  purine/pyrimidine, others: all 6.3772 (383), extending 22.1391 (324 vs 14.63), others 1.2989
+  purine/pyrimidine, others, isolated: all 3.486 (194), extending 10.8423 (145 vs 13.37), others 1.159
+  purine/pyrimidine, tails: all 6.1191 (247), extending 20.5073 (217 vs 10.58), others 1.0073
+  purine/pyrimidine, tails, isolated: all 3.2363 (121), extending 10.0292 (97 vs 9.67), others 0.8659
+  A/C: all 3.7615 (68), extending 4.1272 (65 vs 15.75), others 1.2883
+  A/C, isolated: all 1.8522 (31), extending 1.9855 (29 vs 14.61), others 0.9386
+  A/T: all 8.3182 (190), extending 10.092 (184 vs 18.23), others 1.3017
+  A/T, isolated: all 4.4122 (93), extending 5.2941 (89 vs 16.81), others 0.9375
+  G/C: all 9.4145 (1), extending 10.9586 (1 vs 0.09), others 0.0
+  G/C, isolated: all 10.2886 (1), extending 11.9397 (1 vs 0.08), others 0.0
+  purine/pyrimidine: all 6.2735 (630), extending 21.4543 (541 vs 25.22), others 1.1834
+  purine/pyrimidine, isolated: all 3.3857 (315), extending 10.501 (242 vs 23.05), others 1.0429
+runs, new substitutions
+  A/C: all 10.4933 (2), extending 11.8524 (2 vs 0.17), others 0.0
+  A/T: all 0.0 (0), extending 0.0 (0 vs 0.17), others 0.0
+  G/C: all 0.0 (0), extending 0.0 (0 vs 0.0), others 0.0
+  purine/pyrimidine: all 0.0 (0), extending 0.0 (0 vs 0.16), others 0.0
+loci, new substitutions, by study, base 1 {"Sasani, below 1e-6": {"expected": 104.47, "observed": 109, "expected extending": 33.45, "extending": 42}, "Sasani, 1e-6 to 1e-5": {"expected": 27.83, "observed": 43, "expected extending": 9.15, "extending": 26}, "Sasani, 1e-5 to 1e-4": {"expected": 9.0, "observed": 18, "expected extending": 3.19, "extending": 9}, "Sasani, 1e-4 or more": {"expected": 1.87, "observed": 5, "expected extending": 0.68, "extending": 5}, "Sasani, all classes": {"expected": 143.16, "observed": 175, "expected extending": 46.47, "extending": 82}, "Platinum, below 1e-6": {"expected": 0.59, "observed": 0, "expected extending": 0.19, "extending": 0}, "Platinum, 1e-6 to 1e-5": {"expected": 0.16, "observed": 0, "expected extending": 0.05, "extending": 0}, "Platinum, 1e-5 to 1e-4": {"expected": 0.05, "observed": 0, "expected extending": 0.02, "extending": 0}, "Platinum, 1e-4 or more": {"expected": 0.01, "observed": 0, "expected extending": 0.0, "extending": 0}, "Platinum, all classes": {"expected": 0.81, "observed": 0, "expected extending": 0.26, "extending": 0}}
+new substitutions' share by study, 201 to 1,000 bases from any locus {"Platinum": 0.0056, "Sasani": 0.9944}
+runs: edge bases in low-complexity regions {"A/C": {"bases": 19445, "in low-complexity regions": 5101, "share": 0.2623}, "A/T": {"bases": 33356, "in low-complexity regions": 13771, "share": 0.4128}, "G/C": {"bases": 210, "in low-complexity regions": 109, "share": 0.519}, "purine/pyrimidine": {"bases": 84321, "in low-complexity regions": 40187, "share": 0.4766}}

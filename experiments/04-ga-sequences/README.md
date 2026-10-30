@@ -35,6 +35,12 @@ said of where they come from and how they change?
    tails are 91 % A, in runs of 49; the oldest, 55 to 59 %, in runs of 5.
    Poly(A) tails turn into GA-repeats with time, as
    [figures/alu_tails_three_ages.png](figures/alu_tails_three_ages.png) shows.
+
+   *Later,* [experiment 09](../09-alphabets/) set the tails' other
+   two-letter alphabets beside them. Tails that are pure A/T runs fall with
+   the Alu's age as the purine runs rise. Transitions, two-thirds of new
+   substitutions, keep a purine run pure and break the others, which fits;
+   but they break A/C runs as often, and A/C tails don't fall.
 3. **They don't have many times fewer point mutations.** He counted the
    substitutions that would break a GA-sequence: the transversions, A or G to
    C or T. The newest variants, the singletons among gnomAD's 76,215 genomes, occur
