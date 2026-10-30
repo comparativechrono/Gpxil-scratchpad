@@ -9,8 +9,8 @@ share none of gpxiltools' code?
 
 1. **A whole genome encodes in 7 minutes, and is valid.** GIAB's HG002
    v5.0q small-variant benchmark (5,945,525 records) became a gpxil file of
-   HG002 alone on GRCh38 in 407 s, peaking at 1.87 GB of memory on two
-   cores, and `gpxil validate` passed it in 36 s and 224 MB (24 contigs, no
+   HG002 alone on GRCh38 in 407 s, peaking at 1.87 GB of memory, on one
+   core of a two-core machine, and `gpxil validate` passed it in 36 s and 224 MB (24 contigs, no
    errors or warnings). No REF allele disagreed with the reference by the
    specification's test, in which N matches any base (one record's REF
    allele is N where Ensembl's GRCh38 has bases: below), and no two calls
@@ -24,8 +24,9 @@ share none of gpxiltools' code?
    every one of them the VCF contradicts itself and the two tools settle it
    differently. At 3,312, two records put overlapping alleles on one
    haplotype: bcftools leaves out a record whose allele overlaps one it has
-   already applied (69,806 records, 4,456 of them with a real allele and the
-   others with a `*`, which changes nothing), and gpxil keeps the variant
+   already applied (69,806 times, a record counted once for each haplotype it
+   is left out of; 4,456 times with a real allele and the others with a `*`,
+   which changes nothing), and gpxil keeps the variant
    bases of both (specification section 6.4). At 408, a `*` allele has no deletion on its haplotype, and
    bcftools writes the `*` into the sequence as a character, where gpxil
    writes nothing. There is no difference of any other kind.
@@ -33,25 +34,26 @@ share none of gpxiltools' code?
    the VCF's 5,469,075 alleles (99.44 %) come back from the export exactly,
    phase included, and 5,438,016 of those with the same filter status. Of
    the 30,425 that don't, 26,662 are where the two files say the same
-   haplotypes in other records, most often because the export writes
-   overlapping events of the two haplotypes as one record, which normalising
-   doesn't split as the VCF had them; 3,760 are at the haplotype differences
+   haplotypes written differently (the export writes overlapping events of
+   the two haplotypes as one record, for one, and normalising turns a `*`
+   allele into the reference allele); 3,760 are at the haplotype differences
    above; and 3 have an N in their ALT allele. The export holds 5,297,663
    records besides 1,579,317 no-call blocks; atomised, it counts 7,144,974
    alleles, since one record written differently can split into many.
 4. **Encoded again, the export gives the same haplotypes.** On every chromosome the export,
    encoded again, gave the same two haplotypes as the first file, N
-   included, with no conflicts. Its planes differ at 1,830,468 bases in 7,977
+   included, with no conflicts. Its genotype planes differ at 1,830,468 bases in 7,977
    stretches (0.06 % of the genome): where the export wrote overlapping
    events as one record, the encoder aligned each allele afresh
    (specification section 6.2) and wrote the same haplotype with other
    states, an insertion and a deletion becoming substitutions, say, or a
    deletion moving inside a stretch the file doesn't know. The sidecars
    differ for the same reason (700,634 entries against 699,215). Two flags
-   belong to records in a VCF and to bases in gpxil: an exported record that
-   covers any filtered base is marked filtered, so FILTERED spreads over
-   436,257 more bases, and the no-call blocks are records, so the flag for
-   bases covered by a call spreads over the unknown regions.
+   belong to records in a VCF and to bases in gpxil, and differ at 436,257
+   bases (FILTERED) and 335,826,681 (covered by a call). They spread where an
+   exported record covers a filtered base, and over the no-call blocks, which
+   are records; and they are lost where a filtered call carried no variant,
+   which the export doesn't write (all the examples recorded on X and Y).
 5. **It is smaller than the files it stands for.** HG002 alone takes
    39.6 MB as gpxil (gt 17.6 MB, flags 15.4 MB, sidecar 6.2 MB), against
    42.1 MB for the VCF.gz as GIAB distributes it, which needs its index
@@ -86,7 +88,7 @@ not always the same per-base states. For a whole genome the file is smaller
 than the VCF that went into it, and a region comes out of it about as fast as
 from the indexed text formats, as whole sequences rather than records.
 
-![What GRCh38 and HG002's calls take on disk in each format, and how long a region takes to read from each](figures/format.png)
+![What GRCh38 and HG002's calls take on disk in each format, and how long a region takes to read from gpxil, a bgzipped FASTA and the VCF](figures/format.png)
 
 ## How it was done
 
@@ -119,7 +121,7 @@ base for base between insertions and deletions, and, around each, the
 stretch from the base before to the base after as a whole, so that an indel
 the two place at different ends of a repeat still matches; where the two
 change the length by different amounts, the stretch took in the next ones,
-up to 10,000 bases, until they agreed again. N in either haplotype
+up to 10,000 bases or 50 stretches, until they agreed again. N in either haplotype
 (nothing known: UNKNOWN in the gpxil's, a masked base in bcftools') matches
 anything. Bases where haplotype 2 is ABSENT (X and Y
 outside the pseudoautosomal regions in a male) were not compared. Every
@@ -144,14 +146,17 @@ file's.
 
 **Sizes and reads.** `sizes.py` measured the files and the stored bytes of
 each plane; worked out a .2bit's size exactly from the sequence (a header,
-an index entry a sequence, and for each two bits a base and eight bytes for
-each run of N and of soft-masked bases); and wrote the VCF as BCF with
+and for each sequence an index entry, 16 bytes of counts, two bits a base,
+and eight bytes for each run of N and of soft-masked bases); and wrote the VCF as BCF with
 `bcftools view -Ob` and indexed it. `access.py` wrote GRCh38 from the gpxil
 as a bgzipped FASTA (pysam's BGZFile, 60 bases a line) indexed by faidx, and
 read 100 regions of each size, placed at random (seed 13) on chromosomes 1
 to 22 in proportion to their lengths, from each file opened once, after one
-pass over the 1 kb regions so that the first regions aren't the ones that
-fetch the pages; the two references were checked to give the same bases.
+pass over the 1 kb regions, reading the reference and the gt plane, so that
+the first regions aren't the ones that fetch the pages (the first read of a
+chromosome's insertions still decodes its sidecar, which is the 90th
+percentile of 35 ms for 1 kb of calls); the two references were checked to
+give the same bases on 23 of the regions.
 Then 5 regions of each size were read from the Gpxil browser's chromosome
 files over HTTPS, each from a newly opened file.
 
