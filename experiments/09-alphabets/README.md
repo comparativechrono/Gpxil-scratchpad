@@ -64,14 +64,17 @@ every alphabet that holds A. Most substitutions are transitions, which keep a
 purine run pure and break the other runs. That fits the purine runs being
 the ones that become commoner, and in Alu tails longer, as the tails age:
 Albrecht-Buehler's GA-sequences are the alphabet that the human spectrum of
-mutation preserves. This is a mutational explanation of a pattern long known
-in eukaryotic genomes. Long oligopurine tracts are far more common than base
-composition predicts (Behe 1995), more so than the other two-letter tracts
-(Yagil 2004); both papers proposed a function. The spectrum doesn't explain
-everything: it breaks A/C runs at least as often as A/T runs, yet Alu tails'
-A/C runs hold steady with age while their A/T runs fall four-fold. The
-tails' sequence when they arrive, slippage, or substitutions peculiar to
-poly(A) must shape those. Substitutions inside a run can't lengthen it
+mutation preserves. In the human genome, that offers a mutational
+explanation for a pattern long known in eukaryotes: long oligopurine tracts
+are far more common than base composition predicts, as Behe (1995) found in
+every eukaryote he examined but not in prokaryotes, and Yagil (2004) found
+them more over-represented than the other two-letter tracts in human
+chromosomes, though in Drosophila A/C tracts lead; both proposed a
+function. Other genomes, with their own spectra, are not tested here. The
+spectrum doesn't explain everything: it breaks A/C runs at least as often as
+A/T runs, yet Alu tails' A/C runs hold steady with age while their A/T runs
+fall four-fold. The tails' sequence when they arrive, slippage, or
+substitutions peculiar to poly(A) must shape those. Substitutions inside a run can't lengthen it
 either: the growth must come from slippage, or from substitutions at its
 edges. In HG002, substitutions beside pure runs extend them far more often
 than the spectrum predicts (experiment 10), but new mutations there are too

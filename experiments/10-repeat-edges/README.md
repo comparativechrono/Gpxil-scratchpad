@@ -89,10 +89,11 @@ unless corrected: under the neutral spectrum, the reference alone makes
 extending substitutions look 1.6 to 1.7 times commoner than they are.
 Bases beside homopolymers were known to vary more, toward the homopolymer's
 base (Siddle et al. 2011), and substitutions in A-tracts to gather at their
-ends (Bacolla et al. 2015). Here the excess is measured across the
-catalogue's repeats and rises with their measured instability. Pure runs of
-two letters, Albrecht-Buehler's GA-sequences among them, show the largest
-excess in HG002. That is one way they could grow as their Alu elements age
+first and last bases, mostly turning them into the flanking base and so
+shortening the tract (Bacolla et al. 2015). Here the excess lies outside the
+repeat, lengthens it, is measured across the catalogue's repeats and rises
+with their measured instability. Pure runs of two letters, Albrecht-Buehler's
+GA-sequences among them, show the largest excess in HG002. That is one way they could grow as their Alu elements age
 (experiment 09), but new mutations beside them are too few to confirm it.
 
 ![HG002's heterozygous substitutions by distance from the nearest tandem repeat; and at the base beside it, HG002's substitutions that extend the repeat and the others, with new mutations that extend it](figures/edges.png)
@@ -276,7 +277,7 @@ heterozygous substitutions on that haplotype:
   doi:[10.1093/bioinformatics/btr067](https://doi.org/10.1093/bioinformatics/btr067).
 - Bacolla A, Zhu X, Chen H, Howells K, Cooper DN, Vasquez KM. Local DNA
   dynamics shape mutational patterns of mononucleotide repeats in human
-  genomes. Nucleic Acids Res. 2015;43:5065-5080.
+  genomes. Nucleic Acids Res. 2015;43(10):5065-5080.
   doi:[10.1093/nar/gkv364](https://doi.org/10.1093/nar/gkv364).
 - Sasani TA, et al. Large, three-generation human families reveal
   post-zygotic mosaicism and variability in germline mutation accumulation.
