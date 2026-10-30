@@ -1,0 +1,291 @@
+tail arrays 1012912
+family differences at tails 328153 {"not in the catalogue's autosomal loci": 16936}
+chr1 {'arrays not called on both haplotypes': 4776, 'arrays called': 85272, 'haplotypes differing in length': 33863} [6s]
+chr2 {'arrays not called on both haplotypes': 7250, 'arrays called': 164017, 'haplotypes differing in length': 64061} [13s]
+chr3 {'arrays not called on both haplotypes': 8458, 'arrays called': 228060, 'haplotypes differing in length': 88454} [17s]
+chr4 {'arrays not called on both haplotypes': 9473, 'arrays called': 283802, 'haplotypes differing in length': 110892} [21s]
+chr5 {'arrays not called on both haplotypes': 11194, 'arrays called': 339480, 'haplotypes differing in length': 132287} [25s]
+chr6 {'arrays not called on both haplotypes': 12046, 'arrays called': 395786, 'haplotypes differing in length': 154323} [29s]
+chr7 {'arrays not called on both haplotypes': 16617, 'arrays called': 453031, 'haplotypes differing in length': 176596} [33s]
+chr8 {'arrays not called on both haplotypes': 19323, 'arrays called': 498126, 'haplotypes differing in length': 193593} [36s]
+chr9 {'arrays not called on both haplotypes': 23762, 'arrays called': 538792, 'haplotypes differing in length': 208931} [39s]
+chr10 {'arrays not called on both haplotypes': 25739, 'arrays called': 587233, 'haplotypes differing in length': 229106} [42s]
+chr11 {'arrays not called on both haplotypes': 26765, 'arrays called': 631145, 'haplotypes differing in length': 246995} [45s]
+chr12 {'arrays not called on both haplotypes': 27648, 'arrays called': 682317, 'haplotypes differing in length': 267235} [49s]
+chr13 {'arrays not called on both haplotypes': 28526, 'arrays called': 711208, 'haplotypes differing in length': 279602} [51s]
+chr14 {'arrays not called on both haplotypes': 29765, 'arrays called': 743098, 'haplotypes differing in length': 292552} [53s]
+chr15 {'arrays not called on both haplotypes': 31932, 'arrays called': 775381, 'haplotypes differing in length': 305727} [56s]
+chr16 {'arrays not called on both haplotypes': 35238, 'arrays called': 812240, 'haplotypes differing in length': 319411} [58s]
+chr17 {'arrays not called on both haplotypes': 38142, 'arrays called': 853648, 'haplotypes differing in length': 335159} [60s]
+chr18 {'arrays not called on both haplotypes': 38914, 'arrays called': 877306, 'haplotypes differing in length': 344910} [62s]
+chr19 {'arrays not called on both haplotypes': 39787, 'arrays called': 916081, 'haplotypes differing in length': 360005} [63s]
+chr20 {'arrays not called on both haplotypes': 40681, 'arrays called': 940506, 'haplotypes differing in length': 369290} [65s]
+chr21 {'arrays not called on both haplotypes': 42073, 'arrays called': 951945, 'haplotypes differing in length': 374178} [65s]
+chr22 {'arrays not called on both haplotypes': 44103, 'arrays called': 968809, 'haplotypes differing in length': 380490} [66s]
+{
+ "parents": [
+  "NA12877",
+  "NA12878"
+ ],
+ "family_skipped": {
+  "not in the catalogue's autosomal loci": 16936
+ },
+ "hg002": {
+  "arrays not called on both haplotypes": 44103,
+  "arrays called": 968809,
+  "haplotypes differing in length": 380490
+ },
+ "tails": {
+  "family": {
+   "Alu": {
+    "all": {
+     "differences": 264812,
+     "arrays": 119635,
+     "gains": 132975,
+     "losses": 131837,
+     "stretch_share_of_array_quartiles": [
+      0.333,
+      0.688,
+      1.0
+     ],
+     "localised": 102466,
+     "proximal": 58265,
+     "distal": 25549,
+     "across_the_middle": 18703,
+     "proximal_to_distal": 2.28,
+     "touch_longest_in_frame": 85287,
+     "touch_longest_in_frame_expected_at_random": 57588.8,
+     "longest in frame in the proximal half": {
+      "localised": 72670,
+      "proximal": 49134,
+      "distal": 11290
+     },
+     "longest in frame in the distal half": {
+      "localised": 29796,
+      "proximal": 9131,
+      "distal": 14259
+     },
+     "not touching the longest in frame": {
+      "localised": 17179,
+      "proximal": 6209,
+      "distal": 7190
+     },
+     "by_te_strand": {
+      "+": {
+       "proximal": 29415,
+       "distal": 12884
+      },
+      "-": {
+       "proximal": 28850,
+       "distal": 12665
+      }
+     }
+    },
+    "0-4 %": {
+     "differences": 3995,
+     "arrays": 1681,
+     "gains": 1978,
+     "losses": 2017,
+     "stretch_share_of_array_quartiles": [
+      0.5,
+      1.0,
+      1.0
+     ],
+     "localised": 1042,
+     "proximal": 603,
+     "distal": 286,
+     "across_the_middle": 157,
+     "proximal_to_distal": 2.11,
+     "touch_longest_in_frame": 943,
+     "touch_longest_in_frame_expected_at_random": 642.2,
+     "longest in frame in the proximal half": {
+      "localised": 778,
+      "proximal": 515,
+      "distal": 160
+     },
+     "longest in frame in the distal half": {
+      "localised": 264,
+      "proximal": 88,
+      "distal": 126
+     },
+     "not touching the longest in frame": {
+      "localised": 99,
+      "proximal": 29,
+      "distal": 58
+     },
+     "by_te_strand": {
+      "+": {
+       "proximal": 337,
+       "distal": 168
+      },
+      "-": {
+       "proximal": 266,
+       "distal": 118
+      }
+     }
+    },
+    "4-8 %": {
+     "differences": 38467,
+     "arrays": 17473,
+     "gains": 19273,
+     "losses": 19194,
+     "stretch_share_of_array_quartiles": [
+      0.412,
+      0.867,
+      1.0
+     ],
+     "localised": 12099,
+     "proximal": 7544,
+     "distal": 2670,
+     "across_the_middle": 1893,
+     "proximal_to_distal": 2.83,
+     "touch_longest_in_frame": 10553,
+     "touch_longest_in_frame_expected_at_random": 7207.0,
+     "longest in frame in the proximal half": {
+      "localised": 9127,
+      "proximal": 6517,
+      "distal": 1322
+     },
+     "longest in frame in the distal half": {
+      "localised": 2972,
+      "proximal": 1027,
+      "distal": 1348
+     },
+     "not touching the longest in frame": {
+      "localised": 1546,
+      "proximal": 546,
+      "distal": 686
+     },
+     "by_te_strand": {
+      "+": {
+       "proximal": 3895,
+       "distal": 1326
+      },
+      "-": {
+       "proximal": 3649,
+       "distal": 1344
+      }
+     }
+    },
+    "8-12 %": {
+     "differences": 113958,
+     "arrays": 51992,
+     "gains": 57299,
+     "losses": 56659,
+     "stretch_share_of_array_quartiles": [
+      0.361,
+      0.737,
+      1.0
+     ],
+     "localised": 41520,
+     "proximal": 24962,
+     "distal": 9459,
+     "across_the_middle": 7125,
+     "proximal_to_distal": 2.64,
+     "touch_longest_in_frame": 35381,
+     "touch_longest_in_frame_expected_at_random": 23772.8,
+     "longest in frame in the proximal half": {
+      "localised": 30767,
+      "proximal": 21460,
+      "distal": 4373
+     },
+     "longest in frame in the distal half": {
+      "localised": 10753,
+      "proximal": 3502,
+      "distal": 5086
+     },
+     "not touching the longest in frame": {
+      "localised": 6139,
+      "proximal": 2216,
+      "distal": 2594
+     },
+     "by_te_strand": {
+      "+": {
+       "proximal": 12475,
+       "distal": 4809
+      },
+      "-": {
+       "proximal": 12487,
+       "distal": 4650
+      }
+     }
+    },
+    "12-16 %": {
+     "differences": 70222,
+     "arrays": 31640,
+     "gains": 35423,
+     "losses": 34799,
+     "stretch_share_of_array_quartiles": [
+      0.305,
+      0.615,
+      1.0
+     ],
+     "localised": 29794,
+     "proximal": 16323,
+     "distal": 7792,
+     "across_the_middle": 5691,
+     "proximal_to_distal": 2.09,
+     "touch_longest_in_frame": 24398,
+     "touch_longest_in_frame_expected_at_random": 16482.6,
+     "longest in frame in the proximal half": {
+      "localised": 20609,
+      "proximal": 13624,
+      "distal": 3337
+     },
+     "longest in frame in the distal half": {
+      "localised": 9185,
+      "proximal": 2699,
+      "distal": 4455
+     },
+     "not touching the longest in frame": {
+      "localised": 5396,
+      "proximal": 1913,
+      "distal": 2255
+     },
+     "by_te_strand": {
+      "+": {
+       "proximal": 8363,
+       "distal": 3954
+      },
+      "-": {
+       "proximal": 7960,
+       "distal": 3838
+      }
+     }
+    },
+    "16-20 %": {
+     "differences": 31716,
+     "arrays": 14050,
+     "gains": 15703,
+     "losses": 16013,
+     "stretch_share_of_array_quartiles": [
+      0.261,
+      0.556,
+      1.0
+     ],
+     "localised": 14646,
+     "proximal": 7360,
+     "distal": 4217,
+     "across_the_middle": 3070,
+     "proximal_to_distal": 1.75,
+     "touch_longest_in_frame": 11488,
+     "touch_longest_in_frame_expected_at_random": 7776.4,
+     "longest in frame in the proximal half": {
+      "localised": 9389,
+      "proximal": 5913,
+      "distal": 1647
+     },
+     "longest in frame in the distal half": {
+      "localised": 5257,
+      "proximal": 1447,
+      "distal": 2570
+     },
+     "not touching the longest in frame": {
+      "localised": 3158,
+      "proximal": 1207,
+      "distal": 1241
+     },
+     "by_te_strand": {
+      "+": {
+       "proximal": 3605,
+ 

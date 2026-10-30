@@ -1,0 +1,27 @@
+loci 7270921
+mutations Alu {'loci': 760533, 'share_of_loci': 0.1046, 'mutations': 154, 'share_of_mutations': 0.35, 'expected_from_strata': 112.1, 'ratio': 1.37, 'ci': [1.16, 1.61]}
+mutations L1 {'loci': 252379, 'share_of_loci': 0.0347, 'mutations': 41, 'share_of_mutations': 0.0932, 'expected_from_strata': 36.0, 'ratio': 1.14, 'ci': [0.82, 1.54]}
+mutations either {'loci': 1012912, 'share_of_loci': 0.1393, 'mutations': 195, 'share_of_mutations': 0.4432, 'expected_from_strata': 145.3, 'ratio': 1.34, 'ci': [1.16, 1.54]}
+chr1 90048 [3s]
+chr2 81219 [6s]
+chr3 65251 [9s]
+chr4 56757 [11s]
+chr5 57399 [14s]
+chr6 57158 [16s]
+chr7 61816 [18s]
+chr8 47801 [20s]
+chr9 45105 [21s]
+chr10 50418 [23s]
+chr11 44938 [25s]
+chr12 52055 [26s]
+chr13 29769 [28s]
+chr14 33129 [29s]
+chr15 34450 [30s]
+chr16 40165 [31s]
+chr17 44312 [32s]
+chr18 24430 [33s]
+chr19 39648 [34s]
+chr20 25319 [35s]
+chr21 12831 [35s]
+chr22 18894 [36s]
+{"Alu": {"all": {"arrays": 760533, "mean_length": 41.77, "a_share": 0.761916, "a_by_tenth": [0.875649, 0.83371, 0.788389, 0.759536, 0.73844, 0.725599, 0.714221, 0.707976, 0.724571, 0.751066], "longest_in_frame_share_of_array": 0.636715, "longest_in_frame_mean_bases": 16.28, "longest_in_frame_centre_relative": 0.42559, "longest_in_frame_centre_bases_from_element": 15.68, "longest_in_frame_in_proximal_half": 0.437539, "poly_a_loci": 450810}, "0-4 %": {"arrays": 9064, "mean_length": 38.78, "a_share": 0.879068, "a_by_tenth": [0.975293, 0.958792, 0.930355, 0.897539, 0.867206, 0.848585, 0.832918, 0.824964, 0.810886, 0.844141], "longest_in_frame_share_of_array": 0.773928, "longest_in_frame_mean_bases": 21.25, "longest_in_frame_centre_relative": 0.411625, "longest_in_frame_centre_bases_from_element": 12.45, "longest_in_frame_in_proximal_half": 0.396514, "poly_a_loci": 8454}, "4-8 %": {"arrays": 90042, "mean_length": 37.8, "a_share": 0.828528, "a_by_tenth": [0.942513, 0.913256, 0.871409, 0.834952, 0.807016, 0.7898, 0.776832, 0.772053, 0.775669, 0.80178], "longest_in_frame_share_of_array": 0.69393, "longest_in_frame_mean_bases": 17.52, "longest_in_frame_centre_relative": 0.409703, "longest_in_frame_centre_bases_from_element": 12.64, "longest_in_frame_in_proximal_half": 0.4282, "poly_a_loci": 72462}, "8-12 %": {"arrays": 304714, "mean_length": 39.31, "a_share": 0.79119, "a_by_tenth": [0.909211, 0.870044, 0.824917, 0.792566, 0.766866, 0.751201, 0.7414, 0.735103, 0.747651, 0.772941], "longest_in_frame_share_of_array": 0.649867, "longest_in_frame_mean_bases": 16.49, "longest_in_frame_centre_relative": 0.415883, "longest_in_frame_centre_bases_from_element": 14.01, "longest_in_frame_in_proximal_half": 0.444771, "poly_a_loci": 204021}, "12-16 %": {"arrays": 219979, "mean_length": 43.69, "a_share": 0.737981, "a_by_tenth": [0.852827, 0.805098, 0.758409, 0.731999, 0.713408, 0.702533, 0.6913, 0.684725, 0.706085, 0.733427], "longest_in_frame_share_of_array": 0.614616, "longest_in_frame_mean_bases": 15.86, "longest_in_frame_centre_relative": 0.43167, "longest_in_frame_centre_bases_from_element": 16.94, "longest_in_frame_in_proximal_half": 0.442269, "poly_a_loci": 112924}, "16-20 %": {"arrays": 113513, "mean_length": 45.81, "a_share": 0.691433, "a_by_tenth": [0.796792, 0.748536, 0.700357, 0.679764, 0.668723, 0.661929, 0.648721, 0.642179, 0.66983, 0.697499], "longest_in_frame_share_of_array": 0.599609, "longest_in_frame_mean_bases": 15.33, "longest_in_frame_centre_relative": 0.447
