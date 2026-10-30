@@ -1,0 +1,144 @@
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr9 68.9 s; haplotypes differ at {'consensus_left_out_overlapping': 23, 'consensus_wrote_star': 5} {'consensus_left_out_overlapping': 30, 'consensus_wrote_star': 3} ; records the same 239815 of 241278 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 26289
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr1 153.2 s; haplotypes differ at {'consensus_left_out_overlapping': 116, 'consensus_wrote_star': 5} {'consensus_left_out_overlapping': 132, 'consensus_wrote_star': 41} ; records the same 411643 of 413318 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 186683
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr2 103.6 s; haplotypes differ at {'consensus_left_out_overlapping': 88, 'consensus_wrote_star': 5} {'consensus_left_out_overlapping': 104, 'consensus_wrote_star': 12} ; records the same 392827 of 394177 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 71440
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr3 113.1 s; haplotypes differ at {'consensus_left_out_overlapping': 111, 'consensus_wrote_star': 12} {'consensus_left_out_overlapping': 156, 'consensus_wrote_star': 4} ; records the same 381070 of 384899 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 91920
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr4 205.7 s; haplotypes differ at {'consensus_left_out_overlapping': 109, 'consensus_wrote_star': 11} {'consensus_left_out_overlapping': 152, 'consensus_wrote_star': 3} ; records the same 375280 of 381049 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 229171
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr5 98.4 s; haplotypes differ at {'consensus_left_out_overlapping': 101, 'consensus_wrote_star': 12} {'consensus_left_out_overlapping': 202, 'consensus_wrote_star': 6} ; records the same 336289 of 339287 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 107553
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr6 86.2 s; haplotypes differ at {'consensus_left_out_overlapping': 86, 'consensus_wrote_star': 3} {'consensus_left_out_overlapping': 109, 'consensus_wrote_star': 4} ; records the same 322408 of 323805 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 91622
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr7 110.1 s; haplotypes differ at {'consensus_left_out_overlapping': 136, 'consensus_wrote_star': 2} {'consensus_left_out_overlapping': 76, 'consensus_wrote_star': 4} ; records the same 317929 of 319290 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 180335
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr8 72.1 s; haplotypes differ at {'consensus_left_out_overlapping': 78, 'consensus_wrote_star': 2} {'consensus_left_out_overlapping': 221, 'consensus_wrote_star': 3} ; records the same 274166 of 275173 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 57052
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr10 68.8 s; haplotypes differ at {'consensus_left_out_overlapping': 90, 'consensus_wrote_star': 1} {'consensus_left_out_overlapping': 82, 'consensus_wrote_star': 2} ; records the same 271125 of 272021 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 56255
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr11 63.8 s; haplotypes differ at {'consensus_wrote_star': 3, 'consensus_left_out_overlapping': 54} {'consensus_left_out_overlapping': 72, 'consensus_wrote_star': 4} ; records the same 252238 of 253480 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 54537
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr12 61.4 s; haplotypes differ at {'consensus_left_out_overlapping': 33} {'consensus_left_out_overlapping': 59, 'consensus_wrote_star': 4} ; records the same 244247 of 245324 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 40351
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr13 63.7 s; haplotypes differ at {'consensus_wrote_star': 31, 'consensus_left_out_overlapping': 56} {'consensus_wrote_star': 64, 'consensus_left_out_overlapping': 84} ; records the same 220455 of 221162 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 21295
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr14 66.3 s; haplotypes differ at {'consensus_left_out_overlapping': 86, 'consensus_wrote_star': 2} {'consensus_left_out_overlapping': 43} ; records the same 161127 of 161575 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 75579
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr15 46.6 s; haplotypes differ at {'consensus_left_out_overlapping': 30, 'consensus_wrote_star': 2} {'consensus_left_out_overlapping': 36, 'consensus_wrote_star': 4} ; records the same 164271 of 164843 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 44499
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr16 110.5 s; haplotypes differ at {'consensus_left_out_overlapping': 45, 'consensus_wrote_star': 2} {'consensus_left_out_overlapping': 65, 'consensus_wrote_star': 3} ; records the same 168250 of 168788 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 145624
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr17 47.9 s; haplotypes differ at {'consensus_left_out_overlapping': 31, 'consensus_wrote_star': 3} {'consensus_left_out_overlapping': 32, 'consensus_wrote_star': 3} ; records the same 158503 of 159259 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 26005
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr18 37.3 s; haplotypes differ at {'consensus_left_out_overlapping': 81, 'consensus_wrote_star': 2} {'consensus_left_out_overlapping': 35, 'consensus_wrote_star': 3} ; records the same 154243 of 154767 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 20110
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr19 39.7 s; haplotypes differ at {'consensus_left_out_overlapping': 38, 'consensus_wrote_star': 1} {'consensus_left_out_overlapping': 38, 'consensus_wrote_star': 2} ; records the same 119774 of 120248 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 69736
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr20 63.3 s; haplotypes differ at {'consensus_left_out_overlapping': 91, 'consensus_wrote_star': 5} {'consensus_left_out_overlapping': 21, 'consensus_wrote_star': 4} ; records the same 132449 of 133729 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 87423
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr21 25.2 s; haplotypes differ at {'consensus_wrote_star': 95, 'consensus_left_out_overlapping': 22} {'consensus_wrote_star': 4, 'consensus_left_out_overlapping': 9} ; records the same 78693 of 78909 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 4617
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chr22 125.5 s; haplotypes differ at {'consensus_wrote_star': 8, 'consensus_left_out_overlapping': 18} {'consensus_left_out_overlapping': 17, 'consensus_wrote_star': 4} ; records the same 76417 of 77014 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 132872
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chrX 50.9 s; haplotypes differ at {'consensus_left_out_overlapping': 5} {'consensus_left_out_overlapping': 5} ; records the same 147949 of 148198 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 9500
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+[W::hts_idx_load3] The index file is older than the data file: /home/claude/data/giab5/HG002_GRCh38_v5.0q_smvar.vcf.gz.tbi
+chrY 18.3 s; haplotypes differ at {'consensus_left_out_overlapping': 4, 'consensus_wrote_star': 15} {} ; records the same 37482 of 37482 ; again: haplotypes the same {'1': True, '2': True} gt bases differing 0

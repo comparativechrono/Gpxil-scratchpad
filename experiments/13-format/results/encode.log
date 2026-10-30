@@ -1,0 +1,196 @@
+splitting HG002_GRCh38_v5.0q_smvar.vcf.gz by contig for sample HG002 ...
+  chr1: 248,956,422 bp, 447,447 records  [34s]
+  chr10: 133,797,422 bp, 273,014 records  [53s]
+  chr11: 135,086,622 bp, 247,768 records  [71s]
+  chr12: 133,275,309 bp, 242,076 records  [90s]
+  chr13: 114,364,328 bp, 329,535 records  [107s]
+  chr14: 107,043,718 bp, 162,286 records  [119s]
+  chr15: 101,991,189 bp, 171,248 records  [131s]
+  chr16: 90,338,345 bp, 198,155 records  [143s]
+  chr17: 83,257,441 bp, 168,809 records  [155s]
+  chr18: 80,373,285 bp, 154,112 records  [165s]
+  chr19: 58,617,616 bp, 120,428 records  [173s]
+  chr2: 242,193,529 bp, 399,483 records  [201s]
+  chr20: 64,444,167 bp, 179,633 records  [210s]
+  chr21: 46,709,983 bp, 113,870 records  [217s]
+  chr22: 50,818,468 bp, 106,073 records  [223s]
+  chr3: 198,295,559 bp, 407,765 records  [249s]
+  chr4: 190,214,555 bp, 392,164 records  [275s]
+  chr5: 181,538,259 bp, 339,220 records  [296s]
+  chr6: 170,805,979 bp, 338,070 records  [320s]
+  chr7: 159,345,973 bp, 341,571 records  [342s]
+  chr8: 145,138,636 bp, 276,511 records  [360s]
+  chr9: 138,394,717 bp, 293,149 records  [377s]
+  chrM: no calls, and --no-ref leaves nothing to store: skipped
+  chrX: 156,040,895 bp, 157,970 records  [391s]
+  chrY: 57,227,415 bp, 85,168 records  [395s]
+  KI270728.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270727.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270442.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270729.1: no calls, and --no-ref leaves nothing to store: skipped
+  GL000225.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270743.1: no calls, and --no-ref leaves nothing to store: skipped
+  GL000008.2: no calls, and --no-ref leaves nothing to store: skipped
+  GL000009.2: no calls, and --no-ref leaves nothing to store: skipped
+  KI270747.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270722.1: no calls, and --no-ref leaves nothing to store: skipped
+  GL000194.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270742.1: no calls, and --no-ref leaves nothing to store: skipped
+  GL000205.2: no calls, and --no-ref leaves nothing to store: skipped
+  GL000195.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270736.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270733.1: no calls, and --no-ref leaves nothing to store: skipped
+  GL000224.1: no calls, and --no-ref leaves nothing to store: skipped
+  GL000219.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270719.1: no calls, and --no-ref leaves nothing to store: skipped
+  GL000216.2: no calls, and --no-ref leaves nothing to store: skipped
+  KI270712.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270706.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270725.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270744.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270734.1: no calls, and --no-ref leaves nothing to store: skipped
+  GL000213.1: no calls, and --no-ref leaves nothing to store: skipped
+  GL000220.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270715.1: no calls, and --no-ref leaves nothing to store: skipped
+  GL000218.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270749.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270741.1: no calls, and --no-ref leaves nothing to store: skipped
+  GL000221.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270716.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270731.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270751.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270750.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270519.1: no calls, and --no-ref leaves nothing to store: skipped
+  GL000214.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270708.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270730.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270438.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270737.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270721.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270738.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270748.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270435.1: no calls, and --no-ref leaves nothing to store: skipped
+  GL000208.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270538.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270756.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270739.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270757.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270709.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270746.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270753.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270589.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270726.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270735.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270711.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270745.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270714.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270732.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270713.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270754.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270710.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270717.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270724.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270720.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270723.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270718.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270317.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270740.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270755.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270707.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270579.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270752.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270512.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270322.1: no calls, and --no-ref leaves nothing to store: skipped
+  GL000226.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270311.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270366.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270511.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270448.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270521.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270581.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270582.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270515.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270588.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270591.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270522.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270507.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270590.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270584.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270320.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270382.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270468.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270467.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270362.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270517.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270593.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270528.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270587.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270364.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270371.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270333.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270374.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270411.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270414.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270510.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270390.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270375.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270420.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270509.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270315.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270302.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270518.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270530.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270304.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270418.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270424.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270417.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270508.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270303.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270381.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270529.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270425.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270396.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270363.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270386.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270465.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270383.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270384.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270330.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270372.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270548.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270580.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270387.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270391.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270305.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270373.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270422.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270316.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270340.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270338.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270583.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270334.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270429.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270393.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270516.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270389.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270466.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270388.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270544.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270310.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270412.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270395.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270376.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270337.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270335.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270378.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270379.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270329.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270419.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270336.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270312.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270539.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270385.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270423.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270392.1: no calls, and --no-ref leaves nothing to store: skipped
+  KI270394.1: no calls, and --no-ref leaves nothing to store: skipped
+wrote /tmp/claude-0/-home-claude/1ef0b659-4e0f-5cfe-8515-a381a38066b2/scratchpad/e13/work/HG002_v5.0q.gpxil.tif: 24 contigs, 3,088,269,832 bases, 39.6 MB in 396.5s

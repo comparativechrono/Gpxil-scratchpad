@@ -1,0 +1,5544 @@
+{
+ "gpxiltools": "0.8.2",
+ "pysam": "0.24.1",
+ "chromosomes": {
+  "chr9": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 1.3,
+    "cpu_s": 1.3,
+    "peak_rss_mb": 89.8
+   },
+   "vcf_reference_masked_bases": 17993,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 11.8,
+    "cpu_s": 11.7,
+    "peak_rss_mb": 356.8,
+    "bytes": 16351720
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 30430309,
+      "consensus_unknown": 0,
+      "called": 108012414,
+      "event_stretches": 28919,
+      "differing_stretches": 24,
+      "differing_bases": 5,
+      "gpxil_length": 138442723,
+      "consensus_length": 138441950
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 23,
+      "consensus_wrote_star": 5
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 173502,
+      "left_out_overlapping": 958,
+      "left_out_not_star": 37,
+      "other_messages": {}
+     },
+     "seconds": 5.9
+    },
+    "2": {
+     "stats": {
+      "unknown": 30497877,
+      "consensus_unknown": 0,
+      "called": 107976414,
+      "event_stretches": 27485,
+      "differing_bases": 9,
+      "differing_stretches": 24,
+      "gpxil_length": 138474291,
+      "consensus_length": 138476480
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 30,
+      "consensus_wrote_star": 3
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 162885,
+      "left_out_overlapping": 1119,
+      "left_out_not_star": 38,
+      "other_messages": {}
+     },
+     "seconds": 5.2
+    }
+   },
+   "records": {
+    "vcf_records": 293149,
+    "export_records": 364948,
+    "export_nocall_blocks": 131939,
+    "vcf_alleles": 241278,
+    "export_alleles": 262242,
+    "same": 239815,
+    "same_filter": 239804,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 1005,
+     "only_in_export/unknown_bases_written_as_N": 3909,
+     "only_in_export/written_differently": 17513,
+     "only_in_vcf/at_a_haplotype_difference": 83,
+     "only_in_vcf/written_differently": 1380
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "197151 AT A 1|0",
+      "197153 G C 1|0",
+      "320273 G GGACCGAACACTCACGGAAAAAGCCCAGGT 0|1",
+      "320432 T C 0|1",
+      "400472 C CCTCCACCATCACCACCACCTCCACCATCA 1|0",
+      "400478 T A 1|0"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "4267944 C CGT 1|0",
+      "7445529 AAAAAAATAT A 0|1",
+      "8145016 GTA G 0|1",
+      "8145022 A G 0|1",
+      "15099714 GAAGAAAGAAAGA G 1|0",
+      "15099730 A G 1|0"
+     ],
+     "only_in_export/written_differently": [
+      "197152 T C 1|0",
+      "197152 TG T 1|0",
+      "320334 T G 0|1",
+      "320493 C T 0|1",
+      "320639 T G 0|1",
+      "320676 C T 0|1"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "2722041 T N 0|1",
+      "2722042 T N 0|1",
+      "2722043 A N 0|1",
+      "2722044 T N 0|1",
+      "2722045 T N 0|1",
+      "2722046 T N 0|1"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "4267945 C CTG 1|0",
+      "7445529 AAAAAAATAT A .|1",
+      "8145018 A G 0|1",
+      "8145020 ATA A 0|1",
+      "15099718 A G 1|0",
+      "15099722 A G 1|0"
+     ]
+    },
+    "seconds": 5.8
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 24.2,
+    "cpu_s": 23.9,
+    "peak_rss_mb": 943.5
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 26289,
+    "gt_stretches_differing": 235,
+    "gt_examples": [
+     [
+      197152,
+      208,
+      32
+     ],
+     [
+      197153,
+      45,
+      221
+     ],
+     [
+      320334,
+      208,
+      212
+     ],
+     [
+      320432,
+      210,
+      208
+     ],
+     [
+      320493,
+      208,
+      216
+     ],
+     [
+      320639,
+      208,
+      212
+     ],
+     [
+      320676,
+      208,
+      216
+     ],
+     [
+      320859,
+      208,
+      210
+     ],
+     [
+      321253,
+      208,
+      216
+     ],
+     [
+      321408,
+      208,
+      216
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 57,
+     "INS2": 56,
+     "FILTERED": 20143,
+     "VARIANT_SITE": 30268451
+    },
+    "filtered_examples": [
+     [
+      39800141,
+      17,
+      25
+     ],
+     [
+      39800142,
+      17,
+      25
+     ],
+     [
+      40156715,
+      17,
+      25
+     ],
+     [
+      40156716,
+      17,
+      25
+     ],
+     [
+      40156718,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     28692,
+     28661
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 68.9
+  },
+  "chr1": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 2.3,
+    "cpu_s": 2.2,
+    "peak_rss_mb": 89.0
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 21.4,
+    "cpu_s": 21.2,
+    "peak_rss_mb": 412.6,
+    "bytes": 23692277
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 33925077,
+      "consensus_unknown": 0,
+      "called": 215392325,
+      "event_stretches": 54807,
+      "differing_bases": 57,
+      "differing_stretches": 69,
+      "stretches_taken_together": 1,
+      "gpxil_length": 249317402,
+      "consensus_length": 249317525
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 116,
+      "consensus_wrote_star": 5
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 277210,
+      "left_out_overlapping": 2193,
+      "left_out_not_star": 147,
+      "other_messages": {}
+     },
+     "seconds": 11.4
+    },
+    "2": {
+     "stats": {
+      "unknown": 33731007,
+      "consensus_unknown": 0,
+      "called": 215691940,
+      "event_stretches": 55012,
+      "differing_stretches": 72,
+      "differing_bases": 108,
+      "gpxil_length": 249422947,
+      "consensus_length": 249420417
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 132,
+      "consensus_wrote_star": 41
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 289016,
+      "left_out_overlapping": 1913,
+      "left_out_not_star": 166,
+      "other_messages": {}
+     },
+     "seconds": 11.3
+    }
+   },
+   "records": {
+    "vcf_records": 447447,
+    "export_records": 516544,
+    "export_nocall_blocks": 116309,
+    "vcf_alleles": 413318,
+    "export_alleles": 557997,
+    "same": 411643,
+    "same_filter": 411627,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 1583,
+     "only_in_export/unknown_bases_written_as_N": 6853,
+     "only_in_export/written_differently": 137918,
+     "only_in_vcf/at_a_haplotype_difference": 265,
+     "only_in_vcf/written_differently": 1410
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "759452 CACAA C 0|1",
+      "893789 AAAAAAAAAAAAAATATATATATATATATA A 1|0",
+      "1076253 GGGGAGGCTGAGGCTACGGGGACTCCGTGG G 0|1",
+      "1076478 T C 0|1",
+      "1288549 C CCGTGTCTCTGCTCCGTCCCGTGTCTCTGC 1|0",
+      "1288567 TCC T 1|0"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "1743565 AT A 0|1",
+      "1743568 T A 0|1",
+      "2697773 CGAGCATCTGACAGCCTGGAACAGCACCCT C 1|0",
+      "2697945 C A 1|0",
+      "2698007 T C 1|0",
+      "2698014 T G 1|0"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "759453 A N 0|1",
+      "759454 C N 0|1",
+      "759455 A N 0|1",
+      "759456 A N 0|1",
+      "759457 A N 0|1",
+      "759458 C N 0|1"
+     ],
+     "only_in_export/written_differently": [
+      "759460 CACAC C 0|1",
+      "893791 AAAAAAAAAAAATATATATATATATATATA A 1|0",
+      "1076298 A C 0|1",
+      "1076318 GGCTGAGGCTACGGGGACTCCGTGCTGGGA G 0|1",
+      "1288551 C G 1|0",
+      "1288552 C T 1|0"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "1743566 T A 0|1",
+      "1743567 AT A 0|1",
+      "2697777 C N 1|0",
+      "2697778 A N 1|0",
+      "2697779 T N 1|0",
+      "2697786 G N 1|0"
+     ]
+    },
+    "seconds": 47.2
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 37.1,
+    "cpu_s": 36.7,
+    "peak_rss_mb": 1526.2
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 186683,
+    "gt_stretches_differing": 477,
+    "gt_examples": [
+     [
+      759453,
+      13,
+      15
+     ],
+     [
+      759454,
+      13,
+      15
+     ],
+     [
+      759455,
+      13,
+      15
+     ],
+     [
+      759456,
+      13,
+      15
+     ],
+     [
+      759461,
+      223,
+      221
+     ],
+     [
+      759462,
+      223,
+      221
+     ],
+     [
+      759463,
+      223,
+      221
+     ],
+     [
+      759464,
+      223,
+      221
+     ],
+     [
+      893790,
+      208,
+      240
+     ],
+     [
+      893791,
+      208,
+      240
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 127,
+     "INS2": 171,
+     "FILTERED": 4624,
+     "VARIANT_SITE": 33568310
+    },
+    "filtered_examples": [
+     [
+      16506391,
+      17,
+      25
+     ],
+     [
+      146073112,
+      17,
+      25
+     ],
+     [
+      146073113,
+      17,
+      25
+     ],
+     [
+      146081020,
+      17,
+      25
+     ],
+     [
+      146081021,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     56192,
+     56102
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 153.2
+  },
+  "chr2": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 2.0,
+    "cpu_s": 2.0,
+    "peak_rss_mb": 89.3
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 20.0,
+    "cpu_s": 19.8,
+    "peak_rss_mb": 544.2,
+    "bytes": 18665763
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 9919201,
+      "consensus_unknown": 0,
+      "called": 232252268,
+      "event_stretches": 54275,
+      "differing_stretches": 70,
+      "differing_bases": 26,
+      "gpxil_length": 242171469,
+      "consensus_length": 242171202
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 88,
+      "consensus_wrote_star": 5
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 271390,
+      "left_out_overlapping": 1661,
+      "left_out_not_star": 182,
+      "other_messages": {}
+     },
+     "seconds": 9.5
+    },
+    "2": {
+     "stats": {
+      "unknown": 10057154,
+      "consensus_unknown": 0,
+      "called": 232239064,
+      "event_stretches": 54612,
+      "differing_stretches": 79,
+      "differing_bases": 37,
+      "gpxil_length": 242296218,
+      "consensus_length": 242295365
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 104,
+      "consensus_wrote_star": 12
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 274878,
+      "left_out_overlapping": 1768,
+      "left_out_not_star": 140,
+      "other_messages": {}
+     },
+     "seconds": 9.4
+    }
+   },
+   "records": {
+    "vcf_records": 399483,
+    "export_records": 430819,
+    "export_nocall_blocks": 48631,
+    "vcf_alleles": 394177,
+    "export_alleles": 460811,
+    "same": 392827,
+    "same_filter": 392827,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 2216,
+     "only_in_export/unknown_bases_written_as_N": 8704,
+     "only_in_export/written_differently": 57064,
+     "only_in_vcf/at_a_haplotype_difference": 363,
+     "only_in_vcf/written_differently": 987
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "207385 G GAGGAAGGGAGGGAGGGAGGGAGGGAGGAA 0|1",
+      "207429 G A 0|1",
+      "307761 CGTGTTAATACACACACAGGTAGTGAGGAG C 1|0",
+      "307924 TGAGGAGGCCGGGGTGTTAATACACACACA T 0|1",
+      "308253 C G 1|0",
+      "308359 G C 1|0"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "547332 CGGGGAGACACCTGCACAGGGAGAGTGTCC C 0|1",
+      "547446 G C 0|1",
+      "1343995 AGCAGCTTCCTCTCACTGGGACTTTTAATT A 1|0",
+      "1344624 G C 1|0",
+      "1344632 T C 1|0",
+      "1344788 G A 1|0"
+     ],
+     "only_in_export/written_differently": [
+      "207393 A G 0|1",
+      "207413 G A 0|1",
+      "207417 G A 0|1",
+      "207433 A G 0|1",
+      "207435 A AGGAGGGAGGGAGGGAGGAAGGAAGGAAGG 0|1",
+      "307796 C G 1|0"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "307762 G N 1|0",
+      "307763 T N 1|0",
+      "307764 G N 1|0",
+      "307765 T N 1|0",
+      "307766 T N 1|0",
+      "307767 A N 1|0"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "547389 T C 0|1",
+      "547389 TGGGGAGACACCTGCACAGGGAGAGTGTCC T 0|1",
+      "1344058 G C 1|0",
+      "1344066 T C 1|0",
+      "1344071 C T 1|0",
+      "1344072 T G 1|0"
+     ]
+    },
+    "seconds": 10.9
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 30.8,
+    "cpu_s": 30.5,
+    "peak_rss_mb": 1470.0
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 71440,
+    "gt_stretches_differing": 583,
+    "gt_examples": [
+     [
+      207393,
+      208,
+      212
+     ],
+     [
+      207413,
+      208,
+      209
+     ],
+     [
+      207417,
+      208,
+      209
+     ],
+     [
+      207429,
+      209,
+      208
+     ],
+     [
+      207433,
+      208,
+      212
+     ],
+     [
+      307762,
+      208,
+      240
+     ],
+     [
+      307763,
+      208,
+      240
+     ],
+     [
+      307764,
+      208,
+      240
+     ],
+     [
+      307765,
+      208,
+      240
+     ],
+     [
+      307766,
+      208,
+      240
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 162,
+     "INS2": 135,
+     "FILTERED": 0,
+     "VARIANT_SITE": 9823518
+    },
+    "filtered_examples": [],
+    "sidecar_entries": [
+     54949,
+     54852
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 103.6
+  },
+  "chr3": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 1.8,
+    "cpu_s": 1.8,
+    "peak_rss_mb": 88.6
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 17.9,
+    "cpu_s": 17.7,
+    "peak_rss_mb": 412.2,
+    "bytes": 20777936
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 5807168,
+      "consensus_unknown": 0,
+      "called": 192787820,
+      "event_stretches": 45649,
+      "differing_stretches": 58,
+      "differing_bases": 73,
+      "gpxil_length": 198594988,
+      "consensus_length": 198595194
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 111,
+      "consensus_wrote_star": 12
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 254212,
+      "left_out_overlapping": 1778,
+      "left_out_not_star": 138,
+      "other_messages": {}
+     },
+     "seconds": 8.3
+    },
+    "2": {
+     "stats": {
+      "unknown": 5791931,
+      "consensus_unknown": 0,
+      "called": 192615579,
+      "event_stretches": 46367,
+      "differing_bases": 102,
+      "differing_stretches": 59,
+      "gpxil_length": 198407510,
+      "consensus_length": 198406345
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 156,
+      "consensus_wrote_star": 4
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 260532,
+      "left_out_overlapping": 5522,
+      "left_out_not_star": 171,
+      "other_messages": {}
+     },
+     "seconds": 8.7
+    }
+   },
+   "records": {
+    "vcf_records": 407765,
+    "export_records": 479158,
+    "export_nocall_blocks": 108239,
+    "vcf_alleles": 384899,
+    "export_alleles": 470378,
+    "same": 381070,
+    "same_filter": 380957,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 1051,
+     "only_in_export/unknown_bases_written_as_N": 6285,
+     "only_in_export/written_differently": 81972,
+     "only_in_vcf/at_a_haplotype_difference": 239,
+     "only_in_vcf/written_differently": 3590
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "10570 T TAA 1|0",
+      "10575 C T 1|0",
+      "10581 C T 1|0",
+      "10589 C A 1|0",
+      "10599 T TA 1|0",
+      "10641 T TAACCCCTAACCCTA 1|0"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "961501 C CTTCCTTCCTTCT 1|0",
+      "1042944 C CAT 1|0",
+      "1042965 CATAT C 1|0",
+      "1446197 GGTGTGTGTGTGTGT G 1|0",
+      "1446213 T G 1|0",
+      "2287693 GGAAGAAGAAGAAGAAGAGGAAGAA G 1|0"
+     ],
+     "only_in_export/written_differently": [
+      "10572 C A 1|0",
+      "10573 C A 1|0",
+      "10576 A C 1|0",
+      "10577 A T 1|0",
+      "10578 C A 1|0",
+      "10579 C A 1|0"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "960946 T N 1|0",
+      "960947 T N 1|0",
+      "960948 C N 1|0",
+      "960949 C N 1|0",
+      "960950 T N 1|0",
+      "960951 T N 1|0"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "961509 T TTTCTTTCCTTCC 1|0",
+      "1042961 T A 1|0",
+      "1042963 C T 1|0",
+      "1042964 C T 1|0",
+      "1042966 A C 1|0",
+      "1042967 T C 1|0"
+     ]
+    },
+    "seconds": 25.5
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 31.4,
+    "cpu_s": 30.9,
+    "peak_rss_mb": 1215.2
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 91920,
+    "gt_stretches_differing": 526,
+    "gt_examples": [
+     [
+      10572,
+      13,
+      29
+     ],
+     [
+      10573,
+      13,
+      29
+     ],
+     [
+      10575,
+      141,
+      13
+     ],
+     [
+      10576,
+      13,
+      45
+     ],
+     [
+      10577,
+      13,
+      141
+     ],
+     [
+      10578,
+      13,
+      29
+     ],
+     [
+      10579,
+      13,
+      29
+     ],
+     [
+      10581,
+      141,
+      13
+     ],
+     [
+      10582,
+      13,
+      45
+     ],
+     [
+      10583,
+      13,
+      141
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 127,
+     "INS2": 129,
+     "FILTERED": 10349,
+     "VARIANT_SITE": 5674784
+    },
+    "filtered_examples": [
+     [
+      92124272,
+      17,
+      25
+     ],
+     [
+      92124273,
+      17,
+      25
+     ],
+     [
+      92124274,
+      17,
+      25
+     ],
+     [
+      92124275,
+      17,
+      25
+     ],
+     [
+      92124276,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     45986,
+     45896
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 113.1
+  },
+  "chr4": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 1.7,
+    "cpu_s": 1.6,
+    "peak_rss_mb": 89.2
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 17.1,
+    "cpu_s": 16.9,
+    "peak_rss_mb": 393.0,
+    "bytes": 18721591
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 4954496,
+      "consensus_unknown": 0,
+      "called": 185294794,
+      "event_stretches": 45515,
+      "differing_stretches": 68,
+      "differing_bases": 62,
+      "stretches_taken_together": 1,
+      "gpxil_length": 190249290,
+      "consensus_length": 190247039
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 109,
+      "consensus_wrote_star": 11
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 258504,
+      "left_out_overlapping": 2781,
+      "left_out_not_star": 184,
+      "other_messages": {}
+     },
+     "seconds": 8.5
+    },
+    "2": {
+     "stats": {
+      "unknown": 4923431,
+      "consensus_unknown": 0,
+      "called": 185095498,
+      "event_stretches": 47197,
+      "differing_stretches": 60,
+      "differing_bases": 103,
+      "gpxil_length": 190018929,
+      "consensus_length": 190017010
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 152,
+      "consensus_wrote_star": 3
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 266819,
+      "left_out_overlapping": 7977,
+      "left_out_not_star": 170,
+      "other_messages": {}
+     },
+     "seconds": 13.2
+    }
+   },
+   "records": {
+    "vcf_records": 392164,
+    "export_records": 420828,
+    "export_nocall_blocks": 56706,
+    "vcf_alleles": 381049,
+    "export_alleles": 603670,
+    "same": 375280,
+    "same_filter": 375247,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 1205,
+     "only_in_export/unknown_bases_written_as_N": 6101,
+     "only_in_export/written_differently": 221084,
+     "only_in_vcf/at_a_haplotype_difference": 315,
+     "only_in_vcf/unknown_bases_written_as_N": 1,
+     "only_in_vcf/written_differently": 5453
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "744983 G GC 0|1",
+      "745012 T G 0|1",
+      "745040 GC G 0|1",
+      "745155 G GC 0|1",
+      "745214 C CG 0|1",
+      "745250 G C 0|1"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "920539 ATT A 0|1",
+      "920542 T A 0|1",
+      "1951443 TACACACACACACACAC T 0|1",
+      "1951460 A C 0|1",
+      "3323872 TGAGA T 0|1",
+      "3323878 A T 0|1"
+     ],
+     "only_in_vcf/unknown_bases_written_as_N": [
+      "1439520 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNN N 1|0"
+     ],
+     "only_in_export/written_differently": [
+      "744987 G C 0|1",
+      "744992 T G 0|1",
+      "744993 C T 0|1",
+      "744994 G C 0|1",
+      "744995 C G 0|1",
+      "744996 T C 0|1"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "920540 T A 0|1",
+      "920540 TTT T 0|1",
+      "1951444 A C 0|1",
+      "1951444 ACACACACACACACACA A 0|1",
+      "3323874 A T 0|1",
+      "3323874 AGAGA A 0|1"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "1439539 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNN N 1|0",
+      "1545509 C N 0|1",
+      "1545510 T N 0|1",
+      "1545511 C N 0|1",
+      "1545512 A N 0|1",
+      "1545513 G N 0|1"
+     ]
+    },
+    "seconds": 117.4
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 30.1,
+    "cpu_s": 29.7,
+    "peak_rss_mb": 1174.8
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 229171,
+    "gt_stretches_differing": 598,
+    "gt_examples": [
+     [
+      744987,
+      208,
+      210
+     ],
+     [
+      744992,
+      208,
+      212
+     ],
+     [
+      744993,
+      208,
+      216
+     ],
+     [
+      744994,
+      208,
+      210
+     ],
+     [
+      744995,
+      208,
+      212
+     ],
+     [
+      744996,
+      208,
+      210
+     ],
+     [
+      744997,
+      208,
+      216
+     ],
+     [
+      744998,
+      208,
+      212
+     ],
+     [
+      744999,
+      208,
+      210
+     ],
+     [
+      745000,
+      208,
+      209
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 198,
+     "INS2": 147,
+     "FILTERED": 13317,
+     "VARIANT_SITE": 4836795
+    },
+    "filtered_examples": [
+     [
+      49120489,
+      17,
+      25
+     ],
+     [
+      49120490,
+      17,
+      25
+     ],
+     [
+      49120491,
+      17,
+      25
+     ],
+     [
+      49120492,
+      17,
+      25
+     ],
+     [
+      49120493,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     46428,
+     46281
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 205.7
+  },
+  "chr5": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 1.5,
+    "cpu_s": 1.5,
+    "peak_rss_mb": 91.7
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 16.4,
+    "cpu_s": 16.2,
+    "peak_rss_mb": 388.8,
+    "bytes": 16399011
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 7624783,
+      "consensus_unknown": 0,
+      "called": 174188099,
+      "event_stretches": 41496,
+      "differing_bases": 61,
+      "differing_stretches": 52,
+      "gpxil_length": 181812882,
+      "consensus_length": 181813542
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 101,
+      "consensus_wrote_star": 12
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 225155,
+      "left_out_overlapping": 2687,
+      "left_out_not_star": 107,
+      "other_messages": {}
+     },
+     "seconds": 8.0
+    },
+    "2": {
+     "stats": {
+      "unknown": 7510568,
+      "consensus_unknown": 0,
+      "called": 174314202,
+      "event_stretches": 40921,
+      "differing_bases": 171,
+      "differing_stretches": 45,
+      "gpxil_length": 181824770,
+      "consensus_length": 181825153
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 202,
+      "consensus_wrote_star": 6
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 225650,
+      "left_out_overlapping": 6752,
+      "left_out_not_star": 227,
+      "other_messages": {}
+     },
+     "seconds": 12.0
+    }
+   },
+   "records": {
+    "vcf_records": 339220,
+    "export_records": 372699,
+    "export_nocall_blocks": 44127,
+    "vcf_alleles": 339287,
+    "export_alleles": 436480,
+    "same": 336289,
+    "same_filter": 336188,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 1992,
+     "only_in_export/unknown_bases_written_as_N": 4574,
+     "only_in_export/written_differently": 93625,
+     "only_in_vcf/at_a_haplotype_difference": 261,
+     "only_in_vcf/written_differently": 2737
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "211824 TGA T 0|1",
+      "211840 G A 0|1",
+      "211841 C A 0|1",
+      "211843 C T 0|1",
+      "211857 C T 0|1",
+      "211881 G C 0|1"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "212373 CGCACACTGCAGCCATGACGAGACAGCACC C 0|1",
+      "212540 TGA T 0|1",
+      "212555 T C 0|1",
+      "212573 C T 0|1",
+      "212597 G C 0|1",
+      "212638 T C 0|1"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "211825 G N 0|1",
+      "211826 A N 0|1",
+      "211827 G N 0|1",
+      "211828 A N 0|1",
+      "211829 T N 0|1",
+      "211830 G N 0|1"
+     ],
+     "only_in_export/written_differently": [
+      "211838 T A 0|1",
+      "211839 C A 0|1",
+      "211841 C T 0|1",
+      "211855 G T 0|1",
+      "211911 A G 0|1",
+      "211913 ACT A 0|1"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "212388 T C 0|1",
+      "212391 C T 0|1",
+      "212415 T G 0|1",
+      "212428 T G 0|1",
+      "212437 A G 0|1",
+      "212452 G T 0|1"
+     ]
+    },
+    "seconds": 16.5
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 27.3,
+    "cpu_s": 26.8,
+    "peak_rss_mb": 1127.6
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 107553,
+    "gt_stretches_differing": 461,
+    "gt_examples": [
+     [
+      211825,
+      13,
+      15
+     ],
+     [
+      211826,
+      13,
+      15
+     ],
+     [
+      211838,
+      223,
+      209
+     ],
+     [
+      211839,
+      223,
+      209
+     ],
+     [
+      211840,
+      209,
+      223
+     ],
+     [
+      211841,
+      209,
+      216
+     ],
+     [
+      211843,
+      216,
+      223
+     ],
+     [
+      211855,
+      223,
+      216
+     ],
+     [
+      211857,
+      216,
+      223
+     ],
+     [
+      211879,
+      223,
+      208
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 106,
+     "INS2": 141,
+     "FILTERED": 63626,
+     "VARIANT_SITE": 7503801
+    },
+    "filtered_examples": [
+     [
+      47058526,
+      17,
+      25
+     ],
+     [
+      47058527,
+      17,
+      25
+     ],
+     [
+      47058528,
+      17,
+      25
+     ],
+     [
+      47058529,
+      17,
+      25
+     ],
+     [
+      47058530,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     41733,
+     41652
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 98.4
+  },
+  "chr6": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 1.6,
+    "cpu_s": 1.6,
+    "peak_rss_mb": 97.1
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 15.4,
+    "cpu_s": 15.3,
+    "peak_rss_mb": 380.3,
+    "bytes": 16522012
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 4128807,
+      "consensus_unknown": 0,
+      "called": 166907301,
+      "event_stretches": 40931,
+      "differing_bases": 45,
+      "differing_stretches": 44,
+      "gpxil_length": 171036108,
+      "consensus_length": 171036487
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 86,
+      "consensus_wrote_star": 3
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 220427,
+      "left_out_overlapping": 1882,
+      "left_out_not_star": 111,
+      "other_messages": {}
+     },
+     "seconds": 6.7
+    },
+    "2": {
+     "stats": {
+      "unknown": 4117830,
+      "consensus_unknown": 0,
+      "called": 166880162,
+      "event_stretches": 41648,
+      "differing_stretches": 48,
+      "differing_bases": 70,
+      "gpxil_length": 170997992,
+      "consensus_length": 171000501
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 109,
+      "consensus_wrote_star": 4
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 222472,
+      "left_out_overlapping": 1443,
+      "left_out_not_star": 144,
+      "other_messages": {}
+     },
+     "seconds": 7.1
+    }
+   },
+   "records": {
+    "vcf_records": 338070,
+    "export_records": 378799,
+    "export_nocall_blocks": 64405,
+    "vcf_alleles": 323805,
+    "export_alleles": 403609,
+    "same": 322408,
+    "same_filter": 322407,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 3098,
+     "only_in_export/unknown_bases_written_as_N": 16414,
+     "only_in_export/written_differently": 61689,
+     "only_in_vcf/at_a_haplotype_difference": 223,
+     "only_in_vcf/written_differently": 1174
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "469232 CTCTCCCTCCTCTCCGTCTCCCTCCTCTCC C 0|1",
+      "469262 GTCTCCCTCCTCTCCGTCTCCGTCTCCCTC G 1|0",
+      "469623 GTCTCCGTCTCCCTCC G 1|0",
+      "1319065 CATGGTGGCGCACGCCTGTAATCCCAGCAC C 1|0",
+      "1319737 AG A 1|0",
+      "1319739 C T 1|0"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "601450 CCACACACATTCTCACACCAAGAACACCCC C 0|1",
+      "601450 CCA C 1|0",
+      "601523 T A 1|0",
+      "601642 G C 1|0",
+      "601850 CCACA C 1|0",
+      "601926 GAATCCACACACATTCTCACACCAAGAACA G 1|0"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "469233 T N 0|1",
+      "469234 C N 0|1",
+      "469235 T N 0|1",
+      "469236 C N 0|1",
+      "469237 C N 0|1",
+      "469238 C N 0|1"
+     ],
+     "only_in_export/written_differently": [
+      "469241 CTCTCCGTCTCCCTCCTCTCCGTCTCCCTC C 0|1",
+      "469283 G C 1|0",
+      "469286 T C 1|0",
+      "469287 C T 1|0",
+      "469289 C T 1|0",
+      "469290 T C 1|0"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "601451 C N 0|1",
+      "601452 A N 0|1",
+      "601453 C N 0|1",
+      "601454 A N 0|1",
+      "601455 C N 0|1",
+      "601456 A N 0|1"
+     ]
+    },
+    "seconds": 12.4
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 26.6,
+    "cpu_s": 26.2,
+    "peak_rss_mb": 1071.9
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 91622,
+    "gt_stretches_differing": 431,
+    "gt_examples": [
+     [
+      469233,
+      13,
+      15
+     ],
+     [
+      469234,
+      13,
+      15
+     ],
+     [
+      469235,
+      13,
+      15
+     ],
+     [
+      469236,
+      13,
+      15
+     ],
+     [
+      469237,
+      13,
+      15
+     ],
+     [
+      469238,
+      13,
+      15
+     ],
+     [
+      469239,
+      13,
+      15
+     ],
+     [
+      469240,
+      13,
+      15
+     ],
+     [
+      469241,
+      13,
+      15
+     ],
+     [
+      469263,
+      221,
+      13
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 111,
+     "INS2": 134,
+     "FILTERED": 1,
+     "VARIANT_SITE": 4024404
+    },
+    "filtered_examples": [
+     [
+      322832,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     41853,
+     41762
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 86.2
+  },
+  "chr7": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 1.6,
+    "cpu_s": 1.6,
+    "peak_rss_mb": 88.8
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 15.3,
+    "cpu_s": 15.1,
+    "peak_rss_mb": 401.3,
+    "bytes": 19776827
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 12141504,
+      "consensus_unknown": 0,
+      "called": 147542406,
+      "event_stretches": 40040,
+      "differing_stretches": 52,
+      "differing_bases": 95,
+      "stretches_taken_together": 1,
+      "gpxil_length": 159683910,
+      "consensus_length": 159681925
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 136,
+      "consensus_wrote_star": 2
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 210713,
+      "left_out_overlapping": 1689,
+      "left_out_not_star": 176,
+      "other_messages": {}
+     },
+     "seconds": 7.2
+    },
+    "2": {
+     "stats": {
+      "unknown": 12155973,
+      "consensus_unknown": 0,
+      "called": 147577226,
+      "event_stretches": 40698,
+      "differing_stretches": 48,
+      "differing_bases": 32,
+      "gpxil_length": 159733199,
+      "consensus_length": 159730858
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 76,
+      "consensus_wrote_star": 4
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 218201,
+      "left_out_overlapping": 1793,
+      "left_out_not_star": 95,
+      "other_messages": {}
+     },
+     "seconds": 7.1
+    }
+   },
+   "records": {
+    "vcf_records": 341571,
+    "export_records": 419273,
+    "export_nocall_blocks": 109897,
+    "vcf_alleles": 319290,
+    "export_alleles": 458682,
+    "same": 317929,
+    "same_filter": 317851,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 2169,
+     "only_in_export/unknown_bases_written_as_N": 58611,
+     "only_in_export/written_differently": 79973,
+     "only_in_vcf/at_a_haplotype_difference": 262,
+     "only_in_vcf/unknown_bases_written_as_N": 1,
+     "only_in_vcf/written_differently": 1098
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "191988 G GC 1|0",
+      "191994 C T 1|0",
+      "207177 C CGTCTGTCATGGCCCCCTCGGCCCCGCACA 0|1",
+      "207187 G T 0|1",
+      "207201 C T 0|1",
+      "207221 G C 0|1"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "685261 C CATATATATATGTATATATATATATACATA 0|1",
+      "685276 ATACG A 0|1",
+      "685285 T C 0|1",
+      "890220 T TCTGGGAGTGGAGGGAGCGTGAGTGGGTGT 0|1",
+      "890250 T C 0|1",
+      "890399 T C 0|1"
+     ],
+     "only_in_vcf/unknown_bases_written_as_N": [
+      "61528152 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNN N 1|."
+     ],
+     "only_in_export/written_differently": [
+      "191989 G C 1|0",
+      "191994 C CT 1|0",
+      "191994 C G 1|0",
+      "207181 G T 0|1",
+      "207186 C T 0|1",
+      "207189 T C 0|1"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "215319 T N 0|1",
+      "215320 G N 0|1",
+      "224254 G N 1|0",
+      "224255 G N 1|0",
+      "224256 G N 1|0",
+      "224258 C N 1|0"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "685269 C T 0|1",
+      "685272 A G 0|1",
+      "685279 C T 0|1",
+      "685280 G A 0|1",
+      "685287 T C 0|1",
+      "685295 C T 0|1"
+     ]
+    },
+    "seconds": 35.4
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 29.5,
+    "cpu_s": 29.2,
+    "peak_rss_mb": 1016.7
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 180335,
+    "gt_stretches_differing": 679,
+    "gt_examples": [
+     [
+      191989,
+      13,
+      45
+     ],
+     [
+      191994,
+      141,
+      77
+     ],
+     [
+      207181,
+      208,
+      216
+     ],
+     [
+      207186,
+      208,
+      216
+     ],
+     [
+      207187,
+      216,
+      208
+     ],
+     [
+      207189,
+      208,
+      210
+     ],
+     [
+      207201,
+      216,
+      208
+     ],
+     [
+      207211,
+      208,
+      210
+     ],
+     [
+      207212,
+      208,
+      216
+     ],
+     [
+      207219,
+      208,
+      210
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 187,
+     "INS2": 122,
+     "FILTERED": 6821,
+     "VARIANT_SITE": 11961391
+    },
+    "filtered_examples": [
+     [
+      1273955,
+      17,
+      25
+     ],
+     [
+      1273956,
+      19,
+      25
+     ],
+     [
+      1273957,
+      17,
+      25
+     ],
+     [
+      1273958,
+      17,
+      25
+     ],
+     [
+      1273959,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     40583,
+     40492
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 110.1
+  },
+  "chr8": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 1.4,
+    "cpu_s": 1.3,
+    "peak_rss_mb": 97.2
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 13.7,
+    "cpu_s": 13.5,
+    "peak_rss_mb": 362.1,
+    "bytes": 14288271
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 10192985,
+      "consensus_unknown": 0,
+      "called": 135654236,
+      "event_stretches": 33182,
+      "differing_stretches": 44,
+      "differing_bases": 36,
+      "gpxil_length": 145847221,
+      "consensus_length": 145847554
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 78,
+      "consensus_wrote_star": 2
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 185454,
+      "left_out_overlapping": 1245,
+      "left_out_not_star": 84,
+      "other_messages": {}
+     },
+     "seconds": 6.4
+    },
+    "2": {
+     "stats": {
+      "unknown": 10104728,
+      "consensus_unknown": 0,
+      "called": 135341681,
+      "event_stretches": 33026,
+      "differing_stretches": 44,
+      "differing_bases": 183,
+      "stretches_taken_together": 2,
+      "gpxil_length": 145446409,
+      "consensus_length": 145347582
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 221,
+      "consensus_wrote_star": 3
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 185600,
+      "left_out_overlapping": 1553,
+      "left_out_not_star": 325,
+      "other_messages": {}
+     },
+     "seconds": 6.3
+    }
+   },
+   "records": {
+    "vcf_records": 276511,
+    "export_records": 318875,
+    "export_nocall_blocks": 50980,
+    "vcf_alleles": 275173,
+    "export_alleles": 326697,
+    "same": 274166,
+    "same_filter": 274164,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 333,
+     "only_in_export/unknown_bases_written_as_N": 4451,
+     "only_in_export/written_differently": 47747,
+     "only_in_vcf/at_a_haplotype_difference": 154,
+     "only_in_vcf/written_differently": 853
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "87307 A AG 0|1",
+      "87316 T C 0|1",
+      "87329 C T 0|1",
+      "87346 T TCCCTCTCCACCCCCCTCTCCTTTCTCCTC 0|1",
+      "266063 CAGGGGGTCAGCCTTCACCTGAGGAGGGGG C 0|1",
+      "266249 G GGGA 0|1"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "108350 A AAGGGAGGGAGGG 1|0",
+      "967816 CTA C 1|0",
+      "967820 A T 1|0",
+      "1103430 TTTGGTTAACGGTGATGACTGGCGGGGCCT T 1|0",
+      "1642434 C CCCCGCCGGTCCTCACCTGTGTCACCCTCC 1|0",
+      "1642494 G C 1|0"
+     ],
+     "only_in_export/written_differently": [
+      "87308 C G 0|1",
+      "87313 T C 0|1",
+      "87314 C T 0|1",
+      "87315 T C 0|1",
+      "87318 T C 0|1",
+      "87321 C T 0|1"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "108354 A AAGGGAGGGAGGG 1|0",
+      "967818 A T 1|0",
+      "967818 ATA A 1|0",
+      "1103468 G N 1|0",
+      "1103469 T N 1|0",
+      "1103470 T N 1|0"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "266064 A N 0|1",
+      "266065 G N 0|1",
+      "266066 G N 0|1",
+      "266067 G N 0|1",
+      "266068 G N 0|1",
+      "266069 G N 0|1"
+     ]
+    },
+    "seconds": 8.5
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 22.6,
+    "cpu_s": 22.3,
+    "peak_rss_mb": 939.7
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 57052,
+    "gt_stretches_differing": 390,
+    "gt_examples": [
+     [
+      87308,
+      208,
+      212
+     ],
+     [
+      87313,
+      208,
+      210
+     ],
+     [
+      87314,
+      208,
+      216
+     ],
+     [
+      87315,
+      208,
+      210
+     ],
+     [
+      87316,
+      210,
+      208
+     ],
+     [
+      87318,
+      208,
+      210
+     ],
+     [
+      87321,
+      208,
+      216
+     ],
+     [
+      87322,
+      208,
+      210
+     ],
+     [
+      87323,
+      208,
+      216
+     ],
+     [
+      87325,
+      208,
+      210
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 83,
+     "INS2": 85,
+     "FILTERED": 2,
+     "VARIANT_SITE": 10079287
+    },
+    "filtered_examples": [
+     [
+      2394570,
+      17,
+      25
+     ],
+     [
+      12340933,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     33291,
+     33225
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 72.1
+  },
+  "chr10": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 1.3,
+    "cpu_s": 1.3,
+    "peak_rss_mb": 89.2
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 13.3,
+    "cpu_s": 13.1,
+    "peak_rss_mb": 366.2,
+    "bytes": 13318832
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 8308622,
+      "consensus_unknown": 0,
+      "called": 125764412,
+      "event_stretches": 35337,
+      "differing_bases": 30,
+      "differing_stretches": 61,
+      "gpxil_length": 134073034,
+      "consensus_length": 134073275
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 90,
+      "consensus_wrote_star": 1
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 189572,
+      "left_out_overlapping": 1007,
+      "left_out_not_star": 111,
+      "other_messages": {}
+     },
+     "seconds": 5.9
+    },
+    "2": {
+     "stats": {
+      "unknown": 8318592,
+      "consensus_unknown": 0,
+      "called": 125771237,
+      "event_stretches": 34988,
+      "differing_stretches": 46,
+      "differing_bases": 42,
+      "stretches_taken_together": 1,
+      "gpxil_length": 134089829,
+      "consensus_length": 134090547
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 82,
+      "consensus_wrote_star": 2
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 186449,
+      "left_out_overlapping": 1311,
+      "left_out_not_star": 95,
+      "other_messages": {}
+     },
+     "seconds": 6.1
+    }
+   },
+   "records": {
+    "vcf_records": 273014,
+    "export_records": 303527,
+    "export_nocall_blocks": 40496,
+    "vcf_alleles": 272021,
+    "export_alleles": 318890,
+    "same": 271125,
+    "same_filter": 271121,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 574,
+     "only_in_export/unknown_bases_written_as_N": 7710,
+     "only_in_export/written_differently": 39481,
+     "only_in_vcf/at_a_haplotype_difference": 197,
+     "only_in_vcf/written_differently": 699
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "124502 AATATATATATAT A 1|0",
+      "124516 T A 1|0",
+      "358748 G GGGAGGTGGGGGAC 0|1",
+      "401975 AAATCCTGTGATTTTACATGTGTGGTAGCA A 0|1",
+      "417938 C CGATAGGCCTCCCTGTTCACCTGCACCTGT 1|0",
+      "418114 G GGAGCTCGGACAGGCCTCCCTGTCCACCTG 1|0"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "723286 GTGACATGGATAGAGTACATGTCAGGGGTA G 1|0",
+      "723434 G A 1|0",
+      "1238633 T TC 1|0",
+      "1238642 T C 1|0",
+      "1238686 C T 1|0",
+      "1238689 G C 1|0"
+     ],
+     "only_in_export/written_differently": [
+      "124504 T A 1|0",
+      "124504 TATATATATATAT T 1|0",
+      "358751 G A 0|1",
+      "358753 A ATGGGGGACGGGGG 0|1",
+      "401993 TGTGTGGTAGCATTAGCATTACTCTTCCTT T 0|1",
+      "417954 C T 1|0"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "401976 A N 0|1",
+      "401977 A N 0|1",
+      "401978 T N 0|1",
+      "401979 C N 0|1",
+      "401980 C N 0|1",
+      "401981 T N 0|1"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "723292 T G 1|0",
+      "723298 G C 1|0",
+      "723304 A G 1|0",
+      "723315 A T 1|0",
+      "723338 A G 1|0",
+      "723351 C T 1|0"
+     ]
+    },
+    "seconds": 8.3
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 21.4,
+    "cpu_s": 21.1,
+    "peak_rss_mb": 887.2
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 56255,
+    "gt_stretches_differing": 342,
+    "gt_examples": [
+     [
+      124503,
+      208,
+      0
+     ],
+     [
+      124504,
+      221,
+      29
+     ],
+     [
+      124515,
+      13,
+      221
+     ],
+     [
+      124516,
+      29,
+      221
+     ],
+     [
+      358751,
+      208,
+      209
+     ],
+     [
+      401976,
+      13,
+      15
+     ],
+     [
+      401977,
+      13,
+      15
+     ],
+     [
+      401978,
+      13,
+      15
+     ],
+     [
+      401979,
+      13,
+      15
+     ],
+     [
+      401980,
+      13,
+      15
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 118,
+     "INS2": 71,
+     "FILTERED": 29,
+     "VARIANT_SITE": 8279392
+    },
+    "filtered_examples": [
+     [
+      41551090,
+      17,
+      25
+     ],
+     [
+      41553806,
+      17,
+      25
+     ],
+     [
+      46489642,
+      17,
+      25
+     ],
+     [
+      46489643,
+      17,
+      25
+     ],
+     [
+      46489644,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     35248,
+     35189
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 68.8
+  },
+  "chr11": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 1.3,
+    "cpu_s": 1.2,
+    "peak_rss_mb": 89.1
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 11.9,
+    "cpu_s": 11.8,
+    "peak_rss_mb": 370.8,
+    "bytes": 11821578
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 7207906,
+      "consensus_unknown": 0,
+      "called": 128141837,
+      "event_stretches": 32711,
+      "differing_stretches": 43,
+      "differing_bases": 14,
+      "gpxil_length": 135349743,
+      "consensus_length": 135349935
+     },
+     "differing_sites": {
+      "consensus_wrote_star": 3,
+      "consensus_left_out_overlapping": 54
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 175780,
+      "left_out_overlapping": 949,
+      "left_out_not_star": 116,
+      "other_messages": {}
+     },
+     "seconds": 5.9
+    },
+    "2": {
+     "stats": {
+      "unknown": 7233496,
+      "consensus_unknown": 0,
+      "called": 128094053,
+      "event_stretches": 33259,
+      "differing_bases": 30,
+      "differing_stretches": 49,
+      "gpxil_length": 135327549,
+      "consensus_length": 135303601
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 72,
+      "consensus_wrote_star": 4
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 178114,
+      "left_out_overlapping": 1096,
+      "left_out_not_star": 123,
+      "other_messages": {}
+     },
+     "seconds": 5.7
+    }
+   },
+   "records": {
+    "vcf_records": 247768,
+    "export_records": 267244,
+    "export_nocall_blocks": 21298,
+    "vcf_alleles": 253480,
+    "export_alleles": 283284,
+    "same": 252238,
+    "same_filter": 252238,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 13302,
+     "only_in_export/unknown_bases_written_as_N": 1840,
+     "only_in_export/written_differently": 15904,
+     "only_in_vcf/at_a_haplotype_difference": 229,
+     "only_in_vcf/written_differently": 1013
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "363171 TACCGTCTGGAGAGAGAGCTGTCCCGGCCC T 0|1",
+      "363751 CCCCCACCGTCTGGAGAGAGGTGTCCCGGC C 1|0",
+      "442383 CCCCCCACCCCGGGCCACGGCCT C 1|0",
+      "474982 TTGTGATACGGACATATTCACGAGTTTG T 0|1",
+      "690336 GAGGGC G 1|0",
+      "980364 C CTGCCCGGTGCCGTGTCCTGGAGCGGTGAC 1|0"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "401769 C CG 0|1",
+      "401781 C A 0|1",
+      "401785 G GCCCCGCTCACCCCCAGCCCCGCTCACACC 0|1",
+      "401801 CACCCCCG C 0|1",
+      "401837 A G 0|1",
+      "401840 G C 0|1"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "363172 A N 0|1",
+      "363173 C N 0|1",
+      "363174 C N 0|1",
+      "363175 G N 0|1",
+      "363176 T N 0|1",
+      "363177 C N 0|1"
+     ],
+     "only_in_export/written_differently": [
+      "363228 CCCACCGTCTGGGGAGAGCTGTCCCGGCCC C 0|1",
+      "363771 GTGTCCCGGCCCCACCGTCTGGAGAGAGCT G 1|0",
+      "401775 G C 0|1",
+      "401776 C G 0|1",
+      "401777 T C 0|1",
+      "401778 C T 0|1"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "401771 C G 0|1",
+      "401780 C A 0|1",
+      "401782 C A 0|1",
+      "401785 G C 0|1",
+      "401786 A G 0|1",
+      "401800 T C 0|1"
+     ]
+    },
+    "seconds": 6.9
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 19.9,
+    "cpu_s": 19.6,
+    "peak_rss_mb": 892.9
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 54537,
+    "gt_stretches_differing": 274,
+    "gt_examples": [
+     [
+      363172,
+      13,
+      15
+     ],
+     [
+      363173,
+      13,
+      15
+     ],
+     [
+      363174,
+      13,
+      15
+     ],
+     [
+      363175,
+      13,
+      15
+     ],
+     [
+      363176,
+      13,
+      15
+     ],
+     [
+      363177,
+      13,
+      15
+     ],
+     [
+      363178,
+      13,
+      15
+     ],
+     [
+      363179,
+      13,
+      15
+     ],
+     [
+      363180,
+      13,
+      15
+     ],
+     [
+      363181,
+      13,
+      15
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 69,
+     "INS2": 66,
+     "FILTERED": 0,
+     "VARIANT_SITE": 7202080
+    },
+    "filtered_examples": [],
+    "sidecar_entries": [
+     33564,
+     33523
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 63.8
+  },
+  "chr12": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 1.2,
+    "cpu_s": 1.2,
+    "peak_rss_mb": 96.7
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 12.3,
+    "cpu_s": 12.1,
+    "peak_rss_mb": 486.4,
+    "bytes": 11144188
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 5138142,
+      "consensus_unknown": 0,
+      "called": 128296419,
+      "event_stretches": 33844,
+      "differing_stretches": 25,
+      "differing_bases": 10,
+      "gpxil_length": 133434561,
+      "consensus_length": 133434299
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 33
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 165411,
+      "left_out_overlapping": 1059,
+      "left_out_not_star": 41,
+      "other_messages": {}
+     },
+     "seconds": 5.7
+    },
+    "2": {
+     "stats": {
+      "unknown": 5137521,
+      "consensus_unknown": 0,
+      "called": 128279905,
+      "event_stretches": 33472,
+      "differing_bases": 25,
+      "differing_stretches": 38,
+      "gpxil_length": 133417426,
+      "consensus_length": 133416904
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 59,
+      "consensus_wrote_star": 4
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 168859,
+      "left_out_overlapping": 1007,
+      "left_out_not_star": 68,
+      "other_messages": {}
+     },
+     "seconds": 5.5
+    }
+   },
+   "records": {
+    "vcf_records": 242076,
+    "export_records": 259683,
+    "export_nocall_blocks": 21816,
+    "vcf_alleles": 245324,
+    "export_alleles": 280743,
+    "same": 244247,
+    "same_filter": 244231,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 458,
+     "only_in_export/unknown_bases_written_as_N": 3393,
+     "only_in_export/written_differently": 32645,
+     "only_in_vcf/at_a_haplotype_difference": 126,
+     "only_in_vcf/written_differently": 951
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "250830 C CAAAA 0|1",
+      "250831 C A 0|1",
+      "250832 C A 0|1",
+      "250833 C A 0|1",
+      "670469 A AGAAAAGAAAAG 1|0",
+      "757350 G GGTTTTTACTCC 0|1"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "3154010 ATGTGTG A 1|0",
+      "3154018 G A 1|0",
+      "3226652 ATGTGTGTGTGTGTGTGTGTG A 1|0",
+      "3226674 G A 1|0",
+      "3226676 G A 1|0",
+      "4973069 GCTCTCCTACCTTAAAGGGGCTCTTCATCC G 1|0"
+     ],
+     "only_in_export/written_differently": [
+      "250830 C CAAAA .|1",
+      "250831 C A .|1",
+      "250832 C A .|1",
+      "250833 C A .|1",
+      "670470 A G 1|0",
+      "670472 G GAAGAAAAGAAA 1|0"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "2768369 A N 0|1",
+      "2768370 A N 0|1",
+      "2768371 G N 0|1",
+      "2768372 C N 0|1",
+      "2768373 C N 0|1",
+      "2768374 A N 0|1"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "3154012 G A 1|0",
+      "3154012 GTGTGTG G 1|0",
+      "3226654 G A 1|0",
+      "3226656 G A 1|0",
+      "3226656 GTGTGTGTGTGTGTGTGTGTG G 1|0",
+      "4973094 C N 1|0"
+     ]
+    },
+    "seconds": 4.7
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 19.7,
+    "cpu_s": 19.4,
+    "peak_rss_mb": 878.0
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 40351,
+    "gt_stretches_differing": 305,
+    "gt_examples": [
+     [
+      670470,
+      13,
+      77
+     ],
+     [
+      757352,
+      221,
+      216
+     ],
+     [
+      757353,
+      221,
+      216
+     ],
+     [
+      757354,
+      221,
+      208
+     ],
+     [
+      757355,
+      221,
+      216
+     ],
+     [
+      757356,
+      221,
+      208
+     ],
+     [
+      757357,
+      221,
+      209
+     ],
+     [
+      757358,
+      221,
+      210
+     ],
+     [
+      757359,
+      221,
+      216
+     ],
+     [
+      1085176,
+      221,
+      13
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 125,
+     "INS2": 120,
+     "FILTERED": 663,
+     "VARIANT_SITE": 5125051
+    },
+    "filtered_examples": [
+     [
+      37122878,
+      17,
+      25
+     ],
+     [
+      37122879,
+      17,
+      25
+     ],
+     [
+      37122880,
+      17,
+      25
+     ],
+     [
+      37122881,
+      17,
+      25
+     ],
+     [
+      37122882,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     34120,
+     34013
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 61.4
+  },
+  "chr13": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 1.0,
+    "cpu_s": 0.9,
+    "peak_rss_mb": 88.3
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 10.2,
+    "cpu_s": 10.0,
+    "peak_rss_mb": 349.1,
+    "bytes": 20410965
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 20301913,
+      "consensus_unknown": 0,
+      "called": 94208672,
+      "event_stretches": 26868,
+      "differing_stretches": 46,
+      "differing_bases": 45,
+      "gpxil_length": 114510585,
+      "consensus_length": 114485597
+     },
+     "differing_sites": {
+      "consensus_wrote_star": 31,
+      "consensus_left_out_overlapping": 56
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 153736,
+      "left_out_overlapping": 1288,
+      "left_out_not_star": 169,
+      "other_messages": {}
+     },
+     "seconds": 4.8
+    },
+    "2": {
+     "stats": {
+      "unknown": 20355247,
+      "consensus_unknown": 0,
+      "called": 94119392,
+      "event_stretches": 26859,
+      "differing_stretches": 65,
+      "differing_bases": 91,
+      "gpxil_length": 114474639,
+      "consensus_length": 114443463
+     },
+     "differing_sites": {
+      "consensus_wrote_star": 64,
+      "consensus_left_out_overlapping": 84
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 157697,
+      "left_out_overlapping": 1189,
+      "left_out_not_star": 127,
+      "other_messages": {}
+     },
+     "seconds": 4.7
+    }
+   },
+   "records": {
+    "vcf_records": 329535,
+    "export_records": 429983,
+    "export_nocall_blocks": 214457,
+    "vcf_alleles": 221162,
+    "export_alleles": 248933,
+    "same": 220455,
+    "same_filter": 220411,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 11938,
+     "only_in_export/unknown_bases_written_as_N": 3196,
+     "only_in_export/written_differently": 13344,
+     "only_in_vcf/at_a_haplotype_difference": 190,
+     "only_in_vcf/written_differently": 517
+    },
+    "examples": {
+     "only_in_vcf/at_a_haplotype_difference": [
+      "16171350 A T 1|0",
+      "16171422 C T 1|0",
+      "16171469 G A 1|0",
+      "16181951 A T 1|0",
+      "16181958 G GAAACTTCTTGGAGATGTGTGCTTTCACCT 1|0",
+      "16181959 GAACCTCTTTGTGATGTCTCCATTCATTTG G 1|0"
+     ],
+     "only_in_vcf/written_differently": [
+      "16179217 C T 0|1",
+      "16179221 A G 0|1",
+      "16194642 T C 1|0",
+      "16194663 A C 1|0",
+      "16194668 T G 1|0",
+      "16194709 T C 1|0"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "16171350 A T 1|.",
+      "16171422 C T 1|.",
+      "16171469 G A 1|.",
+      "16181951 A T 1|.",
+      "16181958 G GAAACTTCTTGGAGATGTGTGCTTTCACCT 1|.",
+      "16181959 GAACCTCTTTGTGATGTCTCCATTCATTTG G 1|."
+     ],
+     "only_in_export/written_differently": [
+      "16179217 C T .|1",
+      "16179221 A G .|1",
+      "16194642 T C 1|.",
+      "16194663 A C 1|.",
+      "16194668 T G 1|.",
+      "16194709 T C 1|."
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "16407429 G N 1|.",
+      "16601504 A N 1|.",
+      "16601687 C N 1|.",
+      "16603588 C N 1|.",
+      "16623963 T N .|1",
+      "17042854 C N .|1"
+     ]
+    },
+    "seconds": 5.6
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 26.8,
+    "cpu_s": 26.4,
+    "peak_rss_mb": 819.1
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 21295,
+    "gt_stretches_differing": 233,
+    "gt_examples": [
+     [
+      16204633,
+      223,
+      208
+     ],
+     [
+      16204634,
+      216,
+      210
+     ],
+     [
+      16204636,
+      223,
+      216
+     ],
+     [
+      16205403,
+      209,
+      223
+     ],
+     [
+      16205405,
+      223,
+      209
+     ],
+     [
+      16205427,
+      216,
+      223
+     ],
+     [
+      16205429,
+      223,
+      208
+     ],
+     [
+      16209881,
+      223,
+      255
+     ],
+     [
+      16209882,
+      223,
+      255
+     ],
+     [
+      16209883,
+      223,
+      255
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 64,
+     "INS2": 54,
+     "FILTERED": 5954,
+     "VARIANT_SITE": 20041230
+    },
+    "filtered_examples": [
+     [
+      16195106,
+      17,
+      25
+     ],
+     [
+      16195107,
+      17,
+      25
+     ],
+     [
+      16195108,
+      17,
+      25
+     ],
+     [
+      16195109,
+      17,
+      25
+     ],
+     [
+      16195110,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     26958,
+     26934
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 63.7
+  },
+  "chr14": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 1.1,
+    "cpu_s": 1.1,
+    "peak_rss_mb": 89.2
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 9.2,
+    "cpu_s": 9.2,
+    "peak_rss_mb": 327.2,
+    "bytes": 7954524
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 22694484,
+      "consensus_unknown": 0,
+      "called": 84336294,
+      "event_stretches": 22118,
+      "differing_bases": 59,
+      "differing_stretches": 32,
+      "gpxil_length": 107030778,
+      "consensus_length": 107030873
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 86,
+      "consensus_wrote_star": 2
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 110769,
+      "left_out_overlapping": 742,
+      "left_out_not_star": 96,
+      "other_messages": {}
+     },
+     "seconds": 4.2
+    },
+    "2": {
+     "stats": {
+      "unknown": 22686426,
+      "consensus_unknown": 0,
+      "called": 84384973,
+      "event_stretches": 21314,
+      "differing_stretches": 20,
+      "differing_bases": 25,
+      "gpxil_length": 107071399,
+      "consensus_length": 107071487
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 43
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 106329,
+      "left_out_overlapping": 676,
+      "left_out_not_star": 50,
+      "other_messages": {}
+     },
+     "seconds": 4.1
+    }
+   },
+   "records": {
+    "vcf_records": 162286,
+    "export_records": 179846,
+    "export_nocall_blocks": 22978,
+    "vcf_alleles": 161575,
+    "export_alleles": 233356,
+    "same": 161127,
+    "same_filter": 161119,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 171,
+     "only_in_export/unknown_bases_written_as_N": 2417,
+     "only_in_export/written_differently": 69641,
+     "only_in_vcf/at_a_haplotype_difference": 80,
+     "only_in_vcf/written_differently": 368
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "18967114 AGCGTGAC A 1|0",
+      "18967122 T TTTGTC 1|0",
+      "19310394 TTC T 0|1",
+      "19310397 T C 0|1",
+      "19317993 TTTTTTTG T 0|1",
+      "19387832 G GCCAGGGCCACAGAAGGCTCAGTCCCATGG 1|0"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "20008288 A AAGGAAGGGAGGGAGGGAGGGAGGGAGGGA 0|1",
+      "24719609 C CAT 0|1",
+      "24719636 ATATATATATATGTATATATATATATG A 0|1",
+      "25237325 TACACACAC T 0|1",
+      "25237335 C A 0|1",
+      "31013863 TTTATTA T 0|1"
+     ],
+     "only_in_export/written_differently": [
+      "18967115 G T 1|0",
+      "18967116 C T 1|0",
+      "18967117 G T 1|0",
+      "18967118 T G 1|0",
+      "18967119 G T 1|0",
+      "18967120 A C 1|0"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "19310396 C N 0|1",
+      "19310397 T N 0|1",
+      "19310398 T N 0|1",
+      "19310399 T N 0|1",
+      "19310400 T N 0|1",
+      "19310401 T N 0|1"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "20008290 A AGAAGGGAGGGAGGGAGGGAGGGAGGGAGG 0|1",
+      "24719618 G A 0|1",
+      "24719620 A G 0|1",
+      "24719634 G A 0|1",
+      "24719636 A G 0|1",
+      "24719638 ATATATATATGTATATATATATATG A 0|1"
+     ]
+    },
+    "seconds": 24.4
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 14.0,
+    "cpu_s": 13.8,
+    "peak_rss_mb": 730.8
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 75579,
+    "gt_stretches_differing": 195,
+    "gt_examples": [
+     [
+      18967115,
+      221,
+      141
+     ],
+     [
+      18967116,
+      221,
+      141
+     ],
+     [
+      18967117,
+      221,
+      141
+     ],
+     [
+      18967118,
+      221,
+      77
+     ],
+     [
+      18967119,
+      221,
+      141
+     ],
+     [
+      18967120,
+      221,
+      45
+     ],
+     [
+      18967122,
+      13,
+      221
+     ],
+     [
+      19310395,
+      13,
+      2
+     ],
+     [
+      19310396,
+      13,
+      15
+     ],
+     [
+      19310397,
+      210,
+      223
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 43,
+     "INS2": 54,
+     "FILTERED": 159,
+     "VARIANT_SITE": 22662512
+    },
+    "filtered_examples": [
+     [
+      18969275,
+      17,
+      25
+     ],
+     [
+      18969276,
+      17,
+      25
+     ],
+     [
+      18969277,
+      17,
+      25
+     ],
+     [
+      18969278,
+      17,
+      25
+     ],
+     [
+      18969279,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     22052,
+     22019
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 66.3
+  },
+  "chr15": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 1.1,
+    "cpu_s": 1.1,
+    "peak_rss_mb": 88.4
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 8.7,
+    "cpu_s": 8.6,
+    "peak_rss_mb": 336.2,
+    "bytes": 9264726
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 24412279,
+      "consensus_unknown": 0,
+      "called": 77507374,
+      "event_stretches": 22085,
+      "differing_stretches": 22,
+      "differing_bases": 11,
+      "gpxil_length": 101919653,
+      "consensus_length": 101919729
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 30,
+      "consensus_wrote_star": 2
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 114367,
+      "left_out_overlapping": 800,
+      "left_out_not_star": 47,
+      "other_messages": {}
+     },
+     "seconds": 4.1
+    },
+    "2": {
+     "stats": {
+      "unknown": 24408963,
+      "consensus_unknown": 0,
+      "called": 77569285,
+      "event_stretches": 21613,
+      "differing_stretches": 35,
+      "differing_bases": 5,
+      "gpxil_length": 101978248,
+      "consensus_length": 101977835
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 36,
+      "consensus_wrote_star": 4
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 110689,
+      "left_out_overlapping": 768,
+      "left_out_not_star": 49,
+      "other_messages": {}
+     },
+     "seconds": 4.0
+    }
+   },
+   "records": {
+    "vcf_records": 171248,
+    "export_records": 200534,
+    "export_nocall_blocks": 40403,
+    "vcf_alleles": 164843,
+    "export_alleles": 206582,
+    "same": 164271,
+    "same_filter": 164253,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 435,
+     "only_in_export/unknown_bases_written_as_N": 3265,
+     "only_in_export/written_differently": 38611,
+     "only_in_vcf/at_a_haplotype_difference": 120,
+     "only_in_vcf/written_differently": 452
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "17184597 A AAGCATTCTGAGTCCCTATTTTGGAAAAGA 1|0",
+      "17184635 C G 1|0",
+      "17184778 T C 1|0",
+      "17184801 A C 1|0",
+      "17184803 A G 1|0",
+      "17184877 C G 1|0"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "23299277 A T 0|1",
+      "23299279 TTTTTTGTA T 0|1",
+      "23484775 GGATAGATA G 0|1",
+      "23484794 T C 0|1",
+      "24340980 G GATATATATATATATATATATATATAT 0|1",
+      "24927475 A ATTTTT 1|0"
+     ],
+     "only_in_export/written_differently": [
+      "17184600 A C 1|0",
+      "17184602 A T 1|0",
+      "17184603 C T 1|0",
+      "17184604 T C 1|0",
+      "17184606 C G 1|0",
+      "17184607 T A 1|0"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "17256778 A N 1|0",
+      "17256779 C N 1|0",
+      "17256780 A N 1|0",
+      "17256781 G N 1|0",
+      "17256782 A N 1|0",
+      "17256783 G N 1|0"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "23299277 A T .|1",
+      "23299279 TTTTTTGTA T .|1",
+      "23484786 T C 0|1",
+      "23484786 TAGATAGAT T 0|1",
+      "24340989 G GTATATATATATATATATATATATATA 0|1",
+      "24927476 A ATTTTT 1|0"
+     ]
+    },
+    "seconds": 4.7
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 15.0,
+    "cpu_s": 14.9,
+    "peak_rss_mb": 700.8
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 44499,
+    "gt_stretches_differing": 211,
+    "gt_examples": [
+     [
+      17184600,
+      13,
+      45
+     ],
+     [
+      17184602,
+      13,
+      141
+     ],
+     [
+      17184603,
+      13,
+      141
+     ],
+     [
+      17184604,
+      13,
+      45
+     ],
+     [
+      17184606,
+      13,
+      77
+     ],
+     [
+      17184607,
+      13,
+      29
+     ],
+     [
+      17184608,
+      13,
+      77
+     ],
+     [
+      17184610,
+      13,
+      45
+     ],
+     [
+      17184611,
+      13,
+      45
+     ],
+     [
+      17184612,
+      13,
+      45
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 52,
+     "INS2": 73,
+     "FILTERED": 3912,
+     "VARIANT_SITE": 24333555
+    },
+    "filtered_examples": [
+     [
+      18742997,
+      17,
+      25
+     ],
+     [
+      18742998,
+      17,
+      25
+     ],
+     [
+      18742999,
+      17,
+      25
+     ],
+     [
+      18743000,
+      17,
+      25
+     ],
+     [
+      18743001,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     22110,
+     22073
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 46.6
+  },
+  "chr16": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 0.9,
+    "cpu_s": 0.9,
+    "peak_rss_mb": 88.4
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 8.3,
+    "cpu_s": 8.1,
+    "peak_rss_mb": 332.5,
+    "bytes": 12062053
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 17640423,
+      "consensus_unknown": 0,
+      "called": 72798006,
+      "event_stretches": 21599,
+      "differing_stretches": 33,
+      "differing_bases": 14,
+      "gpxil_length": 90438429,
+      "consensus_length": 90438258
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 45,
+      "consensus_wrote_star": 2
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 115628,
+      "left_out_overlapping": 883,
+      "left_out_not_star": 57,
+      "other_messages": {}
+     },
+     "seconds": 4.0
+    },
+    "2": {
+     "stats": {
+      "unknown": 17666335,
+      "consensus_unknown": 0,
+      "called": 72808167,
+      "event_stretches": 21175,
+      "differing_bases": 39,
+      "differing_stretches": 30,
+      "gpxil_length": 90474502,
+      "consensus_length": 90473653
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 65,
+      "consensus_wrote_star": 3
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 115271,
+      "left_out_overlapping": 810,
+      "left_out_not_star": 80,
+      "other_messages": {}
+     },
+     "seconds": 3.6
+    }
+   },
+   "records": {
+    "vcf_records": 198155,
+    "export_records": 248442,
+    "export_nocall_blocks": 84382,
+    "vcf_alleles": 168788,
+    "export_alleles": 312899,
+    "same": 168250,
+    "same_filter": 168114,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 312,
+     "only_in_export/unknown_bases_written_as_N": 2917,
+     "only_in_export/written_differently": 141420,
+     "only_in_vcf/at_a_haplotype_difference": 120,
+     "only_in_vcf/written_differently": 418
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "30395 C CGAGACACACACACACAAACACACACAGAC 0|1",
+      "30450 T A 0|1",
+      "30474 C CACAA 0|1",
+      "164928 GGTC G 0|1",
+      "164940 G GGCCGGGGCGGGGTCGC 0|1",
+      "186034 AGGAATACGGACACGGAGGGAACAGCGACA A 0|1"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "188421 AT A 0|1",
+      "188424 T C 0|1",
+      "953430 CACAGACACGGACCCCACACCAGCCTCCTA C 0|1",
+      "953621 T C 0|1",
+      "953637 A G 0|1",
+      "953674 T C 0|1"
+     ],
+     "only_in_export/written_differently": [
+      "30410 A C 0|1",
+      "30412 C A 0|1",
+      "30420 G C 0|1",
+      "30422 C G 0|1",
+      "30424 T C 0|1",
+      "30426 A T 0|1"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "164929 G N 0|1",
+      "164930 T N 0|1",
+      "164931 C N 0|1",
+      "164932 G N 0|1",
+      "164933 C N 0|1",
+      "164934 G N 0|1"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "188423 T C 0|1",
+      "188423 TT T 0|1",
+      "953434 G C 0|1",
+      "953435 A C 0|1",
+      "953439 G C 0|1",
+      "953440 G C 0|1"
+     ]
+    },
+    "seconds": 68.3
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 16.0,
+    "cpu_s": 15.8,
+    "peak_rss_mb": 639.5
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 145624,
+    "gt_stretches_differing": 306,
+    "gt_examples": [
+     [
+      30410,
+      208,
+      210
+     ],
+     [
+      30412,
+      208,
+      209
+     ],
+     [
+      30420,
+      208,
+      210
+     ],
+     [
+      30422,
+      208,
+      212
+     ],
+     [
+      30424,
+      208,
+      210
+     ],
+     [
+      30426,
+      208,
+      216
+     ],
+     [
+      30428,
+      208,
+      209
+     ],
+     [
+      30436,
+      208,
+      210
+     ],
+     [
+      30438,
+      208,
+      212
+     ],
+     [
+      30448,
+      208,
+      210
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 44,
+     "INS2": 89,
+     "FILTERED": 6538,
+     "VARIANT_SITE": 17536242
+    },
+    "filtered_examples": [
+     [
+      32588978,
+      17,
+      25
+     ],
+     [
+      32588979,
+      17,
+      25
+     ],
+     [
+      32588980,
+      17,
+      25
+     ],
+     [
+      32588981,
+      17,
+      25
+     ],
+     [
+      32588982,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     21656,
+     21605
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 110.5
+  },
+  "chr17": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 1.1,
+    "cpu_s": 1.1,
+    "peak_rss_mb": 88.3
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 8.5,
+    "cpu_s": 8.4,
+    "peak_rss_mb": 340.7,
+    "bytes": 10073243
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 9537431,
+      "consensus_unknown": 0,
+      "called": 74040428,
+      "event_stretches": 22442,
+      "differing_bases": 13,
+      "differing_stretches": 21,
+      "gpxil_length": 83577859,
+      "consensus_length": 83577219
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 31,
+      "consensus_wrote_star": 3
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 111496,
+      "left_out_overlapping": 735,
+      "left_out_not_star": 42,
+      "other_messages": {}
+     },
+     "seconds": 4.1
+    },
+    "2": {
+     "stats": {
+      "unknown": 9543868,
+      "consensus_unknown": 0,
+      "called": 74325387,
+      "event_stretches": 22120,
+      "differing_bases": 14,
+      "differing_stretches": 21,
+      "gpxil_length": 83869255,
+      "consensus_length": 83869572
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 32,
+      "consensus_wrote_star": 3
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 106695,
+      "left_out_overlapping": 1094,
+      "left_out_not_star": 52,
+      "other_messages": {}
+     },
+     "seconds": 3.9
+    }
+   },
+   "records": {
+    "vcf_records": 168809,
+    "export_records": 204878,
+    "export_nocall_blocks": 52006,
+    "vcf_alleles": 159259,
+    "export_alleles": 195511,
+    "same": 158503,
+    "same_filter": 158503,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 270,
+     "only_in_export/unknown_bases_written_as_N": 21754,
+     "only_in_export/written_differently": 14984,
+     "only_in_vcf/at_a_haplotype_difference": 95,
+     "only_in_vcf/written_differently": 661
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "122369 TACAACGTAAGTATAAACTCACATTCAGGT T 1|0",
+      "122800 T C 1|0",
+      "122819 T A 1|0",
+      "167117 CATGGTCTGACACTGTTCTTGAGGTAGTGA C 1|0",
+      "168365 C G 1|0",
+      "168427 G C 1|0"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "999323 CTATA C 1|0",
+      "999333 A C 1|0",
+      "1235389 CT C 1|0",
+      "1235393 T C 1|0",
+      "1355115 TTAA T 1|0",
+      "1355121 A C 1|0"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "122370 A N 1|0",
+      "122371 C N 1|0",
+      "122372 A N 1|0",
+      "122373 A N 1|0",
+      "122374 C N 1|0",
+      "122375 G N 1|0"
+     ],
+     "only_in_export/written_differently": [
+      "122642 A C 1|0",
+      "122661 ACATTCAGGTTCCTCACTATTACAGCGAGA A 1|0",
+      "167261 C G 1|0",
+      "167323 G C 1|0",
+      "167323 GTTCTTGAGGTAGTGAATACGTCTCACGAG G 1|0",
+      "234299 T C 1|0"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "999329 A C 1|0",
+      "999329 ATATA A 1|0",
+      "1235392 T C 1|0",
+      "1235392 TT T 1|0",
+      "1355116 T A 1|0",
+      "1355118 A C 1|0"
+     ]
+    },
+    "seconds": 7.3
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 14.8,
+    "cpu_s": 14.6,
+    "peak_rss_mb": 613.3
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 26005,
+    "gt_stretches_differing": 400,
+    "gt_examples": [
+     [
+      122370,
+      208,
+      240
+     ],
+     [
+      122371,
+      208,
+      240
+     ],
+     [
+      122372,
+      208,
+      240
+     ],
+     [
+      122373,
+      208,
+      240
+     ],
+     [
+      122374,
+      208,
+      240
+     ],
+     [
+      122375,
+      208,
+      240
+     ],
+     [
+      122376,
+      208,
+      240
+     ],
+     [
+      122377,
+      208,
+      240
+     ],
+     [
+      122378,
+      208,
+      240
+     ],
+     [
+      122379,
+      208,
+      240
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 81,
+     "INS2": 52,
+     "FILTERED": 0,
+     "VARIANT_SITE": 9468127
+    },
+    "filtered_examples": [],
+    "sidecar_entries": [
+     22731,
+     22678
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 47.9
+  },
+  "chr18": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 0.8,
+    "cpu_s": 0.8,
+    "peak_rss_mb": 89.2
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 7.2,
+    "cpu_s": 7.1,
+    "peak_rss_mb": 322.0,
+    "bytes": 7563418
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 7841186,
+      "consensus_unknown": 0,
+      "called": 72605928,
+      "event_stretches": 19221,
+      "differing_stretches": 26,
+      "differing_bases": 58,
+      "gpxil_length": 80447114,
+      "consensus_length": 80446584
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 81,
+      "consensus_wrote_star": 2
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 108063,
+      "left_out_overlapping": 849,
+      "left_out_not_star": 93,
+      "other_messages": {}
+     },
+     "seconds": 3.3
+    },
+    "2": {
+     "stats": {
+      "unknown": 7851625,
+      "consensus_unknown": 0,
+      "called": 72662987,
+      "event_stretches": 19190,
+      "differing_bases": 12,
+      "differing_stretches": 26,
+      "gpxil_length": 80514612,
+      "consensus_length": 80515292
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 35,
+      "consensus_wrote_star": 3
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 108696,
+      "left_out_overlapping": 643,
+      "left_out_not_star": 44,
+      "other_messages": {}
+     },
+     "seconds": 3.1
+    }
+   },
+   "records": {
+    "vcf_records": 154112,
+    "export_records": 177233,
+    "export_nocall_blocks": 26808,
+    "vcf_alleles": 154767,
+    "export_alleles": 174150,
+    "same": 154243,
+    "same_filter": 154238,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 563,
+     "only_in_export/unknown_bases_written_as_N": 3729,
+     "only_in_export/written_differently": 15615,
+     "only_in_vcf/at_a_haplotype_difference": 144,
+     "only_in_vcf/written_differently": 380
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "137771 TA T 0|1",
+      "667439 T TGGTGATG 1|0",
+      "667456 A ATGG 1|0",
+      "1515731 GTATATATATATATATATGTATATATATAT G 1|0",
+      "1515775 A G 1|0",
+      "1515789 G A 1|0"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "436525 AGG A 1|0",
+      "436528 G A 1|0",
+      "514713 G GC 1|0",
+      "514743 G GC 1|0",
+      "514866 G GC 1|0",
+      "514896 A G 1|0"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "137772 A N 0|1",
+      "3772343 T N 1|0",
+      "3772344 C N 1|0",
+      "3772345 T N 1|0",
+      "3772346 C N 1|0",
+      "3772347 T N 1|0"
+     ],
+     "only_in_export/written_differently": [
+      "137772 AT A 0|1",
+      "514717 T C 1|0",
+      "514718 C T 1|0",
+      "514720 T C 1|0",
+      "514721 C T 1|0",
+      "514722 G C 1|0"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "436526 G A 1|0",
+      "436526 GGG G 1|0",
+      "514744 C G 1|0",
+      "514772 G C 1|0",
+      "514774 C G 1|0",
+      "514803 G C 1|0"
+     ]
+    },
+    "seconds": 2.9
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 12.6,
+    "cpu_s": 12.4,
+    "peak_rss_mb": 590.1
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 20110,
+    "gt_stretches_differing": 186,
+    "gt_examples": [
+     [
+      137772,
+      13,
+      15
+     ],
+     [
+      137773,
+      223,
+      221
+     ],
+     [
+      436526,
+      221,
+      29
+     ],
+     [
+      436528,
+      29,
+      221
+     ],
+     [
+      514717,
+      13,
+      45
+     ],
+     [
+      514718,
+      13,
+      141
+     ],
+     [
+      514720,
+      13,
+      45
+     ],
+     [
+      514721,
+      13,
+      141
+     ],
+     [
+      514722,
+      13,
+      45
+     ],
+     [
+      514724,
+      13,
+      77
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 50,
+     "INS2": 46,
+     "FILTERED": 0,
+     "VARIANT_SITE": 7831426
+    },
+    "filtered_examples": [],
+    "sidecar_entries": [
+     19436,
+     19406
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 37.3
+  },
+  "chr19": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 0.6,
+    "cpu_s": 0.6,
+    "peak_rss_mb": 89.0
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 6.1,
+    "cpu_s": 6.1,
+    "peak_rss_mb": 325.5,
+    "bytes": 7268697
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 5160548,
+      "consensus_unknown": 0,
+      "called": 54186513,
+      "event_stretches": 19308,
+      "differing_bases": 24,
+      "stretches_taken_together": 3,
+      "differing_stretches": 19,
+      "gpxil_length": 59347061,
+      "consensus_length": 59347126
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 38,
+      "consensus_wrote_star": 1
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 80111,
+      "left_out_overlapping": 572,
+      "left_out_not_star": 81,
+      "other_messages": {}
+     },
+     "seconds": 2.8
+    },
+    "2": {
+     "stats": {
+      "unknown": 5170030,
+      "consensus_unknown": 0,
+      "called": 54079296,
+      "event_stretches": 18573,
+      "differing_stretches": 23,
+      "differing_bases": 18,
+      "stretches_taken_together": 1,
+      "gpxil_length": 59249326,
+      "consensus_length": 59249391
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 38,
+      "consensus_wrote_star": 2
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 77486,
+      "left_out_overlapping": 710,
+      "left_out_not_star": 47,
+      "other_messages": {}
+     },
+     "seconds": 2.8
+    }
+   },
+   "records": {
+    "vcf_records": 120428,
+    "export_records": 132837,
+    "export_nocall_blocks": 16657,
+    "vcf_alleles": 120248,
+    "export_alleles": 187563,
+    "same": 119774,
+    "same_filter": 119774,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 8681,
+     "only_in_export/unknown_bases_written_as_N": 2271,
+     "only_in_export/written_differently": 56837,
+     "only_in_vcf/at_a_haplotype_difference": 108,
+     "only_in_vcf/written_differently": 366
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "404269 TCCTGAGGGGTCTGAGGGGGGGACGGGGTC T 0|1",
+      "404269 tcctgaggggtctgagggggggacggggtc t 1|0",
+      "410805 G GGGGGTCTGTCCACCGCCCCTGCTGGGCCC 0|1",
+      "432290 CAGATAGATGGCGCTTCATCGTGAGTGAGA C 0|1",
+      "432739 A T 0|1",
+      "432808 C G 0|1"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "540155 G GC 1|0",
+      "540261 G A 1|0",
+      "540275 C G 1|0",
+      "540306 GC G 1|0",
+      "540382 GC G 1|0",
+      "540412 G A 1|0"
+     ],
+     "only_in_export/written_differently": [
+      "404269 TCCTGAGGGGTCTGAGGGGGGGACGGGGTC T 1|0",
+      "404307 AGGGGGTGTGGGGGGGACGGGGTCCTGCCC A 0|1",
+      "410809 A ATCTGTCCACCGCCCCTGCTGGGCCCGAGC 0|1",
+      "432329 A T 0|1",
+      "432398 A G 0|1",
+      "432398 AGGCCGGGCAGATAGATGGCGCTTCATCGT A 0|1"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "404270 C N 0|1",
+      "404271 C N 0|1",
+      "404272 T N 0|1",
+      "404273 G N 0|1",
+      "404274 A N 0|1",
+      "404275 G N 0|1"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "540162 G C 1|0",
+      "540165 T G 1|0",
+      "540168 A T 1|0",
+      "540169 G A 1|0",
+      "540170 A G 1|0",
+      "540172 T A 1|0"
+     ]
+    },
+    "seconds": 12.8
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 9.5,
+    "cpu_s": 9.4,
+    "peak_rss_mb": 487.3
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 69736,
+    "gt_stretches_differing": 206,
+    "gt_examples": [
+     [
+      404270,
+      13,
+      223
+     ],
+     [
+      404271,
+      13,
+      223
+     ],
+     [
+      404272,
+      13,
+      223
+     ],
+     [
+      404273,
+      13,
+      223
+     ],
+     [
+      404274,
+      13,
+      223
+     ],
+     [
+      404275,
+      13,
+      223
+     ],
+     [
+      404276,
+      13,
+      223
+     ],
+     [
+      404277,
+      13,
+      223
+     ],
+     [
+      404278,
+      13,
+      223
+     ],
+     [
+      404279,
+      13,
+      223
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 65,
+     "INS2": 41,
+     "FILTERED": 0,
+     "VARIANT_SITE": 5140458
+    },
+    "filtered_examples": [],
+    "sidecar_entries": [
+     19386,
+     19346
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 39.7
+  },
+  "chr20": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 0.7,
+    "cpu_s": 0.7,
+    "peak_rss_mb": 89.2
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 6.2,
+    "cpu_s": 6.2,
+    "peak_rss_mb": 317.7,
+    "bytes": 10685410
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 5845287,
+      "consensus_unknown": 0,
+      "called": 58500976,
+      "event_stretches": 14727,
+      "differing_stretches": 23,
+      "differing_bases": 74,
+      "gpxil_length": 64346263,
+      "consensus_length": 64345765
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 91,
+      "consensus_wrote_star": 5
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 88397,
+      "left_out_overlapping": 1232,
+      "left_out_not_star": 100,
+      "other_messages": {}
+     },
+     "seconds": 2.4
+    },
+    "2": {
+     "stats": {
+      "unknown": 5926338,
+      "consensus_unknown": 0,
+      "called": 58491732,
+      "event_stretches": 15411,
+      "differing_stretches": 19,
+      "differing_bases": 6,
+      "gpxil_length": 64418070,
+      "consensus_length": 64417986
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 21,
+      "consensus_wrote_star": 4
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 93003,
+      "left_out_overlapping": 1233,
+      "left_out_not_star": 24,
+      "other_messages": {}
+     },
+     "seconds": 2.2
+    }
+   },
+   "records": {
+    "vcf_records": 179633,
+    "export_records": 217278,
+    "export_nocall_blocks": 89209,
+    "vcf_alleles": 133729,
+    "export_alleles": 239792,
+    "same": 132449,
+    "same_filter": 132412,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 377,
+     "only_in_export/unknown_bases_written_as_N": 53803,
+     "only_in_export/written_differently": 53163,
+     "only_in_vcf/at_a_haplotype_difference": 83,
+     "only_in_vcf/unknown_bases_written_as_N": 1,
+     "only_in_vcf/written_differently": 1196
+    },
+    "examples": {
+     "only_in_vcf/at_a_haplotype_difference": [
+      "102609 CTG C 0|1",
+      "102613 G C 0|1",
+      "407964 CG C 1|0",
+      "407977 CG C 1|0",
+      "408008 GC G 1|0",
+      "4655872 GTGTATATA G 0|1"
+     ],
+     "only_in_vcf/written_differently": [
+      "485105 A ATAATATATATATAT 0|1",
+      "485107 A T 0|1",
+      "743160 T A 0|1",
+      "743162 T A 0|1",
+      "743164 T A 0|1",
+      "1301962 A ATTTCTAATTTCATCAATATTTCTATCACC 0|1"
+     ],
+     "only_in_vcf/unknown_bases_written_as_N": [
+      "29917404 NAGCATTCTCTGAAACTTCTTTGTGATGTG N 1|0"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "102611 G C 0|1",
+      "102611 GTG G 0|1",
+      "407966 G C 1|0",
+      "407970 C G 1|0",
+      "407972 G C 1|0",
+      "407977 C G 1|0"
+     ],
+     "only_in_export/written_differently": [
+      "485106 A T 0|1",
+      "485109 A AATATATATATATAT 0|1",
+      "743160 T A .|1",
+      "743162 T A .|1",
+      "743164 T A .|1",
+      "1302230 G GTTTCTAATTTCATCAATATTTCTATCACC 0|1"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "1572828 A N 0|1",
+      "1572829 G N 0|1",
+      "1572830 G N 0|1",
+      "1572831 T N 0|1",
+      "1572832 C N 0|1",
+      "1572833 A N 0|1"
+     ]
+    },
+    "seconds": 32.7
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 12.9,
+    "cpu_s": 12.7,
+    "peak_rss_mb": 520.3
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 87423,
+    "gt_stretches_differing": 543,
+    "gt_examples": [
+     [
+      102610,
+      221,
+      208
+     ],
+     [
+      102611,
+      221,
+      210
+     ],
+     [
+      102612,
+      208,
+      221
+     ],
+     [
+      102613,
+      210,
+      221
+     ],
+     [
+      407965,
+      221,
+      13
+     ],
+     [
+      407966,
+      13,
+      45
+     ],
+     [
+      407970,
+      13,
+      77
+     ],
+     [
+      407972,
+      13,
+      45
+     ],
+     [
+      407977,
+      13,
+      77
+     ],
+     [
+      407978,
+      221,
+      45
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 82,
+     "INS2": 57,
+     "FILTERED": 62291,
+     "VARIANT_SITE": 5697211
+    },
+    "filtered_examples": [
+     [
+      25783207,
+      17,
+      25
+     ],
+     [
+      25783208,
+      17,
+      25
+     ],
+     [
+      25783209,
+      17,
+      25
+     ],
+     [
+      25783210,
+      17,
+      25
+     ],
+     [
+      25783211,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     15468,
+     15403
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 63.3
+  },
+  "chr21": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 0.6,
+    "cpu_s": 0.6,
+    "peak_rss_mb": 89.3
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 4.1,
+    "cpu_s": 4.1,
+    "peak_rss_mb": 317.2,
+    "bytes": 7071827
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 13377192,
+      "consensus_unknown": 0,
+      "called": 33457351,
+      "event_stretches": 10278,
+      "differing_bases": 113,
+      "differing_stretches": 14,
+      "gpxil_length": 46834543,
+      "consensus_length": 46834366
+     },
+     "differing_sites": {
+      "consensus_wrote_star": 95,
+      "consensus_left_out_overlapping": 22
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 51524,
+      "left_out_overlapping": 313,
+      "left_out_not_star": 25,
+      "other_messages": {}
+     },
+     "seconds": 1.8
+    },
+    "2": {
+     "stats": {
+      "unknown": 13372487,
+      "consensus_unknown": 0,
+      "called": 33475184,
+      "event_stretches": 11250,
+      "differing_stretches": 12,
+      "differing_bases": 1,
+      "gpxil_length": 46847671,
+      "consensus_length": 46784685
+     },
+     "differing_sites": {
+      "consensus_wrote_star": 4,
+      "consensus_left_out_overlapping": 9
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 59315,
+      "left_out_overlapping": 354,
+      "left_out_not_star": 11,
+      "other_messages": {}
+     },
+     "seconds": 1.7
+    }
+   },
+   "records": {
+    "vcf_records": 113870,
+    "export_records": 149977,
+    "export_nocall_blocks": 73006,
+    "vcf_alleles": 78909,
+    "export_alleles": 82647,
+    "same": 78693,
+    "same_filter": 78692,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 98,
+     "only_in_export/unknown_bases_written_as_N": 1245,
+     "only_in_export/written_differently": 2611,
+     "only_in_vcf/at_a_haplotype_difference": 34,
+     "only_in_vcf/written_differently": 182
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "13552702 TTTA T 0|1",
+      "13552709 A ATATGT 0|1",
+      "14088710 CAGTT C 1|0",
+      "14088756 T TAAA 1|0",
+      "14088770 A G 1|0",
+      "14088800 T C 1|0"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "16747387 CTGTATATGTATATATATACATATACATAT C 1|0",
+      "16747387 C CG 0|1",
+      "16747413 ATATGTATGTGTATATATGTATATATATAC A 0|1",
+      "16747471 A G 1|0",
+      "16747495 AG A 1|0",
+      "17432380 AGAAGGAAG A 0|1"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "8036236 C N 1|.",
+      "8037027 T N 1|.",
+      "17085170 A N 1|0",
+      "17085171 T N 1|0",
+      "17085172 A N 1|0",
+      "17085173 T N 1|0"
+     ],
+     "only_in_export/written_differently": [
+      "13552705 A T 0|1",
+      "13552706 T A 0|1",
+      "13552708 T A 0|1",
+      "13552709 A AGT 0|1",
+      "13552709 A T 0|1",
+      "14088715 A T 1|0"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "16747388 T N 1|0",
+      "16747388 T G 0|1",
+      "16747389 G N 1|0",
+      "16747389 G T 0|1",
+      "16747390 T G 1|0",
+      "16747390 T G 0|1"
+     ]
+    },
+    "seconds": 2.0
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 10.8,
+    "cpu_s": 10.8,
+    "peak_rss_mb": 413.9
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 4617,
+    "gt_stretches_differing": 105,
+    "gt_examples": [
+     [
+      13552703,
+      13,
+      0
+     ],
+     [
+      13552704,
+      13,
+      0
+     ],
+     [
+      13552705,
+      221,
+      216
+     ],
+     [
+      13552706,
+      208,
+      209
+     ],
+     [
+      13552708,
+      208,
+      209
+     ],
+     [
+      13552709,
+      208,
+      216
+     ],
+     [
+      14088711,
+      221,
+      13
+     ],
+     [
+      14088712,
+      221,
+      13
+     ],
+     [
+      14088713,
+      221,
+      13
+     ],
+     [
+      14088714,
+      221,
+      13
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 20,
+     "INS2": 31,
+     "FILTERED": 1,
+     "VARIANT_SITE": 13188526
+    },
+    "filtered_examples": [
+     [
+      9115674,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     11257,
+     11238
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 25.2
+  },
+  "chr22": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 0.6,
+    "cpu_s": 0.6,
+    "peak_rss_mb": 88.4
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 4.5,
+    "cpu_s": 4.4,
+    "peak_rss_mb": 309.9,
+    "bytes": 7329628
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 19207456,
+      "consensus_unknown": 0,
+      "called": 31720346,
+      "event_stretches": 10223,
+      "differing_stretches": 20,
+      "differing_bases": 6,
+      "gpxil_length": 50927802,
+      "consensus_length": 50927217
+     },
+     "differing_sites": {
+      "consensus_wrote_star": 8,
+      "consensus_left_out_overlapping": 18
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 53702,
+      "left_out_overlapping": 611,
+      "left_out_not_star": 23,
+      "other_messages": {}
+     },
+     "seconds": 1.8
+    },
+    "2": {
+     "stats": {
+      "unknown": 19177341,
+      "consensus_unknown": 0,
+      "called": 31599698,
+      "event_stretches": 9493,
+      "differing_stretches": 12,
+      "differing_bases": 9,
+      "gpxil_length": 50777039,
+      "consensus_length": 50775394
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 17,
+      "consensus_wrote_star": 4
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 46865,
+      "left_out_overlapping": 746,
+      "left_out_not_star": 20,
+      "other_messages": {}
+     },
+     "seconds": 1.9
+    }
+   },
+   "records": {
+    "vcf_records": 106073,
+    "export_records": 141157,
+    "export_nocall_blocks": 67162,
+    "vcf_alleles": 77014,
+    "export_alleles": 207897,
+    "same": 76417,
+    "same_filter": 76407,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 4075,
+     "only_in_export/unknown_bases_written_as_N": 1922,
+     "only_in_export/written_differently": 125483,
+     "only_in_vcf/at_a_haplotype_difference": 49,
+     "only_in_vcf/written_differently": 548
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "15917432 GAAAGAAGAAAGAAAGA G 1|0",
+      "15943761 AT A 0|1",
+      "15943770 A G 0|1",
+      "15943782 C G 0|1",
+      "15943784 G A 0|1",
+      "15943797 A T 0|1"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "17646953 A ATT 1|0",
+      "17722376 G GGTGC 0|1",
+      "18725027 G GCTTGGTACAAGCTGCTTCAGGAACACATG 0|1",
+      "18730016 C G 0|1",
+      "18730322 A T 0|1",
+      "18730338 C T 0|1"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "15917433 A N 1|0",
+      "15917434 A N 1|0",
+      "15917435 A N 1|0",
+      "15917436 G N 1|0",
+      "15917437 A N 1|0",
+      "15917438 A N 1|0"
+     ],
+     "only_in_export/written_differently": [
+      "15917475 GAAAGAAAGAAAGAAAG G 1|0",
+      "15943765 T C 0|1",
+      "15943766 C A 0|1",
+      "15943767 A C 0|1",
+      "15943769 C G 0|1",
+      "15943772 A G 0|1"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "17646955 A ATT 1|0",
+      "17722378 G GGCGT 0|1",
+      "18725028 T C 0|1",
+      "18725029 C T 0|1",
+      "18725031 T G 0|1",
+      "18725032 A G 0|1"
+     ]
+    },
+    "seconds": 102.1
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 10.2,
+    "cpu_s": 10.0,
+    "peak_rss_mb": 424.7
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 132872,
+    "gt_stretches_differing": 199,
+    "gt_examples": [
+     [
+      15917433,
+      208,
+      240
+     ],
+     [
+      15917434,
+      208,
+      240
+     ],
+     [
+      15917435,
+      221,
+      253
+     ],
+     [
+      15917436,
+      221,
+      253
+     ],
+     [
+      15917437,
+      221,
+      253
+     ],
+     [
+      15917438,
+      221,
+      253
+     ],
+     [
+      15917439,
+      221,
+      253
+     ],
+     [
+      15917440,
+      221,
+      253
+     ],
+     [
+      15917441,
+      221,
+      253
+     ],
+     [
+      15917442,
+      221,
+      253
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 67,
+     "INS2": 37,
+     "FILTERED": 6386,
+     "VARIANT_SITE": 19071190
+    },
+    "filtered_examples": [
+     [
+      18725027,
+      21,
+      25
+     ],
+     [
+      18725028,
+      17,
+      25
+     ],
+     [
+      18725029,
+      17,
+      25
+     ],
+     [
+      18725030,
+      17,
+      25
+     ],
+     [
+      18725031,
+      17,
+      25
+     ]
+    ],
+    "sidecar_entries": [
+     10148,
+     10084
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 125.5
+  },
+  "chrX": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 1.4,
+    "cpu_s": 1.4,
+    "peak_rss_mb": 88.9
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 10.0,
+    "cpu_s": 9.8,
+    "peak_rss_mb": 335.2,
+    "bytes": 8147188
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 10613871,
+      "consensus_unknown": 0,
+      "called": 145434782,
+      "event_stretches": 28487,
+      "differing_bases": 2,
+      "differing_stretches": 3,
+      "gpxil_length": 156048653,
+      "consensus_length": 156048661
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 5
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 143867,
+      "left_out_overlapping": 168,
+      "left_out_not_star": 5,
+      "other_messages": {}
+     },
+     "seconds": 6.2
+    },
+    "2": {
+     "stats": {
+      "absent_reference_bases": 152939907,
+      "unknown": 861161,
+      "consensus_unknown": 0,
+      "called": 2258768,
+      "event_stretches": 2098,
+      "differing_bases": 3,
+      "differing_stretches": 3,
+      "gpxil_length": 3119954,
+      "consensus_length": 156059892
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 5
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 7892,
+      "left_out_overlapping": 215,
+      "left_out_not_star": 13,
+      "other_messages": {
+       "Can't apply 2-th haplotype at SITE. (This warning is printed only once.)": 1
+      }
+     },
+     "seconds": 4.5
+    }
+   },
+   "records": {
+    "vcf_records": 157970,
+    "export_records": 192687,
+    "export_nocall_blocks": 45154,
+    "vcf_alleles": 148198,
+    "export_alleles": 154679,
+    "same": 147949,
+    "same_filter": 147949,
+    "differing": {
+     "only_in_export/at_a_haplotype_difference": 475,
+     "only_in_export/unknown_bases_written_as_N": 4310,
+     "only_in_export/written_differently": 1945,
+     "only_in_vcf/at_a_haplotype_difference": 20,
+     "only_in_vcf/written_differently": 229
+    },
+    "examples": {
+     "only_in_vcf/written_differently": [
+      "280590 G GGCAGA 0|1",
+      "280597 G GACGTGCAGGCGGAGC 0|1",
+      "280600 A G 0|1",
+      "280656 A C 0|1",
+      "280658 G GC 0|1",
+      "280697 A G 0|1"
+     ],
+     "only_in_vcf/at_a_haplotype_difference": [
+      "1142225 AAC A 1|0",
+      "1142574 AACAC A 1|0",
+      "1143304 A AACACACACACACACAC 0|1",
+      "1143362 T G 0|1",
+      "1143371 G C 0|1",
+      "1143422 A AACACACACAC 0|1"
+     ],
+     "only_in_export/written_differently": [
+      "280592 G C 0|1",
+      "280593 G A 0|1",
+      "280596 A G 0|1",
+      "280601 G A 0|1",
+      "280603 C A 0|1",
+      "280617 G C 0|1"
+     ],
+     "only_in_export/unknown_bases_written_as_N": [
+      "365273 G N 0|1",
+      "365274 A N 0|1",
+      "365275 G N 0|1",
+      "365276 G N 0|1",
+      "365277 C N 0|1",
+      "365278 T N 0|1"
+     ],
+     "only_in_export/at_a_haplotype_difference": [
+      "1142275 C A 1|0",
+      "1142277 A T 1|0",
+      "1142278 A C 1|0",
+      "1142279 T A 1|0",
+      "1142281 A C 1|0",
+      "1142282 C A 1|0"
+     ]
+    },
+    "seconds": 2.9
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 14.0,
+    "cpu_s": 14.0,
+    "peak_rss_mb": 1113.8
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 9500,
+    "gt_stretches_differing": 92,
+    "gt_examples": [
+     [
+      280592,
+      208,
+      210
+     ],
+     [
+      280593,
+      208,
+      209
+     ],
+     [
+      280596,
+      208,
+      212
+     ],
+     [
+      280600,
+      212,
+      208
+     ],
+     [
+      280601,
+      208,
+      209
+     ],
+     [
+      280603,
+      208,
+      209
+     ],
+     [
+      280617,
+      208,
+      210
+     ],
+     [
+      280622,
+      208,
+      212
+     ],
+     [
+      280623,
+      208,
+      210
+     ],
+     [
+      280632,
+      208,
+      210
+     ]
+    ],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 13,
+     "INS2": 9,
+     "FILTERED": 39964,
+     "VARIANT_SITE": 10650899
+    },
+    "filtered_examples": [
+     [
+      51670149,
+      24,
+      0
+     ],
+     [
+      51682845,
+      24,
+      0
+     ],
+     [
+      51685792,
+      24,
+      0
+     ],
+     [
+      51685793,
+      24,
+      0
+     ],
+     [
+      51685794,
+      24,
+      0
+     ]
+    ],
+    "sidecar_entries": [
+     15419,
+     15407
+    ],
+    "sidecar_same": false,
+    "reencode_conflicts": 0
+   },
+   "seconds": 50.9
+  },
+  "chrY": {
+   "fasta_export": {
+    "returncode": 0,
+    "wall_s": 0.7,
+    "cpu_s": 0.7,
+    "peak_rss_mb": 88.3
+   },
+   "vcf_reference_masked_bases": 0,
+   "vcf_export": {
+    "returncode": 0,
+    "wall_s": 2.9,
+    "cpu_s": 2.9,
+    "peak_rss_mb": 299.1,
+    "bytes": 3626588
+   },
+   "haplotypes": {
+    "1": {
+     "stats": {
+      "unknown": 41666772,
+      "consensus_unknown": 0,
+      "called": 16179198,
+      "event_stretches": 2698,
+      "differing_bases": 15,
+      "differing_stretches": 6,
+      "gpxil_length": 57845970,
+      "consensus_length": 57846058
+     },
+     "differing_sites": {
+      "consensus_left_out_overlapping": 4,
+      "consensus_wrote_star": 15
+     },
+     "other_sites": [],
+     "consensus": {
+      "applied": 37497,
+      "left_out_overlapping": 32,
+      "left_out_not_star": 5,
+      "other_messages": {}
+     },
+     "seconds": 1.6
+    },
+    "2": {
+     "stats": {
+      "absent_reference_bases": 54126427,
+      "unknown": 3100988,
+      "consensus_unknown": 0,
+      "called": 0,
+      "gpxil_length": 3101012,
+      "consensus_length": 57227414
+     },
+     "differing_sites": {},
+     "other_sites": [],
+     "consensus": {
+      "applied": 20,
+      "left_out_overlapping": 0,
+      "left_out_not_star": 0,
+      "other_messages": {}
+     },
+     "seconds": 1.1
+    }
+   },
+   "records": {
+    "vcf_records": 85168,
+    "export_records": 69731,
+    "export_nocall_blocks": 32252,
+    "vcf_alleles": 37482,
+    "export_alleles": 37482,
+    "same": 37482,
+    "same_filter": 37482,
+    "differing": {},
+    "examples": {},
+    "seconds": 2.0
+   },
+   "reencode": {
+    "returncode": 0,
+    "wall_s": 5.7,
+    "cpu_s": 5.6,
+    "peak_rss_mb": 629.0
+   },
+   "planes": {
+    "planes": [
+     [
+      "gt",
+      "flags"
+     ],
+     [
+      "gt",
+      "flags"
+     ]
+    ],
+    "haplotypes_same": {
+     "1": true,
+     "2": true
+    },
+    "gt_bases_differing": 0,
+    "gt_stretches_differing": 0,
+    "gt_examples": [],
+    "flag_bases_differing": {
+     "PHASED": 0,
+     "INS1": 0,
+     "INS2": 0,
+     "FILTERED": 191477,
+     "VARIANT_SITE": 41858041
+    },
+    "filtered_examples": [
+     [
+      11319685,
+      24,
+      0
+     ],
+     [
+      11319688,
+      24,
+      0
+     ],
+     [
+      11319689,
+      24,
+      0
+     ],
+     [
+      11319690,
+      24,
+      0
+     ],
+     [
+      11319691,
+      24,
+      0
+     ]
+    ],
+    "sidecar_entries": [
+     1374,
+     1374
+    ],
+    "sidecar_same": true,
+    "reencode_conflicts": 0
+   },
+   "seconds": 18.3
+  }
+ }
+}
