@@ -56,8 +56,9 @@ share none of gpxiltools' code?
    39.6 MB as gpxil (gt 17.6 MB, flags 15.4 MB, sidecar 6.2 MB), against
    42.1 MB for the VCF.gz as GIAB distributes it, which needs its index
    (1.5 MB) and the benchmark regions' BED (0.7 MB) to say what the gpxil
-   says, and 48.9 MB as BCF (with a 1.4 MB index). GRCh38's reference plane,
-   soft-masking included, takes 848.5 MB, against 812.8 MB for a .2bit
+   says, and 48.9 MB as BCF (with a 1.4 MB index). GRCh38 as one gpxil file
+   takes 848.5 MB (its reference plane, soft-masking included, 848.0 MB; the
+   Gpxil browser's 26 files together, 848.5 MB), against 812.8 MB for a .2bit
    (computed exactly; GRCh38 has no IUPAC code but N, so a .2bit loses
    nothing here), 942.5 MB for Ensembl's FASTA.gz, 964.6 MB for a bgzipped
    FASTA with the indexes faidx needs, and 3,151.4 MB uncompressed.
