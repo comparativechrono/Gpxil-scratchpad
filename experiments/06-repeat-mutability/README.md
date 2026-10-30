@@ -35,6 +35,7 @@ the family answers it locus by locus.
    GA-sequences 1.38 times (1.00 to 1.90; p = 0.049), other purine-rich
    loci, mostly short, 0.85 times (0.54 to 1.36), and those of A and C (or
    G and T) 0.69 times (0.41 to 1.18).
+   ([figures/purity_by_class.png](figures/purity_by_class.png)).
 
 **What it means.** GA-sequences are hotspots of new mutation because they
 are long, pure repeats with short units, the commonest such repeats of the
@@ -77,6 +78,7 @@ terms, the same likelihood as one locus at a time.
 |---|---|---|
 | [`mutability.py`](mutability.py) | every locus measured, counted in strata, and the statistics | `results/strata.tsv.gz`, `results/mutability.json` |
 | [`figures.py`](figures.py) | the picture | `figures/purity.png` |
+| [`figures_by_class.py`](figures_by_class.py) | the research article's Fig 1: the rate by purity for each class of composition, and the class terms of the Poisson model, at PLOS's size (7.5 inches, 300 dpi) | `figures/purity_by_class.png`, `figures/purity_by_class.tif` |
 
 ## Results
 
