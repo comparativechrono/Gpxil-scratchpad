@@ -1,0 +1,1624 @@
+{
+ "source": "Porubsky et al. 2025, Nature 643: 427-436, Supplementary Table 10",
+ "ga_bases": 3869600,
+ "genome_bases": 2756331041,
+ "tr": {
+  "rows": 640,
+  "autosomal": 609,
+  "children": {
+   "NA12887": 83,
+   "NA12884": 65,
+   "NA12882": 74,
+   "NA12885": 98,
+   "NA12883": 69,
+   "NA12879": 66,
+   "NA12881": 88,
+   "NA12886": 97
+  },
+  "pass": {
+   "autosomal_tr_mutations": 440,
+   "in": {
+    "mutations": 67,
+    "share_of_tr_mutations": 0.1523,
+    "per_transmission": 8.38,
+    "ratio_to_autosomal_tr_mutations_per_base": 108.5,
+    "ratio_ci": [
+     84.1,
+     137.7
+    ],
+    "expected_at_papers_genome_rate": 0.82,
+    "ratio_to_papers_genome_rate": 82.1,
+    "ratio_to_papers_genome_rate_ci": [
+     63.6,
+     104.2
+    ],
+    "by_child": {
+     "NA12879": 4,
+     "NA12881": 10,
+     "NA12882": 10,
+     "NA12883": 14,
+     "NA12884": 7,
+     "NA12885": 8,
+     "NA12886": 8,
+     "NA12887": 6
+    },
+    "parent": {
+     "maternal": 15,
+     "paternal": 49,
+     "cannot_determine": 3
+    },
+    "size": {
+     "-25": 1,
+     "-24": 1,
+     "-16": 1,
+     "-13": 1,
+     "-12": 2,
+     "-11": 1,
+     "-10": 1,
+     "-8": 3,
+     "-7": 1,
+     "-6": 1,
+     "-5": 2,
+     "-4": 25,
+     "-3": 2,
+     "-2": 3,
+     "2": 1,
+     "3": 1,
+     "4": 13,
+     "8": 2,
+     "10": 2,
+     "16": 1,
+     "20": 1,
+     "35": 1
+    },
+    "four_bases": 38,
+    "one_unit": 39,
+    "whole_units": 57,
+    "one_base_units": 4,
+    "losses": 45,
+    "gains": 22,
+    "transmitted": {
+     "UNK": 55,
+     "YES": 10,
+     "NO": 2
+    },
+    "structure": {
+     "STR": 61,
+     "complex": 6
+    },
+    "origin": {
+     "Alu tail": 31,
+     "Low_complexity": 6,
+     "Simple_repeat": 28,
+     "none": 1,
+     "SINE (Alu)": 1
+    }
+   },
+   "touching": {
+    "mutations": 80,
+    "share_of_tr_mutations": 0.1818,
+    "per_transmission": 10.0,
+    "ratio_to_autosomal_tr_mutations_per_base": 129.5,
+    "ratio_ci": [
+     102.7,
+     161.2
+    ],
+    "expected_at_papers_genome_rate": 0.82,
+    "ratio_to_papers_genome_rate": 98.0,
+    "ratio_to_papers_genome_rate_ci": [
+     77.7,
+     121.9
+    ],
+    "by_child": {
+     "NA12879": 7,
+     "NA12881": 10,
+     "NA12882": 12,
+     "NA12883": 15,
+     "NA12884": 8,
+     "NA12885": 10,
+     "NA12886": 9,
+     "NA12887": 9
+    },
+    "parent": {
+     "paternal": 59,
+     "maternal": 18,
+     "cannot_determine": 3
+    },
+    "size": {
+     "-990": 1,
+     "-25": 1,
+     "-24": 1,
+     "-16": 1,
+     "-13": 1,
+     "-12": 2,
+     "-11": 1,
+     "-10": 1,
+     "-8": 3,
+     "-7": 1,
+     "-6": 1,
+     "-5": 2,
+     "-4": 26,
+     "-3": 2,
+     "-2": 4,
+     "-1": 1,
+     "2": 4,
+     "3": 1,
+     "4": 18,
+     "8": 2,
+     "10": 3,
+     "16": 1,
+     "20": 1,
+     "35": 1
+    },
+    "four_bases": 44,
+    "one_unit": 46,
+    "whole_units": 68,
+    "one_base_units": 5,
+    "losses": 49,
+    "gains": 31,
+    "transmitted": {
+     "UNK": 64,
+     "YES": 14,
+     "NO": 2
+    },
+    "structure": {
+     "STR": 72,
+     "complex": 8
+    },
+    "origin": {
+     "Simple_repeat": 36,
+     "Alu tail": 33,
+     "Low_complexity": 8,
+     "none": 1,
+     "LTR": 1,
+     "SINE (Alu)": 1
+    }
+   },
+   "by_length": [
+    {
+     "length": "51-75",
+     "intervals": 22245,
+     "mutations": 11,
+     "per_1000_per_transmission": 0.062,
+     "ci": [
+      0.031,
+      0.111
+     ]
+    },
+    {
+     "length": "76-100",
+     "intervals": 8210,
+     "mutations": 8,
+     "per_1000_per_transmission": 0.122,
+     "ci": [
+      0.053,
+      0.24
+     ]
+    },
+    {
+     "length": "101-150",
+     "intervals": 7079,
+     "mutations": 23,
+     "per_1000_per_transmission": 0.406,
+     "ci": [
+      0.257,
+      0.609
+     ]
+    },
+    {
+     "length": "151-250",
+     "intervals": 3904,
+     "mutations": 21,
+     "per_1000_per_transmission": 0.672,
+     "ci": [
+      0.416,
+      1.028
+     ]
+    },
+    {
+     "length": "251+",
+     "intervals": 724,
+     "mutations": 4,
+     "per_1000_per_transmission": 0.691,
+     "ci": [
+      0.188,
+      1.768
+     ]
+    }
+   ],
+   "alu_tails": {
+    "mutations": 31,
+    "of": 67,
+    "share": 0.463,
+    "ga_sequences_share": 0.372,
+    "p": 0.131,
+    "share_weighted_by_length": 0.422,
+    "p_weighted_by_length": 0.537
+   },
+   "per_child_all": {
+    "NA12879": 38,
+    "NA12881": 61,
+    "NA12882": 54,
+    "NA12883": 56,
+    "NA12884": 48,
+    "NA12885": 61,
+    "NA12886": 66,
+    "NA12887": 56
+   }
+  },
+  "all": {
+   "autosomal_tr_mutations": 609,
+   "in": {
+    "mutations": 102,
+    "share_of_tr_mutations": 0.1675,
+    "per_transmission": 12.75,
+    "ratio_to_autosomal_tr_mutations_per_base": 119.3,
+    "ratio_ci": [
+     97.3,
+     144.8
+    ],
+    "expected_at_papers_genome_rate": 0.82,
+    "ratio_to_papers_genome_rate": 124.9,
+    "ratio_to_papers_genome_rate_ci": [
+     101.9,
+     151.6
+    ],
+    "by_child": {
+     "NA12879": 7,
+     "NA12881": 15,
+     "NA12882": 15,
+     "NA12883": 20,
+     "NA12884": 7,
+     "NA12885": 16,
+     "NA12886": 12,
+     "NA12887": 10
+    },
+    "parent": {
+     "paternal": 73,
+     "maternal": 21,
+     "cannot_determine": 8
+    },
+    "size": {
+     "-127": 1,
+     "-66": 1,
+     "-53": 1,
+     "-37": 1,
+     "-35": 1,
+     "-30": 1,
+     "-27": 1,
+     "-26": 1,
+     "-25": 2,
+     "-24": 1,
+     "-23": 1,
+     "-18": 1,
+     "-17": 1,
+     "-16": 1,
+     "-15": 1,
+     "-13": 2,
+     "-12": 3,
+     "-11": 2,
+     "-10": 2,
+     "-8": 5,
+     "-7": 1,
+     "-6": 2,
+     "-5": 3,
+     "-4": 30,
+     "-3": 2,
+     "-2": 4,
+     "2": 3,
+     "3": 2,
+     "4": 13,
+     "6": 1,
+     "8": 2,
+     "9": 1,
+     "10": 2,
+     "16": 1,
+     "18": 1,
+     "20": 1,
+     "29": 1,
+     "30": 1,
+     "35": 1
+    },
+    "four_bases": 43,
+    "one_unit": 43,
+    "whole_units": 72,
+    "one_base_units": 10,
+    "losses": 72,
+    "gains": 30,
+    "transmitted": {
+     "UNK": 83,
+     "NO": 6,
+     "YES": 13
+    },
+    "structure": {
+     "STR": 91,
+     "complex": 11
+    },
+    "origin": {
+     "Alu tail": 43,
+     "Low_complexity": 7,
+     "Simple_repeat": 45,
+     "none": 4,
+     "LTR": 1,
+     "SINE (Alu)": 2
+    }
+   },
+   "touching": {
+    "mutations": 119,
+    "share_of_tr_mutations": 0.1954,
+    "per_transmission": 14.88,
+    "ratio_to_autosomal_tr_mutations_per_base": 139.2,
+    "ratio_ci": [
+     115.3,
+     166.6
+    ],
+    "expected_at_papers_genome_rate": 0.82,
+    "ratio_to_papers_genome_rate": 145.7,
+    "ratio_to_papers_genome_rate_ci": [
+     120.7,
+     174.4
+    ],
+    "by_child": {
+     "NA12879": 10,
+     "NA12881": 16,
+     "NA12882": 18,
+     "NA12883": 21,
+     "NA12884": 9,
+     "NA12885": 19,
+     "NA12886": 13,
+     "NA12887": 13
+    },
+    "parent": {
+     "paternal": 85,
+     "maternal": 26,
+     "cannot_determine": 8
+    },
+    "size": {
+     "-990": 1,
+     "-174": 1,
+     "-127": 1,
+     "-66": 1,
+     "-53": 1,
+     "-37": 1,
+     "-35": 1,
+     "-30": 1,
+     "-27": 1,
+     "-26": 1,
+     "-25": 2,
+     "-24": 1,
+     "-23": 1,
+     "-18": 1,
+     "-17": 1,
+     "-16": 1,
+     "-15": 1,
+     "-13": 2,
+     "-12": 3,
+     "-11": 2,
+     "-10": 2,
+     "-8": 5,
+     "-7": 1,
+     "-6": 2,
+     "-5": 4,
+     "-4": 31,
+     "-3": 2,
+     "-2": 5,
+     "-1": 1,
+     "2": 6,
+     "3": 2,
+     "4": 18,
+     "6": 1,
+     "8": 2,
+     "9": 1,
+     "10": 3,
+     "16": 1,
+     "18": 1,
+     "20": 1,
+     "29": 3,
+     "30": 1,
+     "35": 1
+    },
+    "four_bases": 49,
+    "one_unit": 50,
+    "whole_units": 84,
+    "one_base_units": 12,
+    "losses": 78,
+    "gains": 41,
+    "transmitted": {
+     "UNK": 96,
+     "YES": 17,
+     "NO": 6
+    },
+    "structure": {
+     "STR": 106,
+     "complex": 13
+    },
+    "origin": {
+     "Simple_repeat": 54,
+     "Alu tail": 45,
+     "Low_complexity": 9,
+     "none": 7,
+     "LTR": 2,
+     "SINE (Alu)": 2
+    }
+   }
+  },
+  "recurrent_loci_in_ga": [
+   "chr10:516332-516861 G,GGGGGGAAGGGAGGGGAAAG",
+   "chr10:70554900-70554983 CCTCC",
+   "chr11:69917049-69918078 CT,GCCCT,CTT",
+   "chr12:113038767-113039050 GAAA,AG",
+   "chr12:119919699-119920004 GGGAGA",
+   "chr12:95908443-95908683 AGAGGG",
+   "chr14:100796556-100796616 TTTC,T",
+   "chr16:23748882-23749151 TTCC,CCTC,TCTT",
+   "chr17:68495932-68496061 TCCTT,TCCTC,CCTCC,CTTT",
+   "chr18:25033496-25033920 GA",
+   "chr18:49578986-49579238 GGGAGA",
+   "chr19:40163148-40163264 GT,GAGAGGG,AGGGGGGAGGGGG,GA",
+   "chr19:6630950-6631037 TTCT",
+   "chr3:150821829-150822439 GGAGAG,TTTTG,TTAGATGGGGTCTCACTCTGTCTC",
+   "chr3:184439047-184439111 AAG,AGGGGG",
+   "chr3:49200464-49200528 A,AAAG",
+   "chr4:168709507-168709690 AAGG,AGGG,AGCTC",
+   "chr4:26210650-26210810 CTTT",
+   "chr7:13202970-13203193 TTTC,T",
+   "chr7:42734099-42734214 AAG",
+   "chr8:141203111-141203522 CTCGG,GA",
+   "chr8:27918490-27919314 GGA,AGA",
+   "chr9:131420393-131420553 T"
+  ],
+  "compared": {
+   "GA-sequences": {
+    "intervals": 42162,
+    "bases": 3869600,
+    "mutations": 67,
+    "per_mb_per_transmission": 2.16,
+    "ci": [
+     1.68,
+     2.75
+    ],
+    "by_length": [
+     {
+      "length": "51-75",
+      "intervals": 22245,
+      "mutations": 11,
+      "per_1000_per_transmission": 0.062,
+      "ci": [
+       0.031,
+       0.111
+      ]
+     },
+     {
+      "length": "76-100",
+      "intervals": 8210,
+      "mutations": 8,
+      "per_1000_per_transmission": 0.122,
+      "ci": [
+       0.053,
+       0.24
+      ]
+     },
+     {
+      "length": "101-150",
+      "intervals": 7079,
+      "mutations": 23,
+      "per_1000_per_transmission": 0.406,
+      "ci": [
+       0.257,
+       0.609
+      ]
+     },
+     {
+      "length": "151-250",
+      "intervals": 3904,
+      "mutations": 21,
+      "per_1000_per_transmission": 0.672,
+      "ci": [
+       0.416,
+       1.028
+      ]
+     },
+     {
+      "length": "251+",
+      "intervals": 724,
+      "mutations": 4,
+      "per_1000_per_transmission": 0.691,
+      "ci": [
+       0.188,
+       1.768
+      ]
+     }
+    ]
+   },
+   "pure AC/GT runs": {
+    "intervals": 9447,
+    "bases": 546090,
+    "mutations": 6,
+    "per_mb_per_transmission": 1.37,
+    "ci": [
+     0.5,
+     2.99
+    ],
+    "by_length": [
+     {
+      "length": "51-75",
+      "intervals": 9115,
+      "mutations": 5,
+      "per_1000_per_transmission": 0.069,
+      "ci": [
+       0.022,
+       0.16
+      ]
+     },
+     {
+      "length": "76-100",
+      "intervals": 263,
+      "mutations": 1,
+      "per_1000_per_transmission": 0.475,
+      "ci": [
+       0.012,
+       2.648
+      ]
+     },
+     {
+      "length": "101-150",
+      "intervals": 50,
+      "mutations": 0,
+      "per_1000_per_transmission": 0.0,
+      "ci": [
+       0.0,
+       9.222
+      ]
+     },
+     {
+      "length": "151-250",
+      "intervals": 14,
+      "mutations": 0,
+      "per_1000_per_transmission": 0.0,
+      "ci": [
+       0.0,
+       32.936
+      ]
+     },
+     {
+      "length": "251+",
+      "intervals": 5,
+      "mutations": 0,
+      "per_1000_per_transmission": 0.0,
+      "ci": [
+       0.0,
+       92.222
+      ]
+     }
+    ]
+   },
+   "pure AT runs": {
+    "intervals": 16427,
+    "bases": 1195278,
+    "mutations": 31,
+    "per_mb_per_transmission": 3.24,
+    "ci": [
+     2.2,
+     4.6
+    ],
+    "by_length": [
+     {
+      "length": "51-75",
+      "intervals": 13011,
+      "mutations": 27,
+      "per_1000_per_transmission": 0.259,
+      "ci": [
+       0.171,
+       0.377
+      ]
+     },
+     {
+      "length": "76-100",
+      "intervals": 1780,
+      "mutations": 2,
+      "per_1000_per_transmission": 0.14,
+      "ci": [
+       0.017,
+       0.507
+      ]
+     },
+     {
+      "length": "101-150",
+      "intervals": 903,
+      "mutations": 0,
+      "per_1000_per_transmission": 0.0,
+      "ci": [
+       0.0,
+       0.511
+      ]
+     },
+     {
+      "length": "151-250",
+      "intervals": 513,
+      "mutations": 0,
+      "per_1000_per_transmission": 0.0,
+      "ci": [
+       0.0,
+       0.899
+      ]
+     },
+     {
+      "length": "251+",
+      "intervals": 220,
+      "mutations": 2,
+      "per_1000_per_transmission": 1.136,
+      "ci": [
+       0.138,
+       4.105
+      ]
+     }
+    ]
+   },
+   "pure CG runs": {
+    "intervals": 103,
+    "bases": 6803,
+    "mutations": 0,
+    "per_mb_per_transmission": 0.0,
+    "ci": [
+     0.0,
+     67.78
+    ],
+    "by_length": [
+     {
+      "length": "51-75",
+      "intervals": 90,
+      "mutations": 0,
+      "per_1000_per_transmission": 0.0,
+      "ci": [
+       0.0,
+       5.123
+      ]
+     },
+     {
+      "length": "76-100",
+      "intervals": 6,
+      "mutations": 0,
+      "per_1000_per_transmission": 0.0,
+      "ci": [
+       0.0,
+       76.852
+      ]
+     },
+     {
+      "length": "101-150",
+      "intervals": 5,
+      "mutations": 0,
+      "per_1000_per_transmission": 0.0,
+      "ci": [
+       0.0,
+       92.222
+      ]
+     },
+     {
+      "length": "151-250",
+      "intervals": 1,
+      "mutations": 0,
+      "per_1000_per_transmission": 0.0,
+      "ci": [
+       0.0,
+       461.11
+      ]
+     },
+     {
+      "length": "251+",
+      "intervals": 1,
+      "mutations": 0,
+      "per_1000_per_transmission": 0.0,
+      "ci": [
+       0.0,
+       461.11
+      ]
+     }
+    ]
+   },
+   "other simple repeats (RepeatMasker)": {
+    "intervals": 657544,
+    "bases": 35543279,
+    "mutations": 180,
+    "per_mb_per_transmission": 0.63,
+    "ci": [
+     0.54,
+     0.73
+    ],
+    "by_length": [
+     {
+      "length": "51-75",
+      "intervals": 100690,
+      "mutations": 45,
+      "per_1000_per_transmission": 0.056,
+      "ci": [
+       0.041,
+       0.075
+      ]
+     },
+     {
+      "length": "76-100",
+      "intervals": 30130,
+      "mutations": 21,
+      "per_1000_per_transmission": 0.087,
+      "ci": [
+       0.054,
+       0.133
+      ]
+     },
+     {
+      "length": "101-150",
+      "intervals": 20167,
+      "mutations": 22,
+      "per_1000_per_transmission": 0.136,
+      "ci": [
+       0.085,
+       0.206
+      ]
+     },
+     {
+      "length": "151-250",
+      "intervals": 10655,
+      "mutations": 17,
+      "per_1000_per_transmission": 0.199,
+      "ci": [
+       0.116,
+       0.319
+      ]
+     },
+     {
+      "length": "251+",
+      "intervals": 9402,
+      "mutations": 20,
+      "per_1000_per_transmission": 0.266,
+      "ci": [
+       0.162,
+       0.411
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "concordance": {
+  "children": [
+   "NA12879",
+   "NA12881",
+   "NA12882",
+   "NA12885",
+   "NA12886"
+  ],
+  "paper_in_ga": 65,
+  "paper_in_ga_pass": 40,
+  "paper_by_experiment05_verdict": {
+   "fail: de novo": 1,
+   "fail: not a candidate": 24,
+   "pass: de novo": 2,
+   "pass: not a candidate": 38
+  },
+  "experiment05_events": 18,
+  "experiment05_in_paper": {
+   "de novo: not in the paper": 5,
+   "de novo: paper, failing its filters": 1,
+   "de novo: paper, passing": 2,
+   "de novo, other allele unclear: not in the paper": 1,
+   "mosaic in a parent: not in the paper": 9
+  },
+  "experiment05_de_novo_not_passing_in_paper": [
+   {
+    "carrier": "NA12885",
+    "ga": "chr2:103077676-103077963",
+    "class": "de novo",
+    "paper": "not in the paper",
+    "kind": "deletion",
+    "length": "330 -> 326",
+    "unit": "TTTC",
+    "children_with": "0 of 0"
+   },
+   {
+    "carrier": "NA12885",
+    "ga": "chr2:173456385-173456473",
+    "class": "de novo",
+    "paper": "not in the paper",
+    "kind": "deletion",
+    "length": "166 -> 162",
+    "unit": "TCTT",
+    "children_with": "0 of 0"
+   },
+   {
+    "carrier": "NA12881",
+    "ga": "chr5:157057361-157057467",
+    "class": "de novo",
+    "paper": "not in the paper",
+    "kind": "deletion",
+    "length": "141 -> 137",
+    "unit": "AAGA",
+    "children_with": "0 of 0"
+   },
+   {
+    "carrier": "NA12885",
+    "ga": "chr19:6630951-6631052",
+    "class": "de novo",
+    "paper": "paper, failing its filters",
+    "kind": "deletion",
+    "length": "152 -> 148",
+    "unit": "TTCT",
+    "children_with": "0 of 0"
+   },
+   {
+    "carrier": "NA12885",
+    "ga": "chr20:8541550-8541617",
+    "class": "de novo",
+    "paper": "not in the paper",
+    "kind": "insertion",
+    "length": "126 -> 130",
+    "unit": "GAAA",
+    "children_with": "0 of 0"
+   },
+   {
+    "carrier": "NA12879",
+    "ga": "chr22:22585802-22586018",
+    "class": "de novo",
+    "paper": "not in the paper",
+    "kind": "complex",
+    "length": "184 -> 253",
+    "unit": "",
+    "children_with": "3 of 5"
+   },
+   {
+    "carrier": "NA12881",
+    "ga": "chr20:22238029-22238157",
+    "class": "de novo, other allele unclear",
+    "paper": "not in the paper",
+    "kind": "substitution",
+    "length": "179 -> 179",
+    "unit": "",
+    "children_with": "0 of 0"
+   }
+  ],
+  "why_not_candidates": {
+   "mutations": 40,
+   "first_rule_broken": {
+    "the child or a parent isn't called": 17,
+    "a GQ under 20 in the trio": 13,
+    "no new allele in the calls": 7,
+    "none: a candidate": 2,
+    "another relative is called with it": 1
+   },
+   "any_rule_broken": {
+    "a GQ under 20 in the trio": 30,
+    "the child or a parent isn't called": 17,
+    "another relative is called with it": 9,
+    "a parent has a read of it": 8,
+    "under a quarter of the child's reads": 3,
+    "a depth under 10 in the trio": 1
+   },
+   "with_a_new_allele_of_the_papers_size": 14,
+   "loci": [
+    {
+     "sample": "NA12882",
+     "locus": "chr3:186299618-186299852",
+     "size": 4,
+     "experiment05": "not a candidate",
+     "record": null,
+     "reason": "no new allele in the calls",
+     "broken": [],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12882",
+     "locus": "chr5:168755389-168755448",
+     "size": -11,
+     "experiment05": "not a candidate",
+     "record": null,
+     "reason": "no new allele in the calls",
+     "broken": [],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12882",
+     "locus": "chr7:67979816-67980034",
+     "size": 4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr7:67979885",
+      "change": 1
+     },
+     "reason": "a GQ under 20 in the trio",
+     "broken": [
+      "a GQ under 20 in the trio",
+      "another relative is called with it"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12882",
+     "locus": "chr7:90446441-90446794",
+     "size": -2,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr7:90446724",
+      "change": 16
+     },
+     "reason": "a GQ under 20 in the trio",
+     "broken": [
+      "a GQ under 20 in the trio",
+      "another relative is called with it"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12882",
+     "locus": "chr7:125064133-125064269",
+     "size": -4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr7:125064143",
+      "change": -4
+     },
+     "reason": "a GQ under 20 in the trio",
+     "broken": [
+      "a GQ under 20 in the trio"
+     ],
+     "a_new_allele_of_the_papers_size": true
+    },
+    {
+     "sample": "NA12882",
+     "locus": "chr10:109918754-109918991",
+     "size": -4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr10:109918833",
+      "change": -32
+     },
+     "reason": "a GQ under 20 in the trio",
+     "broken": [
+      "a GQ under 20 in the trio",
+      "another relative is called with it"
+     ],
+     "a_new_allele_of_the_papers_size": true
+    },
+    {
+     "sample": "NA12882",
+     "locus": "chr11:63257398-63257800",
+     "size": 16,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr11:63257658",
+      "change": 5
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12882",
+     "locus": "chr14:83936071-83936450",
+     "size": 8,
+     "experiment05": "de novo",
+     "record": {
+      "at": "chr14:83936320",
+      "change": 4
+     },
+     "reason": "none: a candidate",
+     "broken": [],
+     "a_new_allele_of_the_papers_size": true
+    },
+    {
+     "sample": "NA12882",
+     "locus": "chr16:6018153-6018271",
+     "size": -24,
+     "experiment05": "de novo",
+     "record": {
+      "at": "chr16:6018173",
+      "change": -24
+     },
+     "reason": "none: a candidate",
+     "broken": [],
+     "a_new_allele_of_the_papers_size": true
+    },
+    {
+     "sample": "NA12882",
+     "locus": "chr17:7793433-7793587",
+     "size": -8,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr17:7793457",
+      "change": -2
+     },
+     "reason": "a GQ under 20 in the trio",
+     "broken": [
+      "a GQ under 20 in the trio"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12885",
+     "locus": "chr1:46501127-46501316",
+     "size": -4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr1:46501192",
+      "change": 24
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio"
+     ],
+     "a_new_allele_of_the_papers_size": true
+    },
+    {
+     "sample": "NA12885",
+     "locus": "chr1:143357518-143357655",
+     "size": -3,
+     "experiment05": "not a candidate",
+     "record": null,
+     "reason": "no new allele in the calls",
+     "broken": [],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12885",
+     "locus": "chr2:21366418-21366612",
+     "size": -4,
+     "experiment05": "not a candidate",
+     "record": null,
+     "reason": "no new allele in the calls",
+     "broken": [],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12885",
+     "locus": "chr2:73193704-73193837",
+     "size": -4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr2:73193728",
+      "change": 4
+     },
+     "reason": "a GQ under 20 in the trio",
+     "broken": [
+      "a GQ under 20 in the trio",
+      "another relative is called with it"
+     ],
+     "a_new_allele_of_the_papers_size": true
+    },
+    {
+     "sample": "NA12885",
+     "locus": "chr6:63412364-63412973",
+     "size": 4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr6:63412567",
+      "change": -8
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio",
+      "a parent has a read of it",
+      "another relative is called with it"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12885",
+     "locus": "chr11:34520230-34520524",
+     "size": -4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr11:34520338",
+      "change": 2
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio",
+      "a parent has a read of it"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12885",
+     "locus": "chr12:115799655-115799751",
+     "size": -8,
+     "experiment05": "not a candidate",
+     "record": null,
+     "reason": "no new allele in the calls",
+     "broken": [],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12885",
+     "locus": "chr19:44510512-44510646",
+     "size": 4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr19:44510581",
+      "change": -38
+     },
+     "reason": "a GQ under 20 in the trio",
+     "broken": [
+      "a GQ under 20 in the trio"
+     ],
+     "a_new_allele_of_the_papers_size": true
+    },
+    {
+     "sample": "NA12879",
+     "locus": "chr10:21371186-21371461",
+     "size": 4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr10:21371289",
+      "change": -10
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio",
+      "a parent has a read of it",
+      "another relative is called with it"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12879",
+     "locus": "chr15:41599886-41600007",
+     "size": 4,
+     "experiment05": "not a candidate",
+     "record": null,
+     "reason": "no new allele in the calls",
+     "broken": [],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12879",
+     "locus": "chr16:74180730-74181109",
+     "size": -4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr16:74180978",
+      "change": -56
+     },
+     "reason": "a GQ under 20 in the trio",
+     "broken": [
+      "a GQ under 20 in the trio"
+     ],
+     "a_new_allele_of_the_papers_size": true
+    },
+    {
+     "sample": "NA12879",
+     "locus": "chr18:41675165-41675281",
+     "size": -4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr18:41675186",
+      "change": -20
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio",
+      "a parent has a read of it"
+     ],
+     "a_new_allele_of_the_papers_size": true
+    },
+    {
+     "sample": "NA12881",
+     "locus": "chr2:32668497-32668594",
+     "size": -10,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr2:32668560",
+      "change": 48
+     },
+     "reason": "a GQ under 20 in the trio",
+     "broken": [
+      "a GQ under 20 in the trio"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12881",
+     "locus": "chr3:137930153-137930570",
+     "size": -4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr3:137930211",
+      "change": 5
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio",
+      "a parent has a read of it"
+     ],
+     "a_new_allele_of_the_papers_size": true
+    },
+    {
+     "sample": "NA12881",
+     "locus": "chr4:77126546-77126589",
+     "size": -13,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr4:77126560",
+      "change": -11
+     },
+     "reason": "a GQ under 20 in the trio",
+     "broken": [
+      "a GQ under 20 in the trio"
+     ],
+     "a_new_allele_of_the_papers_size": true
+    },
+    {
+     "sample": "NA12881",
+     "locus": "chr6:38705299-38705438",
+     "size": 3,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr6:38705299",
+      "change": -8
+     },
+     "reason": "a GQ under 20 in the trio",
+     "broken": [
+      "a GQ under 20 in the trio",
+      "under a quarter of the child's reads"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12881",
+     "locus": "chr6:112795877-112796132",
+     "size": -12,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr6:112796081",
+      "change": -8
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12881",
+     "locus": "chr6:154925711-154925827",
+     "size": 10,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr6:154925814",
+      "change": 20
+     },
+     "reason": "a GQ under 20 in the trio",
+     "broken": [
+      "a GQ under 20 in the trio",
+      "another relative is called with it"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12881",
+     "locus": "chr9:70469020-70469154",
+     "size": -4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr9:70469094",
+      "change": 109
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio"
+     ],
+     "a_new_allele_of_the_papers_size": true
+    },
+    {
+     "sample": "NA12881",
+     "locus": "chr11:61824394-61824531",
+     "size": 10,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr11:61824418",
+      "change": -1
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12881",
+     "locus": "chr15:74990943-74991175",
+     "size": -8,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr15:74990994",
+      "change": -16
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio",
+      "under a quarter of the child's reads"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12881",
+     "locus": "chr17:45365609-45365807",
+     "size": -4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr17:45365747",
+      "change": 16
+     },
+     "reason": "a GQ under 20 in the trio",
+     "broken": [
+      "a GQ under 20 in the trio",
+      "under a quarter of the child's reads"
+     ],
+     "a_new_allele_of_the_papers_size": true
+    },
+    {
+     "sample": "NA12886",
+     "locus": "chr3:109040332-109040547",
+     "size": -4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr3:109040403",
+      "change": 8
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio",
+      "another relative is called with it"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12886",
+     "locus": "chr4:88146867-88147136",
+     "size": 4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr4:88147016",
+      "change": 4
+     },
+     "reason": "another relative is called with it",
+     "broken": [
+      "another relative is called with it"
+     ],
+     "a_new_allele_of_the_papers_size": true
+    },
+    {
+     "sample": "NA12886",
+     "locus": "chr7:28110423-28110666",
+     "size": 4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr7:28110509",
+      "change": 0
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio",
+      "a parent has a read of it"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12886",
+     "locus": "chr9:74549441-74549743",
+     "size": -12,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr9:74549539",
+      "change": -20
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio",
+      "a parent has a read of it"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12886",
+     "locus": "chr12:670378-670518",
+     "size": -4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr12:670448",
+      "change": 5
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio",
+      "a depth under 10 in the trio",
+      "a parent has a read of it"
+     ],
+     "a_new_allele_of_the_papers_size": true
+    },
+    {
+     "sample": "NA12886",
+     "locus": "chr14:86451575-86452026",
+     "size": -4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr14:86451833",
+      "change": -8
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio"
+     ],
+     "a_new_allele_of_the_papers_size": false
+    },
+    {
+     "sample": "NA12886",
+     "locus": "chr15:47940265-47940494",
+     "size": 4,
+     "experiment05": "not a candidate",
+     "record": {
+      "at": "chr15:47940385",
+      "change": -8
+     },
+     "reason": "the child or a parent isn't called",
+     "broken": [
+      "the child or a parent isn't called",
+      "a GQ under 20 in the trio"
+     ],
+     "a_new_allele_of_the_papers_size": true
+    },
+    {
+     "sample": "NA12886",
+     "locus": "chr17:19489344-19489451",
+     "size": -2,
+     "experiment05": "not a candidate",
+     "record": null,
+     "reason": "no new allele in the calls",
+     "broken": [],
+     "a_new_allele_of_the_papers_size": false
+    }
+   ]
+  }
+ },
+ "points": {
+  "genome_trinucleotides": 2756329286,
+  "ga_trinucleotides": 3869597,
+  "SNV": {
+   "rows": 772,
+   "lifted": 742,
+   "autosomal": 715,
+   "reference_base_matches": 714,
+   "children": [
+    "NA12877",
+    "NA12878",
+    "NA12879",
+    "NA12881",
+    "NA12882",
+    "NA12883",
+    "NA12884",
+    "NA12885",
+    "NA12886",
+    "NA12887"
+   ],
+   "germline": {
+    "mutations": 603,
+    "in_ga": 0,
+    "expected_per_base": 0.85,
+    "within_400_bases": 3,
+    "in_flanks": 3,
+    "expected_in_flanks_per_base": 6.01,
+    "p_flanks_at_most_observed": 0.1504,
+    "in_ga_list": [],
+    "expected_by_context": 0.55,
+    "p_none_if_160_times_fewer": 0.997,
+    "p_none_at_genome_rate": 0.577
+   },
+   "postzygotic": {
+    "mutations": 111,
+    "in_ga": 0,
+    "expected_per_base": 0.16,
+    "within_400_bases": 3,
+    "in_flanks": 3,
+    "expected_in_flanks_per_base": 1.11,
+    "p_flanks_at_most_observed": 0.9738,
+    "in_ga_list": [],
+    "expected_by_context": 0.12,
+    "p_none_if_160_times_fewer": 0.999,
+    "p_none_at_genome_rate": 0.887
+   },
+   "all": {
+    "mutations": 714,
+    "in_ga": 0,
+    "expected_per_base": 1.0,
+    "within_400_bases": 6,
+    "in_flanks": 6,
+    "expected_in_flanks_per_base": 7.12,
+    "p_flanks_at_most_observed": 0.4327,
+    "in_ga_list": [],
+    "expected_by_context": 0.67,
+    "p_none_if_160_times_fewer": 0.996,
+    "p_none_at_genome_rate": 0.512
+   }
+  },
+  "indel": {
+   "rows": 74,
+   "lifted": 71,
+   "autosomal": 70,
+   "reference_base_matches": null,
+   "children": [
+    "NA12877",
+    "NA12878",
+    "NA12879",
+    "NA12881",
+    "NA12882",
+    "NA12883",
+    "NA12884",
+    "NA12885",
+    "NA12886",
+    "NA12887"
+   ],
+   "germline": {
+    "mutations": 57,
+    "in_ga": 3,
+    "expected_per_base": 0.08,
+    "within_400_bases": 3,
+    "in_flanks": 0,
+    "expected_in_flanks_per_base": 0.57,
+    "p_flanks_at_most_observed": 0.5666,
+    "in_ga_list": [
+     "NA12886 chr2:229387501 AAGAAAGAG>A (AAA)",
+     "NA12877 chr19:2585011 A>AGAAG (AAG)",
+     "NA12882 chr16:6018166 AAGGAAGGAAGGGAGGAAAGGAGGAAGGAAGAAAGGGAGGG>A (AAA)"
+    ]
+   },
+   "postzygotic": {
+    "mutations": 13,
+    "in_ga": 0,
+    "expected_per_base": 0.02,
+    "within_400_bases": 1,
+    "in_flanks": 1,
+    "expected_in_flanks_per_base": 0.13,
+    "p_flanks_at_most_observed": 0.9923,
+    "in_ga_list": []
+   },
+   "all": {
+    "mutations": 70,
+    "in_ga": 3,
+    "expected_per_base": 0.1,
+    "within_400_bases": 4,
+    "in_flanks": 1,
+    "expected_in_flanks_per_base": 0.7,
+    "p_flanks_at_most_observed": 0.845,
+    "in_ga_list": [
+     "NA12886 chr2:229387501 AAGAAAGAG>A (AAA)",
+     "NA12877 chr19:2585011 A>AGAAG (AAG)",
+     "NA12882 chr16:6018166 AAGGAAGGAAGGGAGGAAAGGAGGAAGGAAGAAAGGGAGGG>A (AAA)"
+    ]
+   }
+  }
+ },
+ "svs": {
+  "rows": 24,
+  "at_ga": [
+   "NA12882 chr9:131420393-131420553 DEL 53 (TRGT, TR)",
+   "NA12881 chr9:133755638-133755807 DEL 174 (TRGT, TR)",
+   "NA12886 chr12:119919699-119920004 DEL 66 (TRGT, TR)"
+  ]
+ }
+}

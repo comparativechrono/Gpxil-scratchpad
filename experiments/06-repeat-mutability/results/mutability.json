@@ -1,0 +1,917 @@
+{
+ "source": {
+  "catalog": "human_GRCh38_no_alt_analysis_set.platinumTRs-v1.0.trgt.bed.gz",
+  "table": "Porubsky et al. 2025, Supplementary Table 10"
+ },
+ "counted": {
+  "loci": 7270921,
+  "mutations": 440,
+  "mutations_in_table": 440,
+  "loci_with_a_mutation": 440
+ },
+ "loci": 7270921,
+ "mutations": 440,
+ "transmissions": 8,
+ "by_class": {
+  "AC- or GT-rich": {
+   "loci": 642727,
+   "bases": 12506293,
+   "mutations": 20,
+   "per_1000_loci_per_transmission": 0.0039
+  },
+  "AT- or CG-rich": {
+   "loci": 950389,
+   "bases": 20393194,
+   "mutations": 68,
+   "per_1000_loci_per_transmission": 0.0089
+  },
+  "GA-sequence": {
+   "loci": 27784,
+   "bases": 4111260,
+   "mutations": 67,
+   "per_1000_loci_per_transmission": 0.3014
+  },
+  "other": {
+   "loci": 4196144,
+   "bases": 184069319,
+   "mutations": 256,
+   "per_1000_loci_per_transmission": 0.0076
+  },
+  "purine-rich": {
+   "loci": 1453877,
+   "bases": 26334426,
+   "mutations": 29,
+   "per_1000_loci_per_transmission": 0.0025
+  }
+ },
+ "ga_against_other_loci_of_their_strata": {
+  "length": {
+   "ga_loci": 27784,
+   "of": 27784,
+   "observed": 67,
+   "expected": 11.7,
+   "ratio": 5.72,
+   "ci": [
+    4.43,
+    7.26
+   ]
+  },
+  "length x motif": {
+   "ga_loci": 27784,
+   "of": 27784,
+   "observed": 67,
+   "expected": 13.3,
+   "ratio": 5.05,
+   "ci": [
+    3.91,
+    6.41
+   ]
+  },
+  "length x motif x purity": {
+   "ga_loci": 27639,
+   "of": 27784,
+   "observed": 67,
+   "expected": 72.5,
+   "ratio": 0.92,
+   "ci": [
+    0.72,
+    1.17
+   ]
+  }
+ },
+ "poisson_models": {
+  "ga": {
+   "formula": "mutations ~ C(length) + C(motif) + C(purity) + ga",
+   "terms": {
+    "ga": {
+     "rate_ratio": 1.26,
+     "ci": [
+      0.93,
+      1.72
+     ],
+     "p": 0.14
+    }
+   },
+   "deviance": 1176.7,
+   "df_resid": 3755
+  },
+  "class": {
+   "formula": "mutations ~ C(length) + C(motif) + C(purity) + C(cls, Treatment('other'))",
+   "terms": {
+    "AC- or GT-rich": {
+     "rate_ratio": 0.69,
+     "ci": [
+      0.41,
+      1.18
+     ],
+     "p": 0.18
+    },
+    "AT- or CG-rich": {
+     "rate_ratio": 1.94,
+     "ci": [
+      1.43,
+      2.64
+     ],
+     "p": 1.9e-05
+    },
+    "GA-sequence": {
+     "rate_ratio": 1.38,
+     "ci": [
+      1.0,
+      1.9
+     ],
+     "p": 0.049
+    },
+    "purine-rich": {
+     "rate_ratio": 0.85,
+     "ci": [
+      0.54,
+      1.36
+     ],
+     "p": 0.51
+    }
+   },
+   "deviance": 1150.5,
+   "df_resid": 3752
+  }
+ },
+ "by_purity_in_length_bands": {
+  "51-100": [
+   {
+    "purity": "0.000-0.600",
+    "ga": {
+     "loci": 1139,
+     "mutations": 0,
+     "per_1000": 0.0,
+     "ci": [
+      0.0,
+      0.4048
+     ]
+    },
+    "other": {
+     "loci": 583928,
+     "mutations": 16,
+     "per_1000": 0.0034,
+     "ci": [
+      0.002,
+      0.0056
+     ]
+    }
+   },
+   {
+    "purity": "0.600-0.700",
+    "ga": {
+     "loci": 2275,
+     "mutations": 1,
+     "per_1000": 0.0549,
+     "ci": [
+      0.0014,
+      0.3061
+     ]
+    },
+    "other": {
+     "loci": 64167,
+     "mutations": 7,
+     "per_1000": 0.0136,
+     "ci": [
+      0.0055,
+      0.0281
+     ]
+    }
+   },
+   {
+    "purity": "0.700-0.800",
+    "ga": {
+     "loci": 3360,
+     "mutations": 1,
+     "per_1000": 0.0372,
+     "ci": [
+      0.0009,
+      0.2073
+     ]
+    },
+    "other": {
+     "loci": 30892,
+     "mutations": 15,
+     "per_1000": 0.0607,
+     "ci": [
+      0.034,
+      0.1001
+     ]
+    }
+   },
+   {
+    "purity": "0.800-0.850",
+    "ga": {
+     "loci": 1263,
+     "mutations": 1,
+     "per_1000": 0.099,
+     "ci": [
+      0.0025,
+      0.5514
+     ]
+    },
+    "other": {
+     "loci": 9062,
+     "mutations": 3,
+     "per_1000": 0.0414,
+     "ci": [
+      0.0085,
+      0.1209
+     ]
+    }
+   },
+   {
+    "purity": "0.850-0.900",
+    "ga": {
+     "loci": 1081,
+     "mutations": 1,
+     "per_1000": 0.1156,
+     "ci": [
+      0.0029,
+      0.6443
+     ]
+    },
+    "other": {
+     "loci": 7731,
+     "mutations": 11,
+     "per_1000": 0.1779,
+     "ci": [
+      0.0888,
+      0.3182
+     ]
+    }
+   },
+   {
+    "purity": "0.900-0.950",
+    "ga": {
+     "loci": 842,
+     "mutations": 0,
+     "per_1000": 0.0,
+     "ci": [
+      0.0,
+      0.5476
+     ]
+    },
+    "other": {
+     "loci": 6450,
+     "mutations": 16,
+     "per_1000": 0.3101,
+     "ci": [
+      0.1772,
+      0.5035
+     ]
+    }
+   },
+   {
+    "purity": "0.950-0.980",
+    "ga": {
+     "loci": 480,
+     "mutations": 1,
+     "per_1000": 0.2604,
+     "ci": [
+      0.0066,
+      1.4509
+     ]
+    },
+    "other": {
+     "loci": 3530,
+     "mutations": 7,
+     "per_1000": 0.2479,
+     "ci": [
+      0.0997,
+      0.5107
+     ]
+    }
+   },
+   {
+    "purity": "0.980-0.999",
+    "ga": {
+     "loci": 172,
+     "mutations": 0,
+     "per_1000": 0.0,
+     "ci": [
+      0.0,
+      2.6809
+     ]
+    },
+    "other": {
+     "loci": 1743,
+     "mutations": 8,
+     "per_1000": 0.5737,
+     "ci": [
+      0.2477,
+      1.1305
+     ]
+    }
+   },
+   {
+    "purity": "0.999-1.000",
+    "ga": {
+     "loci": 308,
+     "mutations": 1,
+     "per_1000": 0.4058,
+     "ci": [
+      0.0103,
+      2.2612
+     ]
+    },
+    "other": {
+     "loci": 2170,
+     "mutations": 6,
+     "per_1000": 0.3456,
+     "ci": [
+      0.1268,
+      0.7523
+     ]
+    }
+   }
+  ],
+  "101-250": [
+   {
+    "purity": "0.000-0.600",
+    "ga": {
+     "loci": 1705,
+     "mutations": 3,
+     "per_1000": 0.2199,
+     "ci": [
+      0.0454,
+      0.6428
+     ]
+    },
+    "other": {
+     "loci": 168295,
+     "mutations": 27,
+     "per_1000": 0.0201,
+     "ci": [
+      0.0132,
+      0.0292
+     ]
+    }
+   },
+   {
+    "purity": "0.600-0.700",
+    "ga": {
+     "loci": 2490,
+     "mutations": 4,
+     "per_1000": 0.2008,
+     "ci": [
+      0.0547,
+      0.5141
+     ]
+    },
+    "other": {
+     "loci": 18927,
+     "mutations": 25,
+     "per_1000": 0.1651,
+     "ci": [
+      0.1068,
+      0.2437
+     ]
+    }
+   },
+   {
+    "purity": "0.700-0.800",
+    "ga": {
+     "loci": 3485,
+     "mutations": 9,
+     "per_1000": 0.3228,
+     "ci": [
+      0.1476,
+      0.6128
+     ]
+    },
+    "other": {
+     "loci": 9547,
+     "mutations": 19,
+     "per_1000": 0.2488,
+     "ci": [
+      0.1498,
+      0.3885
+     ]
+    }
+   },
+   {
+    "purity": "0.800-0.850",
+    "ga": {
+     "loci": 1673,
+     "mutations": 3,
+     "per_1000": 0.2241,
+     "ci": [
+      0.0462,
+      0.6551
+     ]
+    },
+    "other": {
+     "loci": 2554,
+     "mutations": 7,
+     "per_1000": 0.3426,
+     "ci": [
+      0.1377,
+      0.7059
+     ]
+    }
+   },
+   {
+    "purity": "0.850-0.900",
+    "ga": {
+     "loci": 1570,
+     "mutations": 9,
+     "per_1000": 0.7166,
+     "ci": [
+      0.3277,
+      1.3603
+     ]
+    },
+    "other": {
+     "loci": 1601,
+     "mutations": 10,
+     "per_1000": 0.7808,
+     "ci": [
+      0.3744,
+      1.4358
+     ]
+    }
+   },
+   {
+    "purity": "0.900-0.950",
+    "ga": {
+     "loci": 953,
+     "mutations": 9,
+     "per_1000": 1.1805,
+     "ci": [
+      0.5398,
+      2.2409
+     ]
+    },
+    "other": {
+     "loci": 727,
+     "mutations": 3,
+     "per_1000": 0.5158,
+     "ci": [
+      0.1064,
+      1.5074
+     ]
+    }
+   },
+   {
+    "purity": "0.950-0.980",
+    "ga": {
+     "loci": 215,
+     "mutations": 3,
+     "per_1000": 1.7442,
+     "ci": [
+      0.3597,
+      5.0973
+     ]
+    },
+    "other": {
+     "loci": 162,
+     "mutations": 2,
+     "per_1000": 1.5432,
+     "ci": [
+      0.1869,
+      5.5746
+     ]
+    }
+   },
+   {
+    "purity": "0.980-0.999",
+    "ga": {
+     "loci": 48,
+     "mutations": 0,
+     "per_1000": 0.0,
+     "ci": [
+      0.0,
+      9.6065
+     ]
+    },
+    "other": {
+     "loci": 40,
+     "mutations": 0,
+     "per_1000": 0.0,
+     "ci": [
+      0.0,
+      11.5277
+     ]
+    }
+   },
+   {
+    "purity": "0.999-1.000",
+    "ga": {
+     "loci": 5,
+     "mutations": 0,
+     "per_1000": 0.0,
+     "ci": [
+      0.0,
+      92.222
+     ]
+    },
+    "other": {
+     "loci": 13,
+     "mutations": 0,
+     "per_1000": 0.0,
+     "ci": [
+      0.0,
+      35.47
+     ]
+    }
+   }
+  ],
+  "251+": [
+   {
+    "purity": "0.000-0.600",
+    "ga": {
+     "loci": 432,
+     "mutations": 1,
+     "per_1000": 0.2894,
+     "ci": [
+      0.0073,
+      1.6122
+     ]
+    },
+    "other": {
+     "loci": 51949,
+     "mutations": 51,
+     "per_1000": 0.1227,
+     "ci": [
+      0.0914,
+      0.1613
+     ]
+    }
+   },
+   {
+    "purity": "0.600-0.700",
+    "ga": {
+     "loci": 825,
+     "mutations": 3,
+     "per_1000": 0.4545,
+     "ci": [
+      0.0937,
+      1.3284
+     ]
+    },
+    "other": {
+     "loci": 6148,
+     "mutations": 20,
+     "per_1000": 0.4066,
+     "ci": [
+      0.2484,
+      0.628
+     ]
+    }
+   },
+   {
+    "purity": "0.700-0.800",
+    "ga": {
+     "loci": 1418,
+     "mutations": 8,
+     "per_1000": 0.7052,
+     "ci": [
+      0.3045,
+      1.3896
+     ]
+    },
+    "other": {
+     "loci": 2775,
+     "mutations": 13,
+     "per_1000": 0.5856,
+     "ci": [
+      0.3118,
+      1.0014
+     ]
+    }
+   },
+   {
+    "purity": "0.800-0.850",
+    "ga": {
+     "loci": 522,
+     "mutations": 6,
+     "per_1000": 1.4368,
+     "ci": [
+      0.5273,
+      3.1273
+     ]
+    },
+    "other": {
+     "loci": 608,
+     "mutations": 4,
+     "per_1000": 0.8224,
+     "ci": [
+      0.2241,
+      2.1056
+     ]
+    }
+   },
+   {
+    "purity": "0.850-0.900",
+    "ga": {
+     "loci": 327,
+     "mutations": 2,
+     "per_1000": 0.7645,
+     "ci": [
+      0.0926,
+      2.7617
+     ]
+    },
+    "other": {
+     "loci": 412,
+     "mutations": 2,
+     "per_1000": 0.6068,
+     "ci": [
+      0.0735,
+      2.192
+     ]
+    }
+   },
+   {
+    "purity": "0.900-0.950",
+    "ga": {
+     "loci": 113,
+     "mutations": 0,
+     "per_1000": 0.0,
+     "ci": [
+      0.0,
+      4.0806
+     ]
+    },
+    "other": {
+     "loci": 229,
+     "mutations": 1,
+     "per_1000": 0.5459,
+     "ci": [
+      0.0138,
+      3.0413
+     ]
+    }
+   },
+   {
+    "purity": "0.950-0.980",
+    "ga": {
+     "loci": 12,
+     "mutations": 0,
+     "per_1000": 0.0,
+     "ci": [
+      0.0,
+      38.4258
+     ]
+    },
+    "other": {
+     "loci": 79,
+     "mutations": 0,
+     "per_1000": 0.0,
+     "ci": [
+      0.0,
+      5.8368
+     ]
+    }
+   },
+   {
+    "purity": "0.980-0.999",
+    "ga": {
+     "loci": 2,
+     "mutations": 0,
+     "per_1000": 0.0,
+     "ci": [
+      0.0,
+      230.555
+     ]
+    },
+    "other": {
+     "loci": 35,
+     "mutations": 0,
+     "per_1000": 0.0,
+     "ci": [
+      0.0,
+      13.1746
+     ]
+    }
+   },
+   {
+    "purity": "0.999-1.000",
+    "ga": {
+     "loci": 0,
+     "mutations": 0,
+     "per_1000": null,
+     "ci": null
+    },
+    "other": {
+     "loci": 3,
+     "mutations": 0,
+     "per_1000": 0.0,
+     "ci": [
+      0.0,
+      153.7033
+     ]
+    }
+   }
+  ]
+ },
+ "long_pure_repeats": {
+  "length >= 101, motif <= 6, purity >= 0.85": {
+   "loci": 6546,
+   "mutations": 41,
+   "by_class": {
+    "AC- or GT-rich": {
+     "loci": 43,
+     "share_of_loci": 0.007,
+     "mutations": 0,
+     "share_of_mutations": 0.0,
+     "per_1000": 0.0
+    },
+    "AT- or CG-rich": {
+     "loci": 333,
+     "share_of_loci": 0.051,
+     "mutations": 2,
+     "share_of_mutations": 0.049,
+     "per_1000": 0.7508
+    },
+    "GA-sequence": {
+     "loci": 3245,
+     "share_of_loci": 0.496,
+     "mutations": 23,
+     "share_of_mutations": 0.561,
+     "per_1000": 0.886
+    },
+    "other": {
+     "loci": 2798,
+     "share_of_loci": 0.427,
+     "mutations": 15,
+     "share_of_mutations": 0.366,
+     "per_1000": 0.6701
+    },
+    "purine-rich": {
+     "loci": 127,
+     "share_of_loci": 0.019,
+     "mutations": 1,
+     "share_of_mutations": 0.024,
+     "per_1000": 0.9843
+    }
+   }
+  },
+  "length >= 101, motif <= 6, purity >= 0.8": {
+   "loci": 11903,
+   "mutations": 61,
+   "by_class": {
+    "AC- or GT-rich": {
+     "loci": 89,
+     "share_of_loci": 0.007,
+     "mutations": 1,
+     "share_of_mutations": 0.016,
+     "per_1000": 1.4045
+    },
+    "AT- or CG-rich": {
+     "loci": 596,
+     "share_of_loci": 0.05,
+     "mutations": 4,
+     "share_of_mutations": 0.066,
+     "per_1000": 0.8389
+    },
+    "GA-sequence": {
+     "loci": 5440,
+     "share_of_loci": 0.457,
+     "mutations": 32,
+     "share_of_mutations": 0.525,
+     "per_1000": 0.7353
+    },
+    "other": {
+     "loci": 5402,
+     "share_of_loci": 0.454,
+     "mutations": 22,
+     "share_of_mutations": 0.361,
+     "per_1000": 0.5091
+    },
+    "purine-rich": {
+     "loci": 376,
+     "share_of_loci": 0.032,
+     "mutations": 2,
+     "share_of_mutations": 0.033,
+     "per_1000": 0.6649
+    }
+   }
+  },
+  "length >= 101, motif <= 6, purity >= 0.9": {
+   "loci": 2636,
+   "mutations": 18,
+   "by_class": {
+    "AC- or GT-rich": {
+     "loci": 12,
+     "share_of_loci": 0.005,
+     "mutations": 0,
+     "share_of_mutations": 0.0,
+     "per_1000": 0.0
+    },
+    "AT- or CG-rich": {
+     "loci": 163,
+     "share_of_loci": 0.062,
+     "mutations": 0,
+     "share_of_mutations": 0.0,
+     "per_1000": 0.0
+    },
+    "GA-sequence": {
+     "loci": 1348,
+     "share_of_loci": 0.511,
+     "mutations": 12,
+     "share_of_mutations": 0.667,
+     "per_1000": 1.1128
+    },
+    "other": {
+     "loci": 1091,
+     "share_of_loci": 0.414,
+     "mutations": 6,
+     "share_of_mutations": 0.333,
+     "per_1000": 0.6874
+    },
+    "purine-rich": {
+     "loci": 22,
+     "share_of_loci": 0.008,
+     "mutations": 0,
+     "share_of_mutations": 0.0,
+     "per_1000": 0.0
+    }
+   }
+  },
+  "length >= 76, motif <= 6, purity >= 0.85": {
+   "loci": 11578,
+   "mutations": 58,
+   "by_class": {
+    "AC- or GT-rich": {
+     "loci": 245,
+     "share_of_loci": 0.021,
+     "mutations": 0,
+     "share_of_mutations": 0.0,
+     "per_1000": 0.0
+    },
+    "AT- or CG-rich": {
+     "loci": 1093,
+     "share_of_loci": 0.094,
+     "mutations": 5,
+     "share_of_mutations": 0.086,
+     "per_1000": 0.5718
+    },
+    "GA-sequence": {
+     "loci": 4424,
+     "share_of_loci": 0.382,
+     "mutations": 24,
+     "share_of_mutations": 0.414,
+     "per_1000": 0.6781
+    },
+    "other": {
+     "loci": 5569,
+     "share_of_loci": 0.481,
+     "mutations": 28,
+     "share_of_mutations": 0.483,
+     "per_1000": 0.6285
+    },
+    "purine-rich": {
+     "loci": 247,
+     "share_of_loci": 0.021,
+     "mutations": 1,
+     "share_of_mutations": 0.017,
+     "per_1000": 0.5061
+    }
+   }
+  },
+  "length >= 151, motif <= 6, purity >= 0.85": {
+   "loci": 3184,
+   "mutations": 20,
+   "by_class": {
+    "AC- or GT-rich": {
+     "loci": 11,
+     "share_of_loci": 0.003,
+     "mutations": 0,
+     "share_of_mutations": 0.0,
+     "per_1000": 0.0
+    },
+    "AT- or CG-rich": {
+     "loci": 95,
+     "share_of_loci": 0.03,
+     "mutations": 0,
+     "share_of_mutations": 0.0,
+     "per_1000": 0.0
+    },
+    "GA-sequence": {
+     "loci": 1770,
+     "share_of_loci": 0.556,
+     "mutations": 11,
+     "share_of_mutations": 0.55,
+     "per_1000": 0.7768
+    },
+    "other": {
+     "loci": 1253,
+     "share_of_loci": 0.394,
+     "mutations": 8,
+     "share_of_mutations": 0.4,
+     "per_1000": 0.7981
+    },
+    "purine-rich": {
+     "loci": 55,
+     "share_of_loci": 0.017,
+     "mutations": 1,
+     "share_of_mutations": 0.05,
+     "per_1000": 2.2727
+    }
+   }
+  }
+ }
+}

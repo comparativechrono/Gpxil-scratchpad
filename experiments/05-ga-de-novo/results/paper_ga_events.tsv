@@ -1,0 +1,127 @@
+sample	chrom	start	end	locus_length	motifs	structure	size	units	parent	pass	recurrent	transmitted	where	ga_bases	ga	origin	experiment05
+NA12879	chr1	29132751	29133687	936	AAAG,AAGG,GGAG	STR	2		paternal	True	False	YES	touching	313	29133095-29133151:GA:Alu tail;29133152-29133251:GA:Alu tail;29133529-29133689:GA:Alu tail	Alu tail	
+NA12879	chr4	12246221	12246397	176	TCCC,TTTCT,TCTA	STR	4	+1 x TCCC	paternal	True	False	YES	touching	62	12246221-12246283:TC:Simple_repeat	Simple_repeat	
+NA12879	chr7	42734099	42734214	115	AAG	STR	-35		paternal	False	True	NO	in	115	42734092-42734215:GA:Simple_repeat	Simple_repeat	not a candidate
+NA12879	chr8	141203111	141203522	411	CTCGG,GA	STR	-8	-4 x GA	maternal	False	True	NO	in	264	141203227-141203310:GA:Simple_repeat;141203337-141203450:GA:Simple_repeat;141203454-141203526:GA:Simple_repeat	Simple_repeat	not a candidate
+NA12879	chr10	21371186	21371461	275	GA,GAAG,A	STR	4	+1 x GAAG	paternal	True	False	YES	in	209	21371243-21371350:GA:Alu tail;21371351-21371403:GA:Low_complexity;21371411-21371462:GA:Low_complexity	Alu tail	not a candidate
+NA12879	chr12	119919699	119920004	305	GGGAGA	STR	-37		cannot_determine	False	True	NO	in	291	119919713-119920004:GA:Simple_repeat	Simple_repeat	not a candidate
+NA12879	chr15	41599886	41600007	121	TC,TG,GA	STR	4	+2 x TC	paternal	True	False	YES	in	69	41599883-41599955:TC:Simple_repeat	Simple_repeat	not a candidate
+NA12879	chr16	74180730	74181109	379	GTTAGG,AGGA,AAGA,AGGGG	STR	-4	-1 x AGGA	paternal	True	False	YES	in	238	74180871-74181109:GA:Low_complexity	Low_complexity	not a candidate
+NA12879	chr17	79611090	79611309	219	TC,GCG,AGCGCGC	complex	4	+2 x TC	paternal	True	False	YES	touching	52	79611123-79611175:TC:Simple_repeat	Simple_repeat	
+NA12879	chr18	41675165	41675281	116	TCTT	STR	-4	-1 x TCTT	paternal	True	False	YES	in	104	41675177-41675281:TC:Simple_repeat	Simple_repeat	not a candidate
+NA12881	chr2	32668497	32668594	97	TTTCT,CCTC,CCTT	STR	-10	-2 x TTTCT	paternal	True	False	UNK	in	97	32668497-32668594:TC:Alu tail	Alu tail	not a candidate
+NA12881	chr3	137930153	137930570	417	AAAG	STR	-4	-1 x AAAG	paternal	True	False	UNK	in	371	137930152-137930310:GA:Alu tail;137930311-137930462:GA:Low_complexity;137930470-137930533:GA:Low_complexity	Alu tail	not a candidate
+NA12881	chr3	150821829	150822439	610	GGAGAG,TTTTG,TTAGATGGGGTCTCACTCTGTCTC	complex	-10	-2 x TTTTG	paternal	False	True	UNK	in	431	150821829-150822260:GA:Simple_repeat	Simple_repeat	not a candidate
+NA12881	chr4	77126546	77126589	43	TC,T	STR	-13	-13 x T	paternal	True	False	UNK	in	43	77126531-77126589:TC:SINE (Alu)	SINE (Alu)	not a candidate
+NA12881	chr6	38705299	38705438	139	CTTT	STR	3		paternal	True	False	UNK	in	122	38705297-38705370:TC:Simple_repeat;38705387-38705438:TC:Alu tail	Simple_repeat	not a candidate
+NA12881	chr6	112795877	112796132	255	TC,TTTC,TCCC	STR	-12	-3 x TTTC	maternal	True	False	UNK	in	255	112795873-112796132:TC:Simple_repeat	Simple_repeat	not a candidate
+NA12881	chr6	154925711	154925827	116	CTCTT,TTTTC	STR	10	+2 x CTCTT	paternal	True	False	UNK	in	107	154925711-154925818:TC:Alu tail	Alu tail	not a candidate
+NA12881	chr7	13202970	13203193	223	TTTC,T	STR	-4	-1 x TTTC	paternal	False	True	UNK	in	223	13202970-13203193:TC:Alu tail	Alu tail	not a candidate
+NA12881	chr7	42734099	42734214	115	AAG	STR	-30	-10 x AAG	paternal	False	True	UNK	in	115	42734092-42734215:GA:Simple_repeat	Simple_repeat	not a candidate
+NA12881	chr9	70469020	70469154	134	TTTC,TC	STR	-4	-1 x TTTC	paternal	True	False	UNK	in	74	70469046-70469120:TC:Simple_repeat	Simple_repeat	not a candidate
+NA12881	chr9	131420393	131420553	160	T	STR	-18	-18 x T	paternal	False	True	UNK	in	84	131420426-131420510:TC:Alu tail	Alu tail	not a candidate
+NA12881	chr9	133755638	133755807	169	GA	STR	-174	-87 x GA	paternal	False	True	UNK	touching	53	133755697-133755750:GA:none	none	
+NA12881	chr11	61824394	61824531	137	AG	STR	10	+5 x AG	maternal	True	False	UNK	in	137	61824381-61824532:GA:Alu tail	Alu tail	not a candidate
+NA12881	chr14	100796556	100796616	60	TTTC,T	STR	-13	-13 x T	paternal	False	True	UNK	in	60	100796556-100796616:TC:SINE (Alu)	SINE (Alu)	not a candidate
+NA12881	chr15	74990943	74991175	232	TTCT	STR	-8	-2 x TTCT	paternal	True	False	UNK	in	232	74990943-74991178:TC:Alu tail	Alu tail	not a candidate
+NA12881	chr17	45365609	45365807	198	ATA,AAGA,AAGG	STR	-4	-1 x AAGA	paternal	True	False	UNK	in	178	45365629-45365816:GA:Simple_repeat	Simple_repeat	not a candidate
+NA12881	chrX	68903896	68904208	312	TTTC,T	STR	6	+6 x T	paternal	False	True	UNK	in	312	68903887-68904208:TC:		
+NA12882	chr2	147452575	147452738	163	AGGA,AATA	STR	4	+1 x AGGA	maternal	True	False	UNK	touching	68	147452573-147452643:GA:Simple_repeat	Simple_repeat	
+NA12882	chr3	186299618	186299852	234	TC,TCC,T	STR	4	+2 x TC	maternal	True	False	UNK	in	124	186299728-186299852:TC:Alu tail	Alu tail	not a candidate
+NA12882	chr4	26210650	26210810	160	CTTT	STR	3		maternal	False	True	UNK	in	159	26210650-26210734:TC:Simple_repeat;26210735-26210816:TC:Simple_repeat	Simple_repeat	not a candidate
+NA12882	chr5	168755389	168755448	59	TTTC	STR	-11		maternal	True	False	UNK	in	59	168755389-168755450:TC:Alu tail	Alu tail	not a candidate
+NA12882	chr7	67979816	67980034	218	CCTT,TCTT,TC,TTCCC	STR	4	+1 x CCTT	paternal	True	False	UNK	in	205	67979815-67980021:TC:Simple_repeat	Simple_repeat	not a candidate
+NA12882	chr7	90446441	90446794	353	TC	STR	-2	-1 x TC	paternal	True	False	UNK	in	346	90446441-90446557:TC:Simple_repeat;90446558-90446627:TC:Simple_repeat;90446628-90446694:TC:Simple_repeat;90446699-90446794:TC:Simple_repeat	Simple_repeat	not a candidate
+NA12882	chr7	125064133	125064269	136	GA	STR	-4	-2 x GA	cannot_determine	True	False	UNK	in	94	125064143-125064237:GA:Simple_repeat	Simple_repeat	not a candidate
+NA12882	chr9	131420393	131420553	160	T	STR	-53	-53 x T	paternal	False	True	UNK	in	84	131420426-131420510:TC:Alu tail	Alu tail	not a candidate
+NA12882	chr10	516332	516861	529	G,GGGGGGAAGGGAGGGGAAAG	complex	2	+2 x G	cannot_determine	False	True	UNK	in	328	516418-516746:GA:none	none	not a candidate
+NA12882	chr10	109918754	109918991	237	AAGG,GA,A,GGAA	STR	-4	-1 x AAGG	maternal	True	False	UNK	in	163	109918776-109918939:GA:Alu tail	Alu tail	not a candidate
+NA12882	chr11	63257398	63257800	402	GAT,CCCTC,CTTT,CCCTT	STR	16	+4 x CTTT	maternal	True	False	UNK	in	345	63257454-63257653:TC:Simple_repeat;63257654-63257807:TC:Simple_repeat	Simple_repeat	not a candidate
+NA12882	chr12	113038767	113039050	283	GAAA,AG	STR	-8	-2 x GAAA	maternal	False	True	UNK	in	283	113038766-113039051:GA:Simple_repeat	Simple_repeat	not a candidate
+NA12882	chr14	83936071	83936450	379	AGAA,AG,GGAG	STR	8	+2 x AGAA	paternal	True	False	UNK	in	345	83936105-83936453:GA:Alu tail	Alu tail	de novo
+NA12882	chr15	85896234	85897561	1327	T,TC	STR	-5	-5 x T	paternal	False	True	UNK	touching	299	85896280-85896579:TC:Simple_repeat	Simple_repeat	
+NA12882	chr16	6018153	6018271	118	AAGG,TCCAG	STR	-24	-6 x AAGG	maternal	True	False	UNK	in	84	6018145-6018237:GA:Low_complexity	Low_complexity	de novo
+NA12882	chr17	7793433	7793587	154	TTTC	STR	-8	-2 x TTTC	paternal	True	False	UNK	in	154	7793430-7793587:TC:Simple_repeat	Simple_repeat	not a candidate
+NA12882	chr17	32062824	32062962	138	AAAAAT,GA	STR	2	+1 x GA	paternal	True	False	UNK	touching	58	32062904-32062962:GA:Simple_repeat	Simple_repeat	
+NA12882	chr18	25033496	25033920	424	GA	STR	6	+3 x GA	paternal	False	True	UNK	in	383	25033504-25033887:GA:Alu tail	Alu tail	not a candidate
+NA12882	chrX	28408958	28409110	152	TCTT	STR	8	+2 x TCTT	maternal	True	False	UNK	touching	70	28408990-28409060:TC:		
+NA12883	chr1	50366425	50366630	205	CCTT,TTCCC,CCTC,CTTT	STR	-4	-1 x CCTT	paternal	True	False	UNK	in	189	50366423-50366504:TC:Simple_repeat;50366520-50366630:TC:Alu tail	Alu tail	
+NA12883	chr2	57755032	57755248	216	AAGA,AAGC	STR	-4	-1 x AAGA	paternal	True	False	UNK	in	199	57755032-57755231:GA:Simple_repeat	Simple_repeat	
+NA12883	chr2	60684314	60684664	350	GGAA,GGAAGGAAGGAAGGACGGACAGGAGGGAGGGAG,GAAA	complex	-4	-1 x GGAA	paternal	True	False	UNK	in	200	60684314-60684375:GA:Alu tail;60684525-60684664:GA:Low_complexity	Low_complexity	
+NA12883	chr3	111830924	111831090	166	AGAA,AG	STR	-4	-1 x AGAA	paternal	True	False	UNK	in	139	111830924-111831063:GA:Simple_repeat	Simple_repeat	
+NA12883	chr3	150821829	150822439	610	GGAGAG,TTTTG,TTAGATGGGGTCTCACTCTGTCTC	complex	-17		paternal	False	True	UNK	in	431	150821829-150822260:GA:Simple_repeat	Simple_repeat	
+NA12883	chr4	69064019	69064139	120	GAAA	STR	-4	-1 x GAAA	paternal	True	False	UNK	in	120	69064017-69064141:GA:Simple_repeat	Simple_repeat	
+NA12883	chr6	76271986	76272293	307	TCTT,T,ATTT	STR	-4	-1 x TCTT	paternal	True	False	UNK	in	262	76271986-76272248:TC:Simple_repeat	Simple_repeat	
+NA12883	chr7	1303561	1303838	277	AAGA,GGAA,GAGG	STR	-2		maternal	True	False	UNK	in	235	1303561-1303729:GA:Alu tail;1303730-1303797:GA:Low_complexity	Alu tail	
+NA12883	chr9	95656890	95656976	86	TCTTGTTC,T,CGGTCTT	complex	-16	-2 x TCTTGTTC	paternal	True	False	UNK	in	51	95656887-95656941:TC:Alu tail	Alu tail	
+NA12883	chr10	516332	516861	529	G,GGGGGGAAGGGAGGGGAAAG	complex	-5	-5 x G	cannot_determine	False	True	UNK	in	328	516418-516746:GA:none	none	
+NA12883	chr10	55463814	55464092	278	AATT,AG,GAAA	STR	-4	-1 x AATT	paternal	True	False	UNK	in	228	55463864-55464097:GA:Simple_repeat	Simple_repeat	
+NA12883	chr11	69917049	69918078	1029	CT,GCCCT,CTT	STR	-15	-3 x GCCCT	cannot_determine	False	True	UNK	in	626	69917083-69917145:TC:Simple_repeat;69917199-69917382:TC:Simple_repeat;69917383-69917441:TC:Simple_repeat;69917480-69917566:TC:Simple_repeat;69917568-69917619:TC:Simple_repeat;69917768-69917900:TC:Simple_repeat;69917951-69918005:TC:Simple_repeat	Simple_repeat	
+NA12883	chr11	122156570	122156912	342	GAAA,AG	STR	-2	-1 x AG	paternal	True	False	UNK	touching	123	122156758-122156809:GA:Low_complexity;122156840-122156912:GA:Low_complexity	Low_complexity	
+NA12883	chr12	81213558	81214045	487	CCTCC,CT,CTTT	STR	4	+1 x CTTT	paternal	True	False	UNK	in	318	81213549-81213632:TC:Simple_repeat;81213762-81213901:TC:Simple_repeat;81213902-81214007:TC:Alu tail	Simple_repeat	
+NA12883	chr12	119919699	119920004	305	GGGAGA	STR	18	+3 x GGGAGA	cannot_determine	False	True	UNK	in	291	119919713-119920004:GA:Simple_repeat	Simple_repeat	
+NA12883	chr16	8737920	8738047	127	A,AAGG,GACA	STR	-3	-3 x A	paternal	True	False	UNK	in	114	8737920-8738034:GA:Alu tail	Alu tail	
+NA12883	chr17	9630986	9631108	122	AAAG,AG	STR	-4	-1 x AAAG	paternal	True	False	UNK	in	122	9630985-9631108:GA:Alu tail	Alu tail	
+NA12883	chr18	49578986	49579238	252	GGGAGA	STR	-4		maternal	False	True	UNK	in	238	49579000-49579238:GA:Simple_repeat	Simple_repeat	
+NA12883	chr19	40163148	40163264	116	GT,GAGAGGG,AGGGGGGAGGGGG,GA	complex	-11		maternal	False	True	UNK	in	62	40163202-40163264:GA:Low_complexity	Low_complexity	
+NA12883	chr19	55134659	55134881	222	GAAA,GAGGGGAGGGGAGAGGAGAA,GAA,GGGGA	complex	-5	-1 x GGGGA	paternal	True	False	UNK	in	164	55134691-55134807:GA:Alu tail;55134833-55134884:GA:Simple_repeat	Alu tail	
+NA12883	chr22	50081005	50081058	53	AAAG	STR	2		paternal	True	False	UNK	in	53	50081005-50081063:GA:Alu tail	Alu tail	
+NA12883	chrX	5803977	5804252	275	GAAA,AAGG	STR	-5		maternal	False	True	UNK	in	274	5803977-5804205:GA:;5804206-5804259:GA:		
+NA12884	chr3	23657726	23657910	184	AG,GGAA,CTGAGA	STR	-4	-1 x GGAA	maternal	True	False	UNK	in	137	23657719-23657792:GA:Alu tail;23657797-23657868:GA:Simple_repeat	Simple_repeat	
+NA12884	chr3	71435136	71436023	887	GAG,AGGA,AGGG	STR	29		maternal	False	True	UNK	touching	129	71435217-71435293:GA:none;71435947-71436000:GA:none	none	
+NA12884	chr3	109402883	109402964	81	TGTA,GA,GT	STR	4	+1 x TGTA	paternal	True	False	UNK	in	55	109402892-109402947:GA:Simple_repeat	Simple_repeat	
+NA12884	chr9	15126674	15126893	219	A,GGA	STR	35	+35 x A	paternal	True	False	UNK	in	158	15126673-15126832:GA:none	none	
+NA12884	chr12	50593633	50593959	326	GAGAT,CTCCT,CTCCC,TCTTT	STR	8		paternal	True	False	UNK	in	253	50593685-50593831:TC:Simple_repeat;50593832-50593939:TC:Alu tail	Simple_repeat	
+NA12884	chr16	26721969	26722085	116	AAGG	STR	-4	-1 x AAGG	paternal	True	False	UNK	in	116	26721966-26722089:GA:Alu tail	Alu tail	
+NA12884	chr17	33269607	33269781	174	CCTT,CCTG	STR	4	+1 x CCTT	paternal	True	False	UNK	in	153	33269606-33269688:TC:Simple_repeat;33269709-33269786:TC:Simple_repeat	Simple_repeat	
+NA12884	chr17	43299541	43299738	197	G,AG	STR	2	+1 x AG	maternal	True	False	UNK	touching	51	43299676-43299727:GA:LTR	LTR	
+NA12884	chr19	21484150	21484280	130	TTTTC,TCTCT	STR	-25	-5 x TTTTC	maternal	True	False	UNK	in	105	21484141-21484255:TC:Alu tail	Alu tail	
+NA12884	chrX	5803977	5804252	275	GAAA,AAGG	STR	-4	-1 x GAAA	maternal	False	True	UNK	in	274	5803977-5804205:GA:;5804206-5804259:GA:		
+NA12885	chr1	46501127	46501316	189	CTTT,TCCC,CT	STR	-4	-1 x CTTT	paternal	True	False	UNK	in	136	46501180-46501316:TC:Simple_repeat	Simple_repeat	not a candidate
+NA12885	chr1	143357518	143357655	137	CTT,CTCC,CCCTTCC	complex	-3	-1 x CTT	cannot_determine	True	False	UNK	in	136	143357517-143357576:TC:Simple_repeat;143357577-143357661:TC:Simple_repeat	Simple_repeat	not a candidate
+NA12885	chr2	21366418	21366612	194	CTGC,TTCC,T	STR	-4	-1 x CTGC	paternal	True	False	UNK	in	187	21366425-21366615:TC:Alu tail	Alu tail	not a candidate
+NA12885	chr2	73193704	73193837	133	CAA,AAAG,GAAAA,TTTTAAA	complex	-4	-1 x AAAG	paternal	True	False	UNK	in	97	73193726-73193823:GA:Alu tail	Alu tail	not a candidate
+NA12885	chr2	138811773	138811952	179	CTTC,CTTCTTTTTCT	complex	4	+1 x CTTC	paternal	True	False	UNK	touching	80	138811773-138811853:TC:Simple_repeat	Simple_repeat	
+NA12885	chr3	71435136	71436023	887	GAG,AGGA,AGGG	STR	29		maternal	False	True	UNK	touching	129	71435217-71435293:GA:none;71435947-71436000:GA:none	none	
+NA12885	chr4	168709507	168709690	183	AAGG,AGGG,AGCTC	STR	-12	-3 x AAGG	maternal	False	True	UNK	in	147	168709507-168709654:GA:Alu tail	Alu tail	not a candidate
+NA12885	chr6	63412364	63412973	609	GAAA,GAAG,AG	STR	4	+1 x GAAA	paternal	True	False	UNK	in	580	63412390-63412442:GA:Alu tail;63412443-63412590:GA:Low_complexity;63412591-63412864:GA:Low_complexity;63412865-63412973:GA:Low_complexity	Low_complexity	not a candidate
+NA12885	chr7	42734099	42734214	115	AAG	STR	-27	-9 x AAG	paternal	False	True	UNK	in	115	42734092-42734215:GA:Simple_repeat	Simple_repeat	not a candidate
+NA12885	chr10	70554900	70554983	83	CCTCC	STR	2		paternal	False	True	UNK	in	83	70554900-70554989:TC:Alu tail	Alu tail	not a candidate
+NA12885	chr11	34520230	34520524	294	AAAAT,TTCT,TCCTC,TCCTT	STR	-4	-1 x TTCT	paternal	True	False	UNK	in	209	34520272-34520481:TC:Alu tail	Alu tail	not a candidate
+NA12885	chr11	99819229	99819392	163	CT,TCCTT,TTTTCC,CCCTC	STR	-990	-165 x TTTTCC	maternal	True	False	UNK	touching	74	99819271-99819345:TC:Simple_repeat	Simple_repeat	
+NA12885	chr12	115799655	115799751	96	AAG,G,GAG	STR	-8	-8 x G	maternal	True	False	UNK	in	76	115799675-115799752:GA:Alu tail	Alu tail	not a candidate
+NA12885	chr12	119919699	119920004	305	GGGAGA	STR	30	+5 x GGGAGA	paternal	False	True	UNK	in	291	119919713-119920004:GA:Simple_repeat	Simple_repeat	not a candidate
+NA12885	chr16	23748882	23749151	269	TTCC,CCTC,TCTT	STR	-4	-1 x TTCC	paternal	False	True	UNK	in	268	23748880-23748946:TC:Simple_repeat;23748947-23749151:TC:Alu tail	Alu tail	not a candidate
+NA12885	chr17	68495932	68496061	129	TCCTT,TCCTC,CCTCC,CTTT	STR	-6		paternal	False	True	UNK	in	83	68495930-68496015:TC:LTR	LTR	not a candidate
+NA12885	chr18	25033496	25033920	424	GA	STR	-23		paternal	False	True	UNK	in	383	25033504-25033887:GA:Alu tail	Alu tail	not a candidate
+NA12885	chr19	6630950	6631037	87	TTCT	STR	-4	-1 x TTCT	paternal	False	True	UNK	in	87	6630950-6631052:TC:Alu tail	Alu tail	de novo
+NA12885	chr19	44510512	44510646	134	A,AAGG,GAAA	STR	4	+1 x AAGG	maternal	True	False	UNK	in	116	44510530-44510647:GA:Alu tail	Alu tail	not a candidate
+NA12885	chrX	135872957	135873162	205	AAAG,GAAG	STR	-9		cannot_determine	True	False	UNK	in	136	135872956-135873044:GA:;135873113-135873164:GA:		
+NA12886	chr3	109040332	109040547	215	AAAG,AAGG	STR	-4	-1 x AAAG	paternal	True	False	YES	in	168	109040353-109040521:GA:Simple_repeat	Simple_repeat	not a candidate
+NA12886	chr3	184439047	184439111	64	AAG,AGGGGG	STR	-2		paternal	False	True	YES	in	64	184439044-184439119:GA:Alu tail	Alu tail	not a candidate
+NA12886	chr4	88146867	88147136	269	GAAAA,AAGG,AGGG,AAAG	STR	4	+1 x AAGG	paternal	True	False	YES	in	234	88146882-88146965:GA:Alu tail;88146966-88147055:GA:Low_complexity;88147056-88147118:GA:Low_complexity	Low_complexity	not a candidate
+NA12886	chr7	28110423	28110666	243	AAAGGA,AG,AAAGG	STR	4	+2 x AG	maternal	True	False	NO	in	243	28110423-28110666:GA:Alu tail	Alu tail	not a candidate
+NA12886	chr7	42734099	42734214	115	AAG	STR	29		paternal	False	True	YES	in	115	42734092-42734215:GA:Simple_repeat	Simple_repeat	not a candidate
+NA12886	chr8	27918490	27919314	824	GGA,AGA	STR	-127		paternal	False	True	NO	in	429	27918574-27918625:GA:none;27918768-27918822:GA:none;27918823-27918930:GA:none;27918931-27919085:GA:none;27919086-27919149:GA:none	none	not a candidate
+NA12886	chr9	74549441	74549743	302	A,GA,GGAA,TG	STR	-12	-3 x GGAA	paternal	True	False	YES	in	181	74549478-74549659:GA:Alu tail	Alu tail	not a candidate
+NA12886	chr12	670378	670518	140	AAAG,AGAAA	STR	-4	-1 x AAAG	paternal	True	False	YES	in	135	670383-670520:GA:Alu tail	Alu tail	not a candidate
+NA12886	chr12	119919699	119920004	305	GGGAGA	STR	-66	-11 x GGGAGA	paternal	False	True	YES	in	291	119919713-119920004:GA:Simple_repeat	Simple_repeat	not a candidate
+NA12886	chr14	86451575	86452026	451	GAAA	STR	-4	-1 x GAAA	paternal	True	False	YES	in	255	86451655-86451709:GA:Simple_repeat;86451786-86451861:GA:Simple_repeat;86451863-86451989:GA:Simple_repeat	Simple_repeat	not a candidate
+NA12886	chr15	47940265	47940494	229	AAGTTGG,AG,AAGA	complex	4	+1 x AAGA	maternal	True	False	YES	in	173	47940321-47940496:GA:Alu tail	Alu tail	not a candidate
+NA12886	chr17	19489344	19489451	107	AT,AG,GTTCT	STR	-2	-1 x AT	paternal	True	False	NO	in	72	19489354-19489426:GA:Alu tail	Alu tail	not a candidate
+NA12886	chr22	12789421	12790162	741	AAGG,A,CGCCA	STR	-1	-1 x A	paternal	True	False	YES	touching	53	12789421-12789474:GA:Alu tail	Alu tail	
+NA12886	chrX	136383813	136383912	99	CTTT,TTCCT	STR	5	+1 x TTCCT	maternal	True	False	YES	in	99	136383812-136383914:TC:		
+NA12887	chr1	38062596	38062760	164	TCCA,CCTG,CCTT,CCAC	STR	4	+1 x TCCA	paternal	True	False	UNK	touching	58	38062668-38062726:TC:Simple_repeat	Simple_repeat	
+NA12887	chr3	49200464	49200528	64	A,AAAG	STR	-26	-26 x A	paternal	False	True	UNK	in	64	49200464-49200528:GA:Alu tail	Alu tail	
+NA12887	chr4	43949225	43949399	174	AAAG,AAGG	STR	-4	-1 x AAAG	maternal	True	False	UNK	in	174	43949222-43949401:GA:Alu tail	Alu tail	
+NA12887	chr6	10286009	10286381	372	AGA,GGA	STR	-6	-2 x AGA	paternal	True	False	UNK	in	290	10286014-10286085:GA:Low_complexity;10286086-10286146:GA:Low_complexity;10286222-10286382:GA:Low_complexity	Low_complexity	
+NA12887	chr7	42734099	42734214	115	AAG	STR	-25		paternal	False	True	UNK	in	115	42734092-42734215:GA:Simple_repeat	Simple_repeat	
+NA12887	chr8	16554546	16554858	312	GGAGG,GGAGA	STR	10	+2 x GGAGG	paternal	True	False	UNK	touching	150	16554588-16554650:GA:Low_complexity;16554770-16554858:GA:Low_complexity	Low_complexity	
+NA12887	chr10	77482903	77483041	138	TC,AC	STR	-4	-2 x TC	paternal	True	False	UNK	touching	55	77482901-77482958:TC:Simple_repeat	Simple_repeat	
+NA12887	chr12	95908443	95908683	240	AGAGGG	STR	9		paternal	False	True	UNK	in	240	95908439-95908685:GA:Simple_repeat	Simple_repeat	
+NA12887	chr13	26982952	26983054	102	AAAG	STR	-7		paternal	True	False	UNK	in	102	26982952-26983055:GA:Simple_repeat	Simple_repeat	
+NA12887	chr16	82209892	82210226	334	CTTC,CTTT	STR	4	+1 x CTTC	paternal	True	False	UNK	in	285	82209892-82210036:TC:Simple_repeat;82210037-82210178:TC:Simple_repeat	Simple_repeat	
+NA12887	chr17	74482625	74482733	108	ATGAGG,TTCC,CTTT	STR	20	+5 x TTCC	paternal	True	False	UNK	in	55	74482678-74482733:TC:Alu tail	Alu tail	
+NA12887	chr17	79929940	79930079	139	CCTCC,TCTCC	STR	-5	-1 x CCTCC	cannot_determine	True	False	UNK	in	134	79929945-79930083:TC:Simple_repeat	Simple_repeat	
+NA12887	chr19	6630950	6631037	87	TTCT	STR	-4	-1 x TTCT	paternal	False	True	UNK	in	87	6630950-6631052:TC:Alu tail	Alu tail	
+NA12887	chrX	1583500	1583672	172	TTTC,CTTC,T	STR	1	+1 x T	maternal	False	True	UNK	in	160	1583512-1583672:TC:		
