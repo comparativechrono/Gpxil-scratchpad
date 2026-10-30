@@ -69,6 +69,14 @@ said of where they come from and how they change?
    59 % of the bases would (p < 10⁻¹⁹⁷ each); at the sites called in 90 % of
    its genomes or more, 64 % to 77 %.
 
+   *Later,* [experiment 07](../07-copied-units/) held each substitution's
+   6-base window fixed. Against the same substitution where it would not
+   copy, gnomAD's singletons in GA-sequences copy hardly more often (rate
+   ratio 1.02; 1.01 to 1.03). The excess grows among commoner alleles, from
+   1.24 to 1.97 times. New mutations in repeats hardly copy beyond their
+   context either: those that do are mostly alleles gnomAD already has. The
+   copying belongs mostly to alleles seen more than once.
+
 **What it means.** Pure GA-sequences look like microsatellites that start as
 the poly(A) tails of Alu elements and change by copying their own units, the
 way repeats change by slippage and gene conversion, rather than like protected

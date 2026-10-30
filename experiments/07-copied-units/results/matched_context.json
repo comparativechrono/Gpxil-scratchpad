@@ -1,0 +1,2042 @@
+{
+ "mutations": 1900,
+ "windows": 1268,
+ "strata": 2347114,
+ "mutations_in_lcrs": 86,
+ "tests": {
+  "purity 0.6+": {
+   "purity, length": {
+    "mutations": 737,
+    "strata": 706,
+    "informative": 703,
+    "copies": 158,
+    "expected": 93.9,
+    "ratio": 1.68,
+    "z": 8.5,
+    "rate_ratio": 2.47,
+    "ci": [
+     1.99,
+     3.07
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 679,
+    "strata": 656,
+    "informative": 653,
+    "copies": 135,
+    "expected": 73.1,
+    "ratio": 1.85,
+    "z": 8.6,
+    "rate_ratio": 2.64,
+    "ci": [
+     2.1,
+     3.32
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 737,
+    "strata": 719,
+    "informative": 684,
+    "copies": 158,
+    "expected": 100.8,
+    "ratio": 1.57,
+    "z": 7.7,
+    "rate_ratio": 2.42,
+    "ci": [
+     1.92,
+     3.06
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 679,
+    "strata": 664,
+    "informative": 629,
+    "copies": 135,
+    "expected": 80.7,
+    "ratio": 1.67,
+    "z": 7.8,
+    "rate_ratio": 2.53,
+    "ci": [
+     1.99,
+     3.23
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 737,
+    "strata": 723,
+    "informative": 414,
+    "copies": 158,
+    "expected": 115.7,
+    "ratio": 1.37,
+    "z": 6.3,
+    "rate_ratio": 2.46,
+    "ci": [
+     1.84,
+     3.28
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 679,
+    "strata": 667,
+    "informative": 361,
+    "copies": 135,
+    "expected": 94.7,
+    "ratio": 1.43,
+    "z": 6.4,
+    "rate_ratio": 2.59,
+    "ci": [
+     1.91,
+     3.51
+    ]
+   }
+  },
+  "purity 0.6+, unit 1-6": {
+   "purity, length": {
+    "mutations": 447,
+    "strata": 425,
+    "informative": 425,
+    "copies": 80,
+    "expected": 57.8,
+    "ratio": 1.39,
+    "z": 3.9,
+    "rate_ratio": 1.84,
+    "ci": [
+     1.35,
+     2.52
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 391,
+    "strata": 375,
+    "informative": 375,
+    "copies": 58,
+    "expected": 37.3,
+    "ratio": 1.55,
+    "z": 4.0,
+    "rate_ratio": 1.98,
+    "ci": [
+     1.41,
+     2.77
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 447,
+    "strata": 432,
+    "informative": 400,
+    "copies": 80,
+    "expected": 61.6,
+    "ratio": 1.3,
+    "z": 3.5,
+    "rate_ratio": 1.84,
+    "ci": [
+     1.3,
+     2.61
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 391,
+    "strata": 379,
+    "informative": 347,
+    "copies": 58,
+    "expected": 42.3,
+    "ratio": 1.37,
+    "z": 3.3,
+    "rate_ratio": 1.89,
+    "ci": [
+     1.29,
+     2.76
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 447,
+    "strata": 435,
+    "informative": 203,
+    "copies": 80,
+    "expected": 64.5,
+    "ratio": 1.24,
+    "z": 3.3,
+    "rate_ratio": 2.04,
+    "ci": [
+     1.32,
+     3.15
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 391,
+    "strata": 381,
+    "informative": 152,
+    "copies": 58,
+    "expected": 44.5,
+    "ratio": 1.3,
+    "z": 3.2,
+    "rate_ratio": 2.21,
+    "ci": [
+     1.35,
+     3.62
+    ]
+   }
+  },
+  "purity 0.6+, unit 7+": {
+   "purity, length": {
+    "mutations": 290,
+    "strata": 287,
+    "informative": 284,
+    "copies": 78,
+    "expected": 36.1,
+    "ratio": 2.16,
+    "z": 8.4,
+    "rate_ratio": 3.43,
+    "ci": [
+     2.52,
+     4.65
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 288,
+    "strata": 285,
+    "informative": 282,
+    "copies": 77,
+    "expected": 35.8,
+    "ratio": 2.15,
+    "z": 8.2,
+    "rate_ratio": 3.49,
+    "ci": [
+     2.54,
+     4.79
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 290,
+    "strata": 287,
+    "informative": 284,
+    "copies": 78,
+    "expected": 39.2,
+    "ratio": 1.99,
+    "z": 7.5,
+    "rate_ratio": 3.13,
+    "ci": [
+     2.29,
+     4.28
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 288,
+    "strata": 285,
+    "informative": 282,
+    "copies": 77,
+    "expected": 38.4,
+    "ratio": 2.01,
+    "z": 7.5,
+    "rate_ratio": 3.18,
+    "ci": [
+     2.31,
+     4.37
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 290,
+    "strata": 288,
+    "informative": 211,
+    "copies": 78,
+    "expected": 51.2,
+    "ratio": 1.52,
+    "z": 5.6,
+    "rate_ratio": 2.89,
+    "ci": [
+     1.96,
+     4.27
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 288,
+    "strata": 286,
+    "informative": 209,
+    "copies": 77,
+    "expected": 50.1,
+    "ratio": 1.54,
+    "z": 5.6,
+    "rate_ratio": 2.89,
+    "ci": [
+     1.96,
+     4.25
+    ]
+   }
+  },
+  "purity 0.9+": {
+   "purity, length": {
+    "mutations": 295,
+    "strata": 276,
+    "informative": 275,
+    "copies": 42,
+    "expected": 16.2,
+    "ratio": 2.6,
+    "z": 7.3,
+    "rate_ratio": 3.9,
+    "ci": [
+     2.63,
+     5.77
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 285,
+    "strata": 270,
+    "informative": 269,
+    "copies": 41,
+    "expected": 15.4,
+    "ratio": 2.67,
+    "z": 7.4,
+    "rate_ratio": 4.05,
+    "ci": [
+     2.7,
+     6.06
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 295,
+    "strata": 283,
+    "informative": 276,
+    "copies": 42,
+    "expected": 19.6,
+    "ratio": 2.15,
+    "z": 6.5,
+    "rate_ratio": 3.43,
+    "ci": [
+     2.3,
+     5.1
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 285,
+    "strata": 274,
+    "informative": 267,
+    "copies": 41,
+    "expected": 18.8,
+    "ratio": 2.18,
+    "z": 6.6,
+    "rate_ratio": 3.58,
+    "ci": [
+     2.38,
+     5.39
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 295,
+    "strata": 284,
+    "informative": 93,
+    "copies": 42,
+    "expected": 29.8,
+    "ratio": 1.41,
+    "z": 3.8,
+    "rate_ratio": 3.14,
+    "ci": [
+     1.69,
+     5.82
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 285,
+    "strata": 275,
+    "informative": 89,
+    "copies": 41,
+    "expected": 28.5,
+    "ratio": 1.44,
+    "z": 4.0,
+    "rate_ratio": 3.43,
+    "ci": [
+     1.81,
+     6.51
+    ]
+   }
+  },
+  "purity 0.6-0.9": {
+   "purity, length": {
+    "mutations": 442,
+    "strata": 430,
+    "informative": 428,
+    "copies": 116,
+    "expected": 77.7,
+    "ratio": 1.49,
+    "z": 5.7,
+    "rate_ratio": 2.1,
+    "ci": [
+     1.62,
+     2.73
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 394,
+    "strata": 386,
+    "informative": 384,
+    "copies": 94,
+    "expected": 57.8,
+    "ratio": 1.63,
+    "z": 5.8,
+    "rate_ratio": 2.24,
+    "ci": [
+     1.69,
+     2.96
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 442,
+    "strata": 436,
+    "informative": 408,
+    "copies": 116,
+    "expected": 81.3,
+    "ratio": 1.43,
+    "z": 5.3,
+    "rate_ratio": 2.12,
+    "ci": [
+     1.6,
+     2.82
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 394,
+    "strata": 390,
+    "informative": 362,
+    "copies": 94,
+    "expected": 61.8,
+    "ratio": 1.52,
+    "z": 5.3,
+    "rate_ratio": 2.2,
+    "ci": [
+     1.63,
+     2.97
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 442,
+    "strata": 439,
+    "informative": 321,
+    "copies": 116,
+    "expected": 86.0,
+    "ratio": 1.35,
+    "z": 5.1,
+    "rate_ratio": 2.29,
+    "ci": [
+     1.65,
+     3.18
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 394,
+    "strata": 392,
+    "informative": 272,
+    "copies": 94,
+    "expected": 66.1,
+    "ratio": 1.42,
+    "z": 5.1,
+    "rate_ratio": 2.38,
+    "ci": [
+     1.68,
+     3.36
+    ]
+   }
+  },
+  "purity under 0.6": {
+   "purity, length": {
+    "mutations": 1163,
+    "strata": 1062,
+    "informative": 1061,
+    "copies": 223,
+    "expected": 194.4,
+    "ratio": 1.15,
+    "z": 2.6,
+    "rate_ratio": 1.25,
+    "ci": [
+     1.06,
+     1.47
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 1135,
+    "strata": 1039,
+    "informative": 1038,
+    "copies": 211,
+    "expected": 182.8,
+    "ratio": 1.15,
+    "z": 2.6,
+    "rate_ratio": 1.26,
+    "ci": [
+     1.06,
+     1.49
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 1163,
+    "strata": 1104,
+    "informative": 1092,
+    "copies": 223,
+    "expected": 196.4,
+    "ratio": 1.14,
+    "z": 2.5,
+    "rate_ratio": 1.24,
+    "ci": [
+     1.05,
+     1.48
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 1135,
+    "strata": 1079,
+    "informative": 1065,
+    "copies": 211,
+    "expected": 186.6,
+    "ratio": 1.13,
+    "z": 2.3,
+    "rate_ratio": 1.23,
+    "ci": [
+     1.03,
+     1.47
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 1163,
+    "strata": 1123,
+    "informative": 1059,
+    "copies": 223,
+    "expected": 192.5,
+    "ratio": 1.16,
+    "z": 2.9,
+    "rate_ratio": 1.3,
+    "ci": [
+     1.09,
+     1.56
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 1135,
+    "strata": 1096,
+    "informative": 1031,
+    "copies": 211,
+    "expected": 184.8,
+    "ratio": 1.14,
+    "z": 2.6,
+    "rate_ratio": 1.27,
+    "ci": [
+     1.06,
+     1.52
+    ]
+   }
+  },
+  "purity 0.6+, outside clusters": {
+   "purity, length": {
+    "mutations": 700,
+    "strata": 671,
+    "informative": 668,
+    "copies": 137,
+    "expected": 83.5,
+    "ratio": 1.64,
+    "z": 7.4,
+    "rate_ratio": 2.29,
+    "ci": [
+     1.83,
+     2.87
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 653,
+    "strata": 631,
+    "informative": 628,
+    "copies": 121,
+    "expected": 68.2,
+    "ratio": 1.77,
+    "z": 7.6,
+    "rate_ratio": 2.45,
+    "ci": [
+     1.93,
+     3.12
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 700,
+    "strata": 684,
+    "informative": 651,
+    "copies": 137,
+    "expected": 88.7,
+    "ratio": 1.54,
+    "z": 6.8,
+    "rate_ratio": 2.27,
+    "ci": [
+     1.78,
+     2.89
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 653,
+    "strata": 639,
+    "informative": 604,
+    "copies": 121,
+    "expected": 75.5,
+    "ratio": 1.6,
+    "z": 6.7,
+    "rate_ratio": 2.34,
+    "ci": [
+     1.81,
+     3.01
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 700,
+    "strata": 687,
+    "informative": 387,
+    "copies": 137,
+    "expected": 101.5,
+    "ratio": 1.35,
+    "z": 5.5,
+    "rate_ratio": 2.3,
+    "ci": [
+     1.7,
+     3.12
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 653,
+    "strata": 641,
+    "informative": 342,
+    "copies": 121,
+    "expected": 88.3,
+    "ratio": 1.37,
+    "z": 5.4,
+    "rate_ratio": 2.33,
+    "ci": [
+     1.7,
+     3.21
+    ]
+   }
+  },
+  "purity 0.6+, allele balance 0.45+": {
+   "purity, length": {
+    "mutations": 411,
+    "strata": 400,
+    "informative": 397,
+    "copies": 65,
+    "expected": 40.1,
+    "ratio": 1.62,
+    "z": 4.8,
+    "rate_ratio": 2.12,
+    "ci": [
+     1.55,
+     2.9
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 383,
+    "strata": 372,
+    "informative": 369,
+    "copies": 60,
+    "expected": 33.7,
+    "ratio": 1.78,
+    "z": 5.3,
+    "rate_ratio": 2.33,
+    "ci": [
+     1.69,
+     3.23
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 411,
+    "strata": 404,
+    "informative": 382,
+    "copies": 65,
+    "expected": 42.5,
+    "ratio": 1.53,
+    "z": 4.4,
+    "rate_ratio": 2.07,
+    "ci": [
+     1.49,
+     2.87
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 383,
+    "strata": 376,
+    "informative": 355,
+    "copies": 60,
+    "expected": 36.7,
+    "ratio": 1.63,
+    "z": 4.8,
+    "rate_ratio": 2.25,
+    "ci": [
+     1.6,
+     3.17
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 411,
+    "strata": 405,
+    "informative": 212,
+    "copies": 65,
+    "expected": 46.9,
+    "ratio": 1.39,
+    "z": 4.1,
+    "rate_ratio": 2.32,
+    "ci": [
+     1.53,
+     3.53
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 383,
+    "strata": 377,
+    "informative": 189,
+    "copies": 60,
+    "expected": 41.0,
+    "ratio": 1.46,
+    "z": 4.4,
+    "rate_ratio": 2.58,
+    "ci": [
+     1.67,
+     3.97
+    ]
+   }
+  },
+  "purity 0.6+, transitions": {
+   "purity, length": {
+    "mutations": 452,
+    "strata": 432,
+    "informative": 431,
+    "copies": 94,
+    "expected": 65.2,
+    "ratio": 1.44,
+    "z": 4.7,
+    "rate_ratio": 1.99,
+    "ci": [
+     1.49,
+     2.66
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 418,
+    "strata": 401,
+    "informative": 400,
+    "copies": 80,
+    "expected": 50.7,
+    "ratio": 1.58,
+    "z": 5.0,
+    "rate_ratio": 2.15,
+    "ci": [
+     1.58,
+     2.92
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 452,
+    "strata": 438,
+    "informative": 416,
+    "copies": 94,
+    "expected": 66.9,
+    "ratio": 1.41,
+    "z": 4.6,
+    "rate_ratio": 2.01,
+    "ci": [
+     1.48,
+     2.73
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 418,
+    "strata": 406,
+    "informative": 386,
+    "copies": 80,
+    "expected": 53.7,
+    "ratio": 1.49,
+    "z": 4.6,
+    "rate_ratio": 2.08,
+    "ci": [
+     1.52,
+     2.84
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 452,
+    "strata": 439,
+    "informative": 243,
+    "copies": 94,
+    "expected": 71.9,
+    "ratio": 1.31,
+    "z": 4.3,
+    "rate_ratio": 2.19,
+    "ci": [
+     1.51,
+     3.18
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 418,
+    "strata": 407,
+    "informative": 214,
+    "copies": 80,
+    "expected": 57.9,
+    "ratio": 1.38,
+    "z": 4.5,
+    "rate_ratio": 2.39,
+    "ci": [
+     1.62,
+     3.52
+    ]
+   }
+  },
+  "purity 0.6+, transversions": {
+   "purity, length": {
+    "mutations": 285,
+    "strata": 274,
+    "informative": 272,
+    "copies": 64,
+    "expected": 28.7,
+    "ratio": 2.23,
+    "z": 7.9,
+    "rate_ratio": 3.45,
+    "ci": [
+     2.48,
+     4.79
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 261,
+    "strata": 255,
+    "informative": 253,
+    "copies": 55,
+    "expected": 22.5,
+    "ratio": 2.45,
+    "z": 7.8,
+    "rate_ratio": 3.65,
+    "ci": [
+     2.58,
+     5.17
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 285,
+    "strata": 281,
+    "informative": 268,
+    "copies": 64,
+    "expected": 34.0,
+    "ratio": 1.88,
+    "z": 6.8,
+    "rate_ratio": 3.26,
+    "ci": [
+     2.27,
+     4.68
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 261,
+    "strata": 258,
+    "informative": 243,
+    "copies": 55,
+    "expected": 26.9,
+    "ratio": 2.04,
+    "z": 6.8,
+    "rate_ratio": 3.55,
+    "ci": [
+     2.41,
+     5.23
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 285,
+    "strata": 284,
+    "informative": 171,
+    "copies": 64,
+    "expected": 43.8,
+    "ratio": 1.46,
+    "z": 4.7,
+    "rate_ratio": 2.91,
+    "ci": [
+     1.83,
+     4.64
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 261,
+    "strata": 260,
+    "informative": 147,
+    "copies": 55,
+    "expected": 36.7,
+    "ratio": 1.5,
+    "z": 4.6,
+    "rate_ratio": 2.94,
+    "ci": [
+     1.81,
+     4.78
+    ]
+   }
+  },
+  "purity 0.6+, toward the consensus": {
+   "purity, length": {
+    "mutations": 79,
+    "strata": 77,
+    "informative": 77,
+    "copies": 48,
+    "expected": 21.0,
+    "ratio": 2.28,
+    "z": 8.4,
+    "rate_ratio": 7.32,
+    "ci": [
+     4.23,
+     12.65
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 70,
+    "strata": 69,
+    "informative": 69,
+    "copies": 41,
+    "expected": 14.5,
+    "ratio": 2.84,
+    "z": 8.7,
+    "rate_ratio": 8.34,
+    "ci": [
+     4.7,
+     14.78
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 79,
+    "strata": 77,
+    "informative": 73,
+    "copies": 48,
+    "expected": 25.9,
+    "ratio": 1.85,
+    "z": 7.3,
+    "rate_ratio": 6.36,
+    "ci": [
+     3.59,
+     11.27
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 70,
+    "strata": 69,
+    "informative": 65,
+    "copies": 41,
+    "expected": 19.6,
+    "ratio": 2.09,
+    "z": 7.4,
+    "rate_ratio": 6.97,
+    "ci": [
+     3.83,
+     12.66
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 79,
+    "strata": 78,
+    "informative": 62,
+    "copies": 48,
+    "expected": 30.0,
+    "ratio": 1.6,
+    "z": 6.2,
+    "rate_ratio": 10.23,
+    "ci": [
+     4.11,
+     25.49
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 70,
+    "strata": 70,
+    "informative": 52,
+    "copies": 41,
+    "expected": 23.6,
+    "ratio": 1.74,
+    "z": 6.4,
+    "rate_ratio": 11.37,
+    "ci": [
+     4.42,
+     29.2
+    ]
+   }
+  },
+  "purity 0.6+, away from the consensus": {
+   "purity, length": {
+    "mutations": 252,
+    "strata": 246,
+    "informative": 245,
+    "copies": 62,
+    "expected": 42.1,
+    "ratio": 1.47,
+    "z": 4.0,
+    "rate_ratio": 1.97,
+    "ci": [
+     1.4,
+     2.75
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 211,
+    "strata": 207,
+    "informative": 206,
+    "copies": 48,
+    "expected": 30.0,
+    "ratio": 1.6,
+    "z": 4.0,
+    "rate_ratio": 2.11,
+    "ci": [
+     1.45,
+     3.06
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 252,
+    "strata": 246,
+    "informative": 232,
+    "copies": 62,
+    "expected": 41.2,
+    "ratio": 1.5,
+    "z": 4.4,
+    "rate_ratio": 2.22,
+    "ci": [
+     1.54,
+     3.2
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 211,
+    "strata": 207,
+    "informative": 193,
+    "copies": 48,
+    "expected": 29.9,
+    "ratio": 1.61,
+    "z": 4.2,
+    "rate_ratio": 2.32,
+    "ci": [
+     1.55,
+     3.46
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 252,
+    "strata": 248,
+    "informative": 159,
+    "copies": 62,
+    "expected": 48.4,
+    "ratio": 1.28,
+    "z": 3.0,
+    "rate_ratio": 1.96,
+    "ci": [
+     1.26,
+     3.05
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 211,
+    "strata": 208,
+    "informative": 123,
+    "copies": 48,
+    "expected": 36.1,
+    "ratio": 1.33,
+    "z": 3.0,
+    "rate_ratio": 2.07,
+    "ci": [
+     1.27,
+     3.38
+    ]
+   }
+  },
+  "purity 0.6+, neither": {
+   "purity, length": {
+    "mutations": 93,
+    "strata": 92,
+    "informative": 92,
+    "copies": 29,
+    "expected": 14.7,
+    "ratio": 1.97,
+    "z": 4.6,
+    "rate_ratio": 3.57,
+    "ci": [
+     2.01,
+     6.35
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 86,
+    "strata": 85,
+    "informative": 85,
+    "copies": 27,
+    "expected": 13.1,
+    "ratio": 2.06,
+    "z": 4.6,
+    "rate_ratio": 3.7,
+    "ci": [
+     2.04,
+     6.72
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 93,
+    "strata": 92,
+    "informative": 85,
+    "copies": 29,
+    "expected": 15.9,
+    "ratio": 1.82,
+    "z": 4.3,
+    "rate_ratio": 3.44,
+    "ci": [
+     1.9,
+     6.21
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 86,
+    "strata": 85,
+    "informative": 78,
+    "copies": 27,
+    "expected": 14.3,
+    "ratio": 1.88,
+    "z": 4.2,
+    "rate_ratio": 3.35,
+    "ci": [
+     1.85,
+     6.08
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 93,
+    "strata": 92,
+    "informative": 64,
+    "copies": 29,
+    "expected": 18.1,
+    "ratio": 1.6,
+    "z": 4.0,
+    "rate_ratio": 3.78,
+    "ci": [
+     1.87,
+     7.67
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 86,
+    "strata": 85,
+    "informative": 58,
+    "copies": 27,
+    "expected": 16.0,
+    "ratio": 1.69,
+    "z": 4.1,
+    "rate_ratio": 4.04,
+    "ci": [
+     1.96,
+     8.33
+    ]
+   }
+  },
+  "purity 0.6+, under three units": {
+   "purity, length": {
+    "mutations": 313,
+    "strata": 301,
+    "informative": 299,
+    "copies": 19,
+    "expected": 16.0,
+    "ratio": 1.19,
+    "z": 0.8,
+    "rate_ratio": 1.23,
+    "ci": [
+     0.76,
+     1.98
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 312,
+    "strata": 300,
+    "informative": 298,
+    "copies": 19,
+    "expected": 15.6,
+    "ratio": 1.22,
+    "z": 1.0,
+    "rate_ratio": 1.27,
+    "ci": [
+     0.78,
+     2.08
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 313,
+    "strata": 306,
+    "informative": 296,
+    "copies": 19,
+    "expected": 17.8,
+    "ratio": 1.07,
+    "z": 0.3,
+    "rate_ratio": 1.09,
+    "ci": [
+     0.65,
+     1.82
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 312,
+    "strata": 305,
+    "informative": 295,
+    "copies": 19,
+    "expected": 16.8,
+    "ratio": 1.13,
+    "z": 0.6,
+    "rate_ratio": 1.17,
+    "ci": [
+     0.7,
+     1.97
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 313,
+    "strata": 307,
+    "informative": 130,
+    "copies": 19,
+    "expected": 19.1,
+    "ratio": 0.99,
+    "z": -0.0,
+    "rate_ratio": 0.99,
+    "ci": [
+     0.5,
+     1.93
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 312,
+    "strata": 306,
+    "informative": 129,
+    "copies": 19,
+    "expected": 19.0,
+    "ratio": 1.0,
+    "z": -0.0,
+    "rate_ratio": 1.0,
+    "ci": [
+     0.51,
+     1.96
+    ]
+   }
+  },
+  "purity 0.6+, Platinum germline": {
+   "purity, length": {
+    "mutations": 10,
+    "strata": 10,
+    "informative": 10,
+    "copies": 5,
+    "expected": 2.6,
+    "ratio": 1.94,
+    "z": 2.0,
+    "rate_ratio": 4.9,
+    "ci": [
+     0.83,
+     28.73
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 4,
+    "strata": 4,
+    "informative": 4,
+    "copies": 3,
+    "expected": 1.1,
+    "ratio": 2.67,
+    "z": 2.1,
+    "rate_ratio": 7.92,
+    "ci": [
+     0.84,
+     74.74
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 10,
+    "strata": 10,
+    "informative": 10,
+    "copies": 5,
+    "expected": 2.9,
+    "ratio": 1.7,
+    "z": 1.7,
+    "rate_ratio": 4.21,
+    "ci": [
+     0.66,
+     26.71
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 4,
+    "strata": 4,
+    "informative": 4,
+    "copies": 3,
+    "expected": 1.3,
+    "ratio": 2.26,
+    "z": 1.9,
+    "rate_ratio": 6.45,
+    "ci": [
+     0.69,
+     60.24
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 10,
+    "strata": 10,
+    "informative": 10,
+    "copies": 5,
+    "expected": 3.8,
+    "ratio": 1.31,
+    "z": 1.0,
+    "rate_ratio": 3.77,
+    "ci": [
+     0.24,
+     58.76
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 4,
+    "strata": 4,
+    "informative": 4,
+    "copies": 3,
+    "expected": 2.1,
+    "ratio": 1.4,
+    "z": 1.1,
+    "rate_ratio": 12.85,
+    "ci": [
+     0.03,
+     4815.44
+    ]
+   }
+  },
+  "purity 0.6+, Platinum postzygotic": {
+   "purity, length": {
+    "mutations": 9,
+    "strata": 9,
+    "informative": 9,
+    "copies": 3,
+    "expected": 1.4,
+    "ratio": 2.16,
+    "z": 1.6,
+    "rate_ratio": 4.68,
+    "ci": [
+     0.61,
+     35.71
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 5,
+    "strata": 5,
+    "informative": 5,
+    "copies": 1,
+    "expected": 0.6,
+    "ratio": 1.6,
+    "z": 0.5,
+    "rate_ratio": 2.18,
+    "ci": [
+     0.11,
+     41.41
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 9,
+    "strata": 9,
+    "informative": 9,
+    "copies": 3,
+    "expected": 1.2,
+    "ratio": 2.48,
+    "z": 2.0,
+    "rate_ratio": 7.69,
+    "ci": [
+     0.73,
+     81.48
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 5,
+    "strata": 5,
+    "informative": 5,
+    "copies": 1,
+    "expected": 0.5,
+    "ratio": 2.11,
+    "z": 0.9,
+    "rate_ratio": 4.32,
+    "ci": [
+     0.12,
+     161.42
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 9,
+    "strata": 9,
+    "informative": 8,
+    "copies": 3,
+    "expected": 1.7,
+    "ratio": 1.82,
+    "z": 1.6,
+    "rate_ratio": 6.31,
+    "ci": [
+     0.47,
+     85.44
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 5,
+    "strata": 5,
+    "informative": 5,
+    "copies": 1,
+    "expected": 0.7,
+    "ratio": 1.42,
+    "z": 0.5,
+    "rate_ratio": 3.29,
+    "ci": [
+     0.02,
+     505.84
+    ]
+   }
+  },
+  "purity 0.6+, Sasani post pgcs": {
+   "purity, length": {
+    "mutations": 7,
+    "strata": 3,
+    "informative": 3,
+    "copies": 0,
+    "expected": 0.2,
+    "ratio": 0.0,
+    "z": -0.5
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 7,
+    "strata": 3,
+    "informative": 3,
+    "copies": 0,
+    "expected": 0.2,
+    "ratio": 0.0,
+    "z": -0.5
+   },
+   "purity, length, unit": {
+    "mutations": 7,
+    "strata": 3,
+    "informative": 3,
+    "copies": 0,
+    "expected": 0.2,
+    "ratio": 0.0,
+    "z": -0.5
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 7,
+    "strata": 3,
+    "informative": 3,
+    "copies": 0,
+    "expected": 0.3,
+    "ratio": 0.0,
+    "z": -0.5
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 7,
+    "strata": 3,
+    "informative": 1,
+    "copies": 0,
+    "expected": 0.3,
+    "ratio": 0.0,
+    "z": -0.5
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 7,
+    "strata": 3,
+    "informative": 1,
+    "copies": 0,
+    "expected": 0.3,
+    "ratio": 0.0,
+    "z": -0.5
+   }
+  },
+  "purity 0.6+, Sasani second gen": {
+   "purity, length": {
+    "mutations": 89,
+    "strata": 89,
+    "informative": 88,
+    "copies": 13,
+    "expected": 7.9,
+    "ratio": 1.64,
+    "z": 2.2,
+    "rate_ratio": 2.18,
+    "ci": [
+     1.06,
+     4.45
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 83,
+    "strata": 83,
+    "informative": 82,
+    "copies": 12,
+    "expected": 6.6,
+    "ratio": 1.81,
+    "z": 2.4,
+    "rate_ratio": 2.59,
+    "ci": [
+     1.17,
+     5.7
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 89,
+    "strata": 89,
+    "informative": 88,
+    "copies": 13,
+    "expected": 8.4,
+    "ratio": 1.56,
+    "z": 2.1,
+    "rate_ratio": 2.17,
+    "ci": [
+     1.02,
+     4.59
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 83,
+    "strata": 83,
+    "informative": 82,
+    "copies": 12,
+    "expected": 7.3,
+    "ratio": 1.65,
+    "z": 2.2,
+    "rate_ratio": 2.46,
+    "ci": [
+     1.08,
+     5.6
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 89,
+    "strata": 89,
+    "informative": 48,
+    "copies": 13,
+    "expected": 10.2,
+    "ratio": 1.27,
+    "z": 1.4,
+    "rate_ratio": 1.93,
+    "ci": [
+     0.76,
+     4.91
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 83,
+    "strata": 83,
+    "informative": 41,
+    "copies": 12,
+    "expected": 8.6,
+    "ratio": 1.4,
+    "z": 1.8,
+    "rate_ratio": 2.67,
+    "ci": [
+     0.9,
+     7.92
+    ]
+   }
+  },
+  "purity 0.6+, Sasani third gen": {
+   "purity, length": {
+    "mutations": 622,
+    "strata": 602,
+    "informative": 600,
+    "copies": 137,
+    "expected": 81.8,
+    "ratio": 1.68,
+    "z": 7.9,
+    "rate_ratio": 2.45,
+    "ci": [
+     1.95,
+     3.09
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 580,
+    "strata": 565,
+    "informative": 563,
+    "copies": 119,
+    "expected": 64.6,
+    "ratio": 1.84,
+    "z": 8.1,
+    "rate_ratio": 2.62,
+    "ci": [
+     2.06,
+     3.34
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 622,
+    "strata": 610,
+    "informative": 576,
+    "copies": 137,
+    "expected": 88.1,
+    "ratio": 1.56,
+    "z": 7.1,
+    "rate_ratio": 2.4,
+    "ci": [
+     1.87,
+     3.07
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 580,
+    "strata": 570,
+    "informative": 536,
+    "copies": 119,
+    "expected": 71.3,
+    "ratio": 1.67,
+    "z": 7.3,
+    "rate_ratio": 2.51,
+    "ci": [
+     1.94,
+     3.25
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 622,
+    "strata": 613,
+    "informative": 347,
+    "copies": 137,
+    "expected": 99.8,
+    "ratio": 1.37,
+    "z": 6.0,
+    "rate_ratio": 2.48,
+    "ci": [
+     1.82,
+     3.38
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 580,
+    "strata": 573,
+    "informative": 310,
+    "copies": 119,
+    "expected": 83.0,
+    "ratio": 1.43,
+    "z": 6.1,
+    "rate_ratio": 2.58,
+    "ci": [
+     1.88,
+     3.54
+    ]
+   }
+  },
+  "purity 0.6+, allele absent from gnomAD": {
+   "purity, length": {
+    "mutations": 449,
+    "strata": 429,
+    "informative": 427,
+    "copies": 29,
+    "expected": 34.3,
+    "ratio": 0.85,
+    "z": -1.1,
+    "rate_ratio": 0.8,
+    "ci": [
+     0.53,
+     1.21
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 423,
+    "strata": 407,
+    "informative": 405,
+    "copies": 26,
+    "expected": 27.9,
+    "ratio": 0.93,
+    "z": -0.4,
+    "rate_ratio": 0.91,
+    "ci": [
+     0.59,
+     1.42
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 449,
+    "strata": 437,
+    "informative": 418,
+    "copies": 29,
+    "expected": 32.6,
+    "ratio": 0.89,
+    "z": -0.7,
+    "rate_ratio": 0.85,
+    "ci": [
+     0.55,
+     1.31
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 423,
+    "strata": 413,
+    "informative": 394,
+    "copies": 26,
+    "expected": 27.0,
+    "ratio": 0.96,
+    "z": -0.2,
+    "rate_ratio": 0.95,
+    "ci": [
+     0.61,
+     1.49
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 449,
+    "strata": 440,
+    "informative": 224,
+    "copies": 29,
+    "expected": 29.4,
+    "ratio": 0.99,
+    "z": -0.1,
+    "rate_ratio": 0.98,
+    "ci": [
+     0.6,
+     1.6
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 423,
+    "strata": 415,
+    "informative": 202,
+    "copies": 26,
+    "expected": 25.8,
+    "ratio": 1.01,
+    "z": 0.1,
+    "rate_ratio": 1.01,
+    "ci": [
+     0.61,
+     1.68
+    ]
+   }
+  },
+  "purity 0.6+, allele in gnomAD": {
+   "purity, length": {
+    "mutations": 288,
+    "strata": 284,
+    "informative": 283,
+    "copies": 129,
+    "expected": 59.6,
+    "ratio": 2.16,
+    "z": 12.1,
+    "rate_ratio": 4.93,
+    "ci": [
+     3.7,
+     6.57
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 256,
+    "strata": 253,
+    "informative": 252,
+    "copies": 109,
+    "expected": 45.2,
+    "ratio": 2.41,
+    "z": 11.8,
+    "rate_ratio": 5.09,
+    "ci": [
+     3.77,
+     6.88
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 288,
+    "strata": 284,
+    "informative": 268,
+    "copies": 129,
+    "expected": 68.3,
+    "ratio": 1.89,
+    "z": 10.9,
+    "rate_ratio": 4.69,
+    "ci": [
+     3.45,
+     6.36
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 256,
+    "strata": 253,
+    "informative": 237,
+    "copies": 109,
+    "expected": 53.7,
+    "ratio": 2.03,
+    "z": 10.5,
+    "rate_ratio": 4.71,
+    "ci": [
+     3.42,
+     6.48
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 288,
+    "strata": 285,
+    "informative": 190,
+    "copies": 129,
+    "expected": 86.3,
+    "ratio": 1.49,
+    "z": 8.2,
+    "rate_ratio": 4.57,
+    "ci": [
+     3.07,
+     6.82
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 256,
+    "strata": 254,
+    "informative": 159,
+    "copies": 109,
+    "expected": 68.9,
+    "ratio": 1.58,
+    "z": 8.3,
+    "rate_ratio": 5.15,
+    "ci": [
+     3.34,
+     7.95
+    ]
+   }
+  },
+  "purity 0.6+, allele in gnomAD, PASS": {
+   "purity, length": {
+    "mutations": 198,
+    "strata": 195,
+    "informative": 194,
+    "copies": 72,
+    "expected": 38.1,
+    "ratio": 1.89,
+    "z": 7.4,
+    "rate_ratio": 3.58,
+    "ci": [
+     2.49,
+     5.14
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 179,
+    "strata": 176,
+    "informative": 175,
+    "copies": 61,
+    "expected": 30.5,
+    "ratio": 2.0,
+    "z": 7.0,
+    "rate_ratio": 3.5,
+    "ci": [
+     2.4,
+     5.09
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 198,
+    "strata": 195,
+    "informative": 183,
+    "copies": 72,
+    "expected": 42.5,
+    "ratio": 1.69,
+    "z": 6.6,
+    "rate_ratio": 3.29,
+    "ci": [
+     2.26,
+     4.8
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 179,
+    "strata": 176,
+    "informative": 164,
+    "copies": 61,
+    "expected": 35.5,
+    "ratio": 1.72,
+    "z": 5.9,
+    "rate_ratio": 3.1,
+    "ci": [
+     2.09,
+     4.6
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 198,
+    "strata": 196,
+    "informative": 125,
+    "copies": 72,
+    "expected": 50.4,
+    "ratio": 1.43,
+    "z": 5.1,
+    "rate_ratio": 3.35,
+    "ci": [
+     2.05,
+     5.47
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 179,
+    "strata": 177,
+    "informative": 106,
+    "copies": 61,
+    "expected": 42.3,
+    "ratio": 1.44,
+    "z": 4.8,
+    "rate_ratio": 3.35,
+    "ci": [
+     1.98,
+     5.67
+    ]
+   }
+  },
+  "purity 0.6+, allele in gnomAD, not PASS": {
+   "purity, length": {
+    "mutations": 90,
+    "strata": 89,
+    "informative": 89,
+    "copies": 57,
+    "expected": 21.5,
+    "ratio": 2.65,
+    "z": 10.3,
+    "rate_ratio": 8.9,
+    "ci": [
+     5.38,
+     14.72
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 77,
+    "strata": 77,
+    "informative": 77,
+    "copies": 48,
+    "expected": 14.7,
+    "ratio": 3.25,
+    "z": 10.5,
+    "rate_ratio": 10.86,
+    "ci": [
+     6.22,
+     18.98
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 90,
+    "strata": 89,
+    "informative": 85,
+    "copies": 57,
+    "expected": 25.7,
+    "ratio": 2.22,
+    "z": 9.5,
+    "rate_ratio": 9.64,
+    "ci": [
+     5.43,
+     17.12
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 77,
+    "strata": 77,
+    "informative": 73,
+    "copies": 48,
+    "expected": 18.2,
+    "ratio": 2.64,
+    "z": 9.7,
+    "rate_ratio": 11.74,
+    "ci": [
+     6.24,
+     22.12
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 90,
+    "strata": 89,
+    "informative": 65,
+    "copies": 57,
+    "expected": 35.9,
+    "ratio": 1.59,
+    "z": 6.9,
+    "rate_ratio": 8.64,
+    "ci": [
+     4.11,
+     18.18
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 77,
+    "strata": 77,
+    "informative": 53,
+    "copies": 48,
+    "expected": 26.6,
+    "ratio": 1.8,
+    "z": 7.5,
+    "rate_ratio": 13.69,
+    "ci": [
+     5.62,
+     33.39
+    ]
+   }
+  },
+  "purity under 0.6, allele absent from gnomAD": {
+   "purity, length": {
+    "mutations": 703,
+    "strata": 671,
+    "informative": 670,
+    "copies": 85,
+    "expected": 84.5,
+    "ratio": 1.01,
+    "z": 0.1,
+    "rate_ratio": 1.01,
+    "ci": [
+     0.79,
+     1.3
+    ]
+   },
+   "purity, length, outside LCRs": {
+    "mutations": 687,
+    "strata": 655,
+    "informative": 654,
+    "copies": 78,
+    "expected": 78.1,
+    "ratio": 1.0,
+    "z": -0.0,
+    "rate_ratio": 1.0,
+    "ci": [
+     0.77,
+     1.3
+    ]
+   },
+   "purity, length, unit": {
+    "mutations": 703,
+    "strata": 682,
+    "informative": 678,
+    "copies": 85,
+    "expected": 84.9,
+    "ratio": 1.0,
+    "z": 0.0,
+    "rate_ratio": 1.0,
+    "ci": [
+     0.77,
+     1.3
+    ]
+   },
+   "purity, length, unit, outside LCRs": {
+    "mutations": 687,
+    "strata": 666,
+    "informative": 662,
+    "copies": 78,
+    "expected": 79.5,
+    "ratio": 0.98,
+    "z": -0.2,
+    "rate_ratio": 0.97,
+    "ci": [
+     0.74,
+     1.27
+    ]
+   },
+   "fine purity, fine length, unit, class": {
+    "mutations": 703,
+    "strata": 686,
+    "informative": 646,
+    "copies": 85,
+    "expected": 80.6,
+    "ratio": 1.05,
+    "z": 0.6,
+    "rate_ratio": 1.09,
+    "ci": [
+     0.83,
+     1.41
+    ]
+   },
+   "fine purity, fine length, unit, class, outside LCRs": {
+    "mutations": 687,
+    "strata": 670,
+    "informative": 632,
+    "copies": 78,
+    "expected": 76.3,
+    "ratio": 1.02,
+    "z": 0.2,
+    "rate_ratio": 1.04,
+    "ci": [
+     0.79,
+     1.36
+    ]
+   }
+  }
+ }
+}

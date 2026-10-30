@@ -1,0 +1,1291 @@
+{
+ "background_singletons": 81407,
+ "ga_sequences": {
+  "loci": 42162,
+  "snvs": 414871,
+  "singletons": 204534,
+  "strata": 41910,
+  "tests": {
+   "singletons": {
+    "copies": {
+     "mutations": 204534,
+     "observed": 77180.0,
+     "expected": 70734.9,
+     "ratio": 1.09,
+     "observed_share": 0.377,
+     "expected_share": 0.346,
+     "z": 30.7
+    },
+    "near": {
+     "mutations": 204534,
+     "observed": 40128.0,
+     "expected": 39828.0,
+     "ratio": 1.01,
+     "observed_share": 0.196,
+     "expected_share": 0.195,
+     "z": 1.7
+    },
+    "toward": {
+     "mutations": 204534,
+     "observed": 31204.0,
+     "expected": 32234.1,
+     "ratio": 0.97,
+     "observed_share": 0.153,
+     "expected_share": 0.158,
+     "z": -6.4
+    },
+    "away_copies": {
+     "mutations": 152178,
+     "observed": 54273.0,
+     "expected": 48373.2,
+     "ratio": 1.12,
+     "observed_share": 0.357,
+     "expected_share": 0.318,
+     "z": 33.5
+    },
+    "matched_context": {
+     "mutations": 204534,
+     "strata": 20520,
+     "copies": 77180,
+     "expected": 76765.5,
+     "ratio": 1.0054,
+     "z": 2.8,
+     "rate_ratio": 1.0192,
+     "ci": [
+      1.0057,
+      1.0328
+     ]
+    }
+   },
+   "singletons, well called": {
+    "copies": {
+     "mutations": 132065,
+     "observed": 51033.0,
+     "expected": 46308.6,
+     "ratio": 1.1,
+     "observed_share": 0.386,
+     "expected_share": 0.351,
+     "z": 27.8
+    },
+    "near": {
+     "mutations": 132065,
+     "observed": 28774.0,
+     "expected": 28198.1,
+     "ratio": 1.02,
+     "observed_share": 0.218,
+     "expected_share": 0.214,
+     "z": 3.9
+    },
+    "toward": {
+     "mutations": 132065,
+     "observed": 21539.0,
+     "expected": 22165.8,
+     "ratio": 0.97,
+     "observed_share": 0.163,
+     "expected_share": 0.168,
+     "z": -4.7
+    },
+    "away_copies": {
+     "mutations": 96641,
+     "observed": 35232.0,
+     "expected": 31094.0,
+     "ratio": 1.13,
+     "observed_share": 0.365,
+     "expected_share": 0.322,
+     "z": 29.3
+    },
+    "matched_context": {
+     "mutations": 132065,
+     "strata": 16151,
+     "copies": 51033,
+     "expected": 50355.8,
+     "ratio": 1.0134,
+     "z": 5.6,
+     "rate_ratio": 1.0473,
+     "ci": [
+      1.0304,
+      1.0644
+     ]
+    }
+   },
+   "singletons, purity under 0.6": {
+    "copies": {
+     "mutations": 3972,
+     "observed": 1606.0,
+     "expected": 1411.0,
+     "ratio": 1.14,
+     "observed_share": 0.404,
+     "expected_share": 0.355,
+     "z": 6.6
+    },
+    "near": {
+     "mutations": 3972,
+     "observed": 1662.0,
+     "expected": 1515.9,
+     "ratio": 1.1,
+     "observed_share": 0.418,
+     "expected_share": 0.382,
+     "z": 4.8
+    },
+    "toward": {
+     "mutations": 3972,
+     "observed": 961.0,
+     "expected": 880.8,
+     "ratio": 1.09,
+     "observed_share": 0.242,
+     "expected_share": 0.222,
+     "z": 3.1
+    },
+    "away_copies": {
+     "mutations": 2472,
+     "observed": 951.0,
+     "expected": 830.2,
+     "ratio": 1.15,
+     "observed_share": 0.385,
+     "expected_share": 0.336,
+     "z": 5.2
+    },
+    "matched_context": {
+     "mutations": 3972,
+     "strata": 2338,
+     "copies": 1606,
+     "expected": 1579.6,
+     "ratio": 1.0167,
+     "z": 1.2,
+     "rate_ratio": 1.0585,
+     "ci": [
+      0.9669,
+      1.1588
+     ]
+    }
+   },
+   "singletons, purity 0.6-0.9": {
+    "copies": {
+     "mutations": 173909,
+     "observed": 68250.0,
+     "expected": 62386.0,
+     "ratio": 1.09,
+     "observed_share": 0.392,
+     "expected_share": 0.359,
+     "z": 29.9
+    },
+    "near": {
+     "mutations": 173909,
+     "observed": 37183.0,
+     "expected": 36634.1,
+     "ratio": 1.01,
+     "observed_share": 0.214,
+     "expected_share": 0.211,
+     "z": 3.3
+    },
+    "toward": {
+     "mutations": 173909,
+     "observed": 28522.0,
+     "expected": 29164.3,
+     "ratio": 0.98,
+     "observed_share": 0.164,
+     "expected_share": 0.168,
+     "z": -4.2
+    },
+    "away_copies": {
+     "mutations": 126096,
+     "observed": 47188.0,
+     "expected": 41930.6,
+     "ratio": 1.13,
+     "observed_share": 0.374,
+     "expected_share": 0.333,
+     "z": 32.2
+    },
+    "matched_context": {
+     "mutations": 173909,
+     "strata": 14849,
+     "copies": 68250,
+     "expected": 67898.6,
+     "ratio": 1.0052,
+     "z": 2.6,
+     "rate_ratio": 1.0188,
+     "ci": [
+      1.0044,
+      1.0335
+     ]
+    }
+   },
+   "singletons, purity 0.9+": {
+    "copies": {
+     "mutations": 26653,
+     "observed": 7324.0,
+     "expected": 6938.0,
+     "ratio": 1.06,
+     "observed_share": 0.275,
+     "expected_share": 0.26,
+     "z": 5.7
+    },
+    "near": {
+     "mutations": 26653,
+     "observed": 1283.0,
+     "expected": 1678.0,
+     "ratio": 0.76,
+     "observed_share": 0.048,
+     "expected_share": 0.063,
+     "z": -10.0
+    },
+    "toward": {
+     "mutations": 26653,
+     "observed": 1721.0,
+     "expected": 2189.0,
+     "ratio": 0.79,
+     "observed_share": 0.065,
+     "expected_share": 0.082,
+     "z": -10.7
+    },
+    "away_copies": {
+     "mutations": 23610,
+     "observed": 6134.0,
+     "expected": 5612.4,
+     "ratio": 1.09,
+     "observed_share": 0.26,
+     "expected_share": 0.238,
+     "z": 8.5
+    },
+    "matched_context": {
+     "mutations": 26653,
+     "strata": 3333,
+     "copies": 7324,
+     "expected": 7287.3,
+     "ratio": 1.005,
+     "z": 0.7,
+     "rate_ratio": 1.0147,
+     "ci": [
+      0.9761,
+      1.0549
+     ]
+    }
+   },
+   "singletons, unit 1-6": {
+    "copies": {
+     "mutations": 194042,
+     "observed": 73522.0,
+     "expected": 67410.3,
+     "ratio": 1.09,
+     "observed_share": 0.379,
+     "expected_share": 0.347,
+     "z": 29.9
+    },
+    "near": {
+     "mutations": 194042,
+     "observed": 37776.0,
+     "expected": 37677.6,
+     "ratio": 1.0,
+     "observed_share": 0.195,
+     "expected_share": 0.194,
+     "z": 0.6
+    },
+    "toward": {
+     "mutations": 194042,
+     "observed": 29799.0,
+     "expected": 30931.2,
+     "ratio": 0.96,
+     "observed_share": 0.154,
+     "expected_share": 0.159,
+     "z": -7.2
+    },
+    "away_copies": {
+     "mutations": 143905,
+     "observed": 51581.0,
+     "expected": 45924.8,
+     "ratio": 1.12,
+     "observed_share": 0.358,
+     "expected_share": 0.319,
+     "z": 33.1
+    },
+    "matched_context": {
+     "mutations": 194042,
+     "strata": 17608,
+     "copies": 73522,
+     "expected": 73158.5,
+     "ratio": 1.005,
+     "z": 2.5,
+     "rate_ratio": 1.0179,
+     "ci": [
+      1.0041,
+      1.032
+     ]
+    }
+   },
+   "singletons, unit 7+": {
+    "copies": {
+     "mutations": 10492,
+     "observed": 3658.0,
+     "expected": 3324.6,
+     "ratio": 1.1,
+     "observed_share": 0.349,
+     "expected_share": 0.317,
+     "z": 7.1
+    },
+    "near": {
+     "mutations": 10492,
+     "observed": 2352.0,
+     "expected": 2150.4,
+     "ratio": 1.09,
+     "observed_share": 0.224,
+     "expected_share": 0.205,
+     "z": 5.0
+    },
+    "toward": {
+     "mutations": 10492,
+     "observed": 1405.0,
+     "expected": 1302.9,
+     "ratio": 1.08,
+     "observed_share": 0.134,
+     "expected_share": 0.124,
+     "z": 3.1
+    },
+    "away_copies": {
+     "mutations": 8273,
+     "observed": 2692.0,
+     "expected": 2448.4,
+     "ratio": 1.1,
+     "observed_share": 0.325,
+     "expected_share": 0.296,
+     "z": 6.0
+    },
+    "matched_context": {
+     "mutations": 10492,
+     "strata": 2912,
+     "copies": 3658,
+     "expected": 3606.9,
+     "ratio": 1.0142,
+     "z": 1.4,
+     "rate_ratio": 1.0384,
+     "ci": [
+      0.9844,
+      1.0952
+     ]
+    }
+   },
+   "singletons, transitions": {
+    "copies": {
+     "mutations": 125158,
+     "observed": 77180.0,
+     "expected": 43685.5,
+     "ratio": 1.77,
+     "observed_share": 0.617,
+     "expected_share": 0.349,
+     "z": 203.4
+    },
+    "near": {
+     "mutations": 125158,
+     "observed": 40128.0,
+     "expected": 24713.0,
+     "ratio": 1.62,
+     "observed_share": 0.321,
+     "expected_share": 0.197,
+     "z": 111.9
+    },
+    "toward": {
+     "mutations": 125158,
+     "observed": 31204.0,
+     "expected": 19948.1,
+     "ratio": 1.56,
+     "observed_share": 0.249,
+     "expected_share": 0.159,
+     "z": 88.5
+    },
+    "away_copies": {
+     "mutations": 93954,
+     "observed": 54273.0,
+     "expected": 30205.6,
+     "ratio": 1.8,
+     "observed_share": 0.578,
+     "expected_share": 0.321,
+     "z": 173.2
+    },
+    "matched_context": {
+     "mutations": 125158,
+     "strata": 8623,
+     "copies": 77180,
+     "expected": 76765.5,
+     "ratio": 1.0054,
+     "z": 2.8,
+     "rate_ratio": 1.0192,
+     "ci": [
+      1.0057,
+      1.0328
+     ]
+    }
+   },
+   "singletons, transversions": {
+    "copies": {
+     "mutations": 79376,
+     "observed": 0.0,
+     "expected": 27049.4,
+     "ratio": 0.0,
+     "observed_share": 0.0,
+     "expected_share": 0.341,
+     "z": -208.5
+    },
+    "near": {
+     "mutations": 79376,
+     "observed": 0.0,
+     "expected": 15115.0,
+     "ratio": 0.0,
+     "observed_share": 0.0,
+     "expected_share": 0.19,
+     "z": -140.0
+    },
+    "toward": {
+     "mutations": 79376,
+     "observed": 0.0,
+     "expected": 12286.0,
+     "ratio": 0.0,
+     "observed_share": 0.0,
+     "expected_share": 0.155,
+     "z": -123.1
+    },
+    "away_copies": {
+     "mutations": 58224,
+     "observed": 0.0,
+     "expected": 18167.6,
+     "ratio": 0.0,
+     "observed_share": 0.0,
+     "expected_share": 0.312,
+     "z": -168.5
+    },
+    "matched_context": {
+     "mutations": 79376,
+     "strata": 11897,
+     "copies": 0,
+     "expected": 0.0,
+     "ratio": null,
+     "z": null
+    }
+   },
+   "singletons, toward the consensus": {
+    "copies": {
+     "mutations": 31204,
+     "observed": 22907.0,
+     "expected": 11510.2,
+     "ratio": 1.99,
+     "observed_share": 0.734,
+     "expected_share": 0.369,
+     "z": 136.3
+    },
+    "near": {
+     "mutations": 31204,
+     "observed": 16870.0,
+     "expected": 6947.6,
+     "ratio": 2.43,
+     "observed_share": 0.541,
+     "expected_share": 0.223,
+     "z": 137.4
+    },
+    "toward": {
+     "mutations": 31204,
+     "observed": 31204.0,
+     "expected": 6019.3,
+     "ratio": 5.18,
+     "observed_share": 1.0,
+     "expected_share": 0.193,
+     "z": 366.0
+    },
+    "away_copies": {
+     "mutations": 0
+    },
+    "matched_context": {
+     "mutations": 31204,
+     "strata": 5459,
+     "copies": 22907,
+     "expected": 20467.8,
+     "ratio": 1.1192,
+     "z": 33.2,
+     "rate_ratio": 1.6139,
+     "ci": [
+      1.5685,
+      1.6605
+     ]
+    }
+   },
+   "singletons, away from the consensus": {
+    "copies": {
+     "mutations": 152178,
+     "observed": 54273.0,
+     "expected": 51502.4,
+     "ratio": 1.05,
+     "observed_share": 0.357,
+     "expected_share": 0.338,
+     "z": 15.4
+    },
+    "near": {
+     "mutations": 152178,
+     "observed": 23258.0,
+     "expected": 28309.8,
+     "ratio": 0.82,
+     "observed_share": 0.153,
+     "expected_share": 0.186,
+     "z": -34.1
+    },
+    "toward": {
+     "mutations": 152178,
+     "observed": 0.0,
+     "expected": 22203.8,
+     "ratio": 0.0,
+     "observed_share": 0.0,
+     "expected_share": 0.146,
+     "z": -164.5
+    },
+    "away_copies": {
+     "mutations": 152178,
+     "observed": 54273.0,
+     "expected": 48373.2,
+     "ratio": 1.12,
+     "observed_share": 0.357,
+     "expected_share": 0.318,
+     "z": 33.5
+    },
+    "matched_context": {
+     "mutations": 152178,
+     "strata": 17948,
+     "copies": 54273,
+     "expected": 56297.7,
+     "ratio": 0.964,
+     "z": -15.8,
+     "rate_ratio": 0.8852,
+     "ci": [
+      0.8719,
+      0.8987
+     ]
+    }
+   }
+  },
+  "minor_alleles_by_count": {
+   "singleton": {
+    "copies": {
+     "mutations": 204518,
+     "observed": 77179.0,
+     "expected": 70732.6,
+     "ratio": 1.09,
+     "observed_share": 0.377,
+     "expected_share": 0.346,
+     "z": 30.8
+    },
+    "matched_context": {
+     "mutations": 204518,
+     "strata": 20518,
+     "copies": 77179,
+     "expected": 76763.6,
+     "ratio": 1.0054,
+     "z": 2.8,
+     "rate_ratio": 1.0192,
+     "ci": [
+      1.0058,
+      1.0328
+     ]
+    }
+   },
+   "rare": {
+    "copies": {
+     "mutations": 176821,
+     "observed": 85026.0,
+     "expected": 60720.0,
+     "ratio": 1.4,
+     "observed_share": 0.481,
+     "expected_share": 0.343,
+     "z": 125.0
+    },
+    "matched_context": {
+     "mutations": 176821,
+     "strata": 18063,
+     "copies": 85026,
+     "expected": 80568.6,
+     "ratio": 1.0553,
+     "z": 31.0,
+     "rate_ratio": 1.2449,
+     "ci": [
+      1.2277,
+      1.2623
+     ]
+    }
+   },
+   "uncommon": {
+    "copies": {
+     "mutations": 19124,
+     "observed": 11248.0,
+     "expected": 6367.3,
+     "ratio": 1.77,
+     "observed_share": 0.588,
+     "expected_share": 0.333,
+     "z": 77.5
+    },
+    "matched_context": {
+     "mutations": 19124,
+     "strata": 5660,
+     "copies": 11248,
+     "expected": 10141.9,
+     "ratio": 1.1091,
+     "z": 23.2,
+     "rate_ratio": 1.6662,
+     "ci": [
+      1.5951,
+      1.7405
+     ]
+    }
+   },
+   "common": {
+    "copies": {
+     "mutations": 13561,
+     "observed": 8576.0,
+     "expected": 4507.5,
+     "ratio": 1.9,
+     "observed_share": 0.632,
+     "expected_share": 0.332,
+     "z": 77.0
+    },
+    "matched_context": {
+     "mutations": 13561,
+     "strata": 4131,
+     "copies": 8576,
+     "expected": 7546.8,
+     "ratio": 1.1364,
+     "z": 25.3,
+     "rate_ratio": 1.9653,
+     "ci": [
+      1.8632,
+      2.073
+     ]
+    }
+   }
+  }
+ },
+ "tandem_repeats": {
+  "loci": 20000,
+  "snvs": 109222,
+  "singletons": 54854,
+  "strata": 241908,
+  "tests": {
+   "singletons": {
+    "copies": {
+     "mutations": 54854,
+     "observed": 9240.0,
+     "expected": 8325.6,
+     "ratio": 1.11,
+     "observed_share": 0.168,
+     "expected_share": 0.152,
+     "z": 12.1
+    },
+    "near": {
+     "mutations": 54854,
+     "observed": 8638.0,
+     "expected": 7929.4,
+     "ratio": 1.09,
+     "observed_share": 0.157,
+     "expected_share": 0.145,
+     "z": 9.0
+    },
+    "toward": {
+     "mutations": 42319,
+     "observed": 4501.0,
+     "expected": 4318.2,
+     "ratio": 1.04,
+     "observed_share": 0.106,
+     "expected_share": 0.102,
+     "z": 3.0
+    },
+    "away_copies": {
+     "mutations": 29649,
+     "observed": 5315.0,
+     "expected": 4595.2,
+     "ratio": 1.16,
+     "observed_share": 0.179,
+     "expected_share": 0.155,
+     "z": 12.9
+    },
+    "matched_context": {
+     "mutations": 54854,
+     "strata": 30692,
+     "copies": 9240,
+     "expected": 8372.5,
+     "ratio": 1.1036,
+     "z": 14.4,
+     "rate_ratio": 1.2551,
+     "ci": [
+      1.2169,
+      1.2945
+     ]
+    }
+   },
+   "singletons, well called": {
+    "copies": {
+     "mutations": 47124,
+     "observed": 7000.0,
+     "expected": 6270.9,
+     "ratio": 1.12,
+     "observed_share": 0.149,
+     "expected_share": 0.133,
+     "z": 10.8
+    },
+    "near": {
+     "mutations": 47124,
+     "observed": 7176.0,
+     "expected": 6670.3,
+     "ratio": 1.08,
+     "observed_share": 0.152,
+     "expected_share": 0.142,
+     "z": 7.0
+    },
+    "toward": {
+     "mutations": 34780,
+     "observed": 3564.0,
+     "expected": 3510.8,
+     "ratio": 1.02,
+     "observed_share": 0.102,
+     "expected_share": 0.101,
+     "z": 1.0
+    },
+    "away_copies": {
+     "mutations": 24710,
+     "observed": 4036.0,
+     "expected": 3425.5,
+     "ratio": 1.18,
+     "observed_share": 0.163,
+     "expected_share": 0.139,
+     "z": 12.3
+    },
+    "matched_context": {
+     "mutations": 47124,
+     "strata": 27803,
+     "copies": 7000,
+     "expected": 6289.7,
+     "ratio": 1.1129,
+     "z": 12.9,
+     "rate_ratio": 1.2458,
+     "ci": [
+      1.2049,
+      1.2881
+     ]
+    }
+   },
+   "singletons, purity under 0.6": {
+    "copies": {
+     "mutations": 0
+    },
+    "near": {
+     "mutations": 0
+    },
+    "toward": {
+     "mutations": 0
+    },
+    "away_copies": {
+     "mutations": 0
+    },
+    "matched_context": {
+     "mutations": 0,
+     "strata": 0,
+     "copies": 0,
+     "expected": 0.0,
+     "ratio": null,
+     "z": null
+    }
+   },
+   "singletons, purity 0.6-0.9": {
+    "copies": {
+     "mutations": 43947,
+     "observed": 8372.0,
+     "expected": 7612.9,
+     "ratio": 1.1,
+     "observed_share": 0.191,
+     "expected_share": 0.173,
+     "z": 10.6
+    },
+    "near": {
+     "mutations": 43947,
+     "observed": 8166.0,
+     "expected": 7487.6,
+     "ratio": 1.09,
+     "observed_share": 0.186,
+     "expected_share": 0.17,
+     "z": 8.9
+    },
+    "toward": {
+     "mutations": 36766,
+     "observed": 4327.0,
+     "expected": 4145.1,
+     "ratio": 1.04,
+     "observed_share": 0.118,
+     "expected_share": 0.113,
+     "z": 3.0
+    },
+    "away_copies": {
+     "mutations": 24491,
+     "observed": 4799.0,
+     "expected": 4193.8,
+     "ratio": 1.14,
+     "observed_share": 0.196,
+     "expected_share": 0.171,
+     "z": 11.4
+    },
+    "matched_context": {
+     "mutations": 43947,
+     "strata": 24807,
+     "copies": 8372,
+     "expected": 7709.4,
+     "ratio": 1.0859,
+     "z": 11.7,
+     "rate_ratio": 1.2192,
+     "ci": [
+      1.1793,
+      1.2604
+     ]
+    }
+   },
+   "singletons, purity 0.9+": {
+    "copies": {
+     "mutations": 10907,
+     "observed": 868.0,
+     "expected": 712.8,
+     "ratio": 1.22,
+     "observed_share": 0.08,
+     "expected_share": 0.065,
+     "z": 6.5
+    },
+    "near": {
+     "mutations": 10907,
+     "observed": 472.0,
+     "expected": 441.9,
+     "ratio": 1.07,
+     "observed_share": 0.043,
+     "expected_share": 0.041,
+     "z": 1.5
+    },
+    "toward": {
+     "mutations": 5553,
+     "observed": 174.0,
+     "expected": 173.1,
+     "ratio": 1.0,
+     "observed_share": 0.031,
+     "expected_share": 0.031,
+     "z": 0.1
+    },
+    "away_copies": {
+     "mutations": 5158,
+     "observed": 516.0,
+     "expected": 401.3,
+     "ratio": 1.29,
+     "observed_share": 0.1,
+     "expected_share": 0.078,
+     "z": 6.6
+    },
+    "matched_context": {
+     "mutations": 10907,
+     "strata": 5885,
+     "copies": 868,
+     "expected": 663.0,
+     "ratio": 1.3091,
+     "z": 10.2,
+     "rate_ratio": 1.5433,
+     "ci": [
+      1.419,
+      1.6785
+     ]
+    }
+   },
+   "singletons, unit 1-6": {
+    "copies": {
+     "mutations": 35401,
+     "observed": 7073.0,
+     "expected": 6401.0,
+     "ratio": 1.1,
+     "observed_share": 0.2,
+     "expected_share": 0.181,
+     "z": 10.3
+    },
+    "near": {
+     "mutations": 35401,
+     "observed": 6317.0,
+     "expected": 5805.2,
+     "ratio": 1.09,
+     "observed_share": 0.178,
+     "expected_share": 0.164,
+     "z": 7.6
+    },
+    "toward": {
+     "mutations": 33691,
+     "observed": 3534.0,
+     "expected": 3432.9,
+     "ratio": 1.03,
+     "observed_share": 0.105,
+     "expected_share": 0.102,
+     "z": 1.9
+    },
+    "away_copies": {
+     "mutations": 23683,
+     "observed": 4395.0,
+     "expected": 3777.0,
+     "ratio": 1.16,
+     "observed_share": 0.186,
+     "expected_share": 0.159,
+     "z": 12.3
+    },
+    "matched_context": {
+     "mutations": 35401,
+     "strata": 17045,
+     "copies": 7073,
+     "expected": 6317.8,
+     "ratio": 1.1195,
+     "z": 14.2,
+     "rate_ratio": 1.2868,
+     "ci": [
+      1.2428,
+      1.3323
+     ]
+    }
+   },
+   "singletons, unit 7+": {
+    "copies": {
+     "mutations": 19453,
+     "observed": 2167.0,
+     "expected": 1924.6,
+     "ratio": 1.13,
+     "observed_share": 0.111,
+     "expected_share": 0.099,
+     "z": 6.4
+    },
+    "near": {
+     "mutations": 19453,
+     "observed": 2321.0,
+     "expected": 2124.3,
+     "ratio": 1.09,
+     "observed_share": 0.119,
+     "expected_share": 0.109,
+     "z": 4.7
+    },
+    "toward": {
+     "mutations": 8628,
+     "observed": 967.0,
+     "expected": 885.3,
+     "ratio": 1.09,
+     "observed_share": 0.112,
+     "expected_share": 0.103,
+     "z": 3.0
+    },
+    "away_copies": {
+     "mutations": 5966,
+     "observed": 920.0,
+     "expected": 818.2,
+     "ratio": 1.12,
+     "observed_share": 0.154,
+     "expected_share": 0.137,
+     "z": 4.2
+    },
+    "matched_context": {
+     "mutations": 19453,
+     "strata": 13647,
+     "copies": 2167,
+     "expected": 2054.6,
+     "ratio": 1.0547,
+     "z": 4.0,
+     "rate_ratio": 1.1465,
+     "ci": [
+      1.0717,
+      1.2264
+     ]
+    }
+   },
+   "singletons, transitions": {
+    "copies": {
+     "mutations": 32835,
+     "observed": 6290.0,
+     "expected": 5101.9,
+     "ratio": 1.23,
+     "observed_share": 0.192,
+     "expected_share": 0.155,
+     "z": 20.1
+    },
+    "near": {
+     "mutations": 32835,
+     "observed": 5405.0,
+     "expected": 4837.1,
+     "ratio": 1.12,
+     "observed_share": 0.165,
+     "expected_share": 0.147,
+     "z": 9.2
+    },
+    "toward": {
+     "mutations": 25126,
+     "observed": 2565.0,
+     "expected": 2619.9,
+     "ratio": 0.98,
+     "observed_share": 0.102,
+     "expected_share": 0.104,
+     "z": -1.2
+    },
+    "away_copies": {
+     "mutations": 17737,
+     "observed": 3757.0,
+     "expected": 2882.4,
+     "ratio": 1.3,
+     "observed_share": 0.212,
+     "expected_share": 0.163,
+     "z": 19.8
+    },
+    "matched_context": {
+     "mutations": 32835,
+     "strata": 16594,
+     "copies": 6290,
+     "expected": 5859.6,
+     "ratio": 1.0734,
+     "z": 8.8,
+     "rate_ratio": 1.1915,
+     "ci": [
+      1.1461,
+      1.2388
+     ]
+    }
+   },
+   "singletons, transversions": {
+    "copies": {
+     "mutations": 22019,
+     "observed": 2950.0,
+     "expected": 3223.7,
+     "ratio": 0.92,
+     "observed_share": 0.134,
+     "expected_share": 0.146,
+     "z": -5.8
+    },
+    "near": {
+     "mutations": 22019,
+     "observed": 3233.0,
+     "expected": 3092.3,
+     "ratio": 1.05,
+     "observed_share": 0.147,
+     "expected_share": 0.14,
+     "z": 2.8
+    },
+    "toward": {
+     "mutations": 17193,
+     "observed": 1936.0,
+     "expected": 1698.3,
+     "ratio": 1.14,
+     "observed_share": 0.113,
+     "expected_share": 0.099,
+     "z": 6.2
+    },
+    "away_copies": {
+     "mutations": 11912,
+     "observed": 1558.0,
+     "expected": 1712.7,
+     "ratio": 0.91,
+     "observed_share": 0.131,
+     "expected_share": 0.144,
+     "z": -4.5
+    },
+    "matched_context": {
+     "mutations": 22019,
+     "strata": 14098,
+     "copies": 2950,
+     "expected": 2512.8,
+     "ratio": 1.174,
+     "z": 12.4,
+     "rate_ratio": 1.3791,
+     "ci": [
+      1.3106,
+      1.4512
+     ]
+    }
+   },
+   "singletons, toward the consensus": {
+    "copies": {
+     "mutations": 4501,
+     "observed": 1594.0,
+     "expected": 934.7,
+     "ratio": 1.71,
+     "observed_share": 0.354,
+     "expected_share": 0.208,
+     "z": 26.7
+    },
+    "near": {
+     "mutations": 4501,
+     "observed": 2624.0,
+     "expected": 959.6,
+     "ratio": 2.73,
+     "observed_share": 0.583,
+     "expected_share": 0.213,
+     "z": 62.0
+    },
+    "toward": {
+     "mutations": 4501,
+     "observed": 4501.0,
+     "expected": 622.7,
+     "ratio": 7.23,
+     "observed_share": 1.0,
+     "expected_share": 0.138,
+     "z": 169.9
+    },
+    "away_copies": {
+     "mutations": 0
+    },
+    "matched_context": {
+     "mutations": 4501,
+     "strata": 3631,
+     "copies": 1594,
+     "expected": 1358.7,
+     "ratio": 1.1732,
+     "z": 11.9,
+     "rate_ratio": 1.733,
+     "ci": [
+      1.5805,
+      1.9002
+     ]
+    }
+   },
+   "singletons, away from the consensus": {
+    "copies": {
+     "mutations": 29649,
+     "observed": 5315.0,
+     "expected": 5061.6,
+     "ratio": 1.05,
+     "observed_share": 0.179,
+     "expected_share": 0.171,
+     "z": 4.3
+    },
+    "near": {
+     "mutations": 29649,
+     "observed": 3523.0,
+     "expected": 4474.2,
+     "ratio": 0.79,
+     "observed_share": 0.119,
+     "expected_share": 0.151,
+     "z": -16.0
+    },
+    "toward": {
+     "mutations": 29649,
+     "observed": 0.0,
+     "expected": 2625.1,
+     "ratio": 0.0,
+     "observed_share": 0.0,
+     "expected_share": 0.089,
+     "z": -54.9
+    },
+    "away_copies": {
+     "mutations": 29649,
+     "observed": 5315.0,
+     "expected": 4595.2,
+     "ratio": 1.16,
+     "observed_share": 0.179,
+     "expected_share": 0.155,
+     "z": 12.9
+    },
+    "matched_context": {
+     "mutations": 29649,
+     "strata": 15371,
+     "copies": 5315,
+     "expected": 4791.7,
+     "ratio": 1.1092,
+     "z": 11.3,
+     "rate_ratio": 1.2577,
+     "ci": [
+      1.2084,
+      1.3089
+     ]
+    }
+   }
+  },
+  "minor_alleles_by_count": {
+   "singleton": {
+    "copies": {
+     "mutations": 54853,
+     "observed": 9240.0,
+     "expected": 8325.6,
+     "ratio": 1.11,
+     "observed_share": 0.168,
+     "expected_share": 0.152,
+     "z": 12.1
+    },
+    "matched_context": {
+     "mutations": 54853,
+     "strata": 30691,
+     "copies": 9240,
+     "expected": 8372.5,
+     "ratio": 1.1036,
+     "z": 14.4,
+     "rate_ratio": 1.2551,
+     "ci": [
+      1.2169,
+      1.2945
+     ]
+    }
+   },
+   "rare": {
+    "copies": {
+     "mutations": 47589,
+     "observed": 11207.0,
+     "expected": 7748.4,
+     "ratio": 1.45,
+     "observed_share": 0.235,
+     "expected_share": 0.163,
+     "z": 47.7
+    },
+    "matched_context": {
+     "mutations": 47589,
+     "strata": 25644,
+     "copies": 11207,
+     "expected": 9494.2,
+     "ratio": 1.1804,
+     "z": 29.3,
+     "rate_ratio": 1.5791,
+     "ci": [
+      1.5311,
+      1.6286
+     ]
+    }
+   },
+   "uncommon": {
+    "copies": {
+     "mutations": 3760,
+     "observed": 1269.0,
+     "expected": 660.2,
+     "ratio": 1.92,
+     "observed_share": 0.338,
+     "expected_share": 0.176,
+     "z": 29.1
+    },
+    "matched_context": {
+     "mutations": 3760,
+     "strata": 2786,
+     "copies": 1269,
+     "expected": 987.5,
+     "ratio": 1.2851,
+     "z": 16.5,
+     "rate_ratio": 2.3088,
+     "ci": [
+      2.084,
+      2.5579
+     ]
+    }
+   },
+   "common": {
+    "copies": {
+     "mutations": 2714,
+     "observed": 965.0,
+     "expected": 462.9,
+     "ratio": 2.08,
+     "observed_share": 0.356,
+     "expected_share": 0.171,
+     "z": 28.6
+    },
+    "matched_context": {
+     "mutations": 2714,
+     "strata": 2013,
+     "copies": 965,
+     "expected": 751.4,
+     "ratio": 1.2842,
+     "z": 14.4,
+     "rate_ratio": 2.3867,
+     "ci": [
+      2.1123,
+      2.6968
+     ]
+    }
+   }
+  }
+ }
+}
