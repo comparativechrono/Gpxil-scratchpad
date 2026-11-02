@@ -100,7 +100,7 @@ pattern from a neighbouring unit far more often than chance would have it.
 ## How it was done
 
 The genomes were read from gpxil files: GRCh38 from the
-[Gpxil browser](https://comparativechrono.github.io/Gpxil-browser/)'s
+[Gpxil browser](https://pixelverse.cam/)'s
 per-chromosome files, and HG002's two GIAB benchmarks (v4.2.1, and the
 assembly-based v5.0q), encoded with gpxiltools 0.7 one autosome at a time,
 without the reference plane (30 MB for v4.2.1's 22 files, 38 MB for

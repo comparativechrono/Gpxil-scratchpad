@@ -52,8 +52,8 @@ side, with what the specification's version 0.2 needs.
 - [Gpxil](https://github.com/comparativechrono/Gpxil): the specification
 - [Gpxil-tools](https://github.com/comparativechrono/Gpxil-tools): gpxiltools, the Python toolkit
 - [pxil](https://github.com/comparativechrono/pxil): single sequences as pictures
-- [Gpxil browser](https://comparativechrono.github.io/Gpxil-browser/): the GRCh38 reference as pixels
-- [GpxilStudio](https://comparativechrono.github.io/GpxilStudio/): the workbench, with the tools in the browser
+- [Gpxil browser](https://pixelverse.cam/): the GRCh38 reference as pixels
+- [GpxilStudio](https://studio.pixelverse.cam/): the workbench, with the tools in the browser
 
 ## Licence
 
