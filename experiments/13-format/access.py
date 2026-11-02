@@ -40,7 +40,9 @@ CHROMS = [f"chr{i}" for i in range(1, 23)]
 SIZES = (1_000, 100_000, 1_000_000)
 LOCAL_REGIONS = 100  #: regions of each size read from the local files
 REMOTE_REGIONS = 5  #: and from the web
-WEB = "https://comparativechrono.github.io/Gpxil-browser/data/grch38/gpxil/{}.gpxil.tif"
+#: the Gpxil browser's files (at pixelverse.cam since November 2026; results/ was measured at their earlier address,
+#: comparativechrono.github.io/Gpxil-browser, which now redirects there)
+WEB = "https://pixelverse.cam/data/grch38/gpxil/{}.gpxil.tif"
 FASTA = "GRCh38.fa.bgz"
 
 
